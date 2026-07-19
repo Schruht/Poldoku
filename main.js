@@ -54,6 +54,7 @@ const PUZZLE = {
 
 const filled = {};
 let activeCell = null;
+let labelTooltipTimer = null;
 
 function shuffle(arr) {
   const a = [...arr];
@@ -73,10 +74,15 @@ function buildGrid() {
   grid.appendChild(document.createElement('div'));
 
   // Column labels
-  PUZZLE.colLabels.forEach(l => {
+  PUZZLE.colLabels.forEach((l, i) => {
     const d = document.createElement('div');
     d.className = 'col-label';
-    d.innerHTML = `<span class="lbl-icon">${l.icon}</span><span>${l.text}</span>`;
+    d.dataset.type = 'col';
+    d.dataset.index = i;
+    d.innerHTML = `<span class="lbl-icon" style="background-image:url('img/${cols[i].id}.png')"></span><span>${l.text}</span>`;
+    d.addEventListener('mouseenter', showLabelTooltip);
+    d.addEventListener('mouseleave', hideLabelTooltip);
+    d.addEventListener('mousemove', moveLabelTooltip);
     grid.appendChild(d);
   });
 
@@ -85,7 +91,12 @@ function buildGrid() {
     // Row label
     const rl = document.createElement('div');
     rl.className = 'row-label';
-    rl.innerHTML = `<span class="lbl-icon">${PUZZLE.rowLabels[r].icon}</span><span>${PUZZLE.rowLabels[r].text}</span>`;
+    rl.dataset.type = 'row';
+    rl.dataset.index = r;
+    rl.innerHTML = `<span class="lbl-icon" style="background-image:url('img/${rows[r].id}.png')"></span><span>${PUZZLE.rowLabels[r].text}</span>`;
+    rl.addEventListener('mouseenter', showLabelTooltip);
+    rl.addEventListener('mouseleave', hideLabelTooltip);
+    rl.addEventListener('mousemove', moveLabelTooltip);
     grid.appendChild(rl);
 
     // Cells
@@ -108,13 +119,66 @@ function buildGrid() {
   }
 }
 
-function renderFilled(cell, answer) {
+function renderFilled(cell, answer, isWrong = false) {
+  const ringSpan = isWrong ? '<span class="check-ring wrong">✕</span>' : '<span class="check-ring">✓</span>';
   cell.classList.add('filled');
   cell.innerHTML = `
     <div class="cell-answer">
-      <span class="check-ring">✓</span>
+      ${ringSpan}
       <span>${answer}</span>
     </div>`;
+}
+
+function showLabelTooltip(event) {
+  const type = event.currentTarget.dataset.type;
+  const index = Number(event.currentTarget.dataset.index);
+  const source = type === 'col' ? cols : rows;
+  const text = source[index]?.more;
+  const tooltip = document.getElementById('label-tooltip');
+
+  if (!text) {
+    tooltip.classList.remove('visible');
+    return;
+  }
+
+  tooltip.textContent = text;
+  tooltip.classList.add('visible');
+  moveLabelTooltip(event);
+}
+
+function moveLabelTooltip(event) {
+  const tooltip = document.getElementById('label-tooltip');
+  if (!tooltip) return;
+
+  // Measure tooltip size
+  const tw = tooltip.offsetWidth || tooltip.getBoundingClientRect().width || 0;
+  const th = tooltip.offsetHeight || tooltip.getBoundingClientRect().height || 0;
+
+  // Align tooltip's bottom-right corner with the cursor
+  let left = event.clientX - tw;
+  let top = event.clientY - th;
+
+  // Clamp within viewport with padding
+  const pad = 8;
+  const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
+  const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+  left = Math.max(pad, Math.min(left, vw - tw - pad));
+  top = Math.max(pad, Math.min(top, vh - th - pad));
+
+  tooltip.style.left = `${left}px`;
+  tooltip.style.top = `${top}px`;
+}
+
+function hideLabelTooltip() {
+  clearTimeout(labelTooltipTimer);
+  const tooltip = document.getElementById('label-tooltip');
+  tooltip.classList.remove('visible');
+}
+
+function setRowColumnLabelStyle(id, color) {
+  document.getElementById(id).style.color = color;
+  document.getElementById(id).style.borderColor = color;
+  document.getElementById(id).style.backgroundColor = color ? color + '33' : '';
 }
 
 /* ── Modal ── */
@@ -126,16 +190,16 @@ function openModal(r, c) {
   document.getElementById('tag-row').textContent =
     PUZZLE.rowLabels[r].icon + ' ' + PUZZLE.rowLabels[r].text;
   if (rows[r].color) {
-    document.getElementById('tag-row').style.color = rows[r].color;
-    document.getElementById('tag-row').style.borderColor = rows[r].color;
-    document.getElementById('tag-row').style.backgroundColor = rows[r].color + '33';
+    setRowColumnLabelStyle('tag-row', rows[r].color);
+  } else {
+    setRowColumnLabelStyle('tag-row', '');
   }
   document.getElementById('tag-col').textContent =
     PUZZLE.colLabels[c].icon + ' ' + PUZZLE.colLabels[c].text;
   if (cols[c].color) {
-    document.getElementById('tag-col').style.color = cols[c].color;
-    document.getElementById('tag-col').style.borderColor = cols[c].color;
-    document.getElementById('tag-col').style.backgroundColor = cols[c].color + '33';
+    setRowColumnLabelStyle('tag-col', cols[c].color);
+  } else {
+    setRowColumnLabelStyle('tag-col', '');
   }
 
   const inputBox = document.querySelector('.opts-text-box');
@@ -227,10 +291,11 @@ function pick(answer, r, c) {
     // Wrong answer - show error feedback
     const inputBox = document.querySelector('.opts-text-box');
     inputBox.classList.add('wrong');
-    setTimeout(() => inputBox.classList.remove('wrong'), 520);
-    // Clear the input for retry
-    inputBox.textContent = '';
-    inputBox.focus();
+    setTimeout(() => {
+      inputBox.classList.remove('wrong')
+        closeModal();
+        reject(r, c, answer);
+    }, 520);
   }
 }
 
@@ -240,6 +305,9 @@ function accept(r, c, answer) {
   filled[key] = answer;
 
   const cell = document.querySelector(`.cell[data-r="${r}"][data-c="${c}"]`);
+  if (cell) {
+    cell.classList.remove('wrong');
+  }
   renderFilled(cell, answer);
 
   const count = Object.keys(filled).length;
@@ -249,6 +317,16 @@ function accept(r, c, answer) {
   if (count === 9) {
     setTimeout(() => document.getElementById('win').classList.add('show'), 380);
   }
+}
+
+function reject(r, c, answer) {
+  const cell = document.querySelector(`.cell[data-r="${r}"][data-c="${c}"]`);
+  if (cell) {
+    cell.classList.add('wrong');
+  }
+  renderFilled(cell, answer, true);
+
+  document.getElementById('wrong-answers-label').textContent = parseInt(document.getElementById('wrong-answers-label').textContent) + 1;
 }
 
 /* ── Events ── */

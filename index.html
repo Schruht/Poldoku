@@ -82,6 +82,19 @@
       text-align: right;
     }
 
+    .wrong-answers-label {
+      font-size: 0.7rem;
+      color: #bd2b41;
+      min-width: 30px;
+      text-align: right;
+    }
+
+    .wrong-answers-label::before {
+      content: "❌";
+      margin-right: 4px;
+      font-size: 0.5rem;
+    }
+
     /* ── Grid ── */
     .grid {
       display: grid;
@@ -108,12 +121,13 @@
       letter-spacing: 0.14em;
       text-transform: uppercase;
       text-align: center;
+      overflow-wrap: break-word;
+      cursor: help;
     }
 
-    .col-label { color: #7c8494; }
-    .row-label { color: #5c8494; }
-
-    .lbl-icon { font-size: 1.2rem; line-height: 1; }
+    .lbl-icon {
+      height: 20px;
+    }
 
     /* ── Cells ── */
     .cell {
@@ -153,6 +167,39 @@
 
     .cell.filled:hover { box-shadow: none; }
 
+    .cell.wrong {
+      background: #2d191b;
+      border-color: #8c4a4a;
+      box-shadow: inset 0 0 0 1px rgba(140,74,74,0.4);
+    }
+
+    .cell.wrong .cell-hint,
+    .cell.wrong .cell-answer span {
+      color: #d4867c;
+    }
+
+    .label-tooltip {
+      position: fixed;
+      z-index: 150;
+      max-width: 260px;
+      padding: 12px 14px;
+      background: rgba(24, 26, 36, 0.94);
+      border: 1px solid rgba(100, 116, 139, 0.18);
+      border-radius: 12px;
+      color: #777777;
+      font-size: 0.66rem;
+      line-height: 1.25;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.16s ease, transform 0.16s ease;
+      box-shadow: 0 18px 40px rgba(0,0,0,0.28);
+      white-space: normal;
+    }
+
+    .label-tooltip.visible {
+      opacity: 1;
+    }
+
     .cell-answer {
       display: flex;
       flex-direction: column;
@@ -172,6 +219,12 @@
       justify-content: center;
       font-size: 0.6rem;
       color: #7cc4a8;
+    }
+
+    .check-ring.wrong {
+      background: #4a1c1c;
+      border-color: #8c4a4a;
+      color: #d4867c;
     }
 
     .cell-answer span {
@@ -400,9 +453,11 @@
 <div class="progress-row">
   <div class="track"><div class="fill" id="fill"></div></div>
   <span class="prog-label" id="prog-label">0 / 9</span>
+  <span class="wrong-answers-label" id="wrong-answers-label">0</span>
 </div>
 
 <div class="grid" id="grid"></div>
+<div class="label-tooltip" id="label-tooltip"></div>
 
 <!-- Option picker modal -->
 <div class="backdrop" id="backdrop">
