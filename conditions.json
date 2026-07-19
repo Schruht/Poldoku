@@ -2,6 +2,7 @@
   {
     "id": "00",
     "name": "SPD",
+    "color": "#b02819",
     "more": "Politiker*innen die zu irgendeime Zeitpunkt Mitglied der SPD waren",
     "img": null,
     "condition": "return x.properties.includes('SPD')"
@@ -9,6 +10,7 @@
   {
     "id": "01",
     "name": "CDU",
+    "color": "#141414",
     "more": "Politiker*innen die zu irgendeime Zeitpunkt Mitglied der CDU waren",
     "img": null,
     "condition": "return x.properties.includes('CDU')"
@@ -16,6 +18,7 @@
   {
     "id": "02",
     "name": "FDP",
+    "color": "#919026",
     "more": "Politiker*innen die zu irgendeime Zeitpunkt Mitglied der FDP waren",
     "img": null,
     "condition": "return x.properties.includes('FDP')"
@@ -23,6 +26,7 @@
   {
     "id": "03",
     "name": "B'90/Grüne",
+    "color": "#07521c",
     "more": "Politiker*innen die zu irgendeime Zeitpunkt Mitglied bei Bündnis 90/Die Grünen waren",
     "img": null,
     "condition": "return x.properties.includes('B'90/Grüne')"
@@ -30,6 +34,7 @@
   {
     "id": "04",
     "name": "Linke",
+    "color": "#7a2366",
     "more": "Politiker*innen die zu irgendeime Zeitpunkt Mitglied der Linkspartei waren",
     "img": null,
     "condition": "return x.properties.includes('Linke')"
@@ -37,6 +42,7 @@
   {
     "id": "05",
     "name": "AfD",
+    "color": "#2c2985",
     "more": "Politiker*innen die zu irgendeime Zeitpunkt Mitglied der AfD waren",
     "img": null,
     "condition": "return x.properties.includes('AfD')"
@@ -100,6 +106,7 @@
   {
     "id": "14",
     "name": "Minister unter Adenauer",
+    "color": "#141414",
     "more": "Politiker*innen die einen Ministerposten in einem von Konrad Adenauers Kabinetten übernommen haben. Auch eine kommissarische übernahme eines Amts zählt.",
     "img": null,
     "condition": "return x.properties.includes('Kabinett Adenauer I') || x.properties.includes('Kabinett Adenauer II') || x.properties.includes('Kabinett Adenauer III') || x.properties.includes('Kabinett Adenauer IV')"
@@ -107,6 +114,7 @@
   {
     "id": "15",
     "name": "Minister unter Erhard",
+    "color": "#141414",
     "more": "Politiker*innen die einen Ministerposten in einem von Ludwig Erhards Kabinetten übernommen haben. Auch eine kommissarische übernahme eines Amts zählt.",
     "img": null,
     "condition": "return x.properties.includes('Kabinett Erhard I') || x.properties.includes('Kabinett Erhard II')"
@@ -114,6 +122,7 @@
   {
     "id": "16",
     "name": "Minister unter Kiesinger",
+    "color": "#141414",
     "more": "Politiker*innen die einen Ministerposten im Kabinett von Kurt Georg Kiesinger übernommen haben. Auch eine kommissarische übernahme eines Amts zählt.",
     "img": null,
     "condition": "return x.properties.includes('Kabinett Kiesinger')"
@@ -121,6 +130,7 @@
   {
     "id": "17",
     "name": "Minister unter Brandt",
+    "color": "#b02819",
     "more": "Politiker*innen die einen Ministerposten in einem von Willy Brandts Kabinetten übernommen haben. Auch eine kommissarische übernahme eines Amts zählt.",
     "img": null,
     "condition": "return x.properties.includes('Kabinett Brandt I') || x.properties.includes('Kabinett Brandt II')"
@@ -128,6 +138,7 @@
   {
     "id": "18",
     "name": "Minister unter Schmidt",
+    "color": "#b02819",
     "more": "Politiker*innen die einen Ministerposten in einem von Helmut Schmidts Kabinetten übernommen haben. Auch eine kommissarische übernahme eines Amts zählt.",
     "img": null,
     "condition": "return x.properties.includes('Kabinett Schmidt I') || x.properties.includes('Kabinett Schmidt II') || x.properties.includes('Kabinett Schmidt III')"
@@ -135,6 +146,7 @@
   {
     "id": "19",
     "name": "Minister unter Kohl",
+    "color": "#141414",
     "more": "Politiker*innen die einen Ministerposten in einem von Helmut Kohls Kabinetten übernommen haben. Auch eine kommissarische übernahme eines Amts zählt.",
     "img": null,
     "condition": "return x.properties.includes('Kabinett Kohl I') || x.properties.includes('Kabinett Kohl II') || x.properties.includes('Kabinett Kohl III') || x.properties.includes('Kabinett Kohl IV') || x.properties.includes('Kabinett Kohl V')"
@@ -142,6 +154,7 @@
   {
     "id": "20",
     "name": "Minister unter Schröder",
+    "color": "#b02819",
     "more": "Politiker*innen die einen Ministerposten in einem von Gerhard Schröder Kabinetten übernommen haben. Auch eine kommissarische übernahme eines Amts zählt.",
     "img": null,
     "condition": "return x.properties.includes('Kabinett Schröder I') || x.properties.includes('Kabinett Schröder II')"
@@ -149,6 +162,7 @@
   {
     "id": "21",
     "name": "Minister unter Merkel",
+    "color": "#141414",
     "more": "Politiker*innen die einen Ministerposten in einem von Angela Merkel Kabinetten übernommen haben. Auch eine kommissarische übernahme eines Amts zählt.",
     "img": null,
     "condition": "return x.properties.includes('Kabinett Merkel I') || x.properties.includes('Kabinett Merkel II') || x.properties.includes('Kabinett Merkel III') || x.properties.includes('Kabinett Merkel IV')"
@@ -156,6 +170,7 @@
   {
     "id": "22",
     "name": "Minister unter Scholz",
+    "color": "#b02819",
     "more": "Politiker*innen die einen Ministerposten im Kabinett von Olaf Scholz übernommen haben. Auch eine kommissarische übernahme eines Amts zählt.",
     "img": null,
     "condition": "return x.properties.includes('Kabinett Scholz')"
@@ -163,6 +178,7 @@
   {
     "id": "23",
     "name": "Minister unter Merz",
+    "color": "#141414",
     "more": "Politiker*innen die einen Ministerposten im Kabinett von Friedrich Merz übernommen haben. Auch eine kommissarische übernahme eines Amts zählt.",
     "img": null,
     "condition": "return x.properties.includes('Kabinett Merz')"
@@ -219,6 +235,7 @@
   {
     "id": "31",
     "name": "Oldenbürger Grünkohlkönig",
+    "color": "#1f3b09",
     "more": "Politiker*innen die zum Oldenburger Grünkohlkönig gewählt wurden.",
     "img": null,
     "condition": "return x.properties.includes('Oldenburger Grünkohlkönig')"
@@ -401,6 +418,7 @@
   {
     "id": "57",
     "name": "SPD Parteivorsitzender",
+    "color": "#b02819",
     "more": "Politiker*innen die einmal Vorsitzende der SPD waren.",
     "img": null,
     "condition": "return x.properties.includes('Parteivorsitzender (SPD)')"
@@ -408,6 +426,7 @@
   {
     "id": "58",
     "name": "CDU Parteivorsitzender",
+    "color": "#141414",
     "more": "Politiker*innen die einmal Vorsitzende der CDU waren.",
     "img": null,
     "condition": "return x.properties.includes('Parteivorsitzender (CDU)')"
@@ -415,6 +434,7 @@
   {
     "id": "59",
     "name": "FDP Parteivorsitzender",
+    "color": "#919026",
     "more": "Politiker*innen die einmal Vorsitzende der FDP waren.",
     "img": null,
     "condition": "return x.properties.includes('Parteivorsitzender (FDP)')"
@@ -422,6 +442,7 @@
   {
     "id": "60",
     "name": "Linke Parteivorsitzender",
+    "color": "#7a2366",
     "more": "Politiker*innen die einmal Vorsitzende der Linkspartei waren.",
     "img": null,
     "condition": "return x.properties.includes('Parteivorsitzender (Linke)')"
@@ -429,6 +450,7 @@
   {
     "id": "61",
     "name": "Grüne Parteivorsitzender",
+    "color": "#07521c",
     "more": "Politiker*innen die einmal Vorsitzende von Bündnis 90/Die Grünen waren.",
     "img": null,
     "condition": "return x.properties.includes('Parteivorsitzender (B'90/Die Grünen)')"
@@ -436,6 +458,7 @@
   {
     "id": "62",
     "name": "AfD Parteivorsitzender",
+    "color": "#2c2985",
     "more": "Politiker*innen die einmal Vorsitzende der AfD waren.",
     "img": null,
     "condition": "return x.properties.includes('Parteivorsitzender (Afd)')"
@@ -443,6 +466,7 @@
   {
     "id": "63",
     "name": "PDS",
+    "color": "#7a2366",
     "more": "Politiker*innen die zu irgendeime Zeitpunkt Mitglied der PDS waren",
     "img": null,
     "condition": "return x.properties.includes('Zentrum')"
@@ -450,6 +474,7 @@
   {
     "id": "64",
     "name": "Zentrum",
+    "color": "#b02819",
     "more": "Politiker*innen die zu irgendeime Zeitpunkt Mitglied der Zentrums-Partei waren",
     "img": null,
     "condition": "return x.properties.includes('Zentrum')"
@@ -471,6 +496,7 @@
   {
     "id": "67",
     "name": "EU-Kommissar",
+    "color": "#2b2ec4",
     "more": "Politiker*innen die das Amt eines EU- oder EG-Kommissars inne hatten.",
     "img": null,
     "condition": "return x.properties.includes('Alterspräsident des Bundestags')"
@@ -478,6 +504,7 @@
   {
     "id": "68",
     "name": "CSU",
+    "color": "#1fa1cc",
     "more": "Politiker*innen die zu irgendeime Zeitpunkt Mitglied der CSU waren",
     "img": null,
     "condition": "return x.properties.includes('CSU')"
@@ -485,6 +512,7 @@
   {
     "id": "69",
     "name": "Union",
+    "color": "#141414",
     "more": "Politiker*innen die zu irgendeime Zeitpunkt Mitglied der CDU oder CSU waren",
     "img": null,
     "condition": "return x.properties.includes('CSU') || x.properties.includes('CDU')"
@@ -492,8 +520,16 @@
   {
     "id": "70",
     "name": "CSU Parteivorsitzender",
+    "color": "#1fa1cc",
     "more": "Politiker*innen die einmal Vorsitzende der CSU waren.",
     "img": null,
     "condition": "return x.properties.includes('Parteivorsitzender (CSU)')"
+  },
+  {
+    "id": "71",
+    "name": "Umweltminister",
+    "more": "Politiker*innen die einmal das Amt des Umweltministers innehatten. Auch eine kommissarische übernahme des Amts zählt.",
+    "img": null,
+    "condition": "return x.properties.includes('Umweltminister (Bund)')"
   }
 ]
