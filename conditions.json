@@ -222,5 +222,173 @@
     "more": "Politiker*innen die zum Oldenburger Grünkohlkönig gewählt wurden.",
     "img": null,
     "condition": "x.properties.includes('Oldenburger Grünkohlkönig')"
+  },
+  {
+    "id": "32",
+    "name": "von",
+    "more": "Politiker*innen deren Name ein 'von' enthält.",
+    "img": null,
+    "condition": "x.name.includes(' von ')"
+  },
+  {
+    "id": "33",
+    "name": "Parteivorsitzender",
+    "more": "Politiker*innen die einmal Vorsitzende einer Partei waren",
+    "img": null,
+    "condition": "x.properties.some(element => element.startsWith('Parteivorsitzender'))"
+  },
+  {
+    "id": "34",
+    "name": "Ehrenvorsitzender",
+    "more": "Politiker*innen die einmal Ehrenvorsitzende einer Partei waren",
+    "img": null,
+    "condition": "x.properties.some(element => element.startsWith('Ehrenvorsitzender'))"
+  },
+  {
+    "id": "35",
+    "name": "Parteilos",
+    "more": "Politiker*innen die einmal ein Amt als Parteilose innehatten, unabhängig davon ob sie früher oder später Mitglied einer Partei waren oder wurden.",
+    "img": null,
+    "condition": "x.properties.includes('parteilos')"
+  },
+  {
+    "id": "36",
+    "name": "Außenminister",
+    "more": "Politiker*innen die einmal das Amt des Außenministers innehatten. Auch eine kommissarische übernahme des Amts zählt.",
+    "img": null,
+    "condition": "x.properties.includes('Aussenminister (Bund)')"
+  },
+  {
+    "id": "37",
+    "name": "Innenminister",
+    "more": "Politiker*innen die einmal das Amt des Innenministers innehatten. Auch eine kommissarische übernahme des Amts zählt.",
+    "img": null,
+    "condition": "x.properties.includes('Innenminister (Bund)')"
+  },
+  {
+    "id": "38",
+    "name": "Verteidigungsminister",
+    "more": "Politiker*innen die einmal das Amt des Verteidigungsministers innehatten. Auch eine kommissarische übernahme des Amts zählt.",
+    "img": null,
+    "condition": "x.properties.includes('Verteidigungsminister (Bund)')"
+  },
+  {
+    "id": "39",
+    "name": "Verkehrsminister",
+    "more": "Politiker*innen die einmal das Amt des Verkehrsministers innehatten. Auch eine kommissarische übernahme des Amts zählt.",
+    "img": null,
+    "condition": "x.properties.includes('Verkehrsminister (Bund)')"
+  },
+  {
+    "id": "40",
+    "name": "Atomminister",
+    "more": "Politiker*innen die einmal das Amt des Atomministers innehatten. Auch eine kommissarische übernahme des Amts zählt.",
+    "img": null,
+    "condition": "x.properties.includes('Atomminister (Bund)')"
+  },
+  {
+    "id": "41",
+    "name": "Forschungsminister",
+    "more": "Politiker*innen die einmal das Amt des Forschungsministers innehatten. Auch eine kommissarische übernahme des Amts zählt.",
+    "img": null,
+    "condition": "x.properties.includes('Forschungsminister (Bund)')"
+  },
+  {
+    "id": "42",
+    "name": "Bildungsminister",
+    "more": "Politiker*innen die einmal das Amt des Bildungsministers innehatten. Auch eine kommissarische übernahme des Amts zählt.",
+    "img": null,
+    "condition": "x.properties.includes('Bildungsminister (Bund)')"
+  },
+  {
+    "id": "43",
+    "name": "Arbeitsminister",
+    "more": "Politiker*innen die einmal das Amt des Arbeitsministers innehatten. Auch eine kommissarische übernahme des Amts zählt.",
+    "img": null,
+    "condition": "x.properties.includes('Arbeitsminister (Bund)')"
+  },
+  {
+    "id": "44",
+    "name": "Minister für gesamtdeutsche Fragen",
+    "more": "Politiker*innen die einmal das Amt eines Ministers für gesamtdeutsche Fragen innehatten. Auch eine kommissarische übernahme des Amts zählt.",
+    "img": null,
+    "condition": "x.properties.includes('Minister für gesamtdeutsche Fragen (Bund)')"
+  },
+  {
+    "id": "45",
+    "name": "Minister für besondere Aufgaben",
+    "more": "Politiker*innen die einmal das Amt eines Ministers für besondere Aufgaben innehatten. Auch eine kommissarische übernahme des Amts zählt.",
+    "img": null,
+    "condition": "x.properties.includes('Minister für besondere Aufgaben (Bund)')"
+  },
+  {
+    "id": "46",
+    "name": "Gesundheitsminister",
+    "more": "Politiker*innen die einmal das Amt des Gesundheitsministers innehatten. Auch eine kommissarische übernahme des Amts zählt.",
+    "img": null,
+    "condition": "x.properties.includes('Gesundheitsminister (Bund)')"
+  },
+  {
+    "id": "47",
+    "name": "Familienminister",
+    "more": "Politiker*innen die einmal das Amt des Familienministers innehatten. Auch eine kommissarische übernahme des Amts zählt.",
+    "img": null,
+    "condition": "x.properties.includes('Familienminister (Bund)')"
+  },
+  {
+    "id": "48",
+    "name": "Bauminister",
+    "more": "Politiker*innen die einmal das Amt des Bauministers innehatten. Auch eine kommissarische übernahme des Amts zählt.",
+    "img": null,
+    "condition": "x.properties.includes('Bauminister (Bund)')"
+  },
+  {
+    "id": "49",
+    "name": "Postminister",
+    "more": "Politiker*innen die einmal das Amt des Postministers innehatten. Auch eine kommissarische übernahme des Amts zählt.",
+    "img": null,
+    "condition": "x.properties.includes('Postminister (Bund)')"
+  },
+  {
+    "id": "50",
+    "name": "Schatzminister",
+    "more": "Politiker*innen die einmal das Amt des Schatzministers innehatten. Auch eine kommissarische übernahme des Amts zählt.",
+    "img": null,
+    "condition": "x.properties.includes('Schatzminister (Bund)')"
+  },
+  {
+    "id": "51",
+    "name": "Bundesratsminister",
+    "more": "Politiker*innen die einmal das Amt des Bundesratsministers innehatten. Auch eine kommissarische übernahme des Amts zählt.",
+    "img": null,
+    "condition": "x.properties.includes('Bundesratsminister (Bund)')"
+  },
+  {
+    "id": "52",
+    "name": "Entwicklungshilfeminister",
+    "more": "Politiker*innen die einmal das Amt des Entwicklungshilfeministers innehatten. Auch eine kommissarische übernahme des Amts zählt.",
+    "img": null,
+    "condition": "x.properties.includes('Entwicklungshilfeminister (Bund)')"
+  },
+  {
+    "id": "53",
+    "name": "Justizminister",
+    "more": "Politiker*innen die einmal das Amt des Justizministers innehatten. Auch eine kommissarische übernahme des Amts zählt.",
+    "img": null,
+    "condition": "x.properties.includes('Justizminister (Bund)')"
+  },
+  {
+    "id": "54",
+    "name": "Landwirtschaftsminister",
+    "more": "Politiker*innen die einmal das Amt des Landwirtschaftsministers innehatten. Auch eine kommissarische übernahme des Amts zählt.",
+    "img": null,
+    "condition": "x.properties.includes('Landwirtschaftsminister (Bund)')"
+  },
+  {
+    "id": "55",
+    "name": "Wirtschaftsminister",
+    "more": "Politiker*innen die einmal das Amt des Wirtschaftsministers innehatten. Auch eine kommissarische übernahme des Amts zählt.",
+    "img": null,
+    "condition": "x.properties.includes('Wirtschaftsminister (Bund)')"
   }
 ]
