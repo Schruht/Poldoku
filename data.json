@@ -158,6 +158,7 @@
       "DVP",
       "Bundespräsident",
       "Bundespräsidentenkandidat",
+      "Parteivorsitzender (FDP)",
       "Parlamentarischer Rat"
     ]
   },
@@ -210,7 +211,8 @@
       "Kabinett Erhard I",
       "Kabinett Erhard II",
       "Kabinett Brandt I",
-      "Kabinett Brandt II"
+      "Kabinett Brandt II",
+      "Parteivorsitzender (FDP)"
     ]
   },
   {
@@ -642,6 +644,7 @@
       "DP",
       "Schatzminister (Bund)",
       "Vizekanzler",
+      "Parteivorsitzender (FDP)",
       "Kabinett Adenauer I",
       "Kabinett Adenauer II"
     ]
@@ -669,6 +672,7 @@
       "FDP",
       "Justizminister (Bund)",
       "Parlamentarischer Rat",
+      "Parteivorsitzender (FDP)",
       "Kabinett Adenauer I"
     ]
   },
@@ -1908,7 +1912,8 @@
       "Vizekanzler",
       "Kabinett Erhard I",
       "Kabinett Erhard II",
-      "Oldenburger Grünkohlkönig"
+      "Oldenburger Grünkohlkönig",
+      "Parteivorsitzender (FDP)"
     ]
   },
   {
@@ -1976,13 +1981,6 @@
       "Kabinett Erhard II",
       "Kabinett Kiesinger"
     ]
-  },
-  {
-    "name": "Hans Katzer",
-    "img": null,
-    "birth": 1919,
-    "death": 1996,
-    "properties": ["CSU", "Arbeitsminister (Bund)", "Kabinett Erhard II"]
   },
   {
     "name": "Johann Baptist Gradl",
@@ -2161,7 +2159,8 @@
       "Kabinett Schmidt I",
       "Kabinett Schmidt II",
       "Kabinett Schmidt III",
-      "Oldenburger Grünkohlkönig"
+      "Oldenburger Grünkohlkönig",
+      "Parteivorsitzender (FDP)"
     ]
   },
   {
@@ -2517,7 +2516,8 @@
       "FDP",
       "Wirtschaftsminister (Bund)",
       "Kabinett Schmidt II",
-      "Kabinett Schmidt III"
+      "Kabinett Schmidt III",
+      "Parteivorsitzender (FDP)"
     ]
   },
   {
@@ -2748,5 +2748,180 @@
     "birth": 1940,
     "death": null,
     "properties": ["FDP", "Alterspräsident des Bundestags"]
+  },
+  {
+    "name": "Hermann Otto Solms",
+    "img": null,
+    "birth": 1940,
+    "death": null,
+    "properties": ["FDP", "Alterspräsident des Bundestags"]
+  },
+  {
+    "name": "Reinhold Maier",
+    "img": null,
+    "birth": 1889,
+    "death": 1971,
+    "properties": ["FDP", "DDP", "DVP", "Parteivorsitzender (FDP)"]
+  },
+  {
+    "name": "Martin Bangemann",
+    "img": null,
+    "birth": 1934,
+    "death": 2022,
+    "properties": ["FDP", "Parteivorsitzender (FDP)"]
+  },
+  {
+    "name": "Klaus Kinkel",
+    "img": null,
+    "birth": 1936,
+    "death": 2019,
+    "properties": ["FDP", "Parteivorsitzender (FDP)"]
+  },
+  {
+    "name": "Klaus Kinkel",
+    "img": null,
+    "birth": 1936,
+    "death": 2019,
+    "properties": ["FDP", "Parteivorsitzender (FDP)", "Oldenburger Grünkohlkönig"]
+  },
+  {
+    "name": "Wolfgang Gerhardt",
+    "img": null,
+    "birth": 1943,
+    "death": 2024,
+    "properties": ["FDP", "Parteivorsitzender (FDP)"]
+  },
+  {
+    "name": "Klaus Kinkel",
+    "img": null,
+    "birth": 1961,
+    "death": 2016,
+    "properties": ["FDP", "Parteivorsitzender (FDP)", "Oldenburger Grünkohlkönig"]
+  },
+  {
+    "name": "Philipp Rösler",
+    "img": null,
+    "birth": 1973,
+    "death": null,
+    "properties": ["FDP", "Parteivorsitzender (FDP)", "Oldenburger Grünkohlkönig"]
+  },
+  {
+    "name": "Christian Lindner",
+    "img": null,
+    "birth": 1979,
+    "death": null,
+    "properties": ["FDP", "Parteivorsitzender (FDP)", "Oldenburger Grünkohlkönig"]
+  },
+  {
+    "name": "Christian Dürr",
+    "img": null,
+    "birth": 1977,
+    "death": null,
+    "properties": ["FDP", "Parteivorsitzender (FDP)"]
+  },
+  {
+    "name": "Wolfgang Kubicki",
+    "img": null,
+    "birth": 1952,
+    "death": null,
+    "properties": ["FDP", "Parteivorsitzender (FDP)"]
+  },
+  {
+    "name": "Fritz Hellwig",
+    "img": null,
+    "birth": 1912,
+    "death": 2017,
+    "properties": ["NSDAP", "CDU", "EU-Kommissar"]
+  },
+  {
+    "name": "Hans von der Groeben",
+    "img": null,
+    "birth": 1907,
+    "death": 2005,
+    "properties": ["NSDAP", "parteilos", "EU-Kommissar"]
+  },
+  {
+    "name": "Wilhelm Haferkamp",
+    "img": null,
+    "birth": 1923,
+    "death": 1995,
+    "properties": ["NSDAP", "SPD", "EU-Kommissar"]
+  },
+  {
+    "name": "Ralf Dahrendorf",
+    "img": null,
+    "birth": 1923,
+    "death": 1995,
+    "properties": ["FDP", "EU-Kommissar"]
+  },
+  {
+    "name": "Guido Brunner",
+    "img": null,
+    "birth": 1930,
+    "death": 1997,
+    "properties": ["FDP", "EU-Kommissar"]
+  },
+  {
+    "name": "Karl-Heinz Narjes",
+    "img": null,
+    "birth": 1924,
+    "death": 2015,
+    "properties": ["CDU", "EU-Kommissar"]
+  },
+  {
+    "name": "Alois Pfeiffer",
+    "img": null,
+    "birth": 1924,
+    "death": 1987,
+    "properties": ["SPD", "EU-Kommissar"]
+  },
+  {
+    "name": "Peter Schmidhuber",
+    "img": null,
+    "birth": 1924,
+    "death": 1987,
+    "properties": ["CSU", "EU-Kommissar"]
+  },
+  {
+    "name": "Monika Wulf-Mathies",
+    "img": null,
+    "birth": 1942,
+    "death": null,
+    "properties": ["SPD", "EU-Kommissar"]
+  },
+  {
+    "name": "Günter Verheugen",
+    "img": null,
+    "birth": 1944,
+    "death": null,
+    "properties": ["SPD", "EU-Kommissar"]
+  },
+  {
+    "name": "Michaele Schreyer",
+    "img": null,
+    "birth": 1951,
+    "death": null,
+    "properties": ["B'90/Die Grünen", "EU-Kommissar"]
+  },
+  {
+    "name": "Günther Oettinger",
+    "img": null,
+    "birth": 1953,
+    "death": null,
+    "properties": ["CDU", "EU-Kommissar"]
+  },
+  {
+    "name": "Ursula von der Leyen",
+    "img": null,
+    "birth": 1958,
+    "death": null,
+    "properties": ["CDU", "EU-Kommissar"]
+  },
+  {
+    "name": "Karl Lauterbach",
+    "img": null,
+    "birth": 1963,
+    "death": null,
+    "properties": ["CDU", "SPD"]
   }
 ]

@@ -467,5 +467,33 @@
     "more": "Politiker*innen die zu irgendeime Zeitpunkt Alterspräsident des Bundestags waren.",
     "img": null,
     "condition": "x.properties.includes('Alterspräsident des Bundestags')"
+  },
+  {
+    "id": "67",
+    "name": "EU-Kommissar",
+    "more": "Politiker*innen die das Amt eines EU- oder EG-Kommissars inne hatten.",
+    "img": null,
+    "condition": "x.properties.includes('Alterspräsident des Bundestags')"
+  },
+  {
+    "id": "68",
+    "name": "CSU",
+    "more": "Politiker*innen die zu irgendeime Zeitpunkt Mitglied der CSU waren",
+    "img": null,
+    "condition": "x.properties.includes('CSU')"
+  },
+  {
+    "id": "69",
+    "name": "Union",
+    "more": "Politiker*innen die zu irgendeime Zeitpunkt Mitglied der CDU oder CSU waren",
+    "img": null,
+    "condition": "x.properties.includes('CSU') || x.properties.includes('CDU')"
+  },
+  {
+    "id": "70",
+    "name": "CSU Parteivorsitzender",
+    "more": "Politiker*innen die einmal Vorsitzende der CSU waren.",
+    "img": null,
+    "condition": "x.properties.includes('Parteivorsitzender (CSU)')"
   }
 ]
