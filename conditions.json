@@ -390,5 +390,82 @@
     "more": "Politiker*innen die einmal das Amt des Wirtschaftsministers innehatten. Auch eine kommissarische übernahme des Amts zählt.",
     "img": null,
     "condition": "x.properties.includes('Wirtschaftsminister (Bund)')"
+  },
+  {
+    "id": "56",
+    "name": "Mann",
+    "more": "Männliche Politiker.",
+    "img": null,
+    "condition": "!x.properties.includes('Frau')"
+  },
+  {
+    "id": "57",
+    "name": "SPD Parteivorsitzender",
+    "more": "Politiker*innen die einmal Vorsitzende der SPD waren.",
+    "img": null,
+    "condition": "x.properties.includes('Parteivorsitzender (SPD)')"
+  },
+  {
+    "id": "58",
+    "name": "CDU Parteivorsitzender",
+    "more": "Politiker*innen die einmal Vorsitzende der CDU waren.",
+    "img": null,
+    "condition": "x.properties.includes('Parteivorsitzender (CDU)')"
+  },
+  {
+    "id": "59",
+    "name": "FDP Parteivorsitzender",
+    "more": "Politiker*innen die einmal Vorsitzende der FDP waren.",
+    "img": null,
+    "condition": "x.properties.includes('Parteivorsitzender (FDP)')"
+  },
+  {
+    "id": "60",
+    "name": "Linke Parteivorsitzender",
+    "more": "Politiker*innen die einmal Vorsitzende der Linkspartei waren.",
+    "img": null,
+    "condition": "x.properties.includes('Parteivorsitzender (Linke)')"
+  },
+  {
+    "id": "61",
+    "name": "Grüne Parteivorsitzender",
+    "more": "Politiker*innen die einmal Vorsitzende von Bündnis 90/Die Grünen waren.",
+    "img": null,
+    "condition": "x.properties.includes('Parteivorsitzender (B'90/Die Grünen)')"
+  },
+  {
+    "id": "62",
+    "name": "AfD Parteivorsitzender",
+    "more": "Politiker*innen die einmal Vorsitzende der AfD waren.",
+    "img": null,
+    "condition": "x.properties.includes('Parteivorsitzender (Afd)')"
+  },
+  {
+    "id": "63",
+    "name": "PDS",
+    "more": "Politiker*innen die zu irgendeime Zeitpunkt Mitglied der PDS waren",
+    "img": null,
+    "condition": "x.properties.includes('Zentrum')"
+  },
+  {
+    "id": "64",
+    "name": "Zentrum",
+    "more": "Politiker*innen die zu irgendeime Zeitpunkt Mitglied der Zentrums-Partei waren",
+    "img": null,
+    "condition": "x.properties.includes('Zentrum')"
+  },
+  {
+    "id": "65",
+    "name": "BSW",
+    "more": "Politiker*innen die zu irgendeime Zeitpunkt Mitglied des BSW waren",
+    "img": null,
+    "condition": "x.properties.includes('BSW')"
+  },
+  {
+    "id": "66",
+    "name": "Alterspräsident des Bundestags",
+    "more": "Politiker*innen die zu irgendeime Zeitpunkt Alterspräsident des Bundestags waren.",
+    "img": null,
+    "condition": "x.properties.includes('Alterspräsident des Bundestags')"
   }
 ]
