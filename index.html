@@ -8,6 +8,15 @@
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
+    [contenteditable=true]:empty:before{
+      content: attr(placeholder);
+      color: #52565f;
+      font-size: 0.72rem;
+      font-weight: 500;
+      pointer-events: none;
+      display: block; /* For Firefox */
+    }
+
     body {
       min-height: 100vh;
       display: flex;
@@ -250,19 +259,42 @@
     }
     .x-btn:hover { color: #868c9c; }
 
-    .opts { display: flex; flex-direction: column; gap: 7px; }
+    .opts { 
+      display: flex; 
+      flex-direction: column; 
+      gap: 7px;
+      max-height: 200px;
+      overflow-y: auto;
+    }
 
     .opts-text-box {
       font-size: 0.88rem;
       font-weight: 600;
       letter-spacing: 0.1em;
       text-transform: uppercase;
-      padding: 10px 14px;
+      padding: 12px 14px;
       margin-bottom: 16px;
       border-radius: 9px;
       background: rgba(60,66,80,0.24);
       color: #8890a2;
       border: 1px solid rgba(60,66,80,0.4);
+      outline: none;
+      transition: background 0.13s, border-color 0.13s, color 0.13s, box-shadow 0.13s;
+      min-height: 20px;
+    }
+
+    .opts-text-box:focus {
+      background: rgba(80,90,110,0.32);
+      border-color: rgba(80,90,110,0.6);
+      color: #dadde4;
+      box-shadow: 0 0 12px rgba(60,75,95,0.2);
+    }
+
+    .opts-text-box.wrong {
+      background: #201616;
+      border-color: #8c5c4a;
+      color: #c49080;
+      animation: jolt 0.32s ease;
     }
 
     .opt {
@@ -361,8 +393,8 @@
 <body>
 
 <header>
-  <h1>Polduku</h1>
-  <p class="subtitle">Pick the answer that fits both the row &amp; column</p>
+  <h1>Poldoku</h1>
+  <p class="subtitle">Finde neun Politiker, die jeweils den Kategorien in den Spalten und Zeilen entsprechen</p>
 </header>
 
 <div class="progress-row">
@@ -377,7 +409,7 @@
   <div class="modal">
     <div class="modal-head">
       <div>
-        <p class="modal-eyebrow">Choose the answer that matches both</p>
+        <p class="modal-eyebrow">Antwort für Kategorien</p>
         <div class="modal-tags">
           <span class="tag r" id="tag-row"></span>
           <span class="plus">+</span>
@@ -386,7 +418,7 @@
       </div>
       <button class="x-btn" id="x-btn">✕</button>
     </div>
-    <div class="opts-text-box" contenteditable="true"></div>
+    <div class="opts-text-box" contenteditable="true" placeholder="Antwort eingeben..."></div>
     <div class="opts" id="opts"></div>
   </div>
 </div>
@@ -395,178 +427,12 @@
 <div class="win" id="win">
   <div class="win-box">
     <div class="win-icon">🌍</div>
-    <div class="win-title">Board Complete!</div>
+    <div class="win-title">Puzzle gelöst!</div>
     <p class="win-sub">You filled every cell correctly.</p>
-    <button class="again-btn" id="again-btn">Play Again</button>
+    <button class="again-btn" id="again-btn">Nochmal spielen</button>
   </div>
 </div>
 
-<script>
-  const PUZZLE = {
-    colLabels: [
-      { icon: '⛰️', text: 'Mountain' },
-      { icon: '🌊', text: 'River'    },
-      { icon: '🏙️', text: 'City'     },
-    ],
-    rowLabels: [
-      { icon: '🌍', text: 'European' },
-      { icon: '🌏', text: 'Asian'    },
-      { icon: '🌎', text: 'American' },
-    ],
-    cells: [
-      { options: ['Alps',    'Everest', 'Andes',     'Yangtze',   'São Paulo' ], correct: ['Alps']     },
-      { options: ['Thames',  'Amazon',  'Yangtze',   'Rockies',   'Beijing'   ], correct: ['Thames']   },
-      { options: ['Paris',   'Tokyo',   'New York',  'K2',        'Ganges'    ], correct: ['Paris']    },
-      { options: ['Everest', 'Alps',    'Andes',     'Mississippi','Berlin'   ], correct: ['Everest']  },
-      { options: ['Yangtze', 'Thames',  'Amazon',    'Mont Blanc','Rome'      ], correct: ['Yangtze']  },
-      { options: ['Tokyo',   'Berlin',  'São Paulo', 'Andes',     'Nile'      ], correct: ['Tokyo']    },
-      { options: ['Andes',   'Alps',    'Fuji',      'Seine',     'Mumbai'    ], correct: ['Andes']    },
-      { options: ['Amazon',  'Thames',  'Ganges',    'K2',        'Paris'     ], correct: ['Amazon']   },
-      { options: ['New York','Paris',   'Mumbai',    'Rockies',   'Yangtze'   ], correct: ['New York'] },
-    ],
-  };
-
-  const filled = {};
-  let activeCell = null;
-
-  function shuffle(arr) {
-    const a = [...arr];
-    for (let i = a.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [a[i], a[j]] = [a[j], a[i]];
-    }
-    return a;
-  }
-
-  /* ── Build grid ── */
-  function buildGrid() {
-    const grid = document.getElementById('grid');
-    grid.innerHTML = '';
-
-    // Corner
-    grid.appendChild(document.createElement('div'));
-
-    // Column labels
-    PUZZLE.colLabels.forEach(l => {
-      const d = document.createElement('div');
-      d.className = 'col-label';
-      d.innerHTML = `<span class="lbl-icon">${l.icon}</span><span>${l.text}</span>`;
-      grid.appendChild(d);
-    });
-
-    // Rows
-    for (let r = 0; r < 3; r++) {
-      // Row label
-      const rl = document.createElement('div');
-      rl.className = 'row-label';
-      rl.innerHTML = `<span class="lbl-icon">${PUZZLE.rowLabels[r].icon}</span><span>${PUZZLE.rowLabels[r].text}</span>`;
-      grid.appendChild(rl);
-
-      // Cells
-      for (let c = 0; c < 3; c++) {
-        const cell = document.createElement('div');
-        cell.className = 'cell';
-        cell.dataset.r = r;
-        cell.dataset.c = c;
-
-        const key = `${r},${c}`;
-        if (filled[key]) {
-          renderFilled(cell, filled[key]);
-        } else {
-          cell.innerHTML = '<span class="cell-hint">Click to answer</span>';
-          cell.addEventListener('click', () => openModal(r, c));
-        }
-
-        grid.appendChild(cell);
-      }
-    }
-  }
-
-  function renderFilled(cell, answer) {
-    cell.classList.add('filled');
-    cell.innerHTML = `
-      <div class="cell-answer">
-        <span class="check-ring">✓</span>
-        <span>${answer}</span>
-      </div>`;
-  }
-
-  /* ── Modal ── */
-  function openModal(r, c) {
-    if (filled[`${r},${c}`]) return;
-    activeCell = { r, c };
-
-    const data = PUZZLE.cells[r * 3 + c];
-    document.getElementById('tag-row').textContent =
-      PUZZLE.rowLabels[r].icon + ' ' + PUZZLE.rowLabels[r].text;
-    document.getElementById('tag-col').textContent =
-      PUZZLE.colLabels[c].icon + ' ' + PUZZLE.colLabels[c].text;
-
-    const opts = document.getElementById('opts');
-    opts.innerHTML = '';
-    shuffle(data.options).forEach(opt => {
-      const btn = document.createElement('button');
-      btn.className = 'opt';
-      btn.innerHTML = `<span class="dot"></span>${opt}`;
-      btn.addEventListener('click', () => pick(opt, btn, r, c));
-      opts.appendChild(btn);
-    });
-
-    document.getElementById('backdrop').classList.add('open');
-  }
-
-  function closeModal() {
-    document.getElementById('backdrop').classList.remove('open');
-    activeCell = null;
-  }
-
-  function pick(opt, btn, r, c) {
-    const correct = PUZZLE.cells[r * 3 + c].correct;
-    if (correct.includes(opt)) {
-      btn.classList.add('correct');
-      setTimeout(() => {
-        closeModal();
-        accept(r, c, opt);
-      }, 360);
-    } else {
-      btn.classList.add('wrong');
-      setTimeout(() => btn.classList.remove('wrong'), 520);
-    }
-  }
-
-  /* ── Accept correct answer ── */
-  function accept(r, c, answer) {
-    const key = `${r},${c}`;
-    filled[key] = answer;
-
-    const cell = document.querySelector(`.cell[data-r="${r}"][data-c="${c}"]`);
-    renderFilled(cell, answer);
-
-    const count = Object.keys(filled).length;
-    document.getElementById('fill').style.width = `${(count / 9) * 100}%`;
-    document.getElementById('prog-label').textContent = `${count} / 9`;
-
-    if (count === 9) {
-      setTimeout(() => document.getElementById('win').classList.add('show'), 380);
-    }
-  }
-
-  /* ── Events ── */
-  document.getElementById('backdrop').addEventListener('click', e => {
-    if (e.target.id === 'backdrop') closeModal();
-  });
-  document.getElementById('x-btn').addEventListener('click', closeModal);
-
-  document.getElementById('again-btn').addEventListener('click', () => {
-    for (const k in filled) delete filled[k];
-    document.getElementById('win').classList.remove('show');
-    document.getElementById('fill').style.width = '0%';
-    document.getElementById('prog-label').textContent = '0 / 9';
-    buildGrid();
-  });
-
-  /* ── Init ── */
-  buildGrid();
-</script>
+<script src="main.js" type="module"></script>
 </body>
 </html>
