@@ -18,8 +18,10 @@ let categories = await getData("./conditions.json")
 const allOptions = gameData.map(x => x.name).sort((a, b) => a.localeCompare(b))
 
 let puzzleString = new URLSearchParams(window.location.search).get("seed");
+console.log(puzzleString)
 if (puzzleString == null) {
- puzzleString = "005316010937"
+  console.log("Klammer");
+ puzzleString = "005316690937"
 }
 
 const conditions = puzzleString.split(/(..)/g).filter(s => s).map(s => categories.find(x => x.id == s))
