@@ -1,0 +1,2752 @@
+[
+  {
+    "name": "Konrad Adenauer",
+    "img": null,
+    "birth": 1876,
+    "death": 1967,
+    "properties": [
+      "Zentrum",
+      "CDU",
+      "Bundeskanzler",
+      "Aussenminister (Bund)",
+      "Parlamentarischer Rat",
+      "Kabinett Adenauer I",
+      "Kabinett Adenauer II",
+      "Kabinett Adenauer III",
+      "Kabinett Adenauer IV",
+      "Bundespräsidentenkandidat",
+      "Parteivorsitzender (CDU)",
+      "Ehrenvorsitzender (CDU)"
+    ]
+  },
+  {
+    "name": "Ludwig Erhard",
+    "img": null,
+    "birth": 1897,
+    "death": 1977,
+    "properties": [
+      "parteilos",
+      "CDU",
+      "Bundeskanzler",
+      "Wirtschaftsminister (Bund)",
+      "Kabinett Adenauer I",
+      "Kabinett Adenauer II",
+      "Kabinett Adenauer III",
+      "Kabinett Adenauer IV",
+      "Kabinett Erhard I",
+      "Vizekanzler",
+      "Parteivorsitzender (CDU)",
+      "Ehrenvorsitzender (CDU)",
+      "Alterspräsident des Bundestags"
+    ]
+  },
+  {
+    "name": "Kurt Georg Kiesinger",
+    "img": null,
+    "birth": 1904,
+    "death": 1988,
+    "properties": [
+      "NSDAP",
+      "CDU",
+      "Bundeskanzler",
+      "Parteivorsitzender (CDU)",
+      "Ehrenvorsitzender (CDU)",
+      "Kabinett Kiesinger"
+    ]
+  },
+  {
+    "name": "Willy Brandt",
+    "img": null,
+    "birth": 1913,
+    "death": 1992,
+    "properties": [
+      "SPD",
+      "Bundeskanzler",
+      "Parteivorsitzender (SPD)",
+      "Ehrenvorsitzender (SPD)",
+      "Kabinett Kiesinger",
+      "Aussenminister (Bund)",
+      "Vizekanzler",
+      "Kabinett Brandt I",
+      "Kabinett Brandt II",
+      "Alterspräsident des Bundestags"
+    ]
+  },
+  {
+    "name": "Helmut Schmidt",
+    "img": null,
+    "birth": 1918,
+    "death": 2015,
+    "properties": [
+      "SPD",
+      "Bundeskanzler",
+      "Finanzminister (Bund)",
+      "Wirtschaftsminister (Bund)",
+      "Verteidigungsminister (Bund)",
+      "Aussenminister (Bund)",
+      "Kabinett Brandt I",
+      "Kabinett Brandt II",
+      "Kabinett Schmidt I",
+      "Kabinett Schmidt II",
+      "Kabinett Schmidt III"
+    ]
+  },
+  {
+    "name": "Helmut Kohl",
+    "img": null,
+    "birth": 1930,
+    "death": 2017,
+    "properties": [
+      "CDU",
+      "Bundeskanzler",
+      "Oldenburger Grünkohlkönig",
+      "Parteivorsitzender (CDU)",
+      "Ehrenvorsitzender (CDU)"
+    ]
+  },
+  {
+    "name": "Gerhard Schröder (SPD)",
+    "img": null,
+    "birth": 1944,
+    "death": null,
+    "properties": [
+      "SPD",
+      "Bundeskanzler",
+      "Parteivorsitzender (SPD)",
+      "Oldenburger Grünkohlkönig"
+    ]
+  },
+  {
+    "name": "Angela Merkel",
+    "img": null,
+    "birth": 1954,
+    "death": null,
+    "properties": [
+      "DA",
+      "CDU",
+      "Bundeskanzler",
+      "Oldenburger Grünkohlkönig",
+      "Parteivorsitzender (CDU)",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Olaf Scholz",
+    "img": null,
+    "birth": 1958,
+    "death": null,
+    "properties": ["SPD", "Bundeskanzler", "Parteivorsitzender (SPD)"]
+  },
+  {
+    "name": "Friedrich Merz",
+    "img": null,
+    "birth": 1955,
+    "death": null,
+    "properties": ["CDU", "Bundeskanzler", "Parteivorsitzender (CDU)"]
+  },
+  {
+    "name": "Theodor Heuss",
+    "img": null,
+    "birth": 1884,
+    "death": 1963,
+    "properties": [
+      "NSV",
+      "FVg",
+      "FVP",
+      "DDP",
+      "FDP",
+      "DVP",
+      "Bundespräsident",
+      "Bundespräsidentenkandidat",
+      "Parlamentarischer Rat"
+    ]
+  },
+  {
+    "name": "Heinrich Lübke",
+    "img": null,
+    "birth": 1894,
+    "death": 1972,
+    "properties": [
+      "Zentrum",
+      "CDU",
+      "Bundespräsident",
+      "Bundespräsidentenkandidat",
+      "Landwirtschaftsminister (Bund)",
+      "Kabinett Adenauer II",
+      "Kabinett Adenauer III"
+    ]
+  },
+  {
+    "name": "Gustav Heinemann",
+    "img": null,
+    "birth": 1899,
+    "death": 1976,
+    "properties": [
+      "DDP",
+      "CDU",
+      "GVP",
+      "SPD",
+      "Innenminister (Bund)",
+      "Justizminister (Bund)",
+      "Kabinett Adenauer I",
+      "Kabinett Kiesinger"
+    ]
+  },
+  {
+    "name": "Walter Scheel",
+    "img": null,
+    "birth": 1919,
+    "death": 2016,
+    "properties": [
+      "NSDAP",
+      "FDP",
+      "Bundespräsident",
+      "Bundeskanzler",
+      "Bundespräsidentenkandidat",
+      "Vizekanzler",
+      "Entwicklungshilfeminister (Bund)",
+      "Aussenminister (Bund)",
+      "Kabinett Adenauer IV",
+      "Kabinett Erhard I",
+      "Kabinett Erhard II",
+      "Kabinett Brandt I",
+      "Kabinett Brandt II"
+    ]
+  },
+  {
+    "name": "Karl Carstens",
+    "img": null,
+    "birth": 1914,
+    "death": 1992,
+    "properties": [
+      "NSDAP",
+      "CDU",
+      "Bundespräsident",
+      "Bundespräsidentenkandidat",
+      "Chef des Bundeskanzleramts",
+      "Bundestagspräsident"
+    ]
+  },
+  {
+    "name": "Richard von Weizsäcker",
+    "img": null,
+    "birth": 1920,
+    "death": 2015,
+    "properties": ["CDU", "Bundespräsident", "Bundespräsidentenkandidat"]
+  },
+  {
+    "name": "Roman Herzog",
+    "img": null,
+    "birth": 1934,
+    "death": 2017,
+    "properties": ["CDU", "Bundespräsident", "Bundespräsidentenkandidat"]
+  },
+  {
+    "name": "Johannes Rau",
+    "img": null,
+    "birth": 1931,
+    "death": 2006,
+    "properties": [
+      "SPD",
+      "Bundespräsident",
+      "Bundespräsidentenkandidat",
+      "Parteivorsitzender (SPD)"
+    ]
+  },
+  {
+    "name": "Horst Köhler",
+    "img": null,
+    "birth": 1943,
+    "death": 2025,
+    "properties": ["CDU", "Bundespräsident", "Bundespräsidentenkandidat"]
+  },
+  {
+    "name": "Christian Wulff",
+    "img": null,
+    "birth": 1959,
+    "death": null,
+    "properties": [
+      "CDU",
+      "Bundespräsident",
+      "Bundespräsidentenkandidat",
+      "Oldenburger Grünkohlkönig"
+    ]
+  },
+  {
+    "name": "Joachim Gauck",
+    "img": null,
+    "birth": 1940,
+    "death": null,
+    "properties": [
+      "parteilos",
+      "Neues Forum",
+      "Bundespräsident",
+      "Bundespräsidentenkandidat"
+    ]
+  },
+  {
+    "name": "Frank-Walter Steinmeier",
+    "img": null,
+    "birth": 1956,
+    "death": null,
+    "properties": [
+      "SPD",
+      "Bundespräsident",
+      "Bundespräsidentenkandidat",
+      "Parteivorsitzender (SPD)",
+      "Oldenburger Grünkohlkönig",
+      "Chef des Bundeskanzleramts"
+    ]
+  },
+  {
+    "name": "Kurt Schumacher",
+    "img": null,
+    "birth": 1895,
+    "death": 1952,
+    "properties": [
+      "SPD",
+      "Bundespräsidentenkandidat",
+      "Parteivorsitzender (SPD)"
+    ]
+  },
+  {
+    "name": "Rudolf Amelunxen",
+    "img": null,
+    "birth": 1888,
+    "death": 1969,
+    "properties": ["Zentrum", "Bundespräsidentenkandidat"]
+  },
+  {
+    "name": "Hans Schlange-Schöningen",
+    "img": null,
+    "birth": 1888,
+    "death": 1969,
+    "properties": [
+      "DNVP",
+      "CNBL",
+      "CDU",
+      "Minister für besondere Aufgaben (Bund)",
+      "Kabinett Brüning II",
+      "Bundespräsidentenkandidat"
+    ]
+  },
+  {
+    "name": "Karl Arnold",
+    "img": null,
+    "birth": 1901,
+    "death": 1958,
+    "properties": ["Zentrum", "CDU", "Bundespräsidentenkandidat"]
+  },
+  {
+    "name": "Josef Müller",
+    "img": null,
+    "birth": 1898,
+    "death": 1979,
+    "properties": [
+      "CSU",
+      "Bundespräsidentenkandidat",
+      "Parteivorsitzender (CSU)"
+    ]
+  },
+  {
+    "name": "Alfred Loritz",
+    "img": null,
+    "birth": 1902,
+    "death": 1979,
+    "properties": ["WAV", "Bundespräsidentenkandidat"]
+  },
+  {
+    "name": "Alfred Weber",
+    "img": null,
+    "birth": 1868,
+    "death": 1958,
+    "properties": ["SPD", "Bundespräsidentenkandidat"]
+  },
+  {
+    "name": "Karl Dönitz",
+    "img": null,
+    "birth": 1891,
+    "death": 1980,
+    "properties": ["NSDAP", "Bundespräsidentenkandidat"]
+  },
+  {
+    "name": "Louis Ferdinand von Preußen",
+    "img": null,
+    "birth": 1891,
+    "death": 1980,
+    "properties": ["Bundespräsidentenkandidat"]
+  },
+  {
+    "name": "Marie-Elisabeth Lüders",
+    "img": null,
+    "birth": 1978,
+    "death": 1966,
+    "properties": [
+      "DDP",
+      "FDP",
+      "Bundespräsidentenkandidat",
+      "Alterspräsident des Bundestags"
+    ]
+  },
+  {
+    "name": "Ernst August von Hannover",
+    "img": null,
+    "birth": 1914,
+    "death": 1987,
+    "properties": ["Bundespräsidentenkandidat"]
+  },
+  {
+    "name": "Annemarie Renger",
+    "img": null,
+    "birth": 1919,
+    "death": 2008,
+    "properties": [
+      "SPD",
+      "Bundespräsidentenkandidat",
+      "Bundestagspräsident",
+      "Frau",
+      "Oldenburger Grünkohlkönig"
+    ]
+  },
+  {
+    "name": "Luise Rinser",
+    "img": null,
+    "birth": 1919,
+    "death": 2008,
+    "properties": ["B'90/Grüne", "Bundespräsidentenkandidat", "Frau"]
+  },
+  {
+    "name": "Hildegard Hamm-Brücher",
+    "img": null,
+    "birth": 1921,
+    "death": 2016,
+    "properties": ["FDP", "Bundespräsidentenkandidat", "Frau"]
+  },
+  {
+    "name": "Jens Reich",
+    "img": null,
+    "birth": 1939,
+    "death": null,
+    "properties": ["Neues Forum", "B'90/Grüne", "Bundespräsidentenkandidat"]
+  },
+  {
+    "name": "Hans Hirzel",
+    "img": null,
+    "birth": 1924,
+    "death": 2006,
+    "properties": ["CDU", "Republikaner", "Bundespräsidentenkandidat"]
+  },
+  {
+    "name": "Dagmar Schipanski",
+    "img": null,
+    "birth": 1943,
+    "death": 2022,
+    "properties": ["parteilos", "CDU", "Bundespräsidentenkandidat", "Frau"]
+  },
+  {
+    "name": "Uta Ranke-Heinemann",
+    "img": null,
+    "birth": 1943,
+    "death": 2022,
+    "properties": ["Bundespräsidentenkandidat", "Frau"]
+  },
+  {
+    "name": "Gesine Schwan",
+    "img": null,
+    "birth": 1943,
+    "death": null,
+    "properties": ["SPD", "Bundespräsidentenkandidat", "Frau"]
+  },
+  {
+    "name": "Peter Sodann",
+    "img": null,
+    "birth": 1936,
+    "death": 2024,
+    "properties": ["Bundespräsidentenkandidat"]
+  },
+  {
+    "name": "Luc Jochimsen",
+    "img": null,
+    "birth": 1936,
+    "death": 2024,
+    "properties": ["Linke", "Bundespräsidentenkandidat"]
+  },
+  {
+    "name": "Beate Klarsfeld",
+    "img": null,
+    "birth": 1939,
+    "death": null,
+    "properties": ["Bundespräsidentenkandidat"]
+  },
+  {
+    "name": "Olaf Rose",
+    "img": null,
+    "birth": 1958,
+    "death": null,
+    "properties": ["NPD", "Bundespräsidentenkandidat"]
+  },
+  {
+    "name": "Christoph Butterwegge",
+    "img": null,
+    "birth": 1951,
+    "death": null,
+    "properties": ["SPD", "Bundespräsidentenkandidat"]
+  },
+  {
+    "name": "Albrecht Glaser",
+    "img": null,
+    "birth": 1942,
+    "death": null,
+    "properties": ["CDU", "AfD", "Bundespräsidentenkandidat"]
+  },
+  {
+    "name": "Alexander Hold",
+    "img": null,
+    "birth": 1962,
+    "death": null,
+    "properties": ["Freie Wähler", "Bundespräsidentenkandidat"]
+  },
+  {
+    "name": "Engelbert Sonneborn",
+    "img": null,
+    "birth": 1938,
+    "death": null,
+    "properties": ["Bundespräsidentenkandidat"]
+  },
+  {
+    "name": "Gerhard Trabert",
+    "img": null,
+    "birth": 1956,
+    "death": null,
+    "properties": ["Linke", "Bundespräsidentenkandidat"]
+  },
+  {
+    "name": "Max Otte",
+    "img": null,
+    "birth": 1964,
+    "death": null,
+    "properties": ["CDU", "WerteUnion", "Bundespräsidentenkandidat"]
+  },
+  {
+    "name": "Stefanie Gebauer",
+    "img": null,
+    "birth": 1980,
+    "death": null,
+    "properties": ["CDU", "Freie Wähler", "Bundespräsidentenkandidat", "Frau"]
+  },
+  {
+    "name": "Frank Rennicke",
+    "img": null,
+    "birth": 1964,
+    "death": null,
+    "properties": ["Bundespräsidentenkandidat"]
+  },
+  {
+    "name": "Max Becker",
+    "img": null,
+    "birth": 1888,
+    "death": 1960,
+    "properties": [
+      "DVP",
+      "FDP",
+      "Parlamentarischer Rat",
+      "Bundespräsidentenkandidat"
+    ]
+  },
+  {
+    "name": "Adolph Schönfelder",
+    "img": null,
+    "birth": 1875,
+    "death": 1966,
+    "properties": ["SPD", "Parlamentarischer Rat"]
+  },
+  {
+    "name": "Hermann Schäfer",
+    "img": null,
+    "birth": 1892,
+    "death": 1966,
+    "properties": [
+      "DDP",
+      "FDP",
+      "Freie Volkspartei",
+      "DP",
+      "Parlamentarischer Rat",
+      "Minister für besondere Aufgaben (Bund)",
+      "Kabinett Adenauer II"
+    ]
+  },
+  {
+    "name": "Jean Stock",
+    "img": null,
+    "birth": 1893,
+    "death": 1965,
+    "properties": ["SPD", "Parlamentarischer Rat"]
+  },
+  {
+    "name": "Helene Wessel",
+    "img": null,
+    "birth": 1898,
+    "death": 1969,
+    "properties": [
+      "SPD",
+      "GVP",
+      "Zentrum",
+      "Parlamentarischer Rat",
+      "Parteivorsitzender (Zentrum)",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Helene Weber",
+    "img": null,
+    "birth": 1881,
+    "death": 1962,
+    "properties": ["CDU", "Zentrum", "Parlamentarischer Rat", "Frau"]
+  },
+  {
+    "name": "Friederike Nadig",
+    "img": null,
+    "birth": 1897,
+    "death": 1970,
+    "properties": ["SPD", "Parlamentarischer Rat", "Frau"]
+  },
+  {
+    "name": "Elisabeth Selbert",
+    "img": null,
+    "birth": 1896,
+    "death": 1986,
+    "properties": ["SPD", "Parlamentarischer Rat", "Frau"]
+  },
+  {
+    "name": "Carlo Schmid",
+    "img": null,
+    "birth": 1896,
+    "death": 1979,
+    "properties": [
+      "SPD",
+      "Parlamentarischer Rat",
+      "Bundespräsidentenkandidat",
+      "Oldenburger Grünkohlkönig",
+      "Bundesratsminister (Bund)",
+      "Kabinett Kiesinger"
+    ]
+  },
+  {
+    "name": "Franz Blücher",
+    "img": null,
+    "birth": 1896,
+    "death": 1959,
+    "properties": [
+      "FDP",
+      "FVP",
+      "DP",
+      "Schatzminister (Bund)",
+      "Vizekanzler",
+      "Kabinett Adenauer I",
+      "Kabinett Adenauer II"
+    ]
+  },
+  {
+    "name": "Robert Lehr",
+    "img": null,
+    "birth": 1883,
+    "death": 1956,
+    "properties": [
+      "DNVP",
+      "CDU",
+      "Innenminister (Bund)",
+      "Parlamentarischer Rat",
+      "Kabinett Adenauer I"
+    ]
+  },
+  {
+    "name": "Thomas Dehler",
+    "img": null,
+    "birth": 1897,
+    "death": 1967,
+    "properties": [
+      "DDP",
+      "FDP",
+      "Justizminister (Bund)",
+      "Parlamentarischer Rat",
+      "Kabinett Adenauer I"
+    ]
+  },
+  {
+    "name": "Fritz Schäffer",
+    "img": null,
+    "birth": 1888,
+    "death": 1967,
+    "properties": [
+      "CSU",
+      "BVP",
+      "Finanzminister (Bund)",
+      "Justizminister (Bund)",
+      "Kabinett Adenauer I",
+      "Kabinett Adenauer II",
+      "Kabinett Adenauer III"
+    ]
+  },
+  {
+    "name": "Wilhelm Niklas",
+    "img": null,
+    "birth": 1887,
+    "death": 1957,
+    "properties": [
+      "CSU",
+      "Landwirtschaftsminister (Bund)",
+      "Kabinett Adenauer I"
+    ]
+  },
+  {
+    "name": "Anton Storch",
+    "img": null,
+    "birth": 1892,
+    "death": 1975,
+    "properties": [
+      "Zentrum",
+      "CDU",
+      "Arbeitsminister (Bund)",
+      "Kabinett Adenauer I",
+      "Kabinett Adenauer II"
+    ]
+  },
+  {
+    "name": "Hans-Christoph Seebohm",
+    "img": null,
+    "birth": 1903,
+    "death": 1967,
+    "properties": [
+      "DP",
+      "CDU",
+      "Vizekanzler",
+      "Verkehrsminister (Bund)",
+      "Parlamentarischer Rat",
+      "Kabinett Adenauer I",
+      "Kabinett Adenauer II",
+      "Kabinett Adenauer III",
+      "Kabinett Adenauer IV",
+      "Kabinett Erhard I",
+      "Kabinett Erhard II"
+    ]
+  },
+  {
+    "name": "Hans Schuberth",
+    "img": null,
+    "birth": 1897,
+    "death": 1976,
+    "properties": [
+      "CSU",
+      "Postminister (Bund)",
+      "Kabinett Adenauer I",
+      "Kabinett Adenauer II"
+    ]
+  },
+  {
+    "name": "Eberhard Wildermuth",
+    "img": null,
+    "birth": 1890,
+    "death": 1952,
+    "properties": [
+      "DDP",
+      "FDP",
+      "DVP",
+      "Bauminister (Bund)",
+      "Kabinett Adenauer I",
+      "Im Amt verstorben"
+    ]
+  },
+  {
+    "name": "Fritz Neumayer",
+    "img": null,
+    "birth": 1884,
+    "death": 1973,
+    "properties": [
+      "FDP",
+      "FVP",
+      "Bauminister (Bund)",
+      "Justizminister (Bund)",
+      "Kabinett Adenauer I",
+      "Kabinett Adenauer II"
+    ]
+  },
+  {
+    "name": "Hans Lukaschek",
+    "img": null,
+    "birth": 1885,
+    "death": 1960,
+    "properties": [
+      "Zentrum",
+      "CDU",
+      "Vertriebenenminister (Bund)",
+      "Kabinett Adenauer I",
+      "Kreisauer Kreis"
+    ]
+  },
+  {
+    "name": "Jakob Kaiser",
+    "img": null,
+    "birth": 1888,
+    "death": 1961,
+    "properties": [
+      "Zentrum",
+      "CDU",
+      "Minister für gesamtdeutsche Fragen (Bund)",
+      "Parlamentarischer Rat",
+      "Kabinett Adenauer I",
+      "Kabinett Adenauer II"
+    ]
+  },
+  {
+    "name": "Heinrich Hellwege",
+    "img": null,
+    "birth": 1908,
+    "death": 1991,
+    "properties": [
+      "DHP",
+      "DP",
+      "CDU",
+      "Bundesratsminister (Bund)",
+      "Kabinett Adenauer I",
+      "Kabinett Adenauer II",
+      "Parteivorsitzender (DP)",
+      "Oldenburger Grünkohlkönig"
+    ]
+  },
+  {
+    "name": "Heinrich von Brentano",
+    "img": null,
+    "birth": 1904,
+    "death": 1964,
+    "properties": [
+      "CDU",
+      "Aussenminister (Bund)",
+      "Parlamentarischer Rat",
+      "Kabinett Adenauer II",
+      "Kabinett Adenauer III"
+    ]
+  },
+  {
+    "name": "Gerhard Schröder (CDU)",
+    "img": null,
+    "birth": 1910,
+    "death": 1989,
+    "properties": [
+      "CDU",
+      "Innenminister (Bund)",
+      "Aussenminister (Bund)",
+      "Verteidigungsminister (Bund)",
+      "Kabinett Adenauer II",
+      "Kabinett Adenauer III",
+      "Kabinett Adenauer IV",
+      "Kabinett Erhard I",
+      "Kabinett Erhard II",
+      "Kabinett Kiesinger",
+      "Bundespräsidentenkandidat",
+      "Oldenburger Grünkohlkönig"
+    ]
+  },
+  {
+    "name": "Hans-Joachim von Merkatz",
+    "img": null,
+    "birth": 1905,
+    "death": 1982,
+    "properties": [
+      "DP",
+      "CDU",
+      "Justizminister (Bund)",
+      "Bundesratsminister (Bund)",
+      "Vertriebenenminister (Bund)",
+      "Kabinett Adenauer II",
+      "Kabinett Adenauer III",
+      "Kabinett Adenauer IV",
+      "Oldenburger Grünkohlkönig"
+    ]
+  },
+  {
+    "name": "Theodor Blank",
+    "img": null,
+    "birth": 1905,
+    "death": 1972,
+    "properties": [
+      "DP",
+      "CDU",
+      "Verteidigungsminister (Bund)",
+      "Atomminister (Bund)",
+      "Arbeitsminister (Bund)",
+      "Kabinett Adenauer II",
+      "Kabinett Adenauer III",
+      "Kabinett Adenauer IV",
+      "Kabinett Erhard I",
+      "Oldenburger Grünkohlkönig"
+    ]
+  },
+  {
+    "name": "Franz Josef Strauß",
+    "img": null,
+    "birth": 1915,
+    "death": 1988,
+    "properties": [
+      "CSU",
+      "Verteidigungsminister (Bund)",
+      "Atomminister (Bund)",
+      "Minister für besondere Aufgaben (Bund)",
+      "Verteidigungsminister (Bund)",
+      "Finanzminister (Bund)",
+      "Kabinett Adenauer II",
+      "Kabinett Adenauer III",
+      "Kabinett Adenauer IV",
+      "Kabinett Kiesinger",
+      "Parteivorsitzender (CSU)"
+    ]
+  },
+  {
+    "name": "Siegfried Balke",
+    "img": null,
+    "birth": 1902,
+    "death": 1984,
+    "properties": [
+      "CSU",
+      "Postminister (Bund)",
+      "Atomminister (Bund)",
+      "Kabinett Adenauer II",
+      "Kabinett Adenauer III",
+      "Kabinett Adenauer IV"
+    ]
+  },
+  {
+    "name": "Ernst Lemmer",
+    "img": null,
+    "birth": 1898,
+    "death": 1970,
+    "properties": [
+      "CDU",
+      "DDP",
+      "DStP",
+      "Postminister (Bund)",
+      "Minister für gesamtdeutsche Fragen (Bund)",
+      "Vertriebenenminister (Bund)",
+      "Kabinett Adenauer II",
+      "Kabinett Adenauer III",
+      "Kabinett Adenauer IV",
+      "Kabinett Erhard I"
+    ]
+  },
+  {
+    "name": "Victor-Emanuel Preusker",
+    "img": null,
+    "birth": 1913,
+    "death": 1991,
+    "properties": [
+      "NSDAP",
+      "FDP",
+      "FVP",
+      "DP",
+      "Bauminister (Bund)",
+      "Kabinett Adenauer II"
+    ]
+  },
+  {
+    "name": "Theodor Oberländer",
+    "img": null,
+    "birth": 1905,
+    "death": 1998,
+    "properties": [
+      "NSDAP",
+      "BHE",
+      "CDU",
+      "Vertriebenenminister (Bund)",
+      "Kabinett Adenauer II",
+      "Kabinett Adenauer III"
+    ]
+  },
+  {
+    "name": "Franz-Josef Wuermeling",
+    "img": null,
+    "birth": 1900,
+    "death": 1986,
+    "properties": [
+      "CDU",
+      "Familienminister (Bund)",
+      "Kabinett Adenauer II",
+      "Kabinett Adenauer III",
+      "Kabinett Adenauer IV",
+      "Bundespräsidentenkandidat",
+      "Chef des Bundeskanzleramts"
+    ]
+  },
+  {
+    "name": "Robert Tillmanns",
+    "img": null,
+    "birth": 1896,
+    "death": 1955,
+    "properties": [
+      "CDU",
+      "Minister für besondere Aufgaben (Bund)",
+      "Kabinett Adenauer II",
+      "Im Amt verstorben"
+    ]
+  },
+  {
+    "name": "Waldemar Kraft",
+    "img": null,
+    "birth": 1898,
+    "death": 1977,
+    "properties": [
+      "NSDAP",
+      "BHE",
+      "CDU",
+      "Minister für besondere Aufgaben (Bund)",
+      "Kabinett Adenauer II"
+    ]
+  },
+  {
+    "name": "Franz Etzel",
+    "img": null,
+    "birth": 1902,
+    "death": 1970,
+    "properties": [
+      "NSDAP",
+      "DNVP",
+      "CDU",
+      "Finanzminister (Bund)",
+      "Kabinett Adenauer III"
+    ]
+  },
+  {
+    "name": "Werner Schwarz",
+    "img": null,
+    "birth": 1900,
+    "death": 1982,
+    "properties": [
+      "CDU",
+      "Landwirtschaftsminister (Bund)",
+      "Kabinett Adenauer III",
+      "Kabinett Adenauer IV",
+      "Kabinett Erhard I"
+    ]
+  },
+  {
+    "name": "Richard Stücklen",
+    "img": null,
+    "birth": 1916,
+    "death": 2002,
+    "properties": [
+      "NSDAP",
+      "CSU",
+      "Postminister (Bund)",
+      "Kabinett Adenauer III",
+      "Kabinett Adenauer IV",
+      "Kabinett Erhard I",
+      "Kabinett Erhard II",
+      "Bundestagspräsident"
+    ]
+  },
+  {
+    "name": "Paul Lücke",
+    "img": null,
+    "birth": 1914,
+    "death": 1976,
+    "properties": [
+      "NSDAP",
+      "CSU",
+      "Bauminister (Bund)",
+      "Innenminister (Bund)",
+      "Kabinett Adenauer III",
+      "Kabinett Adenauer IV",
+      "Kabinett Erhard I",
+      "Kabinett Erhard II",
+      "Kabinett Kiesinger"
+    ]
+  },
+  {
+    "name": "Hermann Lindrath",
+    "img": null,
+    "birth": 1896,
+    "death": 1960,
+    "properties": [
+      "DVP",
+      "NSDAP",
+      "CDU",
+      "Schatzminister (Bund)",
+      "Kabinett Adenauer III",
+      "Im Amt verstorben"
+    ]
+  },
+  {
+    "name": "Hans Wilhelmi",
+    "img": null,
+    "birth": 1899,
+    "death": 1970,
+    "properties": ["CDU", "Schatzminister (Bund)", "Kabinett Adenauer III"]
+  },
+  {
+    "name": "Hermann Höcherl",
+    "img": null,
+    "birth": 1912,
+    "death": 1989,
+    "properties": [
+      "NSDAP",
+      "CSU",
+      "Innenminister (Bund)",
+      "Landwirtschaftsminister (Bund)",
+      "Kabinett Adenauer IV",
+      "Kabinett Erhard I",
+      "Kabinett Erhard II",
+      "Kabinett Kiesinger"
+    ]
+  },
+  {
+    "name": "Wolfgang Stammberger",
+    "img": null,
+    "birth": 1920,
+    "death": 1982,
+    "properties": [
+      "SPD",
+      "FDP",
+      "Justizminister (Bund)",
+      "Kabinett Adenauer IV"
+    ]
+  },
+  {
+    "name": "Heinz Starke",
+    "img": null,
+    "birth": 1911,
+    "death": 2001,
+    "properties": [
+      "NSDAP",
+      "FDP",
+      "CSU",
+      "Finanzminister (Bund)",
+      "Kabinett Adenauer IV"
+    ]
+  },
+  {
+    "name": "Wolfgang Mischnick",
+    "img": null,
+    "birth": 1921,
+    "death": 2002,
+    "properties": [
+      "LDP",
+      "FDP",
+      "Vertriebenenminister (Bund)",
+      "Kabinett Adenauer IV"
+    ]
+  },
+  {
+    "name": "Hans Lenz",
+    "img": null,
+    "birth": 1907,
+    "death": 1968,
+    "properties": [
+      "NSDAP",
+      "DVP",
+      "FDP",
+      "Schatzminister (Bund)",
+      "Bildungsminister (Bund)",
+      "Kabinett Adenauer IV",
+      "Kabinett Erhard I"
+    ]
+  },
+  {
+    "name": "Elisabeth Schwarzhaupt",
+    "img": null,
+    "birth": 1901,
+    "death": 1986,
+    "properties": [
+      "CDU",
+      "Gesundheitsminister (Bund)",
+      "Kabinett Adenauer IV",
+      "Kabinett Erhard I",
+      "Kabinett Erhard II",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Heinrich Krone",
+    "img": null,
+    "birth": 1895,
+    "death": 1989,
+    "properties": [
+      "Zentrum",
+      "CDU",
+      "Minister für besondere Aufgaben (Bund)",
+      "Kabinett Adenauer IV",
+      "Kabinett Erhard I",
+      "Kabinett Erhard II"
+    ]
+  },
+  {
+    "name": "Ewald Bucher",
+    "img": null,
+    "birth": 1914,
+    "death": 1991,
+    "properties": [
+      "FDP",
+      "NSDAP",
+      "DVP",
+      "CDU",
+      "Justizminister (Bund)",
+      "Bauminister (Bund)",
+      "Kabinett Adenauer IV",
+      "Kabinett Erhard I",
+      "Kabinett Erhard II",
+      "Bundespräsidentenkandidat"
+    ]
+  },
+  {
+    "name": "Rolf Dahlgrün",
+    "img": null,
+    "birth": 1908,
+    "death": 1969,
+    "properties": [
+      "FDP",
+      "NSDAP",
+      "Finanzminister (Bund)",
+      "Kabinett Adenauer IV",
+      "Kabinett Erhard I",
+      "Kabinett Erhard II"
+    ]
+  },
+  {
+    "name": "Kai-Uwe von Hassel",
+    "img": null,
+    "birth": 1913,
+    "death": 1997,
+    "properties": [
+      "CDU",
+      "Verteidigungsminister (Bund)",
+      "Vertriebenenminister (Bund)",
+      "Kabinett Adenauer IV",
+      "Kabinett Erhard I",
+      "Kabinett Erhard II",
+      "Kabinett Kiesinger",
+      "Bundestagspräsident",
+      "Oldenburger Grünkohlkönig"
+    ]
+  },
+  {
+    "name": "Rainer Barzel",
+    "img": null,
+    "birth": 1924,
+    "death": 2006,
+    "properties": [
+      "CDU",
+      "Minister für gesamtdeutsche Fragen (Bund)",
+      "Kabinett Adenauer IV",
+      "Parteivorsitzender (CDU)",
+      "Bundestagspräsident"
+    ]
+  },
+  {
+    "name": "Alois Niederalt",
+    "img": null,
+    "birth": 1911,
+    "death": 2004,
+    "properties": [
+      "NSDAP",
+      "CSU",
+      "Bundesratsminister (Bund)",
+      "Kabinett Adenauer IV",
+      "Kabinett Erhard I"
+    ]
+  },
+  {
+    "name": "Bruno Heck",
+    "img": null,
+    "birth": 1917,
+    "death": 1989,
+    "properties": [
+      "CDU",
+      "Familienminister (Bund)",
+      "Bauminister (Bund)",
+      "Kabinett Adenauer IV",
+      "Kabinett Erhard I",
+      "Kabinett Erhard II",
+      "Kabinett Kiesinger"
+    ]
+  },
+  {
+    "name": "Werner Dollinger",
+    "img": null,
+    "birth": 1918,
+    "death": 2008,
+    "properties": [
+      "CSU",
+      "Schatzminister (Bund)",
+      "Entwicklungshilfeminister (Bund)",
+      "Postminister (Bund)",
+      "Kabinett Adenauer IV",
+      "Kabinett Erhard I",
+      "Kabinett Erhard II",
+      "Kabinett Kiesinger",
+      "Alterspräsident des Bundestags"
+    ]
+  },
+  {
+    "name": "Wolfgang Schäuble",
+    "img": null,
+    "birth": 1942,
+    "death": 2023,
+    "properties": [
+      "CDU",
+      "Parteivorsitzender (CDU)",
+      "Bundestagspräsident",
+      "Oldenburger Grünkohlkönig",
+      "Alterspräsident des Bundestags"
+    ]
+  },
+  {
+    "name": "Annegret Kramp-Karrenbauer",
+    "img": null,
+    "birth": 1962,
+    "death": null,
+    "properties": ["CDU", "Parteivorsitzender (CDU)", "Frau"]
+  },
+  {
+    "name": "Armin Laschet",
+    "img": null,
+    "birth": 1961,
+    "death": null,
+    "properties": ["CDU", "Parteivorsitzender (CDU)"]
+  },
+  {
+    "name": "Hans Ehard",
+    "img": null,
+    "birth": 1887,
+    "death": 1980,
+    "properties": ["CSU", "Parteivorsitzender (CSU)"]
+  },
+  {
+    "name": "Hanns Seidel",
+    "img": null,
+    "birth": 1901,
+    "death": 1961,
+    "properties": ["BVP", "CSU", "Parteivorsitzender (CSU)"]
+  },
+  {
+    "name": "Theo Waigel",
+    "img": null,
+    "birth": 1939,
+    "death": null,
+    "properties": ["CSU", "Parteivorsitzender (CSU)"]
+  },
+  {
+    "name": "Edmund Stoiber",
+    "img": null,
+    "birth": 1941,
+    "death": null,
+    "properties": ["CSU", "Parteivorsitzender (CSU)"]
+  },
+  {
+    "name": "Erwin Huber",
+    "img": null,
+    "birth": 1946,
+    "death": null,
+    "properties": ["CSU", "Parteivorsitzender (CSU)"]
+  },
+  {
+    "name": "Horst Seehofer",
+    "img": null,
+    "birth": 1949,
+    "death": null,
+    "properties": ["CSU", "Parteivorsitzender (CSU)"]
+  },
+  {
+    "name": "Markus Söder",
+    "img": null,
+    "birth": 1967,
+    "death": null,
+    "properties": ["CSU", "Parteivorsitzender (CSU)"]
+  },
+  {
+    "name": "Markus Söder",
+    "img": null,
+    "birth": 1967,
+    "death": null,
+    "properties": ["CSU", "Parteivorsitzender (CSU)"]
+  },
+  {
+    "name": "Erich Ollenhauer",
+    "img": null,
+    "birth": 1901,
+    "death": 1963,
+    "properties": ["SPD", "Parlamentarischer Rat", "Parteivorsitzender (SPD)"]
+  },
+  {
+    "name": "Hans-Jochen Vogel",
+    "img": null,
+    "birth": 1926,
+    "death": 2020,
+    "properties": [
+      "SPD",
+      "Parteivorsitzender (SPD)",
+      "Bauminister (Bund)",
+      "Justizminister (Bund)",
+      "Kabinett Brandt II",
+      "Kabinett Schmidt I",
+      "Kabinett Schmidt II",
+      "Kabinett Schmidt III"
+    ]
+  },
+  {
+    "name": "Björn Engholm",
+    "img": null,
+    "birth": 1939,
+    "death": null,
+    "properties": [
+      "SPD",
+      "Landwirtschaftsminister (Bund)",
+      "Bildungsminister (Bund)",
+      "Parteivorsitzender (SPD)",
+      "Kabinett Schmidt III"
+    ]
+  },
+  {
+    "name": "Rudolf Scharping",
+    "img": null,
+    "birth": 1947,
+    "death": null,
+    "properties": [
+      "SPD",
+      "Parteivorsitzender (SPD)",
+      "Oldenburger Grünkohlkönig"
+    ]
+  },
+  {
+    "name": "Oskar Lafontaine",
+    "img": null,
+    "birth": 1943,
+    "death": null,
+    "properties": [
+      "SPD",
+      "Linke",
+      "BSW",
+      "WASG",
+      "Parteivorsitzender (SPD)",
+      "Parteivorsitzender (Linke)"
+    ]
+  },
+  {
+    "name": "Franz Müntefering",
+    "img": null,
+    "birth": 1940,
+    "death": null,
+    "properties": ["SPD", "Parteivorsitzender (SPD)"]
+  },
+  {
+    "name": "Matthias Platzeck",
+    "img": null,
+    "birth": 1953,
+    "death": null,
+    "properties": ["SPD", "Parteivorsitzender (SPD)"]
+  },
+  {
+    "name": "Kurt Beck",
+    "img": null,
+    "birth": 1949,
+    "death": null,
+    "properties": ["SPD", "Parteivorsitzender (SPD)"]
+  },
+  {
+    "name": "Sigmar Gabriel",
+    "img": null,
+    "birth": 1959,
+    "death": null,
+    "properties": [
+      "SPD",
+      "Parteivorsitzender (SPD)",
+      "Oldenburger Grünkohlkönig"
+    ]
+  },
+  {
+    "name": "Martin Schulz",
+    "img": null,
+    "birth": 1955,
+    "death": null,
+    "properties": ["SPD", "Parteivorsitzender (SPD)"]
+  },
+  {
+    "name": "Andrea Nahles",
+    "img": null,
+    "birth": 1970,
+    "death": null,
+    "properties": [
+      "SPD",
+      "Parteivorsitzender (SPD)",
+      "Oldenburger Grünkohlkönig",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Manuela Schwesig",
+    "img": null,
+    "birth": 1974,
+    "death": null,
+    "properties": ["SPD", "Parteivorsitzender (SPD)", "Frau"]
+  },
+  {
+    "name": "Thorsten Schäfer-Gümbel",
+    "img": null,
+    "birth": 1969,
+    "death": null,
+    "properties": ["SPD", "Parteivorsitzender (SPD)"]
+  },
+  {
+    "name": "Malu Dreyer",
+    "img": null,
+    "birth": 1961,
+    "death": null,
+    "properties": ["SPD", "Parteivorsitzender (SPD)", "Frau"]
+  },
+  {
+    "name": "Norbert Walter-Borjans",
+    "img": null,
+    "birth": 1952,
+    "death": null,
+    "properties": ["SPD", "Parteivorsitzender (SPD)"]
+  },
+  {
+    "name": "Lars Klingbeil",
+    "img": null,
+    "birth": 1978,
+    "death": null,
+    "properties": ["SPD", "Parteivorsitzender (SPD)"]
+  },
+  {
+    "name": "Saskia Esken",
+    "img": null,
+    "birth": 1961,
+    "death": null,
+    "properties": ["SPD", "Parteivorsitzender (SPD)", "Frau"]
+  },
+  {
+    "name": "Bärbel Bas",
+    "img": null,
+    "birth": 1968,
+    "death": null,
+    "properties": [
+      "SPD",
+      "Parteivorsitzender (SPD)",
+      "Bundestagspräsident",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Lothar Bisky",
+    "img": null,
+    "birth": 1941,
+    "death": 2013,
+    "properties": [
+      "SED",
+      "PDS",
+      "Linke",
+      "Parteivorsitzender (Linke)",
+      "Parteivorsitzender (PDS)"
+    ]
+  },
+  {
+    "name": "Klaus Ernst",
+    "img": null,
+    "birth": 1954,
+    "death": null,
+    "properties": [
+      "BSW",
+      "WASG",
+      "Linke",
+      "PDS",
+      "Parteivorsitzender (Linke)",
+      "Parteivorsitzender (WASG)"
+    ]
+  },
+  {
+    "name": "Gesine Lötzsch",
+    "img": null,
+    "birth": 1961,
+    "death": null,
+    "properties": ["SED", "PDS", "Linke", "Parteivorsitzender (Linke)", "Frau"]
+  },
+  {
+    "name": "Katja Kipping",
+    "img": null,
+    "birth": 1978,
+    "death": null,
+    "properties": ["PDS", "Linke", "Parteivorsitzender (Linke)", "Frau"]
+  },
+  {
+    "name": "Bernd Riexinger",
+    "img": null,
+    "birth": 1955,
+    "death": null,
+    "properties": ["WASG", "Linke", "Parteivorsitzender (Linke)"]
+  },
+  {
+    "name": "Susanne Hennig-Wellsow",
+    "img": null,
+    "birth": 1977,
+    "death": null,
+    "properties": ["PDS", "Linke", "Parteivorsitzender (Linke)", "Frau"]
+  },
+  {
+    "name": "Janine Wissler",
+    "img": null,
+    "birth": 1981,
+    "death": null,
+    "properties": ["WASG", "Linke", "Parteivorsitzender (Linke)", "Frau"]
+  },
+  {
+    "name": "Martin Schirdewan",
+    "img": null,
+    "birth": 1975,
+    "death": null,
+    "properties": ["Linke", "Parteivorsitzender (Linke)"]
+  },
+  {
+    "name": "Jan van Aken",
+    "img": null,
+    "birth": 1961,
+    "death": null,
+    "properties": ["Linke", "Parteivorsitzender (Linke)"]
+  },
+  {
+    "name": "Ines Schwerdtner",
+    "img": null,
+    "birth": 1989,
+    "death": null,
+    "properties": ["Linke", "Parteivorsitzender (Linke)", "Frau"]
+  },
+  {
+    "name": "Luigi Pantisano",
+    "img": null,
+    "birth": 1979,
+    "death": null,
+    "properties": ["Linke", "Parteivorsitzender (Linke)"]
+  },
+  {
+    "name": "Thomas Händel",
+    "img": null,
+    "birth": 1979,
+    "death": null,
+    "properties": ["Linke", "WASG", "SPD", "Parteivorsitzender (WASG)"]
+  },
+  {
+    "name": "Axel Troost",
+    "img": null,
+    "birth": 1954,
+    "death": 2023,
+    "properties": ["Linke", "WASG", "SPD", "DKP", "Parteivorsitzender (WASG)"]
+  },
+  {
+    "name": "Sabine Lösing",
+    "img": null,
+    "birth": 1955,
+    "death": null,
+    "properties": ["Linke", "WASG", "Parteivorsitzender (WASG)", "Frau"]
+  },
+  {
+    "name": "Felicitas Weck",
+    "img": null,
+    "birth": 1954,
+    "death": null,
+    "properties": [
+      "Linke",
+      "WASG",
+      "B'90/Grüne",
+      "Parteivorsitzender (WASG)",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Christine Buchholz",
+    "img": null,
+    "birth": 1971,
+    "death": null,
+    "properties": ["Linke", "WASG", "SPD", "Parteivorsitzender (WASG)", "Frau"]
+  },
+  {
+    "name": "Gabi Zimmer",
+    "img": null,
+    "birth": 1971,
+    "death": null,
+    "properties": ["Linke", "PDS", "SED", "Parteivorsitzender (PDS)", "Frau"]
+  },
+  {
+    "name": "Gregor Gysi",
+    "img": null,
+    "birth": 1948,
+    "death": null,
+    "properties": [
+      "Linke",
+      "PDS",
+      "SED",
+      "Parteivorsitzender (PDS)",
+      "Alterspräsident des Bundestags"
+    ]
+  },
+  {
+    "name": "Sarah Wagenknecht",
+    "img": null,
+    "birth": 1969,
+    "death": null,
+    "properties": [
+      "Linke",
+      "PDS",
+      "SED",
+      "BSW",
+      "Parteivorsitzender (BSW)",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Fabio De Masi",
+    "img": null,
+    "birth": 1980,
+    "death": null,
+    "properties": ["Linke", "BSW", "Parteivorsitzender (BSW)"]
+  },
+  {
+    "name": "Amira Mohamed Ali",
+    "img": null,
+    "birth": 1980,
+    "death": null,
+    "properties": ["Linke", "BSW", "Parteivorsitzender (BSW)", "Frau"]
+  },
+  {
+    "name": "Martin Sonneborn",
+    "img": null,
+    "birth": 1965,
+    "death": null,
+    "properties": ["PARTEI", "Parteivorsitzender (PARTEI)"]
+  },
+  {
+    "name": "Nico Semsrott",
+    "img": null,
+    "birth": 1986,
+    "death": null,
+    "properties": ["PARTEI", "parteilos"]
+  },
+  {
+    "name": "Oliver Maria Schmitt",
+    "img": null,
+    "birth": 1966,
+    "death": null,
+    "properties": ["PARTEI", "Ehrenvorsitzender (PARTEI)"]
+  },
+  {
+    "name": "Bernd Lucke",
+    "img": null,
+    "birth": 1962,
+    "death": null,
+    "properties": ["AfD", "Wir Bürger", "CDU", "Parteivorsitzender (AfD)"]
+  },
+  {
+    "name": "Jörg Meuthen",
+    "img": null,
+    "birth": 1961,
+    "death": null,
+    "properties": ["AfD", "Werteunion", "Zentrum", "Parteivorsitzender (AfD)"]
+  },
+  {
+    "name": "Alice Weidel",
+    "img": null,
+    "birth": 1979,
+    "death": null,
+    "properties": ["AfD", "Parteivorsitzender (AfD)", "Frau"]
+  },
+  {
+    "name": "Frauke Petry",
+    "img": null,
+    "birth": 1975,
+    "death": null,
+    "properties": [
+      "parteilos",
+      "Die Blauen",
+      "AfD",
+      "Parteivorsitzender (AfD)",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Alexander Gauland",
+    "img": null,
+    "birth": 1941,
+    "death": null,
+    "properties": ["AfD", "CDU", "Parteivorsitzender (AfD)"]
+  },
+  {
+    "name": "Tino Chrupalla",
+    "img": null,
+    "birth": 1975,
+    "death": null,
+    "properties": ["AfD", "Parteivorsitzender (AfD)"]
+  },
+  {
+    "name": "Konrad Adam",
+    "img": null,
+    "birth": 1942,
+    "death": null,
+    "properties": ["AfD", "CDU", "Parteivorsitzender (AfD)"]
+  },
+  {
+    "name": "Friedrich Thielen",
+    "img": null,
+    "birth": 1916,
+    "death": 1993,
+    "properties": ["CDU", "DP", "GDP", "NPD", "Parteivorsitzender (NPD)"]
+  },
+  {
+    "name": "Wilhelm Gutmann",
+    "img": null,
+    "birth": 1900,
+    "death": 1976,
+    "properties": ["NSDAP", "BHE", "GDP", "NPD", "Parteivorsitzender (NPD)"]
+  },
+  {
+    "name": "Adolf von Thadden",
+    "img": null,
+    "birth": 1921,
+    "death": 1996,
+    "properties": ["NSDAP", "DKP-DRP", "DRP", "NPD", "Parteivorsitzender (NPD)"]
+  },
+  {
+    "name": "Martin Mußgnug",
+    "img": null,
+    "birth": 1936,
+    "death": 1997,
+    "properties": ["DRP", "NPD", "DLVH", "Parteivorsitzender (NPD)"]
+  },
+  {
+    "name": "Walter Bachmann",
+    "img": null,
+    "birth": 1923,
+    "death": 2002,
+    "properties": [
+      "NSDAP",
+      "NPD",
+      "DRP",
+      "Parteivorsitzender (NPD)",
+      "Ehrenvorsitzender (NPD)"
+    ]
+  },
+  {
+    "name": "Günter Deckert",
+    "img": null,
+    "birth": 1940,
+    "death": 2022,
+    "properties": ["NPD", "Parteivorsitzender (NPD)"]
+  },
+  {
+    "name": "Udo Voigt",
+    "img": null,
+    "birth": 1940,
+    "death": 2022,
+    "properties": ["NPD", "Die Heimat", "Parteivorsitzender (NPD)"]
+  },
+  {
+    "name": "Holger Apfel",
+    "img": null,
+    "birth": 1970,
+    "death": null,
+    "properties": ["NPD", "Parteivorsitzender (NPD)"]
+  },
+  {
+    "name": "Udo Pastörs",
+    "img": null,
+    "birth": 1952,
+    "death": null,
+    "properties": ["NPD", "Die Heimat", "Parteivorsitzender (NPD)"]
+  },
+  {
+    "name": "Frank Franz",
+    "img": null,
+    "birth": 1978,
+    "death": null,
+    "properties": [
+      "NPD",
+      "Die Heimat",
+      "Parteivorsitzender (NPD)",
+      "Parteivorsitzender (Die Heimat)"
+    ]
+  },
+  {
+    "name": "Peter Schreiber",
+    "img": null,
+    "birth": 1973,
+    "death": null,
+    "properties": ["NPD", "Die Heimat", "Parteivorsitzender (Die Heimat)"]
+  },
+  {
+    "name": "Herbert Schneider",
+    "img": null,
+    "birth": 1915,
+    "death": 1995,
+    "properties": ["CDU", "DP", "Parteivorsitzender (DP)"]
+  },
+  {
+    "name": "Wilhelm Freiherr von Cramm",
+    "img": null,
+    "birth": 1917,
+    "death": 1996,
+    "properties": ["DP", "Parteivorsitzender (DP)"]
+  },
+  {
+    "name": "Adolf Meyer-Ravenstein",
+    "img": null,
+    "birth": 1920,
+    "death": 2006,
+    "properties": ["DP", "Parteivorsitzender (DP)"]
+  },
+  {
+    "name": "Erich Mende",
+    "img": null,
+    "birth": 1916,
+    "death": 1998,
+    "properties": [
+      "FDP",
+      "CDU",
+      "Minister für gesamtdeutsche Fragen (Bund)",
+      "Vizekanzler",
+      "Kabinett Erhard I",
+      "Kabinett Erhard II",
+      "Oldenburger Grünkohlkönig"
+    ]
+  },
+  {
+    "name": "Karl Weber",
+    "img": null,
+    "birth": 1898,
+    "death": 1985,
+    "properties": ["CDU", "Justizminister (Bund)", "Kabinett Erhard I"]
+  },
+  {
+    "name": "Kurt Schmücker",
+    "img": null,
+    "birth": 1919,
+    "death": 1996,
+    "properties": [
+      "CDU",
+      "NSDAP",
+      "Wirtschaftsminister (Bund)",
+      "Finanzminister (Bund)",
+      "Kabinett Erhard I",
+      "Kabinett Erhard II",
+      "Kabinett Kiesinger"
+    ]
+  },
+  {
+    "name": "Hans Krüger",
+    "img": null,
+    "birth": 1902,
+    "death": 1971,
+    "properties": [
+      "CDU",
+      "NSDAP",
+      "Vertriebenenminister (Bund)",
+      "Kabinett Erhard I"
+    ]
+  },
+  {
+    "name": "Ludger Westrick",
+    "img": null,
+    "birth": 1894,
+    "death": 1990,
+    "properties": [
+      "CDU",
+      "NSDAP",
+      "Minister für besondere Aufgaben (Bund)",
+      "Chef des Bundeskanzleramts",
+      "Kabinett Erhard I"
+    ]
+  },
+  {
+    "name": "Richard Jaeger",
+    "img": null,
+    "birth": 1913,
+    "death": 1998,
+    "properties": ["CSU", "Justizminister (Bund)", "Kabinett Erhard II"]
+  },
+  {
+    "name": "Hans Katzer",
+    "img": null,
+    "birth": 1919,
+    "death": 1996,
+    "properties": [
+      "CDU",
+      "Arbeitsminister (Bund)",
+      "Kabinett Erhard II",
+      "Kabinett Kiesinger"
+    ]
+  },
+  {
+    "name": "Hans Katzer",
+    "img": null,
+    "birth": 1919,
+    "death": 1996,
+    "properties": ["CSU", "Arbeitsminister (Bund)", "Kabinett Erhard II"]
+  },
+  {
+    "name": "Johann Baptist Gradl",
+    "img": null,
+    "birth": 1904,
+    "death": 1988,
+    "properties": [
+      "CSU",
+      "Zentrum",
+      "Vertriebenenminister (Bund)",
+      "Minister für gesamtdeutsche Fragen (Bund)",
+      "Kabinett Erhard II"
+    ]
+  },
+  {
+    "name": "Gerhard Stoltenberg",
+    "img": null,
+    "birth": 1928,
+    "death": 2001,
+    "properties": [
+      "CSU",
+      "Bildungsminister (Bund)",
+      "Kabinett Erhard II",
+      "Kabinett Kiesinger"
+    ]
+  },
+  {
+    "name": "Ernst Benda",
+    "img": null,
+    "birth": 1925,
+    "death": 2009,
+    "properties": [
+      "CDU",
+      "Innenminister (Bund)",
+      "Kabinett Kiesinger",
+      "Oldenburger Grünkohlkönig"
+    ]
+  },
+  {
+    "name": "Horst Ehmke",
+    "img": null,
+    "birth": 1927,
+    "death": 2017,
+    "properties": [
+      "NSDAP",
+      "SPD",
+      "Innenminister (Bund)",
+      "Minister für besondere Aufgaben (Bund)",
+      "Postminister (Bund)",
+      "Forschungsminister (Bund)",
+      "Chef des Bundeskanzleramts",
+      "Kabinett Kiesinger",
+      "Kabinett Brandt I",
+      "Kabinett Brandt I"
+    ]
+  },
+  {
+    "name": "Georg Leber",
+    "img": null,
+    "birth": 1920,
+    "death": 2012,
+    "properties": [
+      "NSDAP",
+      "SPD",
+      "Verkehrsminister (Bund)",
+      "Verteidigungsminister (Bund)",
+      "Postminister (Bund)",
+      "Kabinett Kiesinger",
+      "Kabinett Brandt I",
+      "Kabinett Brandt II",
+      "Kabinett Schmidt I",
+      "Kabinett Schmidt II",
+      "Oldenburger Grünkohlkönig"
+    ]
+  },
+  {
+    "name": "Lauritz Lauritzen",
+    "img": null,
+    "birth": 1910,
+    "death": 1980,
+    "properties": [
+      "SPD",
+      "Bauminister (Bund)",
+      "Postminister (Bund)",
+      "Verkehrsminister (Bund)",
+      "Kabinett Kiesinger",
+      "Kabinett Brandt I",
+      "Kabinett Brandt II",
+      "Oldenburger Grünkohlkönig"
+    ]
+  },
+  {
+    "name": "Heinrich Windelen",
+    "img": null,
+    "birth": 1921,
+    "death": 2015,
+    "properties": ["CDU", "Vertriebenenminister (Bund)", "Kabinett Kiesinger"]
+  },
+  {
+    "name": "Herbert Wehner",
+    "img": null,
+    "birth": 1906,
+    "death": 1990,
+    "properties": [
+      "SPD",
+      "KPD",
+      "Minister für gesamtdeutsche Fragen (Bund)",
+      "Kabinett Kiesinger",
+      "Alterspräsident des Bundestags"
+    ]
+  },
+  {
+    "name": "Aenne Brauksiepe",
+    "img": null,
+    "birth": 1912,
+    "death": 1997,
+    "properties": [
+      "CDU",
+      "Familienminister (Bund)",
+      "Kabinett Kiesinger",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Käte Strobel",
+    "img": null,
+    "birth": 1907,
+    "death": 1996,
+    "properties": [
+      "SPD",
+      "Gesundheitsminister (Bund)",
+      "Familienminister (Bund)",
+      "Kabinett Kiesinger",
+      "Kabinett Brandt I",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Hans-Jürgen Wischnewski",
+    "img": null,
+    "birth": 1922,
+    "death": 2005,
+    "properties": [
+      "SPD",
+      "Entwicklungshilfeminister (Bund)",
+      "Kabinett Kiesinger"
+    ]
+  },
+  {
+    "name": "Erhard Eppler",
+    "img": null,
+    "birth": 1926,
+    "death": 2019,
+    "properties": [
+      "SPD",
+      "GVP",
+      "Entwicklungshilfeminister (Bund)",
+      "Kabinett Kiesinger",
+      "Kabinett Brandt I",
+      "Kabinett Brandt II",
+      "Kabinett Schmidt I"
+    ]
+  },
+  {
+    "name": "Hans-Dietrich Genscher",
+    "img": null,
+    "birth": 1927,
+    "death": 2016,
+    "properties": [
+      "FDP",
+      "Vizekanzler",
+      "Innenminister (Bund)",
+      "Aussenminister (Bund)",
+      "Kabinett Brandt I",
+      "Kabinett Brandt II",
+      "Kabinett Schmidt I",
+      "Kabinett Schmidt II",
+      "Kabinett Schmidt III",
+      "Oldenburger Grünkohlkönig"
+    ]
+  },
+  {
+    "name": "Hans-Dietrich Genscher",
+    "img": null,
+    "birth": 1927,
+    "death": 2016,
+    "properties": [
+      "NSDAP",
+      "FDP",
+      "Innenminister (Bund)",
+      "Kabinett Brandt I",
+      "Oldenburger Grünkohlkönig"
+    ]
+  },
+  {
+    "name": "Gerhard Jahn",
+    "img": null,
+    "birth": 1927,
+    "death": 1998,
+    "properties": [
+      "SPD",
+      "Justizminister (Bund)",
+      "Kabinett Brandt I",
+      "Kabinett Brandt II"
+    ]
+  },
+  {
+    "name": "Alex Möller",
+    "img": null,
+    "birth": 1903,
+    "death": 1985,
+    "properties": ["SPD", "Finanzminister (Bund)", "Kabinett Brandt I"]
+  },
+  {
+    "name": "Karl Schiller",
+    "img": null,
+    "birth": 1911,
+    "death": 1994,
+    "properties": [
+      "SPD",
+      "NSDAP",
+      "Finanzminister (Bund)",
+      "Wirtschaftsminister (Bund)",
+      "Kabinett Brandt I"
+    ]
+  },
+  {
+    "name": "Josef Ertl",
+    "img": null,
+    "birth": 1925,
+    "death": 2000,
+    "properties": [
+      "FDP",
+      "NSDAP",
+      "Landwirtschaftsminister (Bund)",
+      "Kabinett Brandt I",
+      "Kabinett Brandt II",
+      "Kabinett Schmidt I",
+      "Kabinett Schmidt II",
+      "Kabinett Schmidt III"
+    ]
+  },
+  {
+    "name": "Walter Arendt",
+    "img": null,
+    "birth": 1925,
+    "death": 2005,
+    "properties": [
+      "FDP",
+      "Arbeitsminister (Bund)",
+      "Kabinett Brandt I",
+      "Kabinett Brandt II",
+      "Kabinett Schmidt I",
+      "Oldenburger Grünkohlkönig"
+    ]
+  },
+  {
+    "name": "Egon Franke",
+    "img": null,
+    "birth": 1913,
+    "death": 1995,
+    "properties": [
+      "SPD",
+      "Minister für gesamtdeutsche Fragen (Bund)",
+      "Vizekanzler",
+      "Kabinett Brandt I",
+      "Kabinett Brandt II",
+      "Kabinett Schmidt I",
+      "Kabinett Schmidt II",
+      "Kabinett Schmidt III"
+    ]
+  },
+  {
+    "name": "Hans Leussink",
+    "img": null,
+    "birth": 1912,
+    "death": 2008,
+    "properties": [
+      "parteilos",
+      "NSDAP",
+      "Bildungsminister (Bund)",
+      "Kabinett Brandt I"
+    ]
+  },
+  {
+    "name": "Klaus von Dohnanyi",
+    "img": null,
+    "birth": 1928,
+    "death": null,
+    "properties": [
+      "parteilos",
+      "NSDAP",
+      "Bildungsminister (Bund)",
+      "Kabinett Brandt I",
+      "Kabinett Brandt II"
+    ]
+  },
+  {
+    "name": "Hans Friderichs",
+    "img": null,
+    "birth": 1931,
+    "death": 2025,
+    "properties": [
+      "FDP",
+      "Wirtschaftsminister (Bund)",
+      "Kabinett Brandt II",
+      "Kabinett Schmidt I",
+      "Kabinett Schmidt II"
+    ]
+  },
+  {
+    "name": "Katharina Focke",
+    "img": null,
+    "birth": 1922,
+    "death": 2016,
+    "properties": [
+      "SPD",
+      "Familienminister (Bund)",
+      "Kabinett Brandt II",
+      "Kabinett Schmidt I",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Egon Bahr",
+    "img": null,
+    "birth": 1922,
+    "death": 2015,
+    "properties": [
+      "SPD",
+      "Minister für besondere Aufgaben (Bund)",
+      "Entwicklungshilfeminister (Bund)",
+      "Kabinett Brandt II",
+      "Kabinett Schmidt I"
+    ]
+  },
+  {
+    "name": "Werner Maihofer",
+    "img": null,
+    "birth": 1918,
+    "death": 2009,
+    "properties": [
+      "FDP",
+      "Minister für besondere Aufgaben (Bund)",
+      "Innenminister (Bund)",
+      "Kabinett Brandt II",
+      "Kabinett Schmidt I",
+      "Kabinett Schmidt II"
+    ]
+  },
+  {
+    "name": "Otto Lenz",
+    "img": null,
+    "birth": 1918,
+    "death": 2009,
+    "properties": ["CDU", "Chef des Bundeskanzleramts"]
+  },
+  {
+    "name": "Hans Globke",
+    "img": null,
+    "birth": 1898,
+    "death": 1973,
+    "properties": ["Zentrum", "CDU", "Chef des Bundeskanzleramts"]
+  },
+  {
+    "name": "Werner Knieper",
+    "img": null,
+    "birth": 1909,
+    "death": 1977,
+    "properties": ["parteilos", "Chef des Bundeskanzleramts"]
+  },
+  {
+    "name": "Horst Grabert",
+    "img": null,
+    "birth": 1927,
+    "death": 2011,
+    "properties": ["SPD", "Chef des Bundeskanzleramts"]
+  },
+  {
+    "name": "Manfred Schüler",
+    "img": null,
+    "birth": 1932,
+    "death": 2025,
+    "properties": ["SPD", "Chef des Bundeskanzleramts"]
+  },
+  {
+    "name": "Manfred Lahnstein",
+    "img": null,
+    "birth": 1937,
+    "death": null,
+    "properties": [
+      "SPD",
+      "Finanzminister (Bund)",
+      "Chef des Bundeskanzleramts",
+      "Wirtschaftsminister (Bund)",
+      "Kabinett Schmidt III"
+    ]
+  },
+  {
+    "name": "Gerhard Konow",
+    "img": null,
+    "birth": 1929,
+    "death": 1997,
+    "properties": ["parteilos", "Chef des Bundeskanzleramts"]
+  },
+  {
+    "name": "Waldemar Schreckenberger",
+    "img": null,
+    "birth": 1929,
+    "death": 2017,
+    "properties": ["CDU", "Chef des Bundeskanzleramts"]
+  },
+  {
+    "name": "Anton Pfeiffer",
+    "img": null,
+    "birth": 1888,
+    "death": 1957,
+    "properties": ["BVP", "CSU", "Parlamentarischer Rat"]
+  },
+  {
+    "name": "Johannes Brockmann",
+    "img": null,
+    "birth": 1888,
+    "death": 1975,
+    "properties": [
+      "Zentrum",
+      "Parlamentarischer Rat",
+      "Parteivorsitzender (Zentrum)"
+    ]
+  },
+  {
+    "name": "Max Reimann",
+    "img": null,
+    "birth": 1898,
+    "death": 1977,
+    "properties": [
+      "KPD",
+      "DKP",
+      "Parlamentarischer Rat",
+      "Parteivorsitzender (KPD)",
+      "Ehrenvorsitzender (DKP)"
+    ]
+  },
+  {
+    "name": "Hans Apel",
+    "img": null,
+    "birth": 1932,
+    "death": 2011,
+    "properties": [
+      "SPD",
+      "Finanzminister (Bund)",
+      "Verteidigungsminister (Bund)",
+      "Kabinett Schmidt I",
+      "Kabinett Schmidt II",
+      "Kabinett Schmidt III",
+      "Oldenburger Grünkohlkönig"
+    ]
+  },
+  {
+    "name": "Kurt Gscheidle",
+    "img": null,
+    "birth": 1924,
+    "death": 2003,
+    "properties": [
+      "SPD",
+      "Verkehrsminister (Bund)",
+      "Postminister (Bund)",
+      "Kabinett Schmidt I",
+      "Kabinett Schmidt II",
+      "Kabinett Schmidt III"
+    ]
+  },
+  {
+    "name": "Karl Ravens",
+    "img": null,
+    "birth": 1927,
+    "death": 2017,
+    "properties": [
+      "SPD",
+      "Bauminister (Bund)",
+      "Kabinett Schmidt I",
+      "Kabinett Schmidt II"
+    ]
+  },
+  {
+    "name": "Hans Matthöfer",
+    "img": null,
+    "birth": 1925,
+    "death": 2009,
+    "properties": [
+      "SPD",
+      "Forschungsminister (Bund)",
+      "Finanzminister (Bund)",
+      "Postminister (Bund)",
+      "Kabinett Schmidt I",
+      "Kabinett Schmidt II",
+      "Kabinett Schmidt III",
+      "Oldenburger Grünkohlkönig"
+    ]
+  },
+  {
+    "name": "Helmut Rohde",
+    "img": null,
+    "birth": 1925,
+    "death": 2009,
+    "properties": [
+      "SPD",
+      "Bildungsminister (Bund)",
+      "Kabinett Schmidt I",
+      "Kabinett Schmidt II"
+    ]
+  },
+  {
+    "name": "Gerhart Baum",
+    "img": null,
+    "birth": 1932,
+    "death": 2025,
+    "properties": [
+      "FDP",
+      "Innenminister (Bund)",
+      "Kabinett Schmidt II",
+      "Kabinett Schmidt III",
+      "Oldenburger Grünkohlkönig"
+    ]
+  },
+  {
+    "name": "Otto Graf Lambsdorff",
+    "img": null,
+    "birth": 1926,
+    "death": 2009,
+    "properties": [
+      "FDP",
+      "Wirtschaftsminister (Bund)",
+      "Kabinett Schmidt II",
+      "Kabinett Schmidt III"
+    ]
+  },
+  {
+    "name": "Herbert Ehrenberg",
+    "img": null,
+    "birth": 1926,
+    "death": 2018,
+    "properties": [
+      "SPD",
+      "Arbeitsminister (Bund)",
+      "Kabinett Schmidt II",
+      "Kabinett Schmidt III"
+    ]
+  },
+  {
+    "name": "Antje Huber",
+    "img": null,
+    "birth": 1924,
+    "death": 2015,
+    "properties": [
+      "SPD",
+      "Familienminister (Bund)",
+      "Kabinett Schmidt II",
+      "Kabinett Schmidt III",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Dieter Haack",
+    "img": null,
+    "birth": 1934,
+    "death": null,
+    "properties": [
+      "SPD",
+      "Bauminister (Bund)",
+      "Kabinett Schmidt II",
+      "Kabinett Schmidt III"
+    ]
+  },
+  {
+    "name": "Volker Hauff",
+    "img": null,
+    "birth": 1940,
+    "death": null,
+    "properties": [
+      "SPD",
+      "Forschungsminister (Bund)",
+      "Kabinett Schmidt II",
+      "Kabinett Schmidt III"
+    ]
+  },
+  {
+    "name": "Jürgen Schmude",
+    "img": null,
+    "birth": 1936,
+    "death": 1925,
+    "properties": [
+      "SPD",
+      "Bildungsminister (Bund)",
+      "Innenminister (Bund)",
+      "Justizminister (Bund)",
+      "Kabinett Schmidt II",
+      "Kabinett Schmidt III"
+    ]
+  },
+  {
+    "name": "Marie Schlei",
+    "img": null,
+    "birth": 1919,
+    "death": 1983,
+    "properties": [
+      "SPD",
+      "Entwicklungshilfeminister (Bund)",
+      "Kabinett Schmidt II"
+    ]
+  },
+  {
+    "name": "Rainer Offergeld",
+    "img": null,
+    "birth": 1937,
+    "death": null,
+    "properties": [
+      "SPD",
+      "Entwicklungshilfeminister (Bund)",
+      "Kabinett Schmidt II",
+      "Kabinett Schmidt III"
+    ]
+  },
+  {
+    "name": "Heinz Westphal",
+    "img": null,
+    "birth": 1924,
+    "death": 1998,
+    "properties": ["SPD", "Arbeitsminister (Bund)", "Kabinett Schmidt III"]
+  },
+  {
+    "name": "Anke Fuchs",
+    "img": null,
+    "birth": 1937,
+    "death": 2019,
+    "properties": ["SPD", "Familienminister (Bund)", "Kabinett Schmidt III"]
+  },
+  {
+    "name": "Andreas von Bülow",
+    "img": null,
+    "birth": 1937,
+    "death": null,
+    "properties": ["SPD", "Forschungsminister (Bund)", "Kabinett Schmidt III"]
+  },
+  {
+    "name": "Erich Köhler",
+    "img": null,
+    "birth": 1892,
+    "death": 1958,
+    "properties": ["CDU", "DVP", "Bundestagspräsident"]
+  },
+  {
+    "name": "Hermann Ehlers",
+    "img": null,
+    "birth": 1904,
+    "death": 1954,
+    "properties": ["CDU", "Bundestagspräsident", "Im Amt verstorben"]
+  },
+  {
+    "name": "Eugen Gerstenmaier",
+    "img": null,
+    "birth": 1906,
+    "death": 1986,
+    "properties": [
+      "CDU",
+      "Bundestagspräsident",
+      "Kreisauer Kreis",
+      "Oldenburger Grünkohlkönig"
+    ]
+  },
+  {
+    "name": "Philipp Jenninger",
+    "img": null,
+    "birth": 1932,
+    "death": 2018,
+    "properties": ["CDU", "Bundestagspräsident"]
+  },
+  {
+    "name": "Rita Süssmuth",
+    "img": null,
+    "birth": 1937,
+    "death": 2026,
+    "properties": ["CDU", "Bundestagspräsident", "Frau"]
+  },
+  {
+    "name": "Wolfgang Thierse",
+    "img": null,
+    "birth": 1943,
+    "death": null,
+    "properties": ["SPD", "Bundestagspräsident"]
+  },
+  {
+    "name": "Norbert Lammert",
+    "img": null,
+    "birth": 1948,
+    "death": null,
+    "properties": ["CDU", "Bundestagspräsident"]
+  },
+  {
+    "name": "Julia Klöckner",
+    "img": null,
+    "birth": 1972,
+    "death": null,
+    "properties": ["CDU", "Bundestagspräsident", "Frau"]
+  },
+  {
+    "name": "Paul Löbe",
+    "img": null,
+    "birth": 1875,
+    "death": 1967,
+    "properties": ["SPD", "Alterspräsident des Bundestags"]
+  },
+  {
+    "name": "Robert Pferdmenges",
+    "img": null,
+    "birth": 1880,
+    "death": 1962,
+    "properties": ["CDU", "Alterspräsident des Bundestags"]
+  },
+  {
+    "name": "William Borm",
+    "img": null,
+    "birth": 1895,
+    "death": 1987,
+    "properties": ["FDP", "LD", "Alterspräsident des Bundestags"]
+  },
+  {
+    "name": "Stefan Heym",
+    "img": null,
+    "birth": 1913,
+    "death": 2001,
+    "properties": ["PDS", "Alterspräsident des Bundestags"]
+  },
+  {
+    "name": "Fred Gebhardt",
+    "img": null,
+    "birth": 1913,
+    "death": 2001,
+    "properties": ["SPD", "parteilos", "Alterspräsident des Bundestags"]
+  },
+  {
+    "name": "Otto Schily",
+    "img": null,
+    "birth": 1932,
+    "death": null,
+    "properties": [
+      "SPD",
+      "B'90/Grüne",
+      "Alterspräsident des Bundestags",
+      "Oldenburger Grünkohlkönig"
+    ]
+  },
+  {
+    "name": "Heinz Riesenhuber",
+    "img": null,
+    "birth": 1935,
+    "death": null,
+    "properties": ["CDU", "Alterspräsident des Bundestags"]
+  },
+  {
+    "name": "Hermann Otto Solms",
+    "img": null,
+    "birth": 1940,
+    "death": null,
+    "properties": ["FDP", "Alterspräsident des Bundestags"]
+  }
+]
