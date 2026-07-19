@@ -13,7 +13,7 @@
     "color": "#141414",
     "more": "Politiker*innen die zu irgendeime Zeitpunkt Mitglied der CDU waren",
     "img": null,
-    "condition": "return x.properties.includes('CDU')"
+    "condition": "return x.properties.includes('CDU') || x.properties.includes('Ost-CDU') "
   },
   {
     "id": "02",
@@ -84,7 +84,7 @@
   },
   {
     "id": "11",
-    "name": "Bundespräsidentenkandidat",
+    "name": "Kandidat für die Bundespräsidentschaft",
     "more": "Politiker*innen die in der Bundesversammlung Stimmen erhalten haben. Auch erfolgreiche Kandidaten zählen.",
     "img": null,
     "condition": "return x.properties.includes('Bundespräsident') || x.properties.includes('Bundespräsidentenkandidat')"
@@ -383,7 +383,7 @@
   {
     "id": "52",
     "name": "Entwicklungshilfeminister",
-    "more": "Politiker*innen die einmal das Amt des Entwicklungshilfeministers innehatten. Auch eine kommissarische übernahme des Amts zählt.",
+    "more": "Politiker*innen die einmal das Amt des Ministers für Wirtschaftliche Zusammenarbeit und Entwicklung innehatten. Auch eine kommissarische übernahme des Amts zählt.",
     "img": null,
     "condition": "return x.properties.includes('Entwicklungshilfeminister (Bund)')"
   },
@@ -515,7 +515,7 @@
     "color": "#141414",
     "more": "Politiker*innen die zu irgendeime Zeitpunkt Mitglied der CDU oder CSU waren",
     "img": null,
-    "condition": "return x.properties.includes('CSU') || x.properties.includes('CDU')"
+    "condition": "return x.properties.includes('CSU') || x.properties.includes('CDU') || x.properties.includes('Ost-CDU') "
   },
   {
     "id": "70",
@@ -531,5 +531,12 @@
     "more": "Politiker*innen die einmal das Amt des Umweltministers innehatten. Auch eine kommissarische übernahme des Amts zählt.",
     "img": null,
     "condition": "return x.properties.includes('Umweltminister (Bund)')"
+  },
+  {
+    "id": "72",
+    "name": "Bundestagspräsident",
+    "more": "Politiker*innen die zu irgendeime Zeitpunkt das Amt des Bundestagspräsidenten inne hatten.",
+    "img": null,
+    "condition": "return x.properties.includes('Bundestagspräsident')"
   }
 ]

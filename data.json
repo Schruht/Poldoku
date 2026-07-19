@@ -104,7 +104,8 @@
       "Ehrenvorsitzender (CDU)",
       "Kabinett Kohl I",
       "Kabinett Kohl II",
-      "Kabinett Kohl III"
+      "Kabinett Kohl III",
+      "Kabinett Kohl IV"
     ]
   },
   {
@@ -130,6 +131,8 @@
       "Bundeskanzler",
       "Oldenburger Grünkohlkönig",
       "Parteivorsitzender (CDU)",
+      "Familienminister (Bund)",
+      "Kabinett Kohl IV",
       "Frau"
     ]
   },
@@ -798,6 +801,7 @@
     "properties": [
       "Zentrum",
       "CDU",
+      "Parteivorsitzender (Ost-CDU)",
       "Minister für gesamtdeutsche Fragen (Bund)",
       "Parlamentarischer Rat",
       "Kabinett Adenauer I",
@@ -1304,7 +1308,11 @@
       "Parteivorsitzender (CDU)",
       "Bundestagspräsident",
       "Chef des Bundeskanzleramts",
+      "Minister für besondere Aufgaben (Bund)",
+      "Innenminister (Bund)",
       "Kabinett Kohl II",
+      "Kabinett Kohl III",
+      "Kabinett Kohl IV",
       "Oldenburger Grünkohlkönig",
       "Alterspräsident des Bundestags"
     ]
@@ -1342,7 +1350,14 @@
     "img": null,
     "birth": 1939,
     "death": null,
-    "properties": ["CSU", "Parteivorsitzender (CSU)"]
+    "properties":
+      [
+        "CSU",
+        "Parteivorsitzender (CSU)",
+        "Finanzminister (Bund)",
+        "Kabinett Kohl III",
+        "Kabinett Adenauer IV"
+      ]
   },
   {
     "name": "Edmund Stoiber",
@@ -1363,7 +1378,7 @@
     "img": null,
     "birth": 1949,
     "death": null,
-    "properties": ["CSU", "Parteivorsitzender (CSU)"]
+    "properties": ["CSU", "Parteivorsitzender (CSU)", "Kabinett Kohl IV", "Gesundheitsminister (Bund)"]
   },
   {
     "name": "Markus Söder",
@@ -2013,10 +2028,13 @@
       "CSU",
       "Bildungsminister (Bund)",
       "Finanzminister (Bund)",
+      "Verteidigungsminister (Bund)",
       "Kabinett Erhard II",
       "Kabinett Kiesinger",
       "Kabinett Kohl I",
-      "Kabinett Kohl II"
+      "Kabinett Kohl II",
+      "Kabinett Kohl III",
+      "Kabinett Kohl IV"
     ]
   },
   {
@@ -2174,6 +2192,8 @@
       "Kabinett Schmidt III",
       "Kabinett Kohl I",
       "Kabinett Kohl II",
+      "Kabinett Kohl III",
+      "Kabinett Kohl IV",
       "Oldenburger Grünkohlkönig",
       "Parteivorsitzender (FDP)"
     ]
@@ -2670,7 +2690,7 @@
     "img": null,
     "birth": 1937,
     "death": 2026,
-    "properties": ["CDU", "Bundestagspräsident", "Frau", "Familienminister (Bund)", "Kabinett Kohl II"]
+    "properties": ["CDU", "Bundestagspräsident", "Frau", "Familienminister (Bund)", "Kabinett Kohl II", "Kabinett Kohl III"]
   },
   {
     "name": "Wolfgang Thierse",
@@ -2745,7 +2765,8 @@
     "img": null,
     "birth": 1935,
     "death": null,
-    "properties": ["CDU", "Forschungsminister (Bund)", "Kabinett Kohl I", "Kabinett Kohl II", "Alterspräsident des Bundestags"]
+    "properties": ["CDU", "Forschungsminister (Bund)", "Kabinett Kohl I", "Kabinett Kohl II", "Kabinett Kohl III",
+    "Kabinett Kohl IV", "Alterspräsident des Bundestags"]
   },
   {
     "name": "Hermann Otto Solms",
@@ -2773,7 +2794,8 @@
     "img": null,
     "birth": 1934,
     "death": 2022,
-    "properties": ["FDP", "Parteivorsitzender (FDP)", "Wirtschaftsminister (Bund)", "Kabinett Kohl II"]
+    "properties": ["FDP", "Parteivorsitzender (FDP)", "Wirtschaftsminister (Bund)", "Kabinett Kohl II",
+    "Kabinett Kohl III"]
   },
   {
     "name": "Klaus Kinkel",
@@ -2801,7 +2823,9 @@
     "img": null,
     "birth": 1961,
     "death": 2016,
-    "properties": ["FDP", "Parteivorsitzender (FDP)", "Oldenburger Grünkohlkönig"]
+    "properties": ["FDP", "Parteivorsitzender (FDP)",
+    "Aussenminister (Bund)", "Justizminister (Bund)", "Oldenburger Grünkohlkönig",
+    "Kabinett Kohl IV"]
   },
   {
     "name": "Philipp Rösler",
@@ -2934,28 +2958,43 @@
     "img": null,
     "birth": 1925,
     "death": 2012,
-    "properties": ["NSDAP", "CSU", "Innenminister (Bund)", "Kabinett Kohl I", "Kabinett Kohl II"]
+    "properties": [
+      "NSDAP",
+      "CSU",
+      "Innenminister (Bund)",
+      "Verkehrsminister (Bund)",
+      "Kabinett Kohl I",
+      "Kabinett Kohl II",
+      "Kabinett Kohl III"]
   },
   {
     "name": "Hans A. Engelhard",
     "img": null,
     "birth": 1934,
     "death": 2008,
-    "properties": ["FDP", "Justizminister (Bund)", "Kabinett Kohl I", "Kabinett Kohl II"]
+    "properties": ["FDP", "Justizminister (Bund)", "Kabinett Kohl I", "Kabinett Kohl II",
+    "Kabinett Kohl III"]
   },
   {
     "name": "Norbert Blüm",
     "img": null,
     "birth": 1935,
     "death": 2020,
-    "properties": ["CDU", "Arbeitsminister (Bund)", "Kabinett Kohl I", "Kabinett Kohl II", "Oldenburger Grünkohlkönig"]
+    "properties": [
+      "CDU",
+      "Arbeitsminister (Bund)",
+      "Kabinett Kohl I",
+      "Kabinett Kohl II",
+      "Kabinett Kohl III",
+      "Kabinett Kohl IV",
+      "Oldenburger Grünkohlkönig"]
   },
   {
     "name": "Manfred Wörner",
     "img": null,
     "birth": 1934,
     "death": 1994,
-    "properties": ["CDU", "Verteidigungsminister (Bund)", "Kabinett Kohl I", "Kabinett Kohl II"]
+    "properties": ["CDU", "Verteidigungsminister (Bund)", "Kabinett Kohl I", "Kabinett Kohl II", "Kabinett Kohl III"]
   },
   {
     "name": "Heiner Geißler",
@@ -2969,48 +3008,476 @@
     "img": null,
     "birth": 1930,
     "death": 2026,
-    "properties": ["CDU", "Postminister (Bund)", "Kabinett Kohl I", "Kabinett Kohl II"]
+    "properties": ["CDU", "Postminister (Bund)", "Kabinett Kohl I", "Kabinett Kohl II", "Kabinett Kohl III", "Kabinett Kohl IV"]
   },
   {
     "name": "Oscar Schneider",
     "img": null,
     "birth": 1927,
     "death": 2024,
-    "properties": ["CSU", "Bauminister (Bund)", "Kabinett Kohl I"]
+    "properties": ["CSU", "NSDAP", "Bauminister (Bund)", "Kabinett Kohl I", "Kabinett Kohl II", "Kabinett Kohl III"]
   },
   {
     "name": "Dorothee Wilms",
     "img": null,
     "birth": 1929,
     "death": null,
-    "properties": ["CDU", "Bildungsminister (Bund)", "Kabinett Kohl I", "Kabinett Kohl II"]
+    "properties": ["CDU", "Bildungsminister (Bund)", "Minister für gesamtdeutsche Fragen (Bund)", "Kabinett Kohl I", "Kabinett Kohl II", "Kabinett Kohl III"]
   },
   {
     "name": "Jürgen Warnke",
     "img": null,
     "birth": 1932,
     "death": 2013,
-    "properties": ["CSU", "Entwicklungshilfeminister (Bund)", "Kabinett Kohl I", "Kabinett Kohl II"]
+    "properties": ["CSU", "Entwicklungshilfeminister (Bund)", "Verkehrsminister (Bund)", "Kabinett Kohl I", "Kabinett Kohl II", "Kabinett Kohl III"]
   },
   {
     "name": "Ignaz Kiechle",
     "img": null,
     "birth": 1930,
     "death": 2003,
-    "properties": ["CSU", "Landwirtschaftsminister (Bund)", "Kabinett Kohl II"]
+    "properties": ["CSU", "Landwirtschaftsminister (Bund)", "Kabinett Kohl II", "Kabinett Kohl III", "Kabinett Kohl IV"]
   },
   {
     "name": "Walter Wallmann",
     "img": null,
     "birth": 1932,
     "death": 2013,
-    "properties": ["CDU", "Umweltminister (Bund)", "Kabinett Kohl II"]
+    "properties": ["CDU", "Umweltminister (Bund)", "Kabinett Kohl II",
+    "Kabinett Kohl III"]
   },
   {
-    "name": "Oscar Schneider",
+    "name": "Helmut Haussmann",
     "img": null,
-    "birth": 1927,
+    "birth": 1943,
+    "death": null,
+    "properties": ["FDP", "Wirtschaftsminister (Bund)", "Kabinett Kohl III"]
+  },
+  {
+    "name": "Rupert Scholz",
+    "img": null,
+    "birth": 1937,
+    "death": null,
+    "properties": ["CDU", "Verkehrsminister (Bund)", "Kabinett Kohl III"]
+  },
+  {
+    "name": "Ursula Lehr",
+    "img": null,
+    "birth": 1930,
+    "death": 2022,
+    "properties": ["CDU", "Familienminister (Bund)", "Kabinett Kohl III"]
+  },
+  {
+    "name": "Klaus Töpfer",
+    "img": null,
+    "birth": 1938,
     "death": 2024,
-    "properties": ["CSU", "NSDAP", "Bauminister (Bund)", "Kabinett Kohl II"]
+    "properties": ["CDU", "Umweltminister (Bund)",
+    "Kabinett Kohl III", "Kabinett Kohl IV"]
+  },
+  {
+    "name": "Gerda Hasselfeldt",
+    "img": null,
+    "birth": 1950,
+    "death": null,
+    "properties":
+      [
+        "CDU",
+        "Bauminister (Bund)",
+        "Gesundheitsminister (Bund)",
+        "Kabinett Kohl III",
+        "Kabinett Kohl IV"
+      ]
+  },
+  {
+    "name": "Jürgen W. Möllemann",
+    "img": null,
+    "birth": 1945,
+    "death": 2003,
+    "properties":
+      [
+        "CDU",
+        "FDP",
+        "Bildungsminister (Bund)",
+        "Wirtschaftsminister (Bund)",
+        "Vizekanzler",
+        "Kabinett Kohl III",
+        "Kabinett Kohl IV"
+      ]
+  },
+  {
+    "name": "Hans Klein",
+    "img": null,
+    "birth": 1931,
+    "death": 1996,
+    "properties":
+      [
+        "CSU",
+        "Entwicklungshilfeminister (Bund)",
+        "Kabinett Kohl III"
+      ]
+  },
+  {
+    "name": "Hans Klein",
+    "img": null,
+    "birth": 1931,
+    "death": 1996,
+    "properties":
+      [
+        "CSU",
+        "Entwicklungshilfeminister (Bund)",
+        "Minister für besondere Aufgaben (Bund)",
+        "Kabinett Kohl III"
+      ]
+  },
+  {
+    "name": "Rudolf Seiters",
+    "img": null,
+    "birth": 1937,
+    "death": null,
+    "properties":
+      [
+        "CDU",
+        "Minister für besondere Aufgaben (Bund)",
+        "Chef des Bundeskanzleramts",
+        "Innenminister (Bund)",
+        "Kabinett Kohl III",
+        "Kabinett Kohl IV"
+      ]
+  },
+  {
+    "name": "Sabine Bergmann-Pohl",
+    "img": null,
+    "birth": 1946,
+    "death": null,
+    "properties":
+      [
+        "CDU",
+        "Ost-CDU",
+        "Minister für besondere Aufgaben (Bund)",
+        "Kabinett Kohl III"
+      ]
+  },
+  {
+    "name": "Günther Krause",
+    "img": null,
+    "birth": 1953,
+    "death": null,
+    "properties":
+      [
+        "CDU",
+        "Ost-CDU",
+        "Minister für besondere Aufgaben (Bund)",
+        "Verkehrsminister (Bund)",
+        "Kabinett Kohl III"
+      ]
+  },
+  {
+    "name": "Lothar de Maizière",
+    "img": null,
+    "birth": 1940,
+    "death": null,
+    "properties":
+      [
+        "CDU",
+        "Ost-CDU",
+        "Parteivorsitzender (Ost-CDU)",
+        "Minister für besondere Aufgaben (Bund)",
+        "Kabinett Kohl III"
+      ]
+  },
+  {
+    "name": "Rainer Ortleb",
+    "img": null,
+    "birth": 1944,
+    "death": null,
+    "properties":
+      [
+        "FDP",
+        "LDPD",
+        "Bildungsminister (Bund)",
+        "Minister für besondere Aufgaben (Bund)",
+        "Kabinett Kohl III",
+        "Kabinett Kohl IV"
+      ]
+  },
+  {
+    "name": "Hansjoachim Walther",
+    "img": null,
+    "birth": 1939,
+    "death": 2005,
+    "properties":
+      [
+        "DSU",
+        "CDU",
+        "Parteivorsitzender (DSU)",
+        "Minister für besondere Aufgaben (Bund)",
+        "Kabinett Kohl III"
+      ]
+  },
+  {
+    "name": "Hans-Wilhelm Ebeling",
+    "img": null,
+    "birth": 1934,
+    "death": 2021,
+    "properties":
+      [
+        "DSU",
+        "CDU",
+        "Parteivorsitzender (DSU)"
+      ]
+  },
+  {
+    "name": "Joachim Hubertus Nowack",
+    "img": null,
+    "birth": 1935,
+    "death": null,
+    "properties":
+      [
+        "DSU",
+        "CDU",
+        "Parteivorsitzender (DSU)"
+      ]
+  },
+  {
+    "name": "Reinhard Keller",
+    "img": null,
+    "birth": 1935,
+    "death": null,
+    "properties":
+      [
+        "DSU",
+        "parteilos",
+        "Parteivorsitzender (DSU)"
+      ]
+  },
+  {
+    "name": "Roberto Rink",
+    "img": null,
+    "birth": 1935,
+    "death": null,
+    "properties":
+      [
+        "DSU",
+        "Parteivorsitzender (DSU)"
+      ]
+  },
+  {
+    "name": "Andreas Hermes",
+    "img": null,
+    "birth": 1878,
+    "death": 1964,
+    "properties":
+      [
+        "Ost-CDU",
+        "Zentrum",
+        "Parteivorsitzender (Ost-CDU)"
+      ]
+  },
+  {
+    "name": "Otto Nuschke",
+    "img": null,
+    "birth": 1883,
+    "death": 1957,
+    "properties":
+      [
+        "Ost-CDU",
+        "DDP",
+        "Parteivorsitzender (Ost-CDU)"
+      ]
+  },
+  {
+    "name": "August Bach",
+    "img": null,
+    "birth": 1897,
+    "death": 1966,
+    "properties":
+      [
+        "Ost-CDU",
+        "Parteivorsitzender (Ost-CDU)"
+      ]
+  },
+  {
+    "name": "Gerald Götting",
+    "img": null,
+    "birth": 1923,
+    "death": 2015,
+    "properties":
+      [
+        "Ost-CDU",
+        "Parteivorsitzender (Ost-CDU)"
+      ]
+  },
+  {
+    "name": "Wolfgang Heyl",
+    "img": null,
+    "birth": 1921,
+    "death": 2014,
+    "properties":
+      [
+        "Ost-CDU",
+        "NSDAP",
+        "Parteivorsitzender (Ost-CDU)"
+      ]
+  },
+  {
+    "name": "Manfred Kanther",
+    "img": null,
+    "birth": 1939,
+    "death": null,
+    "properties":
+      [
+        "CDU",
+        "Innenminister (Bund)",
+        "Kabinett Kohl IV"
+      ]
+  },
+  {
+    "name": "Sabine Leutheusser-Schnarrenberger",
+    "img": null,
+    "birth": 1951,
+    "death": null,
+    "properties":
+      [
+        "FDP",
+        "Justizminister (Bund)",
+        "Kabinett Kohl IV"
+      ]
+  },
+  {
+    "name": "Günter Rexrodt",
+    "img": null,
+    "birth": 1941,
+    "death": 2004,
+    "properties":
+      [
+        "FDP",
+        "Wirtschaftsminister (Bund)",
+        "Kabinett Kohl IV"
+      ]
+  },
+  {
+    "name": "Jochen Borchert",
+    "img": null,
+    "birth": 1940,
+    "death": null,
+    "properties":
+      [
+        "CDU",
+        "Landwirtschaftsminister (Bund)",
+        "Kabinett Kohl IV"
+      ]
+  },
+  {
+    "name": "Volker Rühe",
+    "img": null,
+    "birth": 1942,
+    "death": null,
+    "properties":
+      [
+        "CDU",
+        "Verteidigungsminister (Bund)",
+        "Kabinett Kohl IV"
+      ]
+  },
+  {
+    "name": "Hannelore Rönsch",
+    "img": null,
+    "birth": 1942,
+    "death": null,
+    "properties":
+      [
+        "CDU",
+        "Familienminister (Bund)",
+        "Kabinett Kohl IV"
+      ]
+  },
+  {
+    "name": "Matthias Wissmann",
+    "img": null,
+    "birth": 1949,
+    "death": null,
+    "properties":
+      [
+        "CDU",
+        "Forschungsminister (Bund)",
+        "Verkehrsminister (Bund)",
+        "Kabinett Kohl IV"
+      ]
+  },
+  {
+    "name": "Wolfgang Bötsch",
+    "img": null,
+    "birth": 1938,
+    "death": 2017,
+    "properties":
+      [
+        "CSU",
+        "Postminister (Bund)",
+        "Kabinett Kohl IV"
+      ]
+  },
+  {
+    "name": "Irmgard Schwaetzer",
+    "img": null,
+    "birth": 1942,
+    "death": null,
+    "properties":
+      [
+        "FDP",
+        "Bauminister (Bund)",
+        "Kabinett Kohl IV"
+      ]
+  },
+  {
+    "name": "Paul Krüger",
+    "img": null,
+    "birth": 1950,
+    "death": null,
+    "properties":
+      [
+        "CDU",
+        "Ost-CDU",
+        "Forschungsminister (Bund)",
+        "Kabinett Kohl IV"
+      ]
+  },
+  {
+    "name": "Karl-Hans Laermann",
+    "img": null,
+    "birth": 1929,
+    "death": 2024,
+    "properties":
+      [
+        "CDU",
+        "Ost-CDU",
+        "Bildungsminister (Bund)",
+        "Kabinett Kohl IV"
+      ]
+  },
+  {
+    "name": "Carl-Dieter Spranger",
+    "img": null,
+    "birth": 1929,
+    "death": 2024,
+    "properties":
+      [
+        "CSU",
+        "Entwicklungshilfeminister (Bund)",
+        "Kabinett Kohl IV"
+      ]
+  },
+  {
+    "name": "Friedrich Bohl",
+    "img": null,
+    "birth": 1945,
+    "death": null,
+    "properties":
+      [
+        "CDU",
+        "Minister für besondere Aufgaben (Bund)",
+        "Chef des Bundeskanzleramts",
+        "Kabinett Kohl IV"
+      ]
   }
 ]
