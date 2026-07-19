@@ -101,7 +101,8 @@
       "Bundeskanzler",
       "Oldenburger Grünkohlkönig",
       "Parteivorsitzender (CDU)",
-      "Ehrenvorsitzender (CDU)"
+      "Ehrenvorsitzender (CDU)",
+      "Kabinett Kohl I"
     ]
   },
   {
@@ -1238,6 +1239,7 @@
       "CDU",
       "Minister für gesamtdeutsche Fragen (Bund)",
       "Kabinett Adenauer IV",
+      "Kabinett Kohl I",
       "Parteivorsitzender (CDU)",
       "Bundestagspräsident"
     ]
@@ -1284,6 +1286,7 @@
       "Kabinett Erhard I",
       "Kabinett Erhard II",
       "Kabinett Kiesinger",
+      "Kabinett Kohl I",
       "Alterspräsident des Bundestags"
     ]
   },
@@ -2003,8 +2006,10 @@
     "properties": [
       "CSU",
       "Bildungsminister (Bund)",
+      "Finanzminister (Bund)",
       "Kabinett Erhard II",
-      "Kabinett Kiesinger"
+      "Kabinett Kiesinger",
+      "Kabinett Kohl I"
     ]
   },
   {
@@ -2159,6 +2164,7 @@
       "Kabinett Schmidt I",
       "Kabinett Schmidt II",
       "Kabinett Schmidt III",
+      "Kabinett Kohl I",
       "Oldenburger Grünkohlkönig",
       "Parteivorsitzender (FDP)"
     ]
@@ -2221,7 +2227,8 @@
       "Kabinett Brandt II",
       "Kabinett Schmidt I",
       "Kabinett Schmidt II",
-      "Kabinett Schmidt III"
+      "Kabinett Schmidt III",
+      "Kabinett Kohl I"
     ]
   },
   {
@@ -2517,6 +2524,7 @@
       "Wirtschaftsminister (Bund)",
       "Kabinett Schmidt II",
       "Kabinett Schmidt III",
+      "Kabinett Kohl I",
       "Parteivorsitzender (FDP)"
     ]
   },
@@ -2740,7 +2748,7 @@
     "img": null,
     "birth": 1935,
     "death": null,
-    "properties": ["CDU", "Alterspräsident des Bundestags"]
+    "properties": ["CDU", "Forschungsminister (Bund)", "Kabinett Kohl I", "Alterspräsident des Bundestags"]
   },
   {
     "name": "Hermann Otto Solms",
@@ -2894,7 +2902,7 @@
     "img": null,
     "birth": 1944,
     "death": null,
-    "properties": ["SPD", "EU-Kommissar"]
+    "properties": ["FDP", "SPD", "EU-Kommissar"]
   },
   {
     "name": "Michaele Schreyer",
@@ -2923,5 +2931,68 @@
     "birth": 1963,
     "death": null,
     "properties": ["CDU", "SPD"]
+  },
+  {
+    "name": "Friedrich Zimmermann",
+    "img": null,
+    "birth": 1925,
+    "death": 2012,
+    "properties": ["NSDAP", "CSU", "Innenminister (Bund)", "Kabinett Kohl I"]
+  },
+  {
+    "name": "Hans A. Engelhard",
+    "img": null,
+    "birth": 1934,
+    "death": 2008,
+    "properties": ["FDP", "Justizminister (Bund)", "Kabinett Kohl I"]
+  },
+  {
+    "name": "Norbert Blüm",
+    "img": null,
+    "birth": 1935,
+    "death": 2020,
+    "properties": ["CDU", "Arbeitsminister (Bund)", "Kabinett Kohl I", "Oldenburger Grünkohlkönig"]
+  },
+  {
+    "name": "Manfred Wörner",
+    "img": null,
+    "birth": 1934,
+    "death": 1994,
+    "properties": ["CDU", "Verteidigungsminister (Bund)", "Kabinett Kohl I"]
+  },
+  {
+    "name": "Heiner Geißler",
+    "img": null,
+    "birth": 1930,
+    "death": 2017,
+    "properties": ["CDU", "Familienminister (Bund)", "Kabinett Kohl I"]
+  },
+  {
+    "name": "Christian Schwarz-Schilling",
+    "img": null,
+    "birth": 1930,
+    "death": 2026,
+    "properties": ["CDU", "Postminister (Bund)", "Kabinett Kohl I"]
+  },
+  {
+    "name": "Oscar Schneider",
+    "img": null,
+    "birth": 1927,
+    "death": 2024,
+    "properties": ["CSU", "Bauminister (Bund)", "Kabinett Kohl I"]
+  },
+  {
+    "name": "Dorothee Wilms",
+    "img": null,
+    "birth": 1929,
+    "death": null,
+    "properties": ["CDU", "Bildungsminister (Bund)", "Kabinett Kohl I"]
+  },
+  {
+    "name": "Jürgen Warnke",
+    "img": null,
+    "birth": 1932,
+    "death": 2013,
+    "properties": ["CSU", "Entwicklungshilfeminister (Bund)", "Kabinett Kohl I"]
   }
 ]
