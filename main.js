@@ -35,16 +35,11 @@ for (let row of rows) {
   for (let col of cols) {
     const colFilter = new Function('x', col.condition)
     const rowFilter = new Function('x', row.condition)
-
-    console.log(`Col: ${col.name}, Row: ${row.name}, Filter: ${colFilter} && ${rowFilter}`)
-
     cells.push({
       correct: gameData.filter(x => colFilter(x) && rowFilter(x)).map(x => x.name)
     })
   }
 }
-
-console.log(cells)
 
 const PUZZLE = {
   colLabels: colLabes,
@@ -79,7 +74,7 @@ function buildGrid() {
     d.className = 'col-label';
     d.dataset.type = 'col';
     d.dataset.index = i;
-    d.innerHTML = `<span class="lbl-icon" style="background-image:url('img/${cols[i].id}.png')"></span><span>${l.text}</span>`;
+    d.innerHTML = `<img class="lbl-icon" src="img/${cols[i].id}.png"><span class="lbl-text">${l.text}</span>`;
     d.addEventListener('mouseenter', showLabelTooltip);
     d.addEventListener('mouseleave', hideLabelTooltip);
     d.addEventListener('mousemove', moveLabelTooltip);
@@ -93,7 +88,7 @@ function buildGrid() {
     rl.className = 'row-label';
     rl.dataset.type = 'row';
     rl.dataset.index = r;
-    rl.innerHTML = `<span class="lbl-icon" style="background-image:url('img/${rows[r].id}.png')"></span><span>${PUZZLE.rowLabels[r].text}</span>`;
+    rl.innerHTML = `<img class="lbl-icon" src="img/${rows[r].id}.png"><span class="lbl-text">${PUZZLE.rowLabels[r].text}</span>`;
     rl.addEventListener('mouseenter', showLabelTooltip);
     rl.addEventListener('mouseleave', hideLabelTooltip);
     rl.addEventListener('mousemove', moveLabelTooltip);
