@@ -1,0 +1,226 @@
+[
+  {
+    "id": "00",
+    "name": "SPD",
+    "more": "Politiker*innen die zu irgendeime Zeitpunkt Mitglied der SPD waren",
+    "img": null,
+    "condition": "x.properties.includes('SPD')"
+  },
+  {
+    "id": "01",
+    "name": "CDU",
+    "more": "Politiker*innen die zu irgendeime Zeitpunkt Mitglied der CDU waren",
+    "img": null,
+    "condition": "x.properties.includes('CDU')"
+  },
+  {
+    "id": "02",
+    "name": "FDP",
+    "more": "Politiker*innen die zu irgendeime Zeitpunkt Mitglied der FDP waren",
+    "img": null,
+    "condition": "x.properties.includes('FDP')"
+  },
+  {
+    "id": "03",
+    "name": "B'90/Grüne",
+    "more": "Politiker*innen die zu irgendeime Zeitpunkt Mitglied bei Bündnis 90/Die Grünen waren",
+    "img": null,
+    "condition": "x.properties.includes('B'90/Grüne')"
+  },
+  {
+    "id": "04",
+    "name": "Linke",
+    "more": "Politiker*innen die zu irgendeime Zeitpunkt Mitglied der Linkspartei waren",
+    "img": null,
+    "condition": "x.properties.includes('Linke')"
+  },
+  {
+    "id": "05",
+    "name": "AfD",
+    "more": "Politiker*innen die zu irgendeime Zeitpunkt Mitglied der AfD waren",
+    "img": null,
+    "condition": "x.properties.includes('AfD')"
+  },
+  {
+    "id": "06",
+    "name": "Geboren im 19. Jahrhundert",
+    "more": "Politiker*innen die zwischen 1800 und 1899 geboren wurden",
+    "img": null,
+    "condition": "x.birth < 1900"
+  },
+  {
+    "id": "07",
+    "name": "Geboren im 20. Jahrhundert",
+    "more": "Politiker*innen die zwischen 1900 und 1999 geboren wurden",
+    "img": null,
+    "condition": "x.birth > 1899 && x.birth < 2000"
+  },
+  {
+    "id": "08",
+    "name": "Geboren im 21. Jahrhundert",
+    "more": "Politiker*innen die im Jahr 2000 oder später geboren wurden",
+    "img": null,
+    "condition": "x.birth > 1999"
+  },
+  {
+    "id": "09",
+    "name": "Bundespräsident",
+    "more": "Politiker die das Amt des Bundespräsidenten bekleidet haben",
+    "img": null,
+    "condition": "x.properties.includes('Bundespräsident')"
+  },
+  {
+    "id": "10",
+    "name": "Bundeskanzler",
+    "more": "Politiker*innen die Bundeskanzler waren. Auch eine kommissarische übernahme des Amts zählt.",
+    "img": null,
+    "condition": "x.properties.includes('Bundeskanzler')"
+  },
+  {
+    "id": "11",
+    "name": "Bundespräsidentenkandidat",
+    "more": "Politiker*innen die in der Bundesversammlung Stimmen erhalten haben. Auch erfolgreiche Kandidaten zählen.",
+    "img": null,
+    "condition": "x.properties.includes('Bundespräsident') || x.properties.includes('Bundespräsidentenkandidat')"
+  },
+  {
+    "id": "12",
+    "name": "Vizekanzler",
+    "more": "Politiker*innen die Stellvertreter des Bundeskanzlers waren. Auch eine kommissarische übernahme des Amts zählt.",
+    "img": null,
+    "condition": "x.properties.includes('Vizekanzler')"
+  },
+  {
+    "id": "13",
+    "name": "Am Leben",
+    "more": "Politiker*innen die noch am leben sind.",
+    "img": null,
+    "condition": "x.death == null"
+  },
+  {
+    "id": "14",
+    "name": "Minister unter Adenauer",
+    "more": "Politiker*innen die einen Ministerposten in einem von Konrad Adenauers Kabinetten übernommen haben. Auch eine kommissarische übernahme eines Amts zählt.",
+    "img": null,
+    "condition": "x.properties.includes('Kabinett Adenauer I') || x.properties.includes('Kabinett Adenauer II') || x.properties.includes('Kabinett Adenauer III') || x.properties.includes('Kabinett Adenauer IV')"
+  },
+  {
+    "id": "15",
+    "name": "Minister unter Erhard",
+    "more": "Politiker*innen die einen Ministerposten in einem von Ludwig Erhards Kabinetten übernommen haben. Auch eine kommissarische übernahme eines Amts zählt.",
+    "img": null,
+    "condition": "x.properties.includes('Kabinett Erhard I') || x.properties.includes('Kabinett Erhard II')"
+  },
+  {
+    "id": "16",
+    "name": "Minister unter Kiesinger",
+    "more": "Politiker*innen die einen Ministerposten im Kabinett von Kurt Georg Kiesinger übernommen haben. Auch eine kommissarische übernahme eines Amts zählt.",
+    "img": null,
+    "condition": "x.properties.includes('Kabinett Kiesinger')"
+  },
+  {
+    "id": "17",
+    "name": "Minister unter Brandt",
+    "more": "Politiker*innen die einen Ministerposten in einem von Willy Brandts Kabinetten übernommen haben. Auch eine kommissarische übernahme eines Amts zählt.",
+    "img": null,
+    "condition": "x.properties.includes('Kabinett Brandt I') || x.properties.includes('Kabinett Brandt II')"
+  },
+  {
+    "id": "18",
+    "name": "Minister unter Schmidt",
+    "more": "Politiker*innen die einen Ministerposten in einem von Helmut Schmidts Kabinetten übernommen haben. Auch eine kommissarische übernahme eines Amts zählt.",
+    "img": null,
+    "condition": "x.properties.includes('Kabinett Schmidt I') || x.properties.includes('Kabinett Schmidt II') || x.properties.includes('Kabinett Schmidt III')"
+  },
+  {
+    "id": "19",
+    "name": "Minister unter Kohl",
+    "more": "Politiker*innen die einen Ministerposten in einem von Helmut Kohls Kabinetten übernommen haben. Auch eine kommissarische übernahme eines Amts zählt.",
+    "img": null,
+    "condition": "x.properties.includes('Kabinett Kohl I') || x.properties.includes('Kabinett Kohl II') || x.properties.includes('Kabinett Kohl III') || x.properties.includes('Kabinett Kohl IV') || x.properties.includes('Kabinett Kohl V')"
+  },
+  {
+    "id": "20",
+    "name": "Minister unter Schröder",
+    "more": "Politiker*innen die einen Ministerposten in einem von Gerhard Schröder Kabinetten übernommen haben. Auch eine kommissarische übernahme eines Amts zählt.",
+    "img": null,
+    "condition": "x.properties.includes('Kabinett Schröder I') || x.properties.includes('Kabinett Schröder II')"
+  },
+  {
+    "id": "21",
+    "name": "Minister unter Merkel",
+    "more": "Politiker*innen die einen Ministerposten in einem von Angela Merkel Kabinetten übernommen haben. Auch eine kommissarische übernahme eines Amts zählt.",
+    "img": null,
+    "condition": "x.properties.includes('Kabinett Merkel I') || x.properties.includes('Kabinett Merkel II') || x.properties.includes('Kabinett Merkel III') || x.properties.includes('Kabinett Merkel IV')"
+  },
+  {
+    "id": "22",
+    "name": "Minister unter Scholz",
+    "more": "Politiker*innen die einen Ministerposten im Kabinett von Olaf Scholz übernommen haben. Auch eine kommissarische übernahme eines Amts zählt.",
+    "img": null,
+    "condition": "x.properties.includes('Kabinett Scholz')"
+  },
+  {
+    "id": "23",
+    "name": "Minister unter Merz",
+    "more": "Politiker*innen die einen Ministerposten im Kabinett von Friedrich Merz übernommen haben. Auch eine kommissarische übernahme eines Amts zählt.",
+    "img": null,
+    "condition": "x.properties.includes('Kabinett Merz')"
+  },
+  {
+    "id": "24",
+    "name": "Verstorben im 21. Jahrhundert",
+    "more": "Politiker*innen die im Jahr 2000 oder später gestorben sind",
+    "img": null,
+    "condition": "x.death > 1999"
+  },
+  {
+    "id": "25",
+    "name": "Verstorben im 20. Jahrhundert",
+    "more": "Politiker*innen die im Jahr 2000 oder später gestorben sind",
+    "img": null,
+    "condition": "x.death > 1899 && x.death < 2000 "
+  },
+  {
+    "id": "26",
+    "name": "Mindestens 90 geworden",
+    "more": "Politiker*innen die 90 Jahre oder älter geworden sind. Auch lebende Politiker die mindestens 90 sind zählen.",
+    "img": null,
+    "condition": "(x.death - x.birth) > 89 || (x.death == null && new Date().getFullYear() - x.birth > 89)"
+  },
+  {
+    "id": "27",
+    "name": "Mindestens 80 geworden",
+    "more": "Politiker*innen die 80 Jahre oder älter geworden sind. Auch lebende Politiker die mindetens 80 sind zählen.",
+    "img": null,
+    "condition": "(x.death - x.birth) > 79 || (x.death == null && new Date().getFullYear() - x.birth > 79)"
+  },
+  {
+    "id": "28",
+    "name": "Nur 50 geworden",
+    "more": "Politiker*innen die nur 50 Jahre oder älter geworden sind",
+    "img": null,
+    "condition": "(x.death - x.birth) < 51"
+  },
+  {
+    "id": "29",
+    "name": "Frau",
+    "more": "Politikerinnen.",
+    "img": null,
+    "condition": "x.properties.includes('Frau')"
+  },
+  {
+    "id": "30",
+    "name": "NSDAP",
+    "more": "Politiker*innen die zu irgendeime Zeitpunkt Mitglied der NSDAP waren.",
+    "img": null,
+    "condition": "x.properties.includes('NSDAP')"
+  },
+  {
+    "id": "31",
+    "name": "Oldenbürger Grünkohlkönig",
+    "more": "Politiker*innen die zum Oldenburger Grünkohlkönig gewählt wurden.",
+    "img": null,
+    "condition": "x.properties.includes('Oldenburger Grünkohlkönig')"
+  }
+]
