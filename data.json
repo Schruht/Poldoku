@@ -2802,14 +2802,8 @@
     "img": null,
     "birth": 1936,
     "death": 2019,
-    "properties": ["FDP", "Parteivorsitzender (FDP)"]
-  },
-  {
-    "name": "Klaus Kinkel",
-    "img": null,
-    "birth": 1936,
-    "death": 2019,
-    "properties": ["FDP", "Parteivorsitzender (FDP)", "Oldenburger Grünkohlkönig"]
+    "properties": ["FDP", "Parteivorsitzender (FDP)", "Oldenburger Grünkohlkönig", "Aussenminister (Bund)", "Justizminister (Bund)",
+    "Kabinett Kohl IV"]
   },
   {
     "name": "Wolfgang Gerhardt",
@@ -2819,13 +2813,11 @@
     "properties": ["FDP", "Parteivorsitzender (FDP)"]
   },
   {
-    "name": "Klaus Kinkel",
+    "name": "Guido Westerwelle",
     "img": null,
     "birth": 1961,
     "death": 2016,
-    "properties": ["FDP", "Parteivorsitzender (FDP)",
-    "Aussenminister (Bund)", "Justizminister (Bund)", "Oldenburger Grünkohlkönig",
-    "Kabinett Kohl IV"]
+    "properties": ["FDP", "Parteivorsitzender (FDP)"]
   },
   {
     "name": "Philipp Rösler",
