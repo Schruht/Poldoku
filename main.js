@@ -17,7 +17,7 @@ let categories = await getData("./conditions.json")
 
 const allOptions = gameData.map(x => x.name).sort((a, b) => a.localeCompare(b))
 
-const puzzleString = "022436171127"
+const puzzleString = "005316010937"
 const conditions = puzzleString.split(/(..)/g).filter(s => s).map(s => categories.find(x => x.id == s))
 
 const cols = conditions.slice(0, 3)
@@ -231,7 +231,7 @@ function openModal(r, c) {
 
 function filterAndDisplayOptions(correctAnswers, input, optsContainer, r, c) {
   optsContainer.innerHTML = '';
-  
+
   if (!input) return;
 
   // Filter answers that contain the input text
