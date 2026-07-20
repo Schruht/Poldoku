@@ -538,5 +538,33 @@
     "more": "Politiker*innen die zu irgendeime Zeitpunkt das Amt des Bundestagspräsidenten inne hatten.",
     "img": null,
     "condition": "return x.properties.includes('Bundestagspräsident')"
+  },
+  {
+    "id": "73",
+    "name": "Vorname eines Kanzlers",
+    "more": "Politiker*innen die ihren Vornamen mit einem Bundeskanzler teilen. Es zählen nicht die Vornamen kommissarischer Bundeskanzler.",
+    "img": null,
+    "condition": "return x.name.startsWith('Konrad ') || x.name.startsWith('Ludwig ') ||  x.name.startsWith('Kurt ') ||  x.name.startsWith('Georg ') ||  x.name.startsWith('Helmut ') ||  x.name.startsWith('Hebert ') ||  x.name.startsWith('Willy ') ||  x.name.startsWith('Angela ') ||  x.name.startsWith('Gerhard ') ||  x.name.startsWith('Olaf ')||  x.name.startsWith('Friedrich ')"
+  },
+  {
+    "id": "74",
+    "name": "Nachname eines Bundestrainers",
+    "more": "Politiker*innen die den selben Nachnamen haben, wie einer der Bundestrainer der deutschen Fussballnationalmanschaft der Männer.",
+    "img": null,
+    "condition": "return x.name.endsWith(' Klopp') ||x.name.endsWith(' Nagelsmann') || x.name.endsWith(' Völler') || x.name.endsWith(' Flick') || x.name.endsWith(' Löw') || x.name.endsWith(' Klinsmann') || x.name.endsWith(' Ribbeck') || x.name.endsWith(' Vogts') || x.name.endsWith(' Beckenbauer') || x.name.endsWith(' Derwall') || x.name.endsWith(' Schön') || x.name.endsWith(' Herberger') || x.name.endsWith(' Nerz')"
+  },
+  {
+    "id": "75",
+    "name": "Unterlegener Kandidat für die Bundespräsidentschaft",
+    "more": "Politiker*innen die in der Bundesversammlung Stimmen erhalten haben, aber bei dieser Wahl nicht Bundespräsident wurden. Kandidaten die hingegen bei einer späteren Wahl Präsident wurden sind erlaubt.",
+    "img": "Bundespräsident.png",
+    "condition": "return x.properties.includes('Bundespräsidentenkandidat')"
+  },
+  {
+    "id": "76",
+    "name": "Kulturstaatsminister",
+    "more": "Politiker*innen die das seit 1999 existierende Amt des Beauftragten der Bundesregierung für Kultur und Medien übernommen haben.",
+    "img": "Bundesregierung.png",
+    "condition": "return x.properties.includes('Kulturstaatsminister')"
   }
 ]
