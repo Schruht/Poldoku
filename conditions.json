@@ -580,5 +580,26 @@
     "more": "Politikerinnen die der Frauen-Union innerhalb der CDU bzw. dem Bundesfrauenausschuss (1951-1958) Vorsaßen.",
     "img": "Bundesregierung.png",
     "condition": "return x.properties.includes('Vorsitzende Frauen-Union')"
+  },
+  {
+    "id": "78",
+    "name": "Finanz- minister",
+    "more": "Politiker*innen die einmal das Amt des Finanzministers innehatten. Auch eine kommissarische übernahme des Amts zählt.",
+    "img": null,
+    "condition": "return x.properties.includes('Finanzminister (Bund)')"
+  },
+  {
+    "id": "79",
+    "name": "Generalsekretär",
+    "more": "Politiker*innen die einmal Generalsekretär einer Partei waren",
+    "img": null,
+    "condition": "return x.properties.some(element => element.startsWith('Generalsekretär'))"
+  },
+  {
+    "id": "80",
+    "name": "Umlaut",
+    "more": "Politiker*innen deren name ein ä, ö oder ü enthalten.",
+    "img": null,
+    "condition": "return x.name.includes('ä') || x.name.includes('Ä') || x.name.includes('ö') || x.name.includes('Ö') || x.name.includes('ü') || x.name.includes('Ü')"
   }
 ]
