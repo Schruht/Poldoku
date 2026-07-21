@@ -36,7 +36,7 @@
     "color": "#07521c",
     "more": "Politiker*innen die zu irgendeime Zeitpunkt Mitglied bei Bündnis 90/Die Grünen waren",
     "img": null,
-    "condition": "return x.properties.includes('B90/Grüne')"
+    "condition": "return x.properties.includes('B90/Die Grünen')"
   },
   {
     "id": "04",
