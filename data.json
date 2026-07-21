@@ -118,7 +118,9 @@
       "SPD",
       "Bundeskanzler",
       "Parteivorsitzender (SPD)",
-      "Oldenburger Grünkohlkönig"
+      "Oldenburger Grünkohlkönig",
+      "Kabinett Schröder I",
+      "Kabinett Schröder II"
     ]
   },
   {
@@ -136,6 +138,10 @@
       "Umweltminister (Bund)",
       "Kabinett Kohl IV",
       "Kabinett Kohl V",
+      "Kabinett Merkel I",
+      "Kabinett Merkel II",
+      "Kabinett Merkel III",
+      "Kabinett Merkel IV",
       "Frau"
     ]
   },
@@ -144,14 +150,28 @@
     "img": null,
     "birth": 1958,
     "death": null,
-    "properties": ["SPD", "Bundeskanzler", "Parteivorsitzender (SPD)"]
+    "properties": [
+      "SPD",
+      "Bundeskanzler",
+      "Parteivorsitzender (SPD)",
+      "Arbeitsminister (Bund)",
+      "Vizekanzler",
+      "Kabinett Merkel I",
+      "Kabinett Merkel IV",
+      "Kabinett Scholz"
+    ]
   },
   {
     "name": "Friedrich Merz",
     "img": null,
     "birth": 1955,
     "death": null,
-    "properties": ["CDU", "Bundeskanzler", "Parteivorsitzender (CDU)"]
+    "properties": [
+      "CDU",
+      "Bundeskanzler",
+      "Parteivorsitzender (CDU)",
+      "Kabinett Merz"
+    ]
   },
   {
     "name": "Theodor Heuss",
@@ -292,7 +312,11 @@
       "Bundespräsident",
       "Parteivorsitzender (SPD)",
       "Oldenburger Grünkohlkönig",
-      "Chef des Bundeskanzleramts"
+      "Chef des Bundeskanzleramts",
+      "Kabinett Merkel I",
+      "Kabinett Merkel III",
+      "Vizekanzler",
+      "Aussenminister (Bund)"
     ]
   },
   {
@@ -599,7 +623,13 @@
     "img": null,
     "birth": 1881,
     "death": 1962,
-    "properties": ["CDU", "Zentrum", "Parlamentarischer Rat", "Frau"]
+    "properties": [
+      "CDU",
+      "Zentrum",
+      "Parlamentarischer Rat",
+      "Frau",
+      "Vorsitzende Frauen-Union"
+    ]
   },
   {
     "name": "Friederike Nadig",
@@ -1300,9 +1330,13 @@
       "Chef des Bundeskanzleramts",
       "Minister für besondere Aufgaben (Bund)",
       "Innenminister (Bund)",
+      "Finanzminister (Bund)",
       "Kabinett Kohl II",
       "Kabinett Kohl III",
       "Kabinett Kohl IV",
+      "Kabinett Merkel I",
+      "Kabinett Merkel II",
+      "Kabinett Merkel III",
       "Oldenburger Grünkohlkönig",
       "Alterspräsident des Bundestags"
     ]
@@ -1312,7 +1346,13 @@
     "img": null,
     "birth": 1962,
     "death": null,
-    "properties": ["CDU", "Parteivorsitzender (CDU)", "Frau"]
+    "properties": [
+      "CDU",
+      "Parteivorsitzender (CDU)",
+      "Verteidigungsminister (Bund)",
+      "Kabinett Merkel IV",
+      "Frau"
+    ]
   },
   {
     "name": "Armin Laschet",
@@ -1373,7 +1413,12 @@
       "Parteivorsitzender (CSU)",
       "Kabinett Kohl IV",
       "Kabinett Kohl V",
-      "Gesundheitsminister (Bund)"
+      "Kabinett Merkel I",
+      "Kabinett Merkel IV",
+      "Innenminister (Bund)",
+      "Bauminister (Bund)",
+      "Gesundheitsminister (Bund)",
+      "Landwirtschaftsminister (Bund)"
     ]
   },
   {
@@ -1434,7 +1479,9 @@
     "properties": [
       "SPD",
       "Parteivorsitzender (SPD)",
-      "Oldenburger Grünkohlkönig"
+      "Oldenburger Grünkohlkönig",
+      "Kabinett Schröder I",
+      "Verteidigungsminister (Bund)"
     ]
   },
   {
@@ -1448,7 +1495,9 @@
       "BSW",
       "WASG",
       "Parteivorsitzender (SPD)",
-      "Parteivorsitzender (Linke)"
+      "Parteivorsitzender (Linke)",
+      "Kabinett Schröder I",
+      "Finanzminister (Bund)"
     ]
   },
   {
@@ -1456,7 +1505,16 @@
     "img": null,
     "birth": 1940,
     "death": null,
-    "properties": ["SPD", "Parteivorsitzender (SPD)"]
+    "properties": [
+      "SPD",
+      "Parteivorsitzender (SPD)",
+      "Vizekanzler",
+      "Kabinett Schröder I",
+      "Kabinett Merkel I",
+      "Bauminister (Bund)",
+      "Verkehrsminister (Bund)",
+      "Arbeitsminister (Bund)"
+    ]
   },
   {
     "name": "Matthias Platzeck",
@@ -1480,6 +1538,12 @@
     "properties": [
       "SPD",
       "Parteivorsitzender (SPD)",
+      "Umweltminister (Bund)",
+      "Vizekanzler",
+      "Kabinett Merkel I",
+      "Kabinett Merkel III",
+      "Aussenminister (Bund)",
+      "Wirtschaftsminister (Bund)",
       "Oldenburger Grünkohlkönig"
     ]
   },
@@ -1499,6 +1563,8 @@
       "SPD",
       "Parteivorsitzender (SPD)",
       "Oldenburger Grünkohlkönig",
+      "Arbeitsminister (Bund)",
+      "Kabinett Merkel III",
       "Frau"
     ]
   },
@@ -1507,7 +1573,13 @@
     "img": null,
     "birth": 1974,
     "death": null,
-    "properties": ["SPD", "Parteivorsitzender (SPD)", "Frau"]
+    "properties": [
+      "SPD",
+      "Parteivorsitzender (SPD)",
+      "Frau",
+      "Kabinett Merkel III",
+      "Familienminister (Bund)"
+    ]
   },
   {
     "name": "Thorsten Schäfer-Gümbel",
@@ -1535,7 +1607,13 @@
     "img": null,
     "birth": 1978,
     "death": null,
-    "properties": ["SPD", "Parteivorsitzender (SPD)"]
+    "properties": [
+      "SPD",
+      "Parteivorsitzender (SPD)",
+      "Kabinett Merz",
+      "Vizekanzler",
+      "Finanzminister (Bund)"
+    ]
   },
   {
     "name": "Saskia Esken",
@@ -1553,6 +1631,8 @@
       "SPD",
       "Parteivorsitzender (SPD)",
       "Bundestagspräsident",
+      "Arbeitsminister (Bund)",
+      "Kabinett Merz",
       "Frau"
     ]
   },
@@ -2133,6 +2213,7 @@
       "CDU",
       "Familienminister (Bund)",
       "Kabinett Kiesinger",
+      "Vorsitzende Frauen-Union",
       "Frau"
     ]
   },
@@ -2704,7 +2785,8 @@
       "Frau",
       "Familienminister (Bund)",
       "Kabinett Kohl II",
-      "Kabinett Kohl III"
+      "Kabinett Kohl III",
+      "Vorsitzende Frauen-Union"
     ]
   },
   {
@@ -2726,7 +2808,12 @@
     "img": null,
     "birth": 1972,
     "death": null,
-    "properties": ["CDU", "Bundestagspräsident", "Frau"]
+    "properties": [
+      "CDU",
+      "Bundestagspräsident",
+      "Frau",
+      "Landwirtschaftsminister (Bund)"
+    ]
   },
   {
     "name": "Paul Löbe",
@@ -2770,8 +2857,11 @@
     "death": null,
     "properties": [
       "SPD",
-      "B90/Die Grünen",
+      "Die Grünen",
+      "Innenminister (Bund)",
       "Alterspräsident des Bundestags",
+      "Kabinett Schröder I",
+      "Kabinett Schröder II",
       "Oldenburger Grünkohlkönig"
     ]
   },
@@ -2844,7 +2934,13 @@
     "img": null,
     "birth": 1961,
     "death": 2016,
-    "properties": ["FDP", "Parteivorsitzender (FDP)"]
+    "properties": [
+      "FDP",
+      "Parteivorsitzender (FDP)",
+      "Vizekanzler",
+      "Aussenminister (Bund)",
+      "Kabinett Merkel II"
+    ]
   },
   {
     "name": "Philipp Rösler",
@@ -2854,7 +2950,11 @@
     "properties": [
       "FDP",
       "Parteivorsitzender (FDP)",
-      "Oldenburger Grünkohlkönig"
+      "Oldenburger Grünkohlkönig",
+      "Vizekanzler",
+      "Wirtschaftsminister (Bund)",
+      "Gesundheitsminister (Bund)",
+      "Kabinett Merkel II"
     ]
   },
   {
@@ -2865,6 +2965,8 @@
     "properties": [
       "FDP",
       "Parteivorsitzender (FDP)",
+      "Kabinett Scholz",
+      "Finanzminister (Bund)",
       "Oldenburger Grünkohlkönig"
     ]
   },
@@ -2971,14 +3073,30 @@
     "img": null,
     "birth": 1958,
     "death": null,
-    "properties": ["CDU", "EU-Kommissar", "Frau"]
+    "properties": [
+      "CDU",
+      "EU-Kommissar",
+      "Frau",
+      "Kabinett Merkel I",
+      "Kabinett Merkel II",
+      "Kabinett Merkel III",
+      "Kabinett Merkel IV",
+      "Familienminister (Bund)",
+      "Arbeitsminister (Bund)",
+      "Verteidigungsminister (Bund)"
+    ]
   },
   {
     "name": "Karl Lauterbach",
     "img": null,
     "birth": 1963,
     "death": null,
-    "properties": ["CDU", "SPD"]
+    "properties": [
+      "CDU",
+      "SPD",
+      "Kabinett Scholz",
+      "Gesundheitsminister (Bund)"
+    ]
   },
   {
     "name": "Friedrich Zimmermann",
@@ -3377,6 +3495,7 @@
       "Justizminister (Bund)",
       "Kabinett Kohl IV",
       "Kabinett Kohl V",
+      "Kabinett Merkel II",
       "Frau"
     ]
   },
@@ -3589,5 +3708,927 @@
     "birth": 1964,
     "death": null,
     "properties": ["parteilos", "Kulturstaatsminister"]
+  },
+  {
+    "name": "Joschka Fischer",
+    "img": null,
+    "birth": 1948,
+    "death": null,
+    "properties": [
+      "B90/Die Grünen",
+      "Die Grünen",
+      "Vizekanzler",
+      "Aussenminister (Bund)",
+      "Kabinett Schröder I",
+      "Kabinett Schröder II"
+    ]
+  },
+  {
+    "name": "Herta Däubler-Gmelin",
+    "img": null,
+    "birth": 1943,
+    "death": null,
+    "properties": ["SPD", "Justizminister (Bund)", "Kabinett Schröder I"]
+  },
+  {
+    "name": "Hans Eichel",
+    "img": null,
+    "birth": 1941,
+    "death": null,
+    "properties": [
+      "SPD",
+      "Finanzminister (Bund)",
+      "Kabinett Schröder I",
+      "Kabinett Schröder II"
+    ]
+  },
+  {
+    "name": "Werner Müller",
+    "img": null,
+    "birth": 1946,
+    "death": 2019,
+    "properties": [
+      "parteilos",
+      "Wirtschaftsminister (Bund)",
+      "Kabinett Schröder I"
+    ]
+  },
+  {
+    "name": "Heinz Funke",
+    "img": null,
+    "birth": 1946,
+    "death": null,
+    "properties": [
+      "SPD",
+      "Landwirtschaftsminister (Bund)",
+      "Kabinett Schröder I"
+    ]
+  },
+  {
+    "name": "Renate Künast",
+    "img": null,
+    "birth": 1955,
+    "death": null,
+    "properties": [
+      "B90/Die Grünen",
+      "AL",
+      "Landwirtschaftsminister (Bund)",
+      "Kabinett Schröder I",
+      "Kabinett Schröder II",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Walter Riester",
+    "img": null,
+    "birth": 1943,
+    "death": null,
+    "properties": ["SPD", "Arbeitsminister (Bund)", "Kabinett Schröder I"]
+  },
+  {
+    "name": "Peter Struck",
+    "img": null,
+    "birth": 1943,
+    "death": 2012,
+    "properties": [
+      "SPD",
+      "Verteidigungsminister (Bund)",
+      "Kabinett Schröder I",
+      "Kabinett Schröder II"
+    ]
+  },
+  {
+    "name": "Christine Bergmann",
+    "img": null,
+    "birth": 1939,
+    "death": null,
+    "properties": [
+      "SPD",
+      "Familienminister (Bund)",
+      "Kabinett Schröder I",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Andrea Fischer",
+    "img": null,
+    "birth": 1960,
+    "death": null,
+    "properties": [
+      "Die Grünen",
+      "B90/Die Grünen",
+      "Gesundheitsminister (Bund)",
+      "Kabinett Schröder I",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Ulla Schmidt",
+    "img": null,
+    "birth": 1949,
+    "death": null,
+    "properties": [
+      "SPD",
+      "Gesundheitsminister (Bund)",
+      "Kabinett Schröder I",
+      "Kabinett Schröder II",
+      "Kabinett Merkel I",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Reinhard Klimmt",
+    "img": null,
+    "birth": 1942,
+    "death": null,
+    "properties": [
+      "SPD",
+      "Verkehrsminister (Bund)",
+      "Bauminister (Bund)",
+      "Kabinett Schröder I"
+    ]
+  },
+  {
+    "name": "Kurt Bodewig",
+    "img": null,
+    "birth": 1955,
+    "death": null,
+    "properties": [
+      "SPD",
+      "Verkehrsminister (Bund)",
+      "Bauminister (Bund)",
+      "Kabinett Schröder I"
+    ]
+  },
+  {
+    "name": "Jürgen Trittin",
+    "img": null,
+    "birth": 1954,
+    "death": null,
+    "properties": [
+      "Die Grünen",
+      "B90/Die Grünen",
+      "Umweltminister (Bund)",
+      "Landwirtschaftsminister (Bund)",
+      "Kabinett Schröder I",
+      "Kabinett Schröder II"
+    ]
+  },
+  {
+    "name": "Edelgard Bulmahn",
+    "img": null,
+    "birth": 1951,
+    "death": null,
+    "properties": [
+      "SPD",
+      "Bildungsminister (Bund)",
+      "Forschungsminister (Bund)",
+      "Kabinett Schröder I",
+      "Kabinett Schröder II",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Heidemarie Wieczorek-Zeul",
+    "img": null,
+    "birth": 1942,
+    "death": null,
+    "properties": [
+      "SPD",
+      "Entwicklungshilfeminister (Bund)",
+      "Kabinett Schröder I",
+      "Kabinett Schröder II",
+      "Kabinett Merkel I",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Bodo Hombach",
+    "img": null,
+    "birth": 1952,
+    "death": null,
+    "properties": [
+      "SPD",
+      "Minister für besondere Aufgaben (Bund)",
+      "Chef des Bundeskanzleramts",
+      "Kabinett Schröder I"
+    ]
+  },
+  {
+    "name": "Brigitte Zypries",
+    "img": null,
+    "birth": 1953,
+    "death": null,
+    "properties": [
+      "SPD",
+      "Justizminister (Bund)",
+      "Wirtschaftsminister (Bund)",
+      "Kabinett Schröder II",
+      "Kabinett Merkel I",
+      "Kabinett Merkel III",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Wolfgang Clement",
+    "img": null,
+    "birth": 1940,
+    "death": 2020,
+    "properties": [
+      "SPD",
+      "Wirtschaftsminister (Bund)",
+      "Arbeitsminister (Bund)",
+      "Kabinett Schröder II"
+    ]
+  },
+  {
+    "name": "Renate Schmidt",
+    "img": null,
+    "birth": 1943,
+    "death": null,
+    "properties": [
+      "SPD",
+      "Familienminister (Bund)",
+      "Kabinett Schröder II",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Manfred Stolpe",
+    "img": null,
+    "birth": 1936,
+    "death": 2019,
+    "properties": [
+      "SPD",
+      "Verkehrsminister (Bund)",
+      "Bauminister (Bund)",
+      "Kabinett Schröder II"
+    ]
+  },
+  {
+    "name": "Peer Steinbrück",
+    "img": null,
+    "birth": 1947,
+    "death": null,
+    "properties": ["SPD", "Finanzminister (Bund)", "Kabinett Merkel I"]
+  },
+  {
+    "name": "Michael Glos",
+    "img": null,
+    "birth": 1944,
+    "death": null,
+    "properties": ["CSU", "Wirtschaftsminister (Bund)", "Kabinett Merkel I"]
+  },
+  {
+    "name": "Karl-Theodor zu Guttenberg",
+    "img": null,
+    "birth": 1944,
+    "death": null,
+    "properties": [
+      "CSU",
+      "Wirtschaftsminister (Bund)",
+      "Kabinett Merkel I",
+      "Verteidigungsminister (Bund)"
+    ]
+  },
+  {
+    "name": "Ilse Aigner",
+    "img": null,
+    "birth": 1964,
+    "death": null,
+    "properties": [
+      "CSU",
+      "Landwirtschaftsminister (Bund)",
+      "Kabinett Merkel I",
+      "Kabinett Merkel II",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Franz Josef Jung",
+    "img": null,
+    "birth": 1949,
+    "death": null,
+    "properties": [
+      "CDU",
+      "Verteidigungsminister (Bund)",
+      "Arbeitsminister (Bund)",
+      "Kabinett Merkel I",
+      "Kabinett Merkel II"
+    ]
+  },
+  {
+    "name": "Wolfgang Tiefensee",
+    "img": null,
+    "birth": 1955,
+    "death": null,
+    "properties": [
+      "SPD",
+      "Bauminister (Bund)",
+      "Verkehrsminister (Bund)",
+      "Kabinett Merkel I"
+    ]
+  },
+  {
+    "name": "Annette Schavan",
+    "img": null,
+    "birth": 1955,
+    "death": null,
+    "properties": [
+      "CDU",
+      "Bildungsminister (Bund)",
+      "Forschungsminister (Bund)",
+      "Kabinett Merkel I",
+      "Kabinett Merkel II",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Thomas de Maizière",
+    "img": null,
+    "birth": 1954,
+    "death": null,
+    "properties": [
+      "CDU",
+      "Minister für besondere Aufgaben (Bund)",
+      "Chef des Bundeskanzleramts",
+      "Innenminister (Bund)",
+      "Verteidigungsminister (Bund)",
+      "Kabinett Merkel I",
+      "Kabinett Merkel II",
+      "Kabinett Merkel III"
+    ]
+  },
+  {
+    "name": "Hans-Peter Friedrich",
+    "img": null,
+    "birth": 1957,
+    "death": null,
+    "properties": [
+      "CSU",
+      "Innenminister (Bund)",
+      "Landwirtschaftsminister (Bund)",
+      "Kabinett Merkel II",
+      "Kabinett Merkel III"
+    ]
+  },
+  {
+    "name": "Rainer Brüderle",
+    "img": null,
+    "birth": 1945,
+    "death": null,
+    "properties": ["FDP", "Wirtschaftsminister (Bund)", "Kabinett Merkel II"]
+  },
+  {
+    "name": "Kristina Schröder",
+    "img": null,
+    "birth": 1977,
+    "death": null,
+    "properties": ["CDU", "Familienminister (Bund)", "Kabinett Merkel II"]
+  },
+  {
+    "name": "Daniel Bahr",
+    "img": null,
+    "birth": 1976,
+    "death": null,
+    "properties": ["FDP", "Gesundheitsminister (Bund)", "Kabinett Merkel II"]
+  },
+  {
+    "name": "Peter Ramsauer",
+    "img": null,
+    "birth": 1954,
+    "death": null,
+    "properties": [
+      "CSU",
+      "Verkehrsminister (Bund)",
+      "Bauminister (Bund)",
+      "Kabinett Merkel II"
+    ]
+  },
+  {
+    "name": "Norbert Röttgen",
+    "img": null,
+    "birth": 1965,
+    "death": null,
+    "properties": ["CDU", "Umweltminister (Bund)", "Kabinett Merkel II"]
+  },
+  {
+    "name": "Peter Altmaier",
+    "img": null,
+    "birth": 1958,
+    "death": null,
+    "properties": [
+      "CDU",
+      "Umweltminister (Bund)",
+      "Finanzminister (Bund)",
+      "Minister für besondere Aufgaben (Bund)",
+      "Chef des Bundeskanzleramts",
+      "Wirtschaftsminister (Bund)",
+      "Kabinett Merkel II",
+      "Kabinett Merkel III",
+      "Kabinett Merkel IV"
+    ]
+  },
+  {
+    "name": "Johanna Wanka",
+    "img": null,
+    "birth": 1951,
+    "death": null,
+    "properties": [
+      "CDU",
+      "Bildungsminister (Bund)",
+      "Forschungsminister (Bund)",
+      "Kabinett Merkel II",
+      "Kabinett Merkel III",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Dirk Niebel",
+    "img": null,
+    "birth": 1963,
+    "death": null,
+    "properties": [
+      "FDP",
+      "Entwicklungshilfeminister (Bund)",
+      "Kabinett Merkel II"
+    ]
+  },
+  {
+    "name": "Ronald Pofalla",
+    "img": null,
+    "birth": 1959,
+    "death": null,
+    "properties": [
+      "CDU",
+      "Minister für besondere Aufgaben (Bund)",
+      "Chef des Bundeskanzleramts",
+      "Kabinett Merkel II"
+    ]
+  },
+  {
+    "name": "Heiko Maas",
+    "img": null,
+    "birth": 1966,
+    "death": null,
+    "properties": [
+      "SPD",
+      "Justizminister (Bund)",
+      "Aussenminister (Bund)",
+      "Kabinett Merkel III",
+      "Kabinett Merkel IV"
+    ]
+  },
+  {
+    "name": "Katarina Barley",
+    "img": null,
+    "birth": 1968,
+    "death": null,
+    "properties": [
+      "SPD",
+      "Arbeitsminister (Bund)",
+      "Familienminister (Bund)",
+      "Justizminister (Bund)",
+      "Kabinett Merkel III",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Christian Schmidt",
+    "img": null,
+    "birth": 1957,
+    "death": null,
+    "properties": [
+      "CSU",
+      "Landwirtschaftsminister (Bund)",
+      "Verteidigungsminister (Bund)",
+      "Kabinett Merkel III"
+    ]
+  },
+  {
+    "name": "Hermann Gröhe",
+    "img": null,
+    "birth": 1957,
+    "death": null,
+    "properties": ["CDU", "Gesundheitsminister (Bund)", "Kabinett Merkel III"]
+  },
+  {
+    "name": "Alexander Dobrindt",
+    "img": null,
+    "birth": 1957,
+    "death": null,
+    "properties": [
+      "CSU",
+      "Verkehrsminister (Bund)",
+      "Innenminister (Bund)",
+      "Kabinett Merkel III",
+      "Kabinett Merz"
+    ]
+  },
+  {
+    "name": "Barbara Hendricks",
+    "img": null,
+    "birth": 1952,
+    "death": null,
+    "properties": [
+      "SPD",
+      "Umweltminister (Bund)",
+      "Bauminister (Bund)",
+      "Kabinett Merkel III",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Gerd Müller",
+    "img": null,
+    "birth": 1955,
+    "death": null,
+    "properties": [
+      "CSU",
+      "Entwicklungshilfeminister (Bund)",
+      "Kabinett Merkel III",
+      "Kabinett Merkel IV"
+    ]
+  },
+  {
+    "name": "Christine Lambrecht",
+    "img": null,
+    "birth": 1965,
+    "death": null,
+    "properties": [
+      "SPD",
+      "Justizminister (Bund)",
+      "Familienminister (Bund)",
+      "Verteidigungsminister (Bund)",
+      "Kabinett Merkel IV",
+      "Kabinett Scholz"
+    ]
+  },
+  {
+    "name": "Hubertus Heil",
+    "img": null,
+    "birth": 1972,
+    "death": null,
+    "properties": [
+      "SPD",
+      "Arbeitsminister (Bund)",
+      "Kabinett Merkel IV",
+      "Kabinett Scholz"
+    ]
+  },
+  {
+    "name": "Franziska Giffey",
+    "img": null,
+    "birth": 1978,
+    "death": null,
+    "properties": ["SPD", "Familienminister (Bund)", "Kabinett Merkel IV"]
+  },
+  {
+    "name": "Jens Spahn",
+    "img": null,
+    "birth": 1980,
+    "death": null,
+    "properties": ["CDU", "Gesundheitsminister (Bund)", "Kabinett Merkel IV"]
+  },
+  {
+    "name": "Andreas Scheuer",
+    "img": null,
+    "birth": 1974,
+    "death": null,
+    "properties": ["CSU", "Verkehrsminister (Bund)", "Kabinett Merkel IV"]
+  },
+  {
+    "name": "Svenja Schulze",
+    "img": null,
+    "birth": 1968,
+    "death": null,
+    "properties": [
+      "SPD",
+      "Umweltminister (Bund)",
+      "Entwicklungshilfeminister (Bund)",
+      "Kabinett Merkel IV",
+      "Kabinett Scholz"
+    ]
+  },
+  {
+    "name": "Anja Karliczek",
+    "img": null,
+    "birth": 1971,
+    "death": null,
+    "properties": [
+      "CDU",
+      "Bildungsminister (Bund)",
+      "Forschungsminister (Bund)",
+      "Kabinett Merkel IV"
+    ]
+  },
+  {
+    "name": "Helge Braun",
+    "img": null,
+    "birth": 1972,
+    "death": null,
+    "properties": [
+      "CDU",
+      "Minister für besondere Aufgaben (Bund)",
+      "Chef des Bundeskanzleramts",
+      "Kabinett Merkel IV"
+    ]
+  },
+  {
+    "name": "Robert Habeck",
+    "img": null,
+    "birth": 1969,
+    "death": null,
+    "properties": [
+      "B90/Die Grünen",
+      "Wirtschaftsminister (Bund)",
+      "Vizekanzler",
+      "Kabinett Scholz"
+    ]
+  },
+  {
+    "name": "Jörg Kukies",
+    "img": null,
+    "birth": 1968,
+    "death": null,
+    "properties": ["SPD", "Finanzminister (Bund)", "Kabinett Scholz"]
+  },
+  {
+    "name": "Nancy Faeser",
+    "img": null,
+    "birth": 1970,
+    "death": null,
+    "properties": ["SPD", "Innenminister (Bund)", "Kabinett Scholz"]
+  },
+  {
+    "name": "Annalena Baerbock",
+    "img": null,
+    "birth": 1980,
+    "death": null,
+    "properties": [
+      "B90/Die Grünen",
+      "Aussenminister (Bund)",
+      "Kabinett Scholz",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Marco Buschmann",
+    "img": null,
+    "birth": 1977,
+    "death": null,
+    "properties": ["FDP", "Justizminister (Bund)", "Kabinett Scholz"]
+  },
+  {
+    "name": "Volker Wissing",
+    "img": null,
+    "birth": 1970,
+    "death": null,
+    "properties": [
+      "FDP",
+      "parteilos",
+      "Justizminister (Bund)",
+      "Kabinett Scholz",
+      "Verkehrsminister (Bund)"
+    ]
+  },
+  {
+    "name": "Boris Pistorius",
+    "img": null,
+    "birth": 1960,
+    "death": null,
+    "properties": [
+      "SPD",
+      "Verteidigungsminister (Bund)",
+      "Kabinett Scholz",
+      "Kabinett Merz"
+    ]
+  },
+  {
+    "name": "Cem Özdemir",
+    "img": null,
+    "birth": 1960,
+    "death": null,
+    "properties": [
+      "B90/Die Grünen",
+      "Landwirtschaftsminister (Bund)",
+      "Bildungsminister (Bund)",
+      "Forschungsminister (Bund)",
+      "Kabinett Scholz"
+    ]
+  },
+  {
+    "name": "Anne Spiegel",
+    "img": null,
+    "birth": 1980,
+    "death": null,
+    "properties": [
+      "B90/Die Grünen",
+      "Familienminister (Bund)",
+      "Kabinett Scholz",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Lisa Paus",
+    "img": null,
+    "birth": 1968,
+    "death": null,
+    "properties": [
+      "B90/Die Grünen",
+      "Familienminister (Bund)",
+      "Kabinett Scholz",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Steffi Lemke",
+    "img": null,
+    "birth": 1968,
+    "death": null,
+    "properties": [
+      "B90/Die Grünen",
+      "Umweltminister (Bund)",
+      "Kabinett Scholz",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Bettina Stark-Watzinger",
+    "img": null,
+    "birth": 1968,
+    "death": null,
+    "properties": [
+      "FDP",
+      "Bildungsminister (Bund)",
+      "Forschungsminister (Bund)",
+      "Kabinett Scholz",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Klara Geywitz",
+    "img": null,
+    "birth": 1976,
+    "death": null,
+    "properties": ["SPD", "Bauminister (Bund)", "Kabinett Scholz", "Frau"]
+  },
+  {
+    "name": "Wolfgang Schmidt",
+    "img": null,
+    "birth": 1970,
+    "death": null,
+    "properties": [
+      "SPD",
+      "Minister für besondere Aufgaben (Bund)",
+      "Chef des Bundeskanzleramts",
+      "Kabinett Scholz"
+    ]
+  },
+  {
+    "name": "Johann Wadephul",
+    "img": null,
+    "birth": 1963,
+    "death": null,
+    "properties": ["CDU", "Aussenminister (Bund)", "Kabinett Merz"]
+  },
+  {
+    "name": "Katherina Reiche",
+    "img": null,
+    "birth": 1973,
+    "death": null,
+    "properties": ["CDU", "Wirtschaftsminister (Bund)", "Kabinett Merz"]
+  },
+  {
+    "name": "Dorothee Bär",
+    "img": null,
+    "birth": 1978,
+    "death": null,
+    "properties": ["CSU", "Forschungsminister (Bund)", "Kabinett Merz"]
+  },
+  {
+    "name": "Stefanie Hubig",
+    "img": null,
+    "birth": 1968,
+    "death": null,
+    "properties": ["SPD", "Justizminister (Bund)", "Kabinett Merz"]
+  },
+  {
+    "name": "Karin Prien",
+    "img": null,
+    "birth": 1965,
+    "death": null,
+    "properties": [
+      "CDU",
+      "Familienminister (Bund)",
+      "Bildungsminister (Bund)",
+      "Kabinett Merz"
+    ]
+  },
+  {
+    "name": "Karsten Wildberger",
+    "img": null,
+    "birth": 1969,
+    "death": null,
+    "properties": [
+      "CDU",
+      "parteilos",
+      "Digitalminister (Bund)",
+      "Kabinett Merz"
+    ]
+  },
+  {
+    "name": "Patrick Schnieder",
+    "img": null,
+    "birth": 1968,
+    "death": null,
+    "properties": ["CDU", "Verkehrsminister (Bund)", "Kabinett Merz"]
+  },
+  {
+    "name": "Carsten Schneider",
+    "img": null,
+    "birth": 1976,
+    "death": null,
+    "properties": ["SPD", "Umweltminister (Bund)", "Kabinett Merz"]
+  },
+  {
+    "name": "Nina Warken",
+    "img": null,
+    "birth": 1979,
+    "death": null,
+    "properties": ["CDU", "Gesundheitsminister (Bund)", "Kabinett Merz", "Frau"]
+  },
+  {
+    "name": "Alois Rainer",
+    "img": null,
+    "birth": 1965,
+    "death": null,
+    "properties": ["CSU", "Landwirtschaftsminister (Bund)", "Kabinett Merz"]
+  },
+  {
+    "name": "Reem Alabali Radovan",
+    "img": null,
+    "birth": 1990,
+    "death": null,
+    "properties": [
+      "SPD",
+      "Entwicklungshilfeminister (Bund)",
+      "Kabinett Merz",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Verena Hubertz",
+    "img": null,
+    "birth": 1987,
+    "death": null,
+    "properties": ["SPD", "Bauminister (Bund)", "Kabinett Merz", "Frau"]
+  },
+  {
+    "name": "Thorsten Frei",
+    "img": null,
+    "birth": 1973,
+    "death": null,
+    "properties": [
+      "CDU",
+      "Minister für besondere Aufgaben (Bund)",
+      "Chef des Bundeskanzleramts",
+      "Kabinett Merz"
+    ]
+  },
+  {
+    "name": "Hedwig Jochmus",
+    "img": null,
+    "birth": 1899,
+    "death": 1993,
+    "properties": ["CDU", "Vorsitzende Frauen-Union", "Frau"]
+  },
+  {
+    "name": "Charlotte Fera",
+    "img": null,
+    "birth": 1905,
+    "death": 1998,
+    "properties": ["CDU", "Vorsitzende Frauen-Union", "Frau"]
+  },
+  {
+    "name": "Helga Wex",
+    "img": null,
+    "birth": 1924,
+    "death": 1986,
+    "properties": ["CDU", "Vorsitzende Frauen-Union", "Frau"]
+  },
+  {
+    "name": "Maria Böhmer",
+    "img": null,
+    "birth": 1950,
+    "death": null,
+    "properties": ["CDU", "Vorsitzende Frauen-Union", "Frau"]
+  },
+  {
+    "name": "Annette Widmann-Mauz",
+    "img": null,
+    "birth": 1966,
+    "death": null,
+    "properties": ["CDU", "Vorsitzende Frauen-Union", "Frau"]
   }
 ]

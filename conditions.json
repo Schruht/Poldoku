@@ -566,5 +566,12 @@
     "more": "Politiker*innen die das seit 1999 existierende Amt des Beauftragten der Bundesregierung für Kultur und Medien übernommen haben.",
     "img": "Bundesregierung.png",
     "condition": "return x.properties.includes('Kulturstaatsminister')"
+  },
+  {
+    "id": "77",
+    "name": "Vorsitzende der Frauen-Union",
+    "more": "Politikerinnen die der Frauen-Union innerhalb der CDU bzw. dem Bundesfrauenausschuss (1951-1958) Vorsaßen.",
+    "img": "Bundesregierung.png",
+    "condition": "return x.properties.includes('Vorsitzende Frauen-Union')"
   }
 ]
