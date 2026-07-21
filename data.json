@@ -16,7 +16,8 @@
       "Kabinett Adenauer IV",
       "Bundespräsidentenkandidat",
       "Parteivorsitzender (CDU)",
-      "Ehrenvorsitzender (CDU)"
+      "Ehrenvorsitzender (CDU)",
+      "Fraktionsvorsitzender (CDU/CSU)"
     ]
   },
   {
@@ -88,7 +89,8 @@
       "Kabinett Brandt II",
       "Kabinett Schmidt I",
       "Kabinett Schmidt II",
-      "Kabinett Schmidt III"
+      "Kabinett Schmidt III",
+      "Fraktionsvorsitzender (SPD)"
     ]
   },
   {
@@ -142,6 +144,7 @@
       "Kabinett Merkel II",
       "Kabinett Merkel III",
       "Kabinett Merkel IV",
+      "Fraktionsvorsitzender (SPD)",
       "Frau"
     ]
   },
@@ -170,7 +173,8 @@
       "CDU",
       "Bundeskanzler",
       "Parteivorsitzender (CDU)",
-      "Kabinett Merz"
+      "Kabinett Merz",
+      "Fraktionsvorsitzender (CDU/CSU)"
     ]
   },
   {
@@ -187,7 +191,8 @@
       "DVP",
       "Bundespräsident",
       "Parteivorsitzender (FDP)",
-      "Parlamentarischer Rat"
+      "Parlamentarischer Rat",
+      "Fraktionsvorsitzender (FDP)"
     ]
   },
   {
@@ -239,7 +244,8 @@
       "Kabinett Erhard II",
       "Kabinett Brandt I",
       "Kabinett Brandt II",
-      "Parteivorsitzender (FDP)"
+      "Parteivorsitzender (FDP)",
+      "Vizepräsident des Bundestags"
     ]
   },
   {
@@ -260,7 +266,12 @@
     "img": null,
     "birth": 1920,
     "death": 2015,
-    "properties": ["CDU", "Bundespräsident", "Bundespräsidentenkandidat"]
+    "properties": [
+      "CDU",
+      "Bundespräsident",
+      "Bundespräsidentenkandidat",
+      "Vizepräsident des Bundestags"
+    ]
   },
   {
     "name": "Roman Herzog",
@@ -316,7 +327,8 @@
       "Kabinett Merkel I",
       "Kabinett Merkel III",
       "Vizekanzler",
-      "Aussenminister (Bund)"
+      "Aussenminister (Bund)",
+      "Fraktionsvorsitzender (SPD)"
     ]
   },
   {
@@ -327,7 +339,8 @@
     "properties": [
       "SPD",
       "Bundespräsidentenkandidat",
-      "Parteivorsitzender (SPD)"
+      "Parteivorsitzender (SPD)",
+      "Fraktionsvorsitzender (SPD)"
     ]
   },
   {
@@ -374,7 +387,11 @@
     "img": null,
     "birth": 1902,
     "death": 1979,
-    "properties": ["WAV", "Bundespräsidentenkandidat"]
+    "properties": [
+      "WAV",
+      "Bundespräsidentenkandidat",
+      "Fraktionsvorsitzender (WAV)"
+    ]
   },
   {
     "name": "Alfred Weber",
@@ -427,7 +444,8 @@
       "Bundespräsidentenkandidat",
       "Bundestagspräsident",
       "Frau",
-      "Oldenburger Grünkohlkönig"
+      "Oldenburger Grünkohlkönig",
+      "Vizepräsident des Bundestags"
     ]
   },
   {
@@ -572,7 +590,9 @@
       "DVP",
       "FDP",
       "Parlamentarischer Rat",
-      "Bundespräsidentenkandidat"
+      "Bundespräsidentenkandidat",
+      "Fraktionsvorsitzender (FDP)",
+      "Vizepräsident des Bundestags"
     ]
   },
   {
@@ -594,7 +614,9 @@
       "DP",
       "Parlamentarischer Rat",
       "Minister für besondere Aufgaben (Bund)",
-      "Kabinett Adenauer II"
+      "Kabinett Adenauer II",
+      "Fraktionsvorsitzender (FDP)",
+      "Vizepräsident des Bundestags"
     ]
   },
   {
@@ -615,7 +637,9 @@
       "Zentrum",
       "Parlamentarischer Rat",
       "Parteivorsitzender (Zentrum)",
-      "Frau"
+      "Fraktionsvorsitzender (Zentrum)",
+      "Frau",
+      "Fraktionsvorsitzender (FU)"
     ]
   },
   {
@@ -656,7 +680,8 @@
       "Bundespräsidentenkandidat",
       "Oldenburger Grünkohlkönig",
       "Bundesratsminister (Bund)",
-      "Kabinett Kiesinger"
+      "Kabinett Kiesinger",
+      "Vizepräsident des Bundestags"
     ]
   },
   {
@@ -699,7 +724,9 @@
       "Justizminister (Bund)",
       "Parlamentarischer Rat",
       "Parteivorsitzender (FDP)",
-      "Kabinett Adenauer I"
+      "Kabinett Adenauer I",
+      "Fraktionsvorsitzender (FDP)",
+      "Vizepräsident des Bundestags"
     ]
   },
   {
@@ -841,7 +868,8 @@
       "Kabinett Adenauer I",
       "Kabinett Adenauer II",
       "Parteivorsitzender (DP)",
-      "Oldenburger Grünkohlkönig"
+      "Oldenburger Grünkohlkönig",
+      "Fraktionsvorsitzender (DP)"
     ]
   },
   {
@@ -854,7 +882,8 @@
       "Aussenminister (Bund)",
       "Parlamentarischer Rat",
       "Kabinett Adenauer II",
-      "Kabinett Adenauer III"
+      "Kabinett Adenauer III",
+      "Fraktionsvorsitzender (CDU/CSU)"
     ]
   },
   {
@@ -891,7 +920,8 @@
       "Kabinett Adenauer II",
       "Kabinett Adenauer III",
       "Kabinett Adenauer IV",
-      "Oldenburger Grünkohlkönig"
+      "Oldenburger Grünkohlkönig",
+      "Fraktionsvorsitzender (DP)"
     ]
   },
   {
@@ -974,7 +1004,8 @@
       "FVP",
       "DP",
       "Bauminister (Bund)",
-      "Kabinett Adenauer II"
+      "Kabinett Adenauer II",
+      "Vizepräsident des Bundestags"
     ]
   },
   {
@@ -1070,6 +1101,7 @@
       "Kabinett Adenauer IV",
       "Kabinett Erhard I",
       "Kabinett Erhard II",
+      "Vizepräsident des Bundestags",
       "Bundestagspräsident"
     ]
   },
@@ -1161,7 +1193,8 @@
       "LDP",
       "FDP",
       "Vertriebenenminister (Bund)",
-      "Kabinett Adenauer IV"
+      "Kabinett Adenauer IV",
+      "Fraktionsvorsitzender (FDP)"
     ]
   },
   {
@@ -1204,7 +1237,8 @@
       "Minister für besondere Aufgaben (Bund)",
       "Kabinett Adenauer IV",
       "Kabinett Erhard I",
-      "Kabinett Erhard II"
+      "Kabinett Erhard II",
+      "Fraktionsvorsitzender (CDU/CSU)"
     ]
   },
   {
@@ -1253,6 +1287,7 @@
       "Kabinett Erhard II",
       "Kabinett Kiesinger",
       "Bundestagspräsident",
+      "Vizepräsident des Bundestags",
       "Oldenburger Grünkohlkönig"
     ]
   },
@@ -1267,7 +1302,8 @@
       "Kabinett Adenauer IV",
       "Kabinett Kohl I",
       "Parteivorsitzender (CDU)",
-      "Bundestagspräsident"
+      "Bundestagspräsident",
+      "Fraktionsvorsitzender (CDU/CSU)"
     ]
   },
   {
@@ -1338,7 +1374,8 @@
       "Kabinett Merkel II",
       "Kabinett Merkel III",
       "Oldenburger Grünkohlkönig",
-      "Alterspräsident des Bundestags"
+      "Alterspräsident des Bundestags",
+      "Fraktionsvorsitzender (CDU/CSU)"
     ]
   },
   {
@@ -1440,7 +1477,12 @@
     "img": null,
     "birth": 1901,
     "death": 1963,
-    "properties": ["SPD", "Parlamentarischer Rat", "Parteivorsitzender (SPD)"]
+    "properties": [
+      "SPD",
+      "Parlamentarischer Rat",
+      "Parteivorsitzender (SPD)",
+      "Fraktionsvorsitzender (SPD)"
+    ]
   },
   {
     "name": "Hans-Jochen Vogel",
@@ -1455,7 +1497,8 @@
       "Kabinett Brandt II",
       "Kabinett Schmidt I",
       "Kabinett Schmidt II",
-      "Kabinett Schmidt III"
+      "Kabinett Schmidt III",
+      "Fraktionsvorsitzender (SPD)"
     ]
   },
   {
@@ -1481,7 +1524,8 @@
       "Parteivorsitzender (SPD)",
       "Oldenburger Grünkohlkönig",
       "Kabinett Schröder I",
-      "Verteidigungsminister (Bund)"
+      "Verteidigungsminister (Bund)",
+      "Fraktionsvorsitzender (SPD)"
     ]
   },
   {
@@ -1497,7 +1541,8 @@
       "Parteivorsitzender (SPD)",
       "Parteivorsitzender (Linke)",
       "Kabinett Schröder I",
-      "Finanzminister (Bund)"
+      "Finanzminister (Bund)",
+      "Fraktionsvorsitzender (Linke)"
     ]
   },
   {
@@ -1513,7 +1558,8 @@
       "Kabinett Merkel I",
       "Bauminister (Bund)",
       "Verkehrsminister (Bund)",
-      "Arbeitsminister (Bund)"
+      "Arbeitsminister (Bund)",
+      "Fraktionsvorsitzender (SPD)"
     ]
   },
   {
@@ -1565,6 +1611,7 @@
       "Oldenburger Grünkohlkönig",
       "Arbeitsminister (Bund)",
       "Kabinett Merkel III",
+      "Fraktionsvorsitzender (SPD)",
       "Frau"
     ]
   },
@@ -1612,7 +1659,8 @@
       "Parteivorsitzender (SPD)",
       "Kabinett Merz",
       "Vizekanzler",
-      "Finanzminister (Bund)"
+      "Finanzminister (Bund)",
+      "Fraktionsvorsitzender (SPD)"
     ]
   },
   {
@@ -1784,7 +1832,9 @@
       "PDS",
       "SED",
       "Parteivorsitzender (PDS)",
-      "Alterspräsident des Bundestags"
+      "Alterspräsident des Bundestags",
+      "Fraktionsvorsitzender (PDS)",
+      "Fraktionsvorsitzender (Linke)"
     ]
   },
   {
@@ -1798,6 +1848,7 @@
       "SED",
       "BSW",
       "Parteivorsitzender (BSW)",
+      "Fraktionsvorsitzender (Linke)",
       "Frau"
     ]
   },
@@ -1813,7 +1864,13 @@
     "img": null,
     "birth": 1980,
     "death": null,
-    "properties": ["Linke", "BSW", "Parteivorsitzender (BSW)", "Frau"]
+    "properties": [
+      "Linke",
+      "BSW",
+      "Parteivorsitzender (BSW)",
+      "Frau",
+      "Fraktionsvorsitzender (Linke)"
+    ]
   },
   {
     "name": "Martin Sonneborn",
@@ -1855,7 +1912,12 @@
     "img": null,
     "birth": 1979,
     "death": null,
-    "properties": ["AfD", "Parteivorsitzender (AfD)", "Frau"]
+    "properties": [
+      "AfD",
+      "Parteivorsitzender (AfD)",
+      "Frau",
+      "Fraktionsvorsitzender (AfD)"
+    ]
   },
   {
     "name": "Frauke Petry",
@@ -1875,14 +1937,23 @@
     "img": null,
     "birth": 1941,
     "death": null,
-    "properties": ["AfD", "CDU", "Parteivorsitzender (AfD)"]
+    "properties": [
+      "AfD",
+      "CDU",
+      "Parteivorsitzender (AfD)",
+      "Fraktionsvorsitzender (AfD)"
+    ]
   },
   {
     "name": "Tino Chrupalla",
     "img": null,
     "birth": 1975,
     "death": null,
-    "properties": ["AfD", "Parteivorsitzender (AfD)"]
+    "properties": [
+      "AfD",
+      "Parteivorsitzender (AfD)",
+      "Fraktionsvorsitzender (AfD)"
+    ]
   },
   {
     "name": "Konrad Adam",
@@ -1984,7 +2055,12 @@
     "img": null,
     "birth": 1915,
     "death": 1995,
-    "properties": ["CDU", "DP", "Parteivorsitzender (DP)"]
+    "properties": [
+      "CDU",
+      "DP",
+      "Parteivorsitzender (DP)",
+      "Fraktionsvorsitzender (DP)"
+    ]
   },
   {
     "name": "Wilhelm Freiherr von Cramm",
@@ -2013,7 +2089,8 @@
       "Kabinett Erhard I",
       "Kabinett Erhard II",
       "Oldenburger Grünkohlkönig",
-      "Parteivorsitzender (FDP)"
+      "Parteivorsitzender (FDP)",
+      "Fraktionsvorsitzender (FDP)"
     ]
   },
   {
@@ -2068,7 +2145,12 @@
     "img": null,
     "birth": 1913,
     "death": 1998,
-    "properties": ["CSU", "Justizminister (Bund)", "Kabinett Erhard II"]
+    "properties": [
+      "CSU",
+      "Justizminister (Bund)",
+      "Kabinett Erhard II",
+      "Vizepräsident des Bundestags"
+    ]
   },
   {
     "name": "Hans Katzer",
@@ -2159,7 +2241,8 @@
       "Kabinett Brandt II",
       "Kabinett Schmidt I",
       "Kabinett Schmidt II",
-      "Oldenburger Grünkohlkönig"
+      "Oldenburger Grünkohlkönig",
+      "Vizepräsident des Bundestags"
     ]
   },
   {
@@ -2188,7 +2271,8 @@
       "Vertriebenenminister (Bund)",
       "Minister für gesamtdeutsche Fragen (Bund)",
       "Kabinett Kiesinger",
-      "Kabinett Kohl II"
+      "Kabinett Kohl II",
+      "Vizepräsident des Bundestags"
     ]
   },
   {
@@ -2201,7 +2285,8 @@
       "KPD",
       "Minister für gesamtdeutsche Fragen (Bund)",
       "Kabinett Kiesinger",
-      "Alterspräsident des Bundestags"
+      "Alterspräsident des Bundestags",
+      "Fraktionsvorsitzender (SPD)"
     ]
   },
   {
@@ -2528,7 +2613,8 @@
       "DKP",
       "Parlamentarischer Rat",
       "Parteivorsitzender (KPD)",
-      "Ehrenvorsitzender (DKP)"
+      "Ehrenvorsitzender (DKP)",
+      "Fraktionsvorsitzender (KPD)"
     ]
   },
   {
@@ -2720,7 +2806,12 @@
     "img": null,
     "birth": 1924,
     "death": 1998,
-    "properties": ["SPD", "Arbeitsminister (Bund)", "Kabinett Schmidt III"]
+    "properties": [
+      "SPD",
+      "Arbeitsminister (Bund)",
+      "Kabinett Schmidt III",
+      "Vizepräsident des Bundestags"
+    ]
   },
   {
     "name": "Anke Fuchs",
@@ -2731,6 +2822,7 @@
       "SPD",
       "Familienminister (Bund)",
       "Kabinett Schmidt III",
+      "Vizepräsident des Bundestags",
       "Frau"
     ]
   },
@@ -2794,14 +2886,14 @@
     "img": null,
     "birth": 1943,
     "death": null,
-    "properties": ["SPD", "Bundestagspräsident"]
+    "properties": ["SPD", "Bundestagspräsident", "Vizepräsident des Bundestags"]
   },
   {
     "name": "Norbert Lammert",
     "img": null,
     "birth": 1948,
     "death": null,
-    "properties": ["CDU", "Bundestagspräsident"]
+    "properties": ["CDU", "Bundestagspräsident", "Vizepräsident des Bundestags"]
   },
   {
     "name": "Julia Klöckner",
@@ -2862,7 +2954,8 @@
       "Alterspräsident des Bundestags",
       "Kabinett Schröder I",
       "Kabinett Schröder II",
-      "Oldenburger Grünkohlkönig"
+      "Oldenburger Grünkohlkönig",
+      "Fraktionsvorsitzender (Die Grünen)"
     ]
   },
   {
@@ -2885,7 +2978,12 @@
     "img": null,
     "birth": 1940,
     "death": null,
-    "properties": ["FDP", "Alterspräsident des Bundestags"]
+    "properties": [
+      "FDP",
+      "Alterspräsident des Bundestags",
+      "Fraktionsvorsitzender (FDP)",
+      "Vizepräsident des Bundestags"
+    ]
   },
   {
     "name": "Reinhold Maier",
@@ -2927,7 +3025,11 @@
     "img": null,
     "birth": 1943,
     "death": 2024,
-    "properties": ["FDP", "Parteivorsitzender (FDP)"]
+    "properties": [
+      "FDP",
+      "Parteivorsitzender (FDP)",
+      "Fraktionsvorsitzender (FDP)"
+    ]
   },
   {
     "name": "Guido Westerwelle",
@@ -2939,7 +3041,8 @@
       "Parteivorsitzender (FDP)",
       "Vizekanzler",
       "Aussenminister (Bund)",
-      "Kabinett Merkel II"
+      "Kabinett Merkel II",
+      "Fraktionsvorsitzender (FDP)"
     ]
   },
   {
@@ -2967,7 +3070,8 @@
       "Parteivorsitzender (FDP)",
       "Kabinett Scholz",
       "Finanzminister (Bund)",
-      "Oldenburger Grünkohlkönig"
+      "Oldenburger Grünkohlkönig",
+      "Fraktionsvorsitzender (FDP)"
     ]
   },
   {
@@ -2975,14 +3079,22 @@
     "img": null,
     "birth": 1977,
     "death": null,
-    "properties": ["FDP", "Parteivorsitzender (FDP)"]
+    "properties": [
+      "FDP",
+      "Parteivorsitzender (FDP)",
+      "Fraktionsvorsitzender (FDP)"
+    ]
   },
   {
     "name": "Wolfgang Kubicki",
     "img": null,
     "birth": 1952,
     "death": null,
-    "properties": ["FDP", "Parteivorsitzender (FDP)"]
+    "properties": [
+      "FDP",
+      "Parteivorsitzender (FDP)",
+      "Vizepräsident des Bundestags"
+    ]
   },
   {
     "name": "Fritz Hellwig",
@@ -3300,6 +3412,7 @@
       "Gesundheitsminister (Bund)",
       "Kabinett Kohl III",
       "Kabinett Kohl IV",
+      "Vizepräsident des Bundestags",
       "Frau"
     ]
   },
@@ -3327,7 +3440,8 @@
       "CSU",
       "Entwicklungshilfeminister (Bund)",
       "Minister für besondere Aufgaben (Bund)",
-      "Kabinett Kohl III"
+      "Kabinett Kohl III",
+      "Vizepräsident des Bundestags"
     ]
   },
   {
@@ -3340,6 +3454,7 @@
       "Minister für besondere Aufgaben (Bund)",
       "Chef des Bundeskanzleramts",
       "Innenminister (Bund)",
+      "Vizepräsident des Bundestags",
       "Kabinett Kohl III",
       "Kabinett Kohl IV"
     ]
@@ -3641,7 +3756,12 @@
     "img": null,
     "birth": 1947,
     "death": null,
-    "properties": ["CSU", "Bauminister (Bund)", "Kabinett Kohl V"]
+    "properties": [
+      "CSU",
+      "Bauminister (Bund)",
+      "Kabinett Kohl V",
+      "Vizepräsident des Bundestags"
+    ]
   },
   {
     "name": "Jürgen Rüttgers",
@@ -3652,7 +3772,8 @@
       "CDU",
       "Bildungsminister (Bund)",
       "Forschungsminister (Bund)",
-      "Kabinett Kohl V"
+      "Kabinett Kohl V",
+      "Fraktionsvorsitzender (CDU/CSU)"
     ]
   },
   {
@@ -3699,7 +3820,9 @@
       "Die Grünen",
       "B90/Die Grünen",
       "Kulturstaatsminister",
-      "Frau"
+      "Frau",
+      "Parteivorsitzender (B90/Die Grünen)",
+      "Vizepräsident des Bundestags"
     ]
   },
   {
@@ -3720,7 +3843,8 @@
       "Vizekanzler",
       "Aussenminister (Bund)",
       "Kabinett Schröder I",
-      "Kabinett Schröder II"
+      "Kabinett Schröder II",
+      "Fraktionsvorsitzender (B90/Die Grünen)"
     ]
   },
   {
@@ -3775,7 +3899,9 @@
       "Landwirtschaftsminister (Bund)",
       "Kabinett Schröder I",
       "Kabinett Schröder II",
-      "Frau"
+      "Parteivorsitzender (B90/Die Grünen)",
+      "Frau",
+      "Fraktionsvorsitzender (B90/Die Grünen)"
     ]
   },
   {
@@ -3794,7 +3920,8 @@
       "SPD",
       "Verteidigungsminister (Bund)",
       "Kabinett Schröder I",
-      "Kabinett Schröder II"
+      "Kabinett Schröder II",
+      "Fraktionsvorsitzender (SPD)"
     ]
   },
   {
@@ -3833,6 +3960,7 @@
       "Kabinett Schröder I",
       "Kabinett Schröder II",
       "Kabinett Merkel I",
+      "Vizepräsident des Bundestags",
       "Frau"
     ]
   },
@@ -3871,7 +3999,9 @@
       "Umweltminister (Bund)",
       "Landwirtschaftsminister (Bund)",
       "Kabinett Schröder I",
-      "Kabinett Schröder II"
+      "Kabinett Schröder II",
+      "Parteivorsitzender (B90/Die Grünen)",
+      "Fraktionsvorsitzender (B90/Die Grünen)"
     ]
   },
   {
@@ -3885,6 +4015,7 @@
       "Forschungsminister (Bund)",
       "Kabinett Schröder I",
       "Kabinett Schröder II",
+      "Vizepräsident des Bundestags",
       "Frau"
     ]
   },
@@ -3950,6 +4081,7 @@
       "SPD",
       "Familienminister (Bund)",
       "Kabinett Schröder II",
+      "Vizepräsident des Bundestags",
       "Frau"
     ]
   },
@@ -4069,7 +4201,8 @@
       "Innenminister (Bund)",
       "Landwirtschaftsminister (Bund)",
       "Kabinett Merkel II",
-      "Kabinett Merkel III"
+      "Kabinett Merkel III",
+      "Vizepräsident des Bundestags"
     ]
   },
   {
@@ -4077,7 +4210,12 @@
     "img": null,
     "birth": 1945,
     "death": null,
-    "properties": ["FDP", "Wirtschaftsminister (Bund)", "Kabinett Merkel II"]
+    "properties": [
+      "FDP",
+      "Wirtschaftsminister (Bund)",
+      "Kabinett Merkel II",
+      "Fraktionsvorsitzender (FDP)"
+    ]
   },
   {
     "name": "Kristina Schröder",
@@ -4194,7 +4332,7 @@
     ]
   },
   {
-    "name": "Christian Schmidt",
+    "name": "Christian Schmidt (CSU)",
     "img": null,
     "birth": 1957,
     "death": null,
@@ -4343,7 +4481,8 @@
       "B90/Die Grünen",
       "Wirtschaftsminister (Bund)",
       "Vizekanzler",
-      "Kabinett Scholz"
+      "Kabinett Scholz",
+      "Parteivorsitzender (B90/Die Grünen)"
     ]
   },
   {
@@ -4369,7 +4508,8 @@
       "B90/Die Grünen",
       "Aussenminister (Bund)",
       "Kabinett Scholz",
-      "Frau"
+      "Frau",
+      "Parteivorsitzender (B90/Die Grünen)"
     ]
   },
   {
@@ -4414,7 +4554,8 @@
       "Landwirtschaftsminister (Bund)",
       "Bildungsminister (Bund)",
       "Forschungsminister (Bund)",
-      "Kabinett Scholz"
+      "Kabinett Scholz",
+      "Parteivorsitzender (B90/Die Grünen)"
     ]
   },
   {
@@ -4549,7 +4690,12 @@
     "img": null,
     "birth": 1976,
     "death": null,
-    "properties": ["SPD", "Umweltminister (Bund)", "Kabinett Merz"]
+    "properties": [
+      "SPD",
+      "Umweltminister (Bund)",
+      "Kabinett Merz",
+      "Fraktionsvorsitzender (CDU/CSU)"
+    ]
   },
   {
     "name": "Nina Warken",
@@ -4630,5 +4776,781 @@
     "birth": 1966,
     "death": null,
     "properties": ["CDU", "Vorsitzende Frauen-Union", "Frau"]
+  },
+  {
+    "name": "Felix Banaszak",
+    "img": null,
+    "birth": 1989,
+    "death": null,
+    "properties": ["B90/Die Grünen", "Parteivorsitzender (B90/Die Grünen)"]
+  },
+  {
+    "name": "Franziska Brantner",
+    "img": null,
+    "birth": 1979,
+    "death": null,
+    "properties": [
+      "B90/Die Grünen",
+      "Parteivorsitzender (B90/Die Grünen)",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Ricarda Lang",
+    "img": null,
+    "birth": 1994,
+    "death": null,
+    "properties": [
+      "B90/Die Grünen",
+      "Parteivorsitzender (B90/Die Grünen)",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Omid Nouripour",
+    "img": null,
+    "birth": 1975,
+    "death": null,
+    "properties": [
+      "B90/Die Grünen",
+      "Parteivorsitzender (B90/Die Grünen)",
+      "Vizepräsident des Bundestags"
+    ]
+  },
+  {
+    "name": "Simone Peter",
+    "img": null,
+    "birth": 1965,
+    "death": null,
+    "properties": [
+      "B90/Die Grünen",
+      "Parteivorsitzender (B90/Die Grünen)",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Reinhard Bütikofer",
+    "img": null,
+    "birth": 1953,
+    "death": null,
+    "properties": [
+      "GAL",
+      "Die Grünen",
+      "B90/Die Grünen",
+      "Parteivorsitzender (B90/Die Grünen)",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Angelika Beer",
+    "img": null,
+    "birth": 1957,
+    "death": null,
+    "properties": [
+      "Die Grünen",
+      "B90/Die Grünen",
+      "Parteivorsitzender (B90/Die Grünen)",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Fritz Kuhn",
+    "img": null,
+    "birth": 1955,
+    "death": null,
+    "properties": [
+      "SPD",
+      "Die Grünen",
+      "B90/Die Grünen",
+      "Parteivorsitzender (B90/Die Grünen)",
+      "Fraktionsvorsitzender (B90/Die Grünen)"
+    ]
+  },
+  {
+    "name": "Antje Radcke",
+    "img": null,
+    "birth": 1960,
+    "death": null,
+    "properties": [
+      "SPD",
+      "GAL",
+      "B90/Die Grünen",
+      "Parteivorsitzender (B90/Die Grünen)",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Gunda Röstel",
+    "img": null,
+    "birth": 1962,
+    "death": null,
+    "properties": [
+      "Neues Forum",
+      "Bündnis 90",
+      "B90/Die Grünen",
+      "Parteivorsitzender (B90/Die Grünen)",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Krista Sager",
+    "img": null,
+    "birth": 1953,
+    "death": null,
+    "properties": [
+      "GAL",
+      "Die Grünen",
+      "B90/Die Grünen",
+      "Parteivorsitzender (B90/Die Grünen)",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Ludger Volmer",
+    "img": null,
+    "birth": 1952,
+    "death": null,
+    "properties": [
+      "Die Grünen",
+      "B90/Die Grünen",
+      "Parteivorsitzender (B90/Die Grünen)",
+      "Fraktionsvorsitzender (Die Grünen)"
+    ]
+  },
+  {
+    "name": "Marianne Birthler",
+    "img": null,
+    "birth": 1948,
+    "death": null,
+    "properties": [
+      "Bündnis 90",
+      "B90/Die Grünen",
+      "Parteivorsitzender (B90/Die Grünen)",
+      "Fraktionsvorsitzender (Die Grünen)",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Christine Weiske",
+    "img": null,
+    "birth": 1949,
+    "death": null,
+    "properties": [
+      "Die Grünen",
+      "B90/Die Grünen",
+      "Parteivorsitzender (B90/Die Grünen)",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Alfred Dregger",
+    "img": null,
+    "birth": 1920,
+    "death": 2002,
+    "properties": ["NSDAP", "CDU", "Fraktionsvorsitzender (CDU/CSU)"]
+  },
+  {
+    "name": "Volker Kauder",
+    "img": null,
+    "birth": 1949,
+    "death": null,
+    "properties": ["CDU", "Fraktionsvorsitzender (CDU/CSU)"]
+  },
+  {
+    "name": "Ralph Brinkhaus",
+    "img": null,
+    "birth": 1968,
+    "death": null,
+    "properties": ["CDU", "Fraktionsvorsitzender (CDU/CSU)"]
+  },
+  {
+    "name": "Fritz Erler",
+    "img": null,
+    "birth": 1913,
+    "death": 1967,
+    "properties": ["SPD", "Fraktionsvorsitzender (SPD)"]
+  },
+  {
+    "name": "Hans-Ulrich Klose",
+    "img": null,
+    "birth": 1937,
+    "death": 2023,
+    "properties": [
+      "SPD",
+      "Fraktionsvorsitzender (SPD)",
+      "Vizepräsident des Bundestags"
+    ]
+  },
+  {
+    "name": "Ludwig Stiegler",
+    "img": null,
+    "birth": 1944,
+    "death": null,
+    "properties": ["SPD", "Fraktionsvorsitzender (SPD)"]
+  },
+  {
+    "name": "Thomas Oppermann",
+    "img": null,
+    "birth": 1954,
+    "death": 2020,
+    "properties": [
+      "SPD",
+      "Fraktionsvorsitzender (SPD)",
+      "Vizepräsident des Bundestags",
+      "Im Amt verstorben"
+    ]
+  },
+  {
+    "name": "Rolf Mützenich",
+    "img": null,
+    "birth": 1959,
+    "death": null,
+    "properties": ["SPD", "Fraktionsvorsitzender (SPD)"]
+  },
+  {
+    "name": "Matthias Miersch",
+    "img": null,
+    "birth": 1968,
+    "death": null,
+    "properties": ["SPD", "Fraktionsvorsitzender (SPD)"]
+  },
+  {
+    "name": "August-Martin Euler",
+    "img": null,
+    "birth": 1908,
+    "death": 1966,
+    "properties": ["FDP", "FVP", "DP", "Fraktionsvorsitzender (FDP)"]
+  },
+  {
+    "name": "Knut von Kühlmann-Stumm",
+    "img": null,
+    "birth": 1908,
+    "death": 1966,
+    "properties": ["FDP", "CDU", "Fraktionsvorsitzender (FDP)"]
+  },
+  {
+    "name": "Birgit Homburger",
+    "img": null,
+    "birth": 1965,
+    "death": null,
+    "properties": ["FDP", "Fraktionsvorsitzender (FDP)"]
+  },
+  {
+    "name": "Roland Claus",
+    "img": null,
+    "birth": 1954,
+    "death": null,
+    "properties": ["PDS", "Fraktionsvorsitzender (PDS)"]
+  },
+  {
+    "name": "Dietmar Bartsch",
+    "img": null,
+    "birth": 1958,
+    "death": null,
+    "properties": ["Linke", "SED", "PDS", "Fraktionsvorsitzender (Linke)"]
+  },
+  {
+    "name": "Heidi Reichinnek",
+    "img": null,
+    "birth": 1988,
+    "death": null,
+    "properties": ["Linke", "Fraktionsvorsitzender (Linke)"]
+  },
+  {
+    "name": "Sören Pellmann",
+    "img": null,
+    "birth": 1977,
+    "death": null,
+    "properties": ["Linke", "PDS", "Fraktionsvorsitzender (Linke)"]
+  },
+  {
+    "name": "Marieluise Beck",
+    "img": null,
+    "birth": 1952,
+    "death": null,
+    "properties": [
+      "Die Grünen",
+      "B90/Die Grünen",
+      "Fraktionsvorsitzender (Die Grünen)",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Petra Kelly",
+    "img": null,
+    "birth": 1947,
+    "death": 1992,
+    "properties": ["Die Grünen", "Fraktionsvorsitzender (Die Grünen)", "Frau"]
+  },
+  {
+    "name": "Annemarie Borgmann",
+    "img": null,
+    "birth": 1942,
+    "death": null,
+    "properties": [
+      "Die Grünen",
+      "B90/Die Grünen",
+      "Fraktionsvorsitzender (Die Grünen)",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Waltraud Schoppe",
+    "img": null,
+    "birth": 1942,
+    "death": null,
+    "properties": [
+      "Die Grünen",
+      "B90/Die Grünen",
+      "Fraktionsvorsitzender (Die Grünen)",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Antje Vollmer",
+    "img": null,
+    "birth": 1943,
+    "death": 2023,
+    "properties": [
+      "Die Grünen",
+      "B90/Die Grünen",
+      "Fraktionsvorsitzender (Die Grünen)",
+      "Vizepräsident des Bundestags",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Hannegret Hönes",
+    "img": null,
+    "birth": 1946,
+    "death": null,
+    "properties": [
+      "Die Grünen",
+      "B90/Die Grünen",
+      "Fraktionsvorsitzender (Die Grünen)",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Christian Schmidt (Grüne)",
+    "img": null,
+    "birth": 1943,
+    "death": 2021,
+    "properties": [
+      "SPD",
+      "GAL",
+      "Die Grünen",
+      "B90/Die Grünen",
+      "Fraktionsvorsitzender (Die Grünen)"
+    ]
+  },
+  {
+    "name": "Sabine Bard",
+    "img": null,
+    "birth": 1946,
+    "death": 2016,
+    "properties": [
+      "Die Grünen",
+      "B90/Die Grünen",
+      "Fraktionsvorsitzender (Die Grünen)",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Willi Hoss",
+    "img": null,
+    "birth": 1929,
+    "death": 2003,
+    "properties": [
+      "KPD",
+      "DKP",
+      "Die Grünen",
+      "B90/Die Grünen",
+      "Fraktionsvorsitzender (Die Grünen)"
+    ]
+  },
+  {
+    "name": "Thomas Ebermann",
+    "img": null,
+    "birth": 1951,
+    "death": null,
+    "properties": ["Die Grünen", "Fraktionsvorsitzender (Die Grünen)"]
+  },
+  {
+    "name": "Bärbel Rust",
+    "img": null,
+    "birth": 1955,
+    "death": null,
+    "properties": ["Die Grünen", "Fraktionsvorsitzender (Die Grünen)", "Frau"]
+  },
+  {
+    "name": "Helmut Lippelt",
+    "img": null,
+    "birth": 1932,
+    "death": 2018,
+    "properties": [
+      "Die Grünen",
+      "B90/Die Grünen",
+      "Fraktionsvorsitzender (Die Grünen)"
+    ]
+  },
+  {
+    "name": "Regula Schmidt-Bott",
+    "img": null,
+    "birth": 1945,
+    "death": 2015,
+    "properties": ["Die Grünen", "Fraktionsvorsitzender (Die Grünen)", "Frau"]
+  },
+  {
+    "name": "Christa Vennegerts",
+    "img": null,
+    "birth": 1951,
+    "death": 2010,
+    "properties": [
+      "Die Grünen",
+      "B90/Die Grünen",
+      "Fraktionsvorsitzender (Die Grünen)",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Jutta Oesterle-Schwerin",
+    "img": null,
+    "birth": 1941,
+    "death": null,
+    "properties": [
+      "Die Grünen",
+      "B90/Die Grünen",
+      "Feministische Partei",
+      "Fraktionsvorsitzender (Die Grünen)",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Werner Schulz",
+    "img": null,
+    "birth": 1950,
+    "death": 2022,
+    "properties": [
+      "Neues Forum",
+      "Bündnis 90",
+      "B90/Die Grünen",
+      "Fraktionsvorsitzender (Bündnis 90)"
+    ]
+  },
+  {
+    "name": "Kerstin Müller",
+    "img": null,
+    "birth": 1963,
+    "death": null,
+    "properties": [
+      "Die Grünen",
+      "B90/Die Grünen",
+      "Fraktionsvorsitzender (B90/Die Grünen)",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Rezzo Schlauch",
+    "img": null,
+    "birth": 1947,
+    "death": null,
+    "properties": [
+      "Die Grünen",
+      "B90/Die Grünen",
+      "Fraktionsvorsitzender (B90/Die Grünen)"
+    ]
+  },
+  {
+    "name": "Krista Sager",
+    "img": null,
+    "birth": 1953,
+    "death": null,
+    "properties": [
+      "GAL",
+      "Die Grünen",
+      "B90/Die Grünen",
+      "Fraktionsvorsitzender (B90/Die Grünen)"
+    ]
+  },
+  {
+    "name": "Katrin Göring-Eckardt",
+    "img": null,
+    "birth": 1966,
+    "death": null,
+    "properties": [
+      "Bündnis 90",
+      "B90/Die Grünen",
+      "Fraktionsvorsitzender (B90/Die Grünen)",
+      "Vizepräsident des Bundestags"
+    ]
+  },
+  {
+    "name": "Anton Hofreiter",
+    "img": null,
+    "birth": 1970,
+    "death": null,
+    "properties": [
+      "Die Grünen",
+      "B90/Die Grünen",
+      "Fraktionsvorsitzender (B90/Die Grünen)"
+    ]
+  },
+  {
+    "name": "Britta Haßelmann",
+    "img": null,
+    "birth": 1961,
+    "death": null,
+    "properties": ["B90/Die Grünen", "Fraktionsvorsitzender (B90/Die Grünen)"]
+  },
+  {
+    "name": "Katharina Dröge",
+    "img": null,
+    "birth": 1984,
+    "death": null,
+    "properties": ["B90/Die Grünen", "Fraktionsvorsitzender (B90/Die Grünen)"]
+  },
+  {
+    "name": "Gebhard Seelos",
+    "img": null,
+    "birth": 1901,
+    "death": 1984,
+    "properties": ["BP", "Fraktionsvorsitzender (BP)"]
+  },
+  {
+    "name": "Hugo Decker",
+    "img": null,
+    "birth": 1984,
+    "death": null,
+    "properties": [
+      "BP",
+      "CSU",
+      "Fraktionsvorsitzender (BP)",
+      "Fraktionsvorsitzender (FU)"
+    ]
+  },
+  {
+    "name": "Friedrich Klinge",
+    "img": null,
+    "birth": 1883,
+    "death": 1949,
+    "properties": ["DP", "Fraktionsvorsitzender (DP)"]
+  },
+  {
+    "name": "Hans Mühlenfeld",
+    "img": null,
+    "birth": 1901,
+    "death": 1969,
+    "properties": ["DP", "FDP", "Fraktionsvorsitzender (DP)"]
+  },
+  {
+    "name": "Ernst-Christoph Brühler",
+    "img": null,
+    "birth": 1891,
+    "death": 1961,
+    "properties": ["DP", "DNVP", "NSDAP", "Fraktionsvorsitzender (DP)"]
+  },
+  {
+    "name": "Ludwig Schneider",
+    "img": null,
+    "birth": 1898,
+    "death": 1978,
+    "properties": [
+      "DP",
+      "FDP",
+      "FVP",
+      "CDU",
+      "Fraktionsvorsitzender (FVP)",
+      "Vizepräsident des Bundestags"
+    ]
+  },
+  {
+    "name": "Otto Pannenbecker",
+    "img": null,
+    "birth": 1879,
+    "death": 1956,
+    "properties": ["Zentrum", "Fraktionsvorsitzender (FU)"]
+  },
+  {
+    "name": "Horst Haasler",
+    "img": null,
+    "birth": 1905,
+    "death": 1969,
+    "properties": ["CDU", "GB/BHE", "NSDAP", "Fraktionsvorsitzender (GB/BHE)"]
+  },
+  {
+    "name": "Karl Mocker",
+    "img": null,
+    "birth": 1905,
+    "death": 1996,
+    "properties": ["CDU", "GB/BHE", "NSDAP", "Fraktionsvorsitzender (GB/BHE)"]
+  },
+  {
+    "name": "Erwin Feller",
+    "img": null,
+    "birth": 1911,
+    "death": 1991,
+    "properties": ["GB/BHE", "GDP", "Fraktionsvorsitzender (GB/BHE)"]
+  },
+  {
+    "name": "Maria Probst",
+    "img": null,
+    "birth": 1902,
+    "death": 1967,
+    "properties": ["CSU", "Vizepräsident des Bundestags", "Frau"]
+  },
+  {
+    "name": "Michaela Geiger",
+    "img": null,
+    "birth": 1943,
+    "death": 1998,
+    "properties": ["CSU", "Vizepräsident des Bundestags", "Frau"]
+  },
+  {
+    "name": "Peter Hintze",
+    "img": null,
+    "birth": 1950,
+    "death": 2016,
+    "properties": ["CDU", "Vizepräsident des Bundestags"]
+  },
+  {
+    "name": "Michaela Noll",
+    "img": null,
+    "birth": 1959,
+    "death": null,
+    "properties": ["CDU", "Vizepräsident des Bundestags", "Frau"]
+  },
+  {
+    "name": "Johannes Singhammer",
+    "img": null,
+    "birth": 1953,
+    "death": null,
+    "properties": ["CSU", "Vizepräsident des Bundestags"]
+  },
+  {
+    "name": "Yvonne Magwas",
+    "img": null,
+    "birth": 1979,
+    "death": null,
+    "properties": ["CDU", "Vizepräsident des Bundestags", "Frau"]
+  },
+  {
+    "name": "Andrea Lindholz",
+    "img": null,
+    "birth": 1970,
+    "death": null,
+    "properties": ["CDU", "Vizepräsident des Bundestags", "Frau"]
+  },
+  {
+    "name": "Erwin Schoettle",
+    "img": null,
+    "birth": 1899,
+    "death": 1976,
+    "properties": ["SPD", "Vizepräsident des Bundestags"]
+  },
+  {
+    "name": "Karl Mommer",
+    "img": null,
+    "birth": 1910,
+    "death": 1990,
+    "properties": ["SPD", "KPD", "Vizepräsident des Bundestags"]
+  },
+  {
+    "name": "Hermann Schmitt-Vockenhausen",
+    "img": null,
+    "birth": 1923,
+    "death": 1979,
+    "properties": ["SPD", "NSDAP", "Vizepräsident des Bundestags"]
+  },
+  {
+    "name": "Helmuth Becker",
+    "img": null,
+    "birth": 1929,
+    "death": 2011,
+    "properties": ["SPD", "Vizepräsident des Bundestags"]
+  },
+  {
+    "name": "Susanne Kastner",
+    "img": null,
+    "birth": 1946,
+    "death": null,
+    "properties": ["SPD", "Vizepräsident des Bundestags", "Frau"]
+  },
+  {
+    "name": "Dagmar Ziegler",
+    "img": null,
+    "birth": 1960,
+    "death": null,
+    "properties": ["SPD", "Vizepräsident des Bundestags", "Frau"]
+  },
+  {
+    "name": "Aydan Özoğuz",
+    "img": null,
+    "birth": 1967,
+    "death": null,
+    "properties": ["SPD", "Vizepräsident des Bundestags", "Frau"]
+  },
+  {
+    "name": "Josephine Ortleb",
+    "img": null,
+    "birth": 1986,
+    "death": null,
+    "properties": ["SPD", "Vizepräsident des Bundestags", "Frau"]
+  },
+  {
+    "name": "Liselotte Funcke",
+    "img": null,
+    "birth": 1918,
+    "death": 2012,
+    "properties": ["NSDAP", "FDP", "Vizepräsident des Bundestags", "Frau"]
+  },
+  {
+    "name": "Richard Wurbs",
+    "img": null,
+    "birth": 1920,
+    "death": 2018,
+    "properties": ["FDP", "Vizepräsident des Bundestags"]
+  },
+  {
+    "name": "Dieter-Julius Cronenberg",
+    "img": null,
+    "birth": 1930,
+    "death": 2013,
+    "properties": ["FDP", "Vizepräsident des Bundestags"]
+  },
+  {
+    "name": "Burkhard Hirsch",
+    "img": null,
+    "birth": 1930,
+    "death": 2020,
+    "properties": ["FDP", "Vizepräsident des Bundestags"]
+  },
+  {
+    "name": "Petra Bläss",
+    "img": null,
+    "birth": 1964,
+    "death": null,
+    "properties": ["PDS", "Vizepräsident des Bundestags"]
+  },
+  {
+    "name": "Petra Pau",
+    "img": null,
+    "birth": 1963,
+    "death": null,
+    "properties": ["PDS", "Linke", "Vizepräsident des Bundestags"]
+  },
+  {
+    "name": "Bodo Ramelow",
+    "img": null,
+    "birth": 1956,
+    "death": null,
+    "properties": ["PDS", "Linke", "Vizepräsident des Bundestags"]
+  },
+  {
+    "name": "Bodo Ramelow",
+    "img": null,
+    "birth": 1956,
+    "death": null,
+    "properties": ["PDS", "Linke", "Vizepräsident des Bundestags"]
   }
 ]
