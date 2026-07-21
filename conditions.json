@@ -1,5 +1,12 @@
 [
   {
+    "id": "XX",
+    "name": "PLATZHALTER",
+    "more": "Jeder Politiker erfüllt diese Kategorie.",
+    "img": null,
+    "condition": "return true"
+  },
+  {
     "id": "00",
     "name": "SPD",
     "color": "#b02819",
