@@ -10,47 +10,47 @@
     "id": "00",
     "name": "SPD",
     "color": "#b02819",
-    "more": "Politiker*innen die zu irgendeime Zeitpunkt Mitglied der SPD waren",
-    "img": null,
+    "more": "Politiker*innen die zu irgendeinem Zeitpunkt Mitglied der SPD waren",
+    "img": "00",
     "condition": "return x.properties.includes('SPD')"
   },
   {
     "id": "01",
     "name": "CDU",
     "color": "#141414",
-    "more": "Politiker*innen die zu irgendeime Zeitpunkt Mitglied der CDU waren",
-    "img": null,
+    "more": "Politiker*innen die zu irgendeinem Zeitpunkt Mitglied der CDU waren",
+    "img": "01",
     "condition": "return x.properties.includes('CDU') || x.properties.includes('Ost-CDU') "
   },
   {
     "id": "02",
     "name": "FDP",
     "color": "#919026",
-    "more": "Politiker*innen die zu irgendeime Zeitpunkt Mitglied der FDP waren",
-    "img": null,
+    "more": "Politiker*innen die zu irgendeinem Zeitpunkt Mitglied der FDP waren",
+    "img": "02",
     "condition": "return x.properties.includes('FDP')"
   },
   {
     "id": "03",
     "name": "B'90/Grüne",
     "color": "#07521c",
-    "more": "Politiker*innen die zu irgendeime Zeitpunkt Mitglied bei Bündnis 90/Die Grünen waren",
-    "img": null,
+    "more": "Politiker*innen die zu irgendeinem Zeitpunkt Mitglied bei Bündnis 90/Die Grünen waren",
+    "img": "03",
     "condition": "return x.properties.includes('B90/Die Grünen')"
   },
   {
     "id": "04",
     "name": "Linke",
     "color": "#7a2366",
-    "more": "Politiker*innen die zu irgendeime Zeitpunkt Mitglied der Linkspartei waren",
-    "img": null,
+    "more": "Politiker*innen die zu irgendeinem Zeitpunkt Mitglied der Linkspartei waren",
+    "img": "04",
     "condition": "return x.properties.includes('Linke')"
   },
   {
     "id": "05",
     "name": "AfD",
     "color": "#2c2985",
-    "more": "Politiker*innen die zu irgendeime Zeitpunkt Mitglied der AfD waren",
+    "more": "Politiker*innen die zu irgendeinem Zeitpunkt Mitglied der AfD waren",
     "img": null,
     "condition": "return x.properties.includes('AfD')"
   },
@@ -77,37 +77,37 @@
   },
   {
     "id": "09",
-    "name": "Bundes- präsident",
+    "name": "Bundes\u00ADpräsident",
     "more": "Politiker die das Amt des Bundespräsidenten bekleidet haben",
-    "img": null,
+    "img": "09",
     "condition": "return x.properties.includes('Bundespräsident')"
   },
   {
     "id": "10",
-    "name": "Bundes- kanzler",
+    "name": "Bundes\u00ADkanzler",
     "more": "Politiker*innen die Bundeskanzler waren. Auch eine kommissarische übernahme des Amts zählt.",
-    "img": null,
+    "img": "09",
     "condition": "return x.properties.includes('Bundeskanzler')"
   },
   {
     "id": "11",
     "name": "Kandidat für die Bundespräsidentschaft",
     "more": "Politiker*innen die in der Bundesversammlung Stimmen erhalten haben. Auch erfolgreiche Kandidaten zählen.",
-    "img": null,
+    "img": "09",
     "condition": "return x.properties.includes('Bundespräsident') || x.properties.includes('Bundespräsidentenkandidat')"
   },
   {
     "id": "12",
     "name": "Vizekanzler",
     "more": "Politiker*innen die Stellvertreter des Bundeskanzlers waren. Auch eine kommissarische übernahme des Amts zählt.",
-    "img": null,
+    "img":  "09",
     "condition": "return x.properties.includes('Vizekanzler')"
   },
   {
     "id": "13",
     "name": "Am Leben",
     "more": "Politiker*innen die noch am leben sind.",
-    "img": null,
+    "img": "13",
     "condition": "return x.death == null"
   },
   {
@@ -208,34 +208,34 @@
     "id": "26",
     "name": "Mindestens 90 geworden",
     "more": "Politiker*innen die 90 Jahre oder älter geworden sind. Auch lebende Politiker die mindestens 90 sind zählen.",
-    "img": null,
-    "condition": "return (x.death - x.birth) > 89 || (x.death == null && new Date().getFullYear() - x.birth > 89)"
+    "img": "26",
+    "condition": "return (x.death \u00ADx.birth) > 89 || (x.death == null && new Date().getFullYear() \u00ADx.birth > 89)"
   },
   {
     "id": "27",
     "name": "Mindestens 80 geworden",
     "more": "Politiker*innen die 80 Jahre oder älter geworden sind. Auch lebende Politiker die mindetens 80 sind zählen.",
-    "img": null,
-    "condition": "return (x.death - x.birth) > 79 || (x.death == null && new Date().getFullYear() - x.birth > 79)"
+    "img": "27",
+    "condition": "return (x.death \u00ADx.birth) > 79 || (x.death == null && new Date().getFullYear() \u00ADx.birth > 79)"
   },
   {
     "id": "28",
     "name": "Nur 50 geworden",
     "more": "Politiker*innen die nur 50 Jahre oder älter geworden sind",
     "img": null,
-    "condition": "return (x.death - x.birth) < 51"
+    "condition": "return (x.death \u00ADx.birth) < 51"
   },
   {
     "id": "29",
     "name": "Frau",
     "more": "Politikerinnen.",
-    "img": null,
+    "img":  "29",
     "condition": "return x.properties.includes('Frau')"
   },
   {
     "id": "30",
     "name": "NSDAP",
-    "more": "Politiker*innen die zu irgendeime Zeitpunkt Mitglied der NSDAP waren.",
+    "more": "Politiker*innen die zu irgendeinem Zeitpunkt Mitglied der NSDAP waren.",
     "img": null,
     "condition": "return x.properties.includes('NSDAP')"
   },
@@ -256,14 +256,14 @@
   },
   {
     "id": "33",
-    "name": "Partei- vorsitzender",
+    "name": "Partei\u00ADvorsitzender",
     "more": "Politiker*innen die einmal Vorsitzende einer Partei waren",
     "img": null,
     "condition": "return x.properties.some(element => element.startsWith('Parteivorsitzender'))"
   },
   {
     "id": "34",
-    "name": "Ehren- vorsitzender",
+    "name": "Ehren\u00ADvorsitzender",
     "more": "Politiker*innen die einmal Ehrenvorsitzende einer Partei waren",
     "img": null,
     "condition": "return x.properties.some(element => element.startsWith('Ehrenvorsitzender'))"
@@ -277,56 +277,56 @@
   },
   {
     "id": "36",
-    "name": "Außen- minister",
+    "name": "Außen\u00ADminister",
     "more": "Politiker*innen die einmal das Amt des Außenministers innehatten. Auch eine kommissarische übernahme des Amts zählt.",
     "img": null,
     "condition": "return x.properties.includes('Aussenminister (Bund)')"
   },
   {
     "id": "37",
-    "name": "Innen- minister",
+    "name": "Innen\u00ADminister",
     "more": "Politiker*innen die einmal das Amt des Innenministers innehatten. Auch eine kommissarische übernahme des Amts zählt.",
     "img": null,
     "condition": "return x.properties.includes('Innenminister (Bund)')"
   },
   {
     "id": "38",
-    "name": "Verteidigungs- minister",
+    "name": "Verteidigungs\u00ADminister",
     "more": "Politiker*innen die einmal das Amt des Verteidigungsministers innehatten. Auch eine kommissarische übernahme des Amts zählt.",
     "img": null,
     "condition": "return x.properties.includes('Verteidigungsminister (Bund)')"
   },
   {
     "id": "39",
-    "name": "Verkehrs- minister",
+    "name": "Verkehrs\u00ADminister",
     "more": "Politiker*innen die einmal das Amt des Verkehrsministers innehatten. Auch eine kommissarische übernahme des Amts zählt.",
     "img": null,
     "condition": "return x.properties.includes('Verkehrsminister (Bund)')"
   },
   {
     "id": "40",
-    "name": "Atom- minister",
+    "name": "Atom\u00ADminister",
     "more": "Politiker*innen die einmal das Amt des Atomministers innehatten. Auch eine kommissarische übernahme des Amts zählt.",
     "img": null,
     "condition": "return x.properties.includes('Atomminister (Bund)')"
   },
   {
     "id": "41",
-    "name": "Forschungs- minister",
+    "name": "Forschungs\u00ADminister",
     "more": "Politiker*innen die einmal das Amt des Forschungsministers innehatten. Auch eine kommissarische übernahme des Amts zählt.",
     "img": null,
     "condition": "return x.properties.includes('Forschungsminister (Bund)')"
   },
   {
     "id": "42",
-    "name": "Bildungs- minister",
+    "name": "Bildungs\u00ADminister",
     "more": "Politiker*innen die einmal das Amt des Bildungsministers innehatten. Auch eine kommissarische übernahme des Amts zählt.",
     "img": null,
     "condition": "return x.properties.includes('Bildungsminister (Bund)')"
   },
   {
     "id": "43",
-    "name": "Arbeits- minister",
+    "name": "Arbeits\u00ADminister",
     "more": "Politiker*innen die einmal das Amt des Arbeitsministers innehatten. Auch eine kommissarische übernahme des Amts zählt.",
     "img": null,
     "condition": "return x.properties.includes('Arbeitsminister (Bund)')"
@@ -347,70 +347,70 @@
   },
   {
     "id": "46",
-    "name": "Gesundheits- minister",
+    "name": "Gesundheits\u00ADminister",
     "more": "Politiker*innen die einmal das Amt des Gesundheitsministers innehatten. Auch eine kommissarische übernahme des Amts zählt.",
     "img": null,
     "condition": "return x.properties.includes('Gesundheitsminister (Bund)')"
   },
   {
     "id": "47",
-    "name": "Familien- minister",
+    "name": "Familien\u00ADminister",
     "more": "Politiker*innen die einmal das Amt des Familienministers innehatten. Auch eine kommissarische übernahme des Amts zählt.",
     "img": null,
     "condition": "return x.properties.includes('Familienminister (Bund)')"
   },
   {
     "id": "48",
-    "name": "Bau- minister",
+    "name": "Bau\u00ADminister",
     "more": "Politiker*innen die einmal das Amt des Bauministers innehatten. Auch eine kommissarische übernahme des Amts zählt.",
     "img": null,
     "condition": "return x.properties.includes('Bauminister (Bund)')"
   },
   {
     "id": "49",
-    "name": "Post- minister",
+    "name": "Post\u00ADminister",
     "more": "Politiker*innen die einmal das Amt des Postministers innehatten. Auch eine kommissarische übernahme des Amts zählt.",
     "img": null,
     "condition": "return x.properties.includes('Postminister (Bund)')"
   },
   {
     "id": "50",
-    "name": "Schatz- minister",
+    "name": "Schatz\u00ADminister",
     "more": "Politiker*innen die einmal das Amt des Schatzministers innehatten. Auch eine kommissarische übernahme des Amts zählt.",
     "img": null,
     "condition": "return x.properties.includes('Schatzminister (Bund)')"
   },
   {
     "id": "51",
-    "name": "Bundesrats- minister",
+    "name": "Bundesrats\u00ADminister",
     "more": "Politiker*innen die einmal das Amt des Bundesratsministers innehatten. Auch eine kommissarische übernahme des Amts zählt.",
     "img": null,
     "condition": "return x.properties.includes('Bundesratsminister (Bund)')"
   },
   {
     "id": "52",
-    "name": "Entwicklungshilfe- minister",
+    "name": "Entwicklungshilfe\u00ADminister",
     "more": "Politiker*innen die einmal das Amt des Ministers für Wirtschaftliche Zusammenarbeit und Entwicklung innehatten. Auch eine kommissarische übernahme des Amts zählt.",
     "img": null,
     "condition": "return x.properties.includes('Entwicklungshilfeminister (Bund)')"
   },
   {
     "id": "53",
-    "name": "Justiz- minister",
+    "name": "Justiz\u00ADminister",
     "more": "Politiker*innen die einmal das Amt des Justizministers innehatten. Auch eine kommissarische übernahme des Amts zählt.",
     "img": null,
     "condition": "return x.properties.includes('Justizminister (Bund)')"
   },
   {
     "id": "54",
-    "name": "Landwirtschafts- minister",
+    "name": "Landwirtschafts\u00ADminister",
     "more": "Politiker*innen die einmal das Amt des Landwirtschaftsministers innehatten. Auch eine kommissarische übernahme des Amts zählt.",
     "img": null,
     "condition": "return x.properties.includes('Landwirtschaftsminister (Bund)')"
   },
   {
     "id": "55",
-    "name": "Wirtschafts- minister",
+    "name": "Wirtschafts\u00ADminister",
     "more": "Politiker*innen die einmal das Amt des Wirtschaftsministers innehatten. Auch eine kommissarische übernahme des Amts zählt.",
     "img": null,
     "condition": "return x.properties.includes('Wirtschaftsminister (Bund)')"
@@ -419,52 +419,52 @@
     "id": "56",
     "name": "Mann",
     "more": "Männliche Politiker.",
-    "img": null,
+    "img": "56",
     "condition": "return !x.properties.includes('Frau')"
   },
   {
     "id": "57",
-    "name": "SPD Partei- vorsitzender",
+    "name": "SPD Partei\u00ADvorsitzender",
     "color": "#b02819",
     "more": "Politiker*innen die einmal Vorsitzende der SPD waren.",
-    "img": null,
+    "img": "00",
     "condition": "return x.properties.includes('Parteivorsitzender (SPD)')"
   },
   {
     "id": "58",
-    "name": "CDU Partei- vorsitzender",
+    "name": "CDU Partei\u00ADvorsitzender",
     "color": "#141414",
     "more": "Politiker*innen die einmal Vorsitzende der CDU waren.",
-    "img": null,
+    "img": "01",
     "condition": "return x.properties.includes('Parteivorsitzender (CDU)')"
   },
   {
     "id": "59",
-    "name": "FDP Partei- vorsitzender",
+    "name": "FDP Partei\u00ADvorsitzender",
     "color": "#919026",
     "more": "Politiker*innen die einmal Vorsitzende der FDP waren.",
-    "img": null,
+    "img": "02",
     "condition": "return x.properties.includes('Parteivorsitzender (FDP)')"
   },
   {
     "id": "60",
-    "name": "Linke Partei- vorsitzender",
+    "name": "Linke Partei\u00ADvorsitzender",
     "color": "#7a2366",
     "more": "Politiker*innen die einmal Vorsitzende der Linkspartei waren.",
-    "img": null,
+    "img": "04",
     "condition": "return x.properties.includes('Parteivorsitzender (Linke)')"
   },
   {
     "id": "61",
-    "name": "Grüne Partei- vorsitzender",
+    "name": "Grüne Partei\u00ADvorsitzender",
     "color": "#07521c",
     "more": "Politiker*innen die einmal Vorsitzende von Bündnis 90/Die Grünen waren.",
-    "img": null,
+    "img": "03",
     "condition": "return x.properties.includes('Parteivorsitzender (B90/Die Grünen)')"
   },
   {
     "id": "62",
-    "name": "AfD Partei- vorsitzender",
+    "name": "AfD Partei\u00ADvorsitzender",
     "color": "#2c2985",
     "more": "Politiker*innen die einmal Vorsitzende der AfD waren.",
     "img": null,
@@ -474,7 +474,7 @@
     "id": "63",
     "name": "PDS",
     "color": "#7a2366",
-    "more": "Politiker*innen die zu irgendeime Zeitpunkt Mitglied der PDS waren",
+    "more": "Politiker*innen die zu irgendeinem Zeitpunkt Mitglied der PDS waren",
     "img": null,
     "condition": "return x.properties.includes('Zentrum')"
   },
@@ -482,51 +482,51 @@
     "id": "64",
     "name": "Zentrum",
     "color": "#b02819",
-    "more": "Politiker*innen die zu irgendeime Zeitpunkt Mitglied der Zentrums-Partei waren",
+    "more": "Politiker*innen die zu irgendeinem Zeitpunkt Mitglied der Zentrums-Partei waren",
     "img": null,
     "condition": "return x.properties.includes('Zentrum')"
   },
   {
     "id": "65",
     "name": "BSW",
-    "more": "Politiker*innen die zu irgendeime Zeitpunkt Mitglied des BSW waren",
+    "more": "Politiker*innen die zu irgendeinem Zeitpunkt Mitglied des BSW waren",
     "img": null,
     "condition": "return x.properties.includes('BSW')"
   },
   {
     "id": "66",
-    "name": "Alters- präsident des Bundestags",
-    "more": "Politiker*innen die zu irgendeime Zeitpunkt Alterspräsident des Bundestags waren.",
-    "img": null,
+    "name": "Alters\u00ADpräsident des Bundestags",
+    "more": "Politiker*innen die zu irgendeinem Zeitpunkt Alterspräsident des Bundestags waren.",
+    "img": "66",
     "condition": "return x.properties.includes('Alterspräsident des Bundestags')"
   },
   {
     "id": "67",
     "name": "EU-Kommissar",
     "color": "#2b2ec4",
-    "more": "Politiker*innen die das Amt eines EU- oder EG-Kommissars inne hatten.",
-    "img": null,
+    "more": "Politiker*innen die das Amt eines EU\u00ADoder EG-Kommissars inne hatten.",
+    "img": "67",
     "condition": "return x.properties.includes('Alterspräsident des Bundestags')"
   },
   {
     "id": "68",
     "name": "CSU",
     "color": "#1fa1cc",
-    "more": "Politiker*innen die zu irgendeime Zeitpunkt Mitglied der CSU waren",
-    "img": null,
+    "more": "Politiker*innen die zu irgendeinem Zeitpunkt Mitglied der CSU waren",
+    "img": "68",
     "condition": "return x.properties.includes('CSU')"
   },
   {
     "id": "69",
     "name": "Union",
     "color": "#141414",
-    "more": "Politiker*innen die zu irgendeime Zeitpunkt Mitglied der CDU oder CSU waren",
-    "img": null,
+    "more": "Politiker*innen die zu irgendeinem Zeitpunkt Mitglied der CDU oder CSU waren",
+    "img": "69",
     "condition": "return x.properties.includes('CSU') || x.properties.includes('CDU') || x.properties.includes('Ost-CDU') "
   },
   {
     "id": "70",
-    "name": "CSU Partei- vorsitzender",
+    "name": "CSU Partei\u00ADvorsitzender",
     "color": "#1fa1cc",
     "more": "Politiker*innen die einmal Vorsitzende der CSU waren.",
     "img": null,
@@ -534,16 +534,16 @@
   },
   {
     "id": "71",
-    "name": "Umwelt- minister",
+    "name": "Umwelt\u00ADminister",
     "more": "Politiker*innen die einmal das Amt des Umweltministers innehatten. Auch eine kommissarische übernahme des Amts zählt.",
     "img": null,
     "condition": "return x.properties.includes('Umweltminister (Bund)')"
   },
   {
     "id": "72",
-    "name": "Bundestags- präsident",
-    "more": "Politiker*innen die zu irgendeime Zeitpunkt das Amt des Bundestagspräsidenten inne hatten.",
-    "img": null,
+    "name": "Bundestags\u00ADpräsident",
+    "more": "Politiker*innen die zu irgendeinem Zeitpunkt das Amt des Bundestagspräsidenten inne hatten.",
+    "img": "66",
     "condition": "return x.properties.includes('Bundestagspräsident')"
   },
   {
@@ -564,26 +564,26 @@
     "id": "75",
     "name": "Unterlegener Kandidat für die Bundespräsidentschaft",
     "more": "Politiker*innen die in der Bundesversammlung Stimmen erhalten haben, aber bei dieser Wahl nicht Bundespräsident wurden. Kandidaten die hingegen bei einer späteren Wahl Präsident wurden sind erlaubt.",
-    "img": "Bundespräsident.png",
+    "img": "09",
     "condition": "return x.properties.includes('Bundespräsidentenkandidat')"
   },
   {
     "id": "76",
     "name": "Kulturstaatsminister",
     "more": "Politiker*innen die das seit 1999 existierende Amt des Beauftragten der Bundesregierung für Kultur und Medien übernommen haben.",
-    "img": "Bundesregierung.png",
+    "img": "09",
     "condition": "return x.properties.includes('Kulturstaatsminister')"
   },
   {
     "id": "77",
     "name": "Vorsitzende der Frauen-Union",
     "more": "Politikerinnen die der Frauen-Union innerhalb der CDU bzw. dem Bundesfrauenausschuss (1951-1958) Vorsaßen.",
-    "img": "Bundesregierung.png",
+    "img": "09",
     "condition": "return x.properties.includes('Vorsitzende Frauen-Union')"
   },
   {
     "id": "78",
-    "name": "Finanz- minister",
+    "name": "Finanz\u00ADminister",
     "more": "Politiker*innen die einmal das Amt des Finanzministers innehatten. Auch eine kommissarische übernahme des Amts zählt.",
     "img": null,
     "condition": "return x.properties.includes('Finanzminister (Bund)')"
@@ -599,7 +599,7 @@
     "id": "80",
     "name": "Umlaut",
     "more": "Politiker*innen deren name ein ä, ö oder ü enthalten.",
-    "img": null,
+    "img": "80",
     "condition": "return x.name.includes('ä') || x.name.includes('Ä') || x.name.includes('ö') || x.name.includes('Ö') || x.name.includes('ü') || x.name.includes('Ü')"
   }
 ]

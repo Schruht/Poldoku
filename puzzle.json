@@ -1,0 +1,3156 @@
+{
+  "answerOfTheDay": {
+    "name": "Karl Lauterbach"
+  },
+  "rowCategories": [
+    {
+      "id": "69",
+      "name": "Union"
+    },
+    {
+      "id": "00",
+      "name": "SPD"
+    },
+    {
+      "id": "01",
+      "name": "CDU"
+    }
+  ],
+  "colCategories": [
+    {
+      "id": "07",
+      "name": "Geboren im 20. Jahrhundert"
+    },
+    {
+      "id": "13",
+      "name": "Am Leben"
+    },
+    {
+      "id": "56",
+      "name": "Mann"
+    }
+  ],
+  "categoryIdString": "690001071356",
+  "grid": [
+    [
+      {
+        "count": 166,
+        "candidates": [
+          {
+            "name": "Kurt Georg Kiesinger"
+          },
+          {
+            "name": "Helmut Kohl"
+          },
+          {
+            "name": "Angela Merkel"
+          },
+          {
+            "name": "Friedrich Merz"
+          },
+          {
+            "name": "Karl Carstens"
+          },
+          {
+            "name": "Richard von Weizsäcker"
+          },
+          {
+            "name": "Roman Herzog"
+          },
+          {
+            "name": "Horst Köhler"
+          },
+          {
+            "name": "Christian Wulff"
+          },
+          {
+            "name": "Karl Arnold"
+          },
+          {
+            "name": "Hans Hirzel"
+          },
+          {
+            "name": "Dagmar Schipanski"
+          },
+          {
+            "name": "Albrecht Glaser"
+          },
+          {
+            "name": "Max Otte"
+          },
+          {
+            "name": "Stefanie Gebauer"
+          },
+          {
+            "name": "Hans-Christoph Seebohm"
+          },
+          {
+            "name": "Heinrich Hellwege"
+          },
+          {
+            "name": "Heinrich von Brentano"
+          },
+          {
+            "name": "Gerhard Schröder (CDU)"
+          },
+          {
+            "name": "Hans-Joachim von Merkatz"
+          },
+          {
+            "name": "Theodor Blank"
+          },
+          {
+            "name": "Franz Josef Strauß"
+          },
+          {
+            "name": "Siegfried Balke"
+          },
+          {
+            "name": "Theodor Oberländer"
+          },
+          {
+            "name": "Franz-Josef Wuermeling"
+          },
+          {
+            "name": "Franz Etzel"
+          },
+          {
+            "name": "Werner Schwarz"
+          },
+          {
+            "name": "Richard Stücklen"
+          },
+          {
+            "name": "Paul Lücke"
+          },
+          {
+            "name": "Hermann Höcherl"
+          },
+          {
+            "name": "Heinz Starke"
+          },
+          {
+            "name": "Elisabeth Schwarzhaupt"
+          },
+          {
+            "name": "Ewald Bucher"
+          },
+          {
+            "name": "Kai-Uwe von Hassel"
+          },
+          {
+            "name": "Rainer Barzel"
+          },
+          {
+            "name": "Alois Niederalt"
+          },
+          {
+            "name": "Bruno Heck"
+          },
+          {
+            "name": "Werner Dollinger"
+          },
+          {
+            "name": "Wolfgang Schäuble"
+          },
+          {
+            "name": "Annegret Kramp-Karrenbauer"
+          },
+          {
+            "name": "Armin Laschet"
+          },
+          {
+            "name": "Hanns Seidel"
+          },
+          {
+            "name": "Theo Waigel"
+          },
+          {
+            "name": "Edmund Stoiber"
+          },
+          {
+            "name": "Erwin Huber"
+          },
+          {
+            "name": "Horst Seehofer"
+          },
+          {
+            "name": "Markus Söder"
+          },
+          {
+            "name": "Markus Söder"
+          },
+          {
+            "name": "Bernd Lucke"
+          },
+          {
+            "name": "Alexander Gauland"
+          },
+          {
+            "name": "Konrad Adam"
+          },
+          {
+            "name": "Friedrich Thielen"
+          },
+          {
+            "name": "Herbert Schneider"
+          },
+          {
+            "name": "Erich Mende"
+          },
+          {
+            "name": "Kurt Schmücker"
+          },
+          {
+            "name": "Hans Krüger"
+          },
+          {
+            "name": "Richard Jaeger"
+          },
+          {
+            "name": "Hans Katzer"
+          },
+          {
+            "name": "Johann Baptist Gradl"
+          },
+          {
+            "name": "Gerhard Stoltenberg"
+          },
+          {
+            "name": "Ernst Benda"
+          },
+          {
+            "name": "Heinrich Windelen"
+          },
+          {
+            "name": "Aenne Brauksiepe"
+          },
+          {
+            "name": "Otto Lenz"
+          },
+          {
+            "name": "Waldemar Schreckenberger"
+          },
+          {
+            "name": "Hermann Ehlers"
+          },
+          {
+            "name": "Eugen Gerstenmaier"
+          },
+          {
+            "name": "Philipp Jenninger"
+          },
+          {
+            "name": "Rita Süssmuth"
+          },
+          {
+            "name": "Norbert Lammert"
+          },
+          {
+            "name": "Julia Klöckner"
+          },
+          {
+            "name": "Heinz Riesenhuber"
+          },
+          {
+            "name": "Fritz Hellwig"
+          },
+          {
+            "name": "Karl-Heinz Narjes"
+          },
+          {
+            "name": "Peter Schmidhuber"
+          },
+          {
+            "name": "Günther Oettinger"
+          },
+          {
+            "name": "Ursula von der Leyen"
+          },
+          {
+            "name": "Karl Lauterbach"
+          },
+          {
+            "name": "Friedrich Zimmermann"
+          },
+          {
+            "name": "Norbert Blüm"
+          },
+          {
+            "name": "Manfred Wörner"
+          },
+          {
+            "name": "Heiner Geißler"
+          },
+          {
+            "name": "Christian Schwarz-Schilling"
+          },
+          {
+            "name": "Oscar Schneider"
+          },
+          {
+            "name": "Dorothee Wilms"
+          },
+          {
+            "name": "Jürgen Warnke"
+          },
+          {
+            "name": "Ignaz Kiechle"
+          },
+          {
+            "name": "Walter Wallmann"
+          },
+          {
+            "name": "Rupert Scholz"
+          },
+          {
+            "name": "Ursula Lehr"
+          },
+          {
+            "name": "Klaus Töpfer"
+          },
+          {
+            "name": "Gerda Hasselfeldt"
+          },
+          {
+            "name": "Jürgen W. Möllemann"
+          },
+          {
+            "name": "Hans Klein"
+          },
+          {
+            "name": "Rudolf Seiters"
+          },
+          {
+            "name": "Sabine Bergmann-Pohl"
+          },
+          {
+            "name": "Günther Krause"
+          },
+          {
+            "name": "Lothar de Maizière"
+          },
+          {
+            "name": "Hansjoachim Walther"
+          },
+          {
+            "name": "Hans-Wilhelm Ebeling"
+          },
+          {
+            "name": "Joachim Hubertus Nowack"
+          },
+          {
+            "name": "Gerald Götting"
+          },
+          {
+            "name": "Wolfgang Heyl"
+          },
+          {
+            "name": "Manfred Kanther"
+          },
+          {
+            "name": "Jochen Borchert"
+          },
+          {
+            "name": "Volker Rühe"
+          },
+          {
+            "name": "Hannelore Rönsch"
+          },
+          {
+            "name": "Matthias Wissmann"
+          },
+          {
+            "name": "Wolfgang Bötsch"
+          },
+          {
+            "name": "Paul Krüger"
+          },
+          {
+            "name": "Karl-Hans Laermann"
+          },
+          {
+            "name": "Carl-Dieter Spranger"
+          },
+          {
+            "name": "Friedrich Bohl"
+          },
+          {
+            "name": "Claudia Nolte"
+          },
+          {
+            "name": "Eduard Oswald"
+          },
+          {
+            "name": "Jürgen Rüttgers"
+          },
+          {
+            "name": "Bernd Neumann"
+          },
+          {
+            "name": "Monika Grütters"
+          },
+          {
+            "name": "Michael Glos"
+          },
+          {
+            "name": "Karl-Theodor zu Guttenberg"
+          },
+          {
+            "name": "Ilse Aigner"
+          },
+          {
+            "name": "Franz Josef Jung"
+          },
+          {
+            "name": "Annette Schavan"
+          },
+          {
+            "name": "Thomas de Maizière"
+          },
+          {
+            "name": "Hans-Peter Friedrich"
+          },
+          {
+            "name": "Kristina Schröder"
+          },
+          {
+            "name": "Peter Ramsauer"
+          },
+          {
+            "name": "Norbert Röttgen"
+          },
+          {
+            "name": "Peter Altmaier"
+          },
+          {
+            "name": "Johanna Wanka"
+          },
+          {
+            "name": "Ronald Pofalla"
+          },
+          {
+            "name": "Christian Schmidt (CSU)"
+          },
+          {
+            "name": "Hermann Gröhe"
+          },
+          {
+            "name": "Alexander Dobrindt"
+          },
+          {
+            "name": "Gerd Müller"
+          },
+          {
+            "name": "Jens Spahn"
+          },
+          {
+            "name": "Andreas Scheuer"
+          },
+          {
+            "name": "Anja Karliczek"
+          },
+          {
+            "name": "Helge Braun"
+          },
+          {
+            "name": "Johann Wadephul"
+          },
+          {
+            "name": "Katherina Reiche"
+          },
+          {
+            "name": "Dorothee Bär"
+          },
+          {
+            "name": "Karin Prien"
+          },
+          {
+            "name": "Karsten Wildberger"
+          },
+          {
+            "name": "Patrick Schnieder"
+          },
+          {
+            "name": "Nina Warken"
+          },
+          {
+            "name": "Alois Rainer"
+          },
+          {
+            "name": "Thorsten Frei"
+          },
+          {
+            "name": "Charlotte Fera"
+          },
+          {
+            "name": "Helga Wex"
+          },
+          {
+            "name": "Maria Böhmer"
+          },
+          {
+            "name": "Annette Widmann-Mauz"
+          },
+          {
+            "name": "Alfred Dregger"
+          },
+          {
+            "name": "Volker Kauder"
+          },
+          {
+            "name": "Ralph Brinkhaus"
+          },
+          {
+            "name": "Knut von Kühlmann-Stumm"
+          },
+          {
+            "name": "Hugo Decker"
+          },
+          {
+            "name": "Horst Haasler"
+          },
+          {
+            "name": "Karl Mocker"
+          },
+          {
+            "name": "Maria Probst"
+          },
+          {
+            "name": "Michaela Geiger"
+          },
+          {
+            "name": "Peter Hintze"
+          },
+          {
+            "name": "Michaela Noll"
+          },
+          {
+            "name": "Johannes Singhammer"
+          },
+          {
+            "name": "Yvonne Magwas"
+          },
+          {
+            "name": "Andrea Lindholz"
+          }
+        ],
+        "includesAnswerOfTheDay": true
+      },
+      {
+        "count": 82,
+        "candidates": [
+          {
+            "name": "Angela Merkel"
+          },
+          {
+            "name": "Friedrich Merz"
+          },
+          {
+            "name": "Christian Wulff"
+          },
+          {
+            "name": "Albrecht Glaser"
+          },
+          {
+            "name": "Max Otte"
+          },
+          {
+            "name": "Stefanie Gebauer"
+          },
+          {
+            "name": "Annegret Kramp-Karrenbauer"
+          },
+          {
+            "name": "Armin Laschet"
+          },
+          {
+            "name": "Theo Waigel"
+          },
+          {
+            "name": "Edmund Stoiber"
+          },
+          {
+            "name": "Erwin Huber"
+          },
+          {
+            "name": "Horst Seehofer"
+          },
+          {
+            "name": "Markus Söder"
+          },
+          {
+            "name": "Markus Söder"
+          },
+          {
+            "name": "Bernd Lucke"
+          },
+          {
+            "name": "Alexander Gauland"
+          },
+          {
+            "name": "Konrad Adam"
+          },
+          {
+            "name": "Norbert Lammert"
+          },
+          {
+            "name": "Julia Klöckner"
+          },
+          {
+            "name": "Heinz Riesenhuber"
+          },
+          {
+            "name": "Günther Oettinger"
+          },
+          {
+            "name": "Ursula von der Leyen"
+          },
+          {
+            "name": "Karl Lauterbach"
+          },
+          {
+            "name": "Dorothee Wilms"
+          },
+          {
+            "name": "Rupert Scholz"
+          },
+          {
+            "name": "Gerda Hasselfeldt"
+          },
+          {
+            "name": "Rudolf Seiters"
+          },
+          {
+            "name": "Sabine Bergmann-Pohl"
+          },
+          {
+            "name": "Günther Krause"
+          },
+          {
+            "name": "Lothar de Maizière"
+          },
+          {
+            "name": "Joachim Hubertus Nowack"
+          },
+          {
+            "name": "Manfred Kanther"
+          },
+          {
+            "name": "Jochen Borchert"
+          },
+          {
+            "name": "Volker Rühe"
+          },
+          {
+            "name": "Hannelore Rönsch"
+          },
+          {
+            "name": "Matthias Wissmann"
+          },
+          {
+            "name": "Paul Krüger"
+          },
+          {
+            "name": "Friedrich Bohl"
+          },
+          {
+            "name": "Claudia Nolte"
+          },
+          {
+            "name": "Eduard Oswald"
+          },
+          {
+            "name": "Jürgen Rüttgers"
+          },
+          {
+            "name": "Bernd Neumann"
+          },
+          {
+            "name": "Monika Grütters"
+          },
+          {
+            "name": "Michael Glos"
+          },
+          {
+            "name": "Karl-Theodor zu Guttenberg"
+          },
+          {
+            "name": "Ilse Aigner"
+          },
+          {
+            "name": "Franz Josef Jung"
+          },
+          {
+            "name": "Annette Schavan"
+          },
+          {
+            "name": "Thomas de Maizière"
+          },
+          {
+            "name": "Hans-Peter Friedrich"
+          },
+          {
+            "name": "Kristina Schröder"
+          },
+          {
+            "name": "Peter Ramsauer"
+          },
+          {
+            "name": "Norbert Röttgen"
+          },
+          {
+            "name": "Peter Altmaier"
+          },
+          {
+            "name": "Johanna Wanka"
+          },
+          {
+            "name": "Ronald Pofalla"
+          },
+          {
+            "name": "Christian Schmidt (CSU)"
+          },
+          {
+            "name": "Hermann Gröhe"
+          },
+          {
+            "name": "Alexander Dobrindt"
+          },
+          {
+            "name": "Gerd Müller"
+          },
+          {
+            "name": "Jens Spahn"
+          },
+          {
+            "name": "Andreas Scheuer"
+          },
+          {
+            "name": "Anja Karliczek"
+          },
+          {
+            "name": "Helge Braun"
+          },
+          {
+            "name": "Johann Wadephul"
+          },
+          {
+            "name": "Katherina Reiche"
+          },
+          {
+            "name": "Dorothee Bär"
+          },
+          {
+            "name": "Karin Prien"
+          },
+          {
+            "name": "Karsten Wildberger"
+          },
+          {
+            "name": "Patrick Schnieder"
+          },
+          {
+            "name": "Nina Warken"
+          },
+          {
+            "name": "Alois Rainer"
+          },
+          {
+            "name": "Thorsten Frei"
+          },
+          {
+            "name": "Maria Böhmer"
+          },
+          {
+            "name": "Annette Widmann-Mauz"
+          },
+          {
+            "name": "Volker Kauder"
+          },
+          {
+            "name": "Ralph Brinkhaus"
+          },
+          {
+            "name": "Hugo Decker"
+          },
+          {
+            "name": "Michaela Noll"
+          },
+          {
+            "name": "Johannes Singhammer"
+          },
+          {
+            "name": "Yvonne Magwas"
+          },
+          {
+            "name": "Andrea Lindholz"
+          }
+        ],
+        "includesAnswerOfTheDay": true
+      },
+      {
+        "count": 167,
+        "candidates": [
+          {
+            "name": "Konrad Adenauer"
+          },
+          {
+            "name": "Ludwig Erhard"
+          },
+          {
+            "name": "Kurt Georg Kiesinger"
+          },
+          {
+            "name": "Helmut Kohl"
+          },
+          {
+            "name": "Friedrich Merz"
+          },
+          {
+            "name": "Heinrich Lübke"
+          },
+          {
+            "name": "Gustav Heinemann"
+          },
+          {
+            "name": "Karl Carstens"
+          },
+          {
+            "name": "Richard von Weizsäcker"
+          },
+          {
+            "name": "Roman Herzog"
+          },
+          {
+            "name": "Horst Köhler"
+          },
+          {
+            "name": "Christian Wulff"
+          },
+          {
+            "name": "Hans Schlange-Schöningen"
+          },
+          {
+            "name": "Karl Arnold"
+          },
+          {
+            "name": "Josef Müller"
+          },
+          {
+            "name": "Hans Hirzel"
+          },
+          {
+            "name": "Albrecht Glaser"
+          },
+          {
+            "name": "Max Otte"
+          },
+          {
+            "name": "Robert Lehr"
+          },
+          {
+            "name": "Fritz Schäffer"
+          },
+          {
+            "name": "Wilhelm Niklas"
+          },
+          {
+            "name": "Anton Storch"
+          },
+          {
+            "name": "Hans-Christoph Seebohm"
+          },
+          {
+            "name": "Hans Schuberth"
+          },
+          {
+            "name": "Hans Lukaschek"
+          },
+          {
+            "name": "Jakob Kaiser"
+          },
+          {
+            "name": "Heinrich Hellwege"
+          },
+          {
+            "name": "Heinrich von Brentano"
+          },
+          {
+            "name": "Gerhard Schröder (CDU)"
+          },
+          {
+            "name": "Hans-Joachim von Merkatz"
+          },
+          {
+            "name": "Theodor Blank"
+          },
+          {
+            "name": "Franz Josef Strauß"
+          },
+          {
+            "name": "Siegfried Balke"
+          },
+          {
+            "name": "Ernst Lemmer"
+          },
+          {
+            "name": "Theodor Oberländer"
+          },
+          {
+            "name": "Franz-Josef Wuermeling"
+          },
+          {
+            "name": "Robert Tillmanns"
+          },
+          {
+            "name": "Waldemar Kraft"
+          },
+          {
+            "name": "Franz Etzel"
+          },
+          {
+            "name": "Werner Schwarz"
+          },
+          {
+            "name": "Richard Stücklen"
+          },
+          {
+            "name": "Paul Lücke"
+          },
+          {
+            "name": "Hermann Lindrath"
+          },
+          {
+            "name": "Hans Wilhelmi"
+          },
+          {
+            "name": "Hermann Höcherl"
+          },
+          {
+            "name": "Heinz Starke"
+          },
+          {
+            "name": "Heinrich Krone"
+          },
+          {
+            "name": "Ewald Bucher"
+          },
+          {
+            "name": "Kai-Uwe von Hassel"
+          },
+          {
+            "name": "Rainer Barzel"
+          },
+          {
+            "name": "Alois Niederalt"
+          },
+          {
+            "name": "Bruno Heck"
+          },
+          {
+            "name": "Werner Dollinger"
+          },
+          {
+            "name": "Wolfgang Schäuble"
+          },
+          {
+            "name": "Armin Laschet"
+          },
+          {
+            "name": "Hans Ehard"
+          },
+          {
+            "name": "Hanns Seidel"
+          },
+          {
+            "name": "Theo Waigel"
+          },
+          {
+            "name": "Edmund Stoiber"
+          },
+          {
+            "name": "Erwin Huber"
+          },
+          {
+            "name": "Horst Seehofer"
+          },
+          {
+            "name": "Markus Söder"
+          },
+          {
+            "name": "Markus Söder"
+          },
+          {
+            "name": "Bernd Lucke"
+          },
+          {
+            "name": "Alexander Gauland"
+          },
+          {
+            "name": "Konrad Adam"
+          },
+          {
+            "name": "Friedrich Thielen"
+          },
+          {
+            "name": "Herbert Schneider"
+          },
+          {
+            "name": "Erich Mende"
+          },
+          {
+            "name": "Karl Weber"
+          },
+          {
+            "name": "Kurt Schmücker"
+          },
+          {
+            "name": "Hans Krüger"
+          },
+          {
+            "name": "Ludger Westrick"
+          },
+          {
+            "name": "Richard Jaeger"
+          },
+          {
+            "name": "Hans Katzer"
+          },
+          {
+            "name": "Johann Baptist Gradl"
+          },
+          {
+            "name": "Gerhard Stoltenberg"
+          },
+          {
+            "name": "Ernst Benda"
+          },
+          {
+            "name": "Heinrich Windelen"
+          },
+          {
+            "name": "Otto Lenz"
+          },
+          {
+            "name": "Hans Globke"
+          },
+          {
+            "name": "Waldemar Schreckenberger"
+          },
+          {
+            "name": "Anton Pfeiffer"
+          },
+          {
+            "name": "Erich Köhler"
+          },
+          {
+            "name": "Hermann Ehlers"
+          },
+          {
+            "name": "Eugen Gerstenmaier"
+          },
+          {
+            "name": "Philipp Jenninger"
+          },
+          {
+            "name": "Norbert Lammert"
+          },
+          {
+            "name": "Robert Pferdmenges"
+          },
+          {
+            "name": "Heinz Riesenhuber"
+          },
+          {
+            "name": "Fritz Hellwig"
+          },
+          {
+            "name": "Karl-Heinz Narjes"
+          },
+          {
+            "name": "Peter Schmidhuber"
+          },
+          {
+            "name": "Günther Oettinger"
+          },
+          {
+            "name": "Karl Lauterbach"
+          },
+          {
+            "name": "Friedrich Zimmermann"
+          },
+          {
+            "name": "Norbert Blüm"
+          },
+          {
+            "name": "Manfred Wörner"
+          },
+          {
+            "name": "Heiner Geißler"
+          },
+          {
+            "name": "Christian Schwarz-Schilling"
+          },
+          {
+            "name": "Oscar Schneider"
+          },
+          {
+            "name": "Jürgen Warnke"
+          },
+          {
+            "name": "Ignaz Kiechle"
+          },
+          {
+            "name": "Walter Wallmann"
+          },
+          {
+            "name": "Rupert Scholz"
+          },
+          {
+            "name": "Klaus Töpfer"
+          },
+          {
+            "name": "Jürgen W. Möllemann"
+          },
+          {
+            "name": "Hans Klein"
+          },
+          {
+            "name": "Rudolf Seiters"
+          },
+          {
+            "name": "Günther Krause"
+          },
+          {
+            "name": "Lothar de Maizière"
+          },
+          {
+            "name": "Hansjoachim Walther"
+          },
+          {
+            "name": "Hans-Wilhelm Ebeling"
+          },
+          {
+            "name": "Joachim Hubertus Nowack"
+          },
+          {
+            "name": "Andreas Hermes"
+          },
+          {
+            "name": "Otto Nuschke"
+          },
+          {
+            "name": "August Bach"
+          },
+          {
+            "name": "Gerald Götting"
+          },
+          {
+            "name": "Wolfgang Heyl"
+          },
+          {
+            "name": "Manfred Kanther"
+          },
+          {
+            "name": "Jochen Borchert"
+          },
+          {
+            "name": "Volker Rühe"
+          },
+          {
+            "name": "Matthias Wissmann"
+          },
+          {
+            "name": "Wolfgang Bötsch"
+          },
+          {
+            "name": "Paul Krüger"
+          },
+          {
+            "name": "Karl-Hans Laermann"
+          },
+          {
+            "name": "Carl-Dieter Spranger"
+          },
+          {
+            "name": "Friedrich Bohl"
+          },
+          {
+            "name": "Eduard Oswald"
+          },
+          {
+            "name": "Jürgen Rüttgers"
+          },
+          {
+            "name": "Bernd Neumann"
+          },
+          {
+            "name": "Michael Glos"
+          },
+          {
+            "name": "Karl-Theodor zu Guttenberg"
+          },
+          {
+            "name": "Franz Josef Jung"
+          },
+          {
+            "name": "Thomas de Maizière"
+          },
+          {
+            "name": "Hans-Peter Friedrich"
+          },
+          {
+            "name": "Kristina Schröder"
+          },
+          {
+            "name": "Peter Ramsauer"
+          },
+          {
+            "name": "Norbert Röttgen"
+          },
+          {
+            "name": "Peter Altmaier"
+          },
+          {
+            "name": "Ronald Pofalla"
+          },
+          {
+            "name": "Christian Schmidt (CSU)"
+          },
+          {
+            "name": "Hermann Gröhe"
+          },
+          {
+            "name": "Alexander Dobrindt"
+          },
+          {
+            "name": "Gerd Müller"
+          },
+          {
+            "name": "Jens Spahn"
+          },
+          {
+            "name": "Andreas Scheuer"
+          },
+          {
+            "name": "Anja Karliczek"
+          },
+          {
+            "name": "Helge Braun"
+          },
+          {
+            "name": "Johann Wadephul"
+          },
+          {
+            "name": "Katherina Reiche"
+          },
+          {
+            "name": "Dorothee Bär"
+          },
+          {
+            "name": "Karin Prien"
+          },
+          {
+            "name": "Karsten Wildberger"
+          },
+          {
+            "name": "Patrick Schnieder"
+          },
+          {
+            "name": "Alois Rainer"
+          },
+          {
+            "name": "Thorsten Frei"
+          },
+          {
+            "name": "Alfred Dregger"
+          },
+          {
+            "name": "Volker Kauder"
+          },
+          {
+            "name": "Ralph Brinkhaus"
+          },
+          {
+            "name": "Knut von Kühlmann-Stumm"
+          },
+          {
+            "name": "Hugo Decker"
+          },
+          {
+            "name": "Ludwig Schneider"
+          },
+          {
+            "name": "Horst Haasler"
+          },
+          {
+            "name": "Karl Mocker"
+          },
+          {
+            "name": "Peter Hintze"
+          },
+          {
+            "name": "Johannes Singhammer"
+          }
+        ],
+        "includesAnswerOfTheDay": true
+      }
+    ],
+    [
+      {
+        "count": 122,
+        "candidates": [
+          {
+            "name": "Willy Brandt"
+          },
+          {
+            "name": "Helmut Schmidt"
+          },
+          {
+            "name": "Gerhard Schröder (SPD)"
+          },
+          {
+            "name": "Olaf Scholz"
+          },
+          {
+            "name": "Johannes Rau"
+          },
+          {
+            "name": "Frank-Walter Steinmeier"
+          },
+          {
+            "name": "Annemarie Renger"
+          },
+          {
+            "name": "Gesine Schwan"
+          },
+          {
+            "name": "Christoph Butterwegge"
+          },
+          {
+            "name": "Wolfgang Stammberger"
+          },
+          {
+            "name": "Erich Ollenhauer"
+          },
+          {
+            "name": "Hans-Jochen Vogel"
+          },
+          {
+            "name": "Björn Engholm"
+          },
+          {
+            "name": "Rudolf Scharping"
+          },
+          {
+            "name": "Oskar Lafontaine"
+          },
+          {
+            "name": "Franz Müntefering"
+          },
+          {
+            "name": "Matthias Platzeck"
+          },
+          {
+            "name": "Kurt Beck"
+          },
+          {
+            "name": "Sigmar Gabriel"
+          },
+          {
+            "name": "Martin Schulz"
+          },
+          {
+            "name": "Andrea Nahles"
+          },
+          {
+            "name": "Manuela Schwesig"
+          },
+          {
+            "name": "Thorsten Schäfer-Gümbel"
+          },
+          {
+            "name": "Malu Dreyer"
+          },
+          {
+            "name": "Norbert Walter-Borjans"
+          },
+          {
+            "name": "Lars Klingbeil"
+          },
+          {
+            "name": "Saskia Esken"
+          },
+          {
+            "name": "Bärbel Bas"
+          },
+          {
+            "name": "Thomas Händel"
+          },
+          {
+            "name": "Axel Troost"
+          },
+          {
+            "name": "Christine Buchholz"
+          },
+          {
+            "name": "Horst Ehmke"
+          },
+          {
+            "name": "Georg Leber"
+          },
+          {
+            "name": "Lauritz Lauritzen"
+          },
+          {
+            "name": "Herbert Wehner"
+          },
+          {
+            "name": "Käte Strobel"
+          },
+          {
+            "name": "Hans-Jürgen Wischnewski"
+          },
+          {
+            "name": "Erhard Eppler"
+          },
+          {
+            "name": "Gerhard Jahn"
+          },
+          {
+            "name": "Alex Möller"
+          },
+          {
+            "name": "Karl Schiller"
+          },
+          {
+            "name": "Egon Franke"
+          },
+          {
+            "name": "Katharina Focke"
+          },
+          {
+            "name": "Egon Bahr"
+          },
+          {
+            "name": "Horst Grabert"
+          },
+          {
+            "name": "Manfred Schüler"
+          },
+          {
+            "name": "Manfred Lahnstein"
+          },
+          {
+            "name": "Hans Apel"
+          },
+          {
+            "name": "Kurt Gscheidle"
+          },
+          {
+            "name": "Karl Ravens"
+          },
+          {
+            "name": "Hans Matthöfer"
+          },
+          {
+            "name": "Helmut Rohde"
+          },
+          {
+            "name": "Herbert Ehrenberg"
+          },
+          {
+            "name": "Antje Huber"
+          },
+          {
+            "name": "Dieter Haack"
+          },
+          {
+            "name": "Volker Hauff"
+          },
+          {
+            "name": "Jürgen Schmude"
+          },
+          {
+            "name": "Marie Schlei"
+          },
+          {
+            "name": "Rainer Offergeld"
+          },
+          {
+            "name": "Heinz Westphal"
+          },
+          {
+            "name": "Anke Fuchs"
+          },
+          {
+            "name": "Andreas von Bülow"
+          },
+          {
+            "name": "Wolfgang Thierse"
+          },
+          {
+            "name": "Fred Gebhardt"
+          },
+          {
+            "name": "Otto Schily"
+          },
+          {
+            "name": "Wilhelm Haferkamp"
+          },
+          {
+            "name": "Alois Pfeiffer"
+          },
+          {
+            "name": "Monika Wulf-Mathies"
+          },
+          {
+            "name": "Günter Verheugen"
+          },
+          {
+            "name": "Karl Lauterbach"
+          },
+          {
+            "name": "Michael Naumann"
+          },
+          {
+            "name": "Julian Nida-Rümelin"
+          },
+          {
+            "name": "Herta Däubler-Gmelin"
+          },
+          {
+            "name": "Hans Eichel"
+          },
+          {
+            "name": "Heinz Funke"
+          },
+          {
+            "name": "Walter Riester"
+          },
+          {
+            "name": "Peter Struck"
+          },
+          {
+            "name": "Christine Bergmann"
+          },
+          {
+            "name": "Ulla Schmidt"
+          },
+          {
+            "name": "Reinhard Klimmt"
+          },
+          {
+            "name": "Kurt Bodewig"
+          },
+          {
+            "name": "Edelgard Bulmahn"
+          },
+          {
+            "name": "Heidemarie Wieczorek-Zeul"
+          },
+          {
+            "name": "Bodo Hombach"
+          },
+          {
+            "name": "Brigitte Zypries"
+          },
+          {
+            "name": "Wolfgang Clement"
+          },
+          {
+            "name": "Renate Schmidt"
+          },
+          {
+            "name": "Manfred Stolpe"
+          },
+          {
+            "name": "Peer Steinbrück"
+          },
+          {
+            "name": "Wolfgang Tiefensee"
+          },
+          {
+            "name": "Heiko Maas"
+          },
+          {
+            "name": "Katarina Barley"
+          },
+          {
+            "name": "Barbara Hendricks"
+          },
+          {
+            "name": "Christine Lambrecht"
+          },
+          {
+            "name": "Hubertus Heil"
+          },
+          {
+            "name": "Franziska Giffey"
+          },
+          {
+            "name": "Svenja Schulze"
+          },
+          {
+            "name": "Jörg Kukies"
+          },
+          {
+            "name": "Nancy Faeser"
+          },
+          {
+            "name": "Boris Pistorius"
+          },
+          {
+            "name": "Klara Geywitz"
+          },
+          {
+            "name": "Wolfgang Schmidt"
+          },
+          {
+            "name": "Stefanie Hubig"
+          },
+          {
+            "name": "Carsten Schneider"
+          },
+          {
+            "name": "Reem Alabali Radovan"
+          },
+          {
+            "name": "Verena Hubertz"
+          },
+          {
+            "name": "Fritz Kuhn"
+          },
+          {
+            "name": "Antje Radcke"
+          },
+          {
+            "name": "Fritz Erler"
+          },
+          {
+            "name": "Hans-Ulrich Klose"
+          },
+          {
+            "name": "Ludwig Stiegler"
+          },
+          {
+            "name": "Thomas Oppermann"
+          },
+          {
+            "name": "Rolf Mützenich"
+          },
+          {
+            "name": "Matthias Miersch"
+          },
+          {
+            "name": "Christian Schmidt (Grüne)"
+          },
+          {
+            "name": "Karl Mommer"
+          },
+          {
+            "name": "Hermann Schmitt-Vockenhausen"
+          },
+          {
+            "name": "Helmuth Becker"
+          },
+          {
+            "name": "Susanne Kastner"
+          },
+          {
+            "name": "Dagmar Ziegler"
+          },
+          {
+            "name": "Aydan Özoğuz"
+          },
+          {
+            "name": "Josephine Ortleb"
+          }
+        ],
+        "includesAnswerOfTheDay": true
+      },
+      {
+        "count": 75,
+        "candidates": [
+          {
+            "name": "Gerhard Schröder (SPD)"
+          },
+          {
+            "name": "Olaf Scholz"
+          },
+          {
+            "name": "Frank-Walter Steinmeier"
+          },
+          {
+            "name": "Gesine Schwan"
+          },
+          {
+            "name": "Christoph Butterwegge"
+          },
+          {
+            "name": "Björn Engholm"
+          },
+          {
+            "name": "Rudolf Scharping"
+          },
+          {
+            "name": "Oskar Lafontaine"
+          },
+          {
+            "name": "Franz Müntefering"
+          },
+          {
+            "name": "Matthias Platzeck"
+          },
+          {
+            "name": "Kurt Beck"
+          },
+          {
+            "name": "Sigmar Gabriel"
+          },
+          {
+            "name": "Martin Schulz"
+          },
+          {
+            "name": "Andrea Nahles"
+          },
+          {
+            "name": "Manuela Schwesig"
+          },
+          {
+            "name": "Thorsten Schäfer-Gümbel"
+          },
+          {
+            "name": "Malu Dreyer"
+          },
+          {
+            "name": "Norbert Walter-Borjans"
+          },
+          {
+            "name": "Lars Klingbeil"
+          },
+          {
+            "name": "Saskia Esken"
+          },
+          {
+            "name": "Bärbel Bas"
+          },
+          {
+            "name": "Thomas Händel"
+          },
+          {
+            "name": "Christine Buchholz"
+          },
+          {
+            "name": "Manfred Lahnstein"
+          },
+          {
+            "name": "Dieter Haack"
+          },
+          {
+            "name": "Volker Hauff"
+          },
+          {
+            "name": "Rainer Offergeld"
+          },
+          {
+            "name": "Andreas von Bülow"
+          },
+          {
+            "name": "Wolfgang Thierse"
+          },
+          {
+            "name": "Otto Schily"
+          },
+          {
+            "name": "Monika Wulf-Mathies"
+          },
+          {
+            "name": "Günter Verheugen"
+          },
+          {
+            "name": "Karl Lauterbach"
+          },
+          {
+            "name": "Michael Naumann"
+          },
+          {
+            "name": "Julian Nida-Rümelin"
+          },
+          {
+            "name": "Herta Däubler-Gmelin"
+          },
+          {
+            "name": "Hans Eichel"
+          },
+          {
+            "name": "Heinz Funke"
+          },
+          {
+            "name": "Walter Riester"
+          },
+          {
+            "name": "Christine Bergmann"
+          },
+          {
+            "name": "Ulla Schmidt"
+          },
+          {
+            "name": "Reinhard Klimmt"
+          },
+          {
+            "name": "Kurt Bodewig"
+          },
+          {
+            "name": "Edelgard Bulmahn"
+          },
+          {
+            "name": "Heidemarie Wieczorek-Zeul"
+          },
+          {
+            "name": "Bodo Hombach"
+          },
+          {
+            "name": "Brigitte Zypries"
+          },
+          {
+            "name": "Renate Schmidt"
+          },
+          {
+            "name": "Peer Steinbrück"
+          },
+          {
+            "name": "Wolfgang Tiefensee"
+          },
+          {
+            "name": "Heiko Maas"
+          },
+          {
+            "name": "Katarina Barley"
+          },
+          {
+            "name": "Barbara Hendricks"
+          },
+          {
+            "name": "Christine Lambrecht"
+          },
+          {
+            "name": "Hubertus Heil"
+          },
+          {
+            "name": "Franziska Giffey"
+          },
+          {
+            "name": "Svenja Schulze"
+          },
+          {
+            "name": "Jörg Kukies"
+          },
+          {
+            "name": "Nancy Faeser"
+          },
+          {
+            "name": "Boris Pistorius"
+          },
+          {
+            "name": "Klara Geywitz"
+          },
+          {
+            "name": "Wolfgang Schmidt"
+          },
+          {
+            "name": "Stefanie Hubig"
+          },
+          {
+            "name": "Carsten Schneider"
+          },
+          {
+            "name": "Reem Alabali Radovan"
+          },
+          {
+            "name": "Verena Hubertz"
+          },
+          {
+            "name": "Fritz Kuhn"
+          },
+          {
+            "name": "Antje Radcke"
+          },
+          {
+            "name": "Ludwig Stiegler"
+          },
+          {
+            "name": "Rolf Mützenich"
+          },
+          {
+            "name": "Matthias Miersch"
+          },
+          {
+            "name": "Susanne Kastner"
+          },
+          {
+            "name": "Dagmar Ziegler"
+          },
+          {
+            "name": "Aydan Özoğuz"
+          },
+          {
+            "name": "Josephine Ortleb"
+          }
+        ],
+        "includesAnswerOfTheDay": true
+      },
+      {
+        "count": 100,
+        "candidates": [
+          {
+            "name": "Willy Brandt"
+          },
+          {
+            "name": "Helmut Schmidt"
+          },
+          {
+            "name": "Gerhard Schröder (SPD)"
+          },
+          {
+            "name": "Olaf Scholz"
+          },
+          {
+            "name": "Gustav Heinemann"
+          },
+          {
+            "name": "Johannes Rau"
+          },
+          {
+            "name": "Frank-Walter Steinmeier"
+          },
+          {
+            "name": "Kurt Schumacher"
+          },
+          {
+            "name": "Alfred Weber"
+          },
+          {
+            "name": "Christoph Butterwegge"
+          },
+          {
+            "name": "Adolph Schönfelder"
+          },
+          {
+            "name": "Jean Stock"
+          },
+          {
+            "name": "Carlo Schmid"
+          },
+          {
+            "name": "Wolfgang Stammberger"
+          },
+          {
+            "name": "Erich Ollenhauer"
+          },
+          {
+            "name": "Hans-Jochen Vogel"
+          },
+          {
+            "name": "Björn Engholm"
+          },
+          {
+            "name": "Rudolf Scharping"
+          },
+          {
+            "name": "Oskar Lafontaine"
+          },
+          {
+            "name": "Franz Müntefering"
+          },
+          {
+            "name": "Matthias Platzeck"
+          },
+          {
+            "name": "Kurt Beck"
+          },
+          {
+            "name": "Sigmar Gabriel"
+          },
+          {
+            "name": "Martin Schulz"
+          },
+          {
+            "name": "Thorsten Schäfer-Gümbel"
+          },
+          {
+            "name": "Norbert Walter-Borjans"
+          },
+          {
+            "name": "Lars Klingbeil"
+          },
+          {
+            "name": "Thomas Händel"
+          },
+          {
+            "name": "Axel Troost"
+          },
+          {
+            "name": "Horst Ehmke"
+          },
+          {
+            "name": "Georg Leber"
+          },
+          {
+            "name": "Lauritz Lauritzen"
+          },
+          {
+            "name": "Herbert Wehner"
+          },
+          {
+            "name": "Hans-Jürgen Wischnewski"
+          },
+          {
+            "name": "Erhard Eppler"
+          },
+          {
+            "name": "Gerhard Jahn"
+          },
+          {
+            "name": "Alex Möller"
+          },
+          {
+            "name": "Karl Schiller"
+          },
+          {
+            "name": "Egon Franke"
+          },
+          {
+            "name": "Egon Bahr"
+          },
+          {
+            "name": "Horst Grabert"
+          },
+          {
+            "name": "Manfred Schüler"
+          },
+          {
+            "name": "Manfred Lahnstein"
+          },
+          {
+            "name": "Hans Apel"
+          },
+          {
+            "name": "Kurt Gscheidle"
+          },
+          {
+            "name": "Karl Ravens"
+          },
+          {
+            "name": "Hans Matthöfer"
+          },
+          {
+            "name": "Helmut Rohde"
+          },
+          {
+            "name": "Herbert Ehrenberg"
+          },
+          {
+            "name": "Dieter Haack"
+          },
+          {
+            "name": "Volker Hauff"
+          },
+          {
+            "name": "Jürgen Schmude"
+          },
+          {
+            "name": "Rainer Offergeld"
+          },
+          {
+            "name": "Heinz Westphal"
+          },
+          {
+            "name": "Andreas von Bülow"
+          },
+          {
+            "name": "Wolfgang Thierse"
+          },
+          {
+            "name": "Paul Löbe"
+          },
+          {
+            "name": "Fred Gebhardt"
+          },
+          {
+            "name": "Otto Schily"
+          },
+          {
+            "name": "Wilhelm Haferkamp"
+          },
+          {
+            "name": "Alois Pfeiffer"
+          },
+          {
+            "name": "Günter Verheugen"
+          },
+          {
+            "name": "Karl Lauterbach"
+          },
+          {
+            "name": "Michael Naumann"
+          },
+          {
+            "name": "Julian Nida-Rümelin"
+          },
+          {
+            "name": "Herta Däubler-Gmelin"
+          },
+          {
+            "name": "Hans Eichel"
+          },
+          {
+            "name": "Heinz Funke"
+          },
+          {
+            "name": "Walter Riester"
+          },
+          {
+            "name": "Peter Struck"
+          },
+          {
+            "name": "Reinhard Klimmt"
+          },
+          {
+            "name": "Kurt Bodewig"
+          },
+          {
+            "name": "Bodo Hombach"
+          },
+          {
+            "name": "Wolfgang Clement"
+          },
+          {
+            "name": "Manfred Stolpe"
+          },
+          {
+            "name": "Peer Steinbrück"
+          },
+          {
+            "name": "Wolfgang Tiefensee"
+          },
+          {
+            "name": "Heiko Maas"
+          },
+          {
+            "name": "Christine Lambrecht"
+          },
+          {
+            "name": "Hubertus Heil"
+          },
+          {
+            "name": "Franziska Giffey"
+          },
+          {
+            "name": "Svenja Schulze"
+          },
+          {
+            "name": "Jörg Kukies"
+          },
+          {
+            "name": "Nancy Faeser"
+          },
+          {
+            "name": "Boris Pistorius"
+          },
+          {
+            "name": "Wolfgang Schmidt"
+          },
+          {
+            "name": "Stefanie Hubig"
+          },
+          {
+            "name": "Carsten Schneider"
+          },
+          {
+            "name": "Fritz Kuhn"
+          },
+          {
+            "name": "Fritz Erler"
+          },
+          {
+            "name": "Hans-Ulrich Klose"
+          },
+          {
+            "name": "Ludwig Stiegler"
+          },
+          {
+            "name": "Thomas Oppermann"
+          },
+          {
+            "name": "Rolf Mützenich"
+          },
+          {
+            "name": "Matthias Miersch"
+          },
+          {
+            "name": "Christian Schmidt (Grüne)"
+          },
+          {
+            "name": "Erwin Schoettle"
+          },
+          {
+            "name": "Karl Mommer"
+          },
+          {
+            "name": "Hermann Schmitt-Vockenhausen"
+          },
+          {
+            "name": "Helmuth Becker"
+          }
+        ],
+        "includesAnswerOfTheDay": true
+      }
+    ],
+    [
+      {
+        "count": 124,
+        "candidates": [
+          {
+            "name": "Kurt Georg Kiesinger"
+          },
+          {
+            "name": "Helmut Kohl"
+          },
+          {
+            "name": "Angela Merkel"
+          },
+          {
+            "name": "Friedrich Merz"
+          },
+          {
+            "name": "Karl Carstens"
+          },
+          {
+            "name": "Richard von Weizsäcker"
+          },
+          {
+            "name": "Roman Herzog"
+          },
+          {
+            "name": "Horst Köhler"
+          },
+          {
+            "name": "Christian Wulff"
+          },
+          {
+            "name": "Karl Arnold"
+          },
+          {
+            "name": "Hans Hirzel"
+          },
+          {
+            "name": "Dagmar Schipanski"
+          },
+          {
+            "name": "Albrecht Glaser"
+          },
+          {
+            "name": "Max Otte"
+          },
+          {
+            "name": "Stefanie Gebauer"
+          },
+          {
+            "name": "Hans-Christoph Seebohm"
+          },
+          {
+            "name": "Heinrich Hellwege"
+          },
+          {
+            "name": "Heinrich von Brentano"
+          },
+          {
+            "name": "Gerhard Schröder (CDU)"
+          },
+          {
+            "name": "Hans-Joachim von Merkatz"
+          },
+          {
+            "name": "Theodor Blank"
+          },
+          {
+            "name": "Theodor Oberländer"
+          },
+          {
+            "name": "Franz-Josef Wuermeling"
+          },
+          {
+            "name": "Franz Etzel"
+          },
+          {
+            "name": "Werner Schwarz"
+          },
+          {
+            "name": "Elisabeth Schwarzhaupt"
+          },
+          {
+            "name": "Ewald Bucher"
+          },
+          {
+            "name": "Kai-Uwe von Hassel"
+          },
+          {
+            "name": "Rainer Barzel"
+          },
+          {
+            "name": "Bruno Heck"
+          },
+          {
+            "name": "Wolfgang Schäuble"
+          },
+          {
+            "name": "Annegret Kramp-Karrenbauer"
+          },
+          {
+            "name": "Armin Laschet"
+          },
+          {
+            "name": "Bernd Lucke"
+          },
+          {
+            "name": "Alexander Gauland"
+          },
+          {
+            "name": "Konrad Adam"
+          },
+          {
+            "name": "Friedrich Thielen"
+          },
+          {
+            "name": "Herbert Schneider"
+          },
+          {
+            "name": "Erich Mende"
+          },
+          {
+            "name": "Kurt Schmücker"
+          },
+          {
+            "name": "Hans Krüger"
+          },
+          {
+            "name": "Hans Katzer"
+          },
+          {
+            "name": "Ernst Benda"
+          },
+          {
+            "name": "Heinrich Windelen"
+          },
+          {
+            "name": "Aenne Brauksiepe"
+          },
+          {
+            "name": "Otto Lenz"
+          },
+          {
+            "name": "Waldemar Schreckenberger"
+          },
+          {
+            "name": "Hermann Ehlers"
+          },
+          {
+            "name": "Eugen Gerstenmaier"
+          },
+          {
+            "name": "Philipp Jenninger"
+          },
+          {
+            "name": "Rita Süssmuth"
+          },
+          {
+            "name": "Norbert Lammert"
+          },
+          {
+            "name": "Julia Klöckner"
+          },
+          {
+            "name": "Heinz Riesenhuber"
+          },
+          {
+            "name": "Fritz Hellwig"
+          },
+          {
+            "name": "Karl-Heinz Narjes"
+          },
+          {
+            "name": "Günther Oettinger"
+          },
+          {
+            "name": "Ursula von der Leyen"
+          },
+          {
+            "name": "Karl Lauterbach"
+          },
+          {
+            "name": "Norbert Blüm"
+          },
+          {
+            "name": "Manfred Wörner"
+          },
+          {
+            "name": "Heiner Geißler"
+          },
+          {
+            "name": "Christian Schwarz-Schilling"
+          },
+          {
+            "name": "Dorothee Wilms"
+          },
+          {
+            "name": "Walter Wallmann"
+          },
+          {
+            "name": "Rupert Scholz"
+          },
+          {
+            "name": "Ursula Lehr"
+          },
+          {
+            "name": "Klaus Töpfer"
+          },
+          {
+            "name": "Gerda Hasselfeldt"
+          },
+          {
+            "name": "Jürgen W. Möllemann"
+          },
+          {
+            "name": "Rudolf Seiters"
+          },
+          {
+            "name": "Sabine Bergmann-Pohl"
+          },
+          {
+            "name": "Günther Krause"
+          },
+          {
+            "name": "Lothar de Maizière"
+          },
+          {
+            "name": "Hansjoachim Walther"
+          },
+          {
+            "name": "Hans-Wilhelm Ebeling"
+          },
+          {
+            "name": "Joachim Hubertus Nowack"
+          },
+          {
+            "name": "Gerald Götting"
+          },
+          {
+            "name": "Wolfgang Heyl"
+          },
+          {
+            "name": "Manfred Kanther"
+          },
+          {
+            "name": "Jochen Borchert"
+          },
+          {
+            "name": "Volker Rühe"
+          },
+          {
+            "name": "Hannelore Rönsch"
+          },
+          {
+            "name": "Matthias Wissmann"
+          },
+          {
+            "name": "Paul Krüger"
+          },
+          {
+            "name": "Karl-Hans Laermann"
+          },
+          {
+            "name": "Friedrich Bohl"
+          },
+          {
+            "name": "Claudia Nolte"
+          },
+          {
+            "name": "Jürgen Rüttgers"
+          },
+          {
+            "name": "Bernd Neumann"
+          },
+          {
+            "name": "Monika Grütters"
+          },
+          {
+            "name": "Franz Josef Jung"
+          },
+          {
+            "name": "Annette Schavan"
+          },
+          {
+            "name": "Thomas de Maizière"
+          },
+          {
+            "name": "Kristina Schröder"
+          },
+          {
+            "name": "Norbert Röttgen"
+          },
+          {
+            "name": "Peter Altmaier"
+          },
+          {
+            "name": "Johanna Wanka"
+          },
+          {
+            "name": "Ronald Pofalla"
+          },
+          {
+            "name": "Hermann Gröhe"
+          },
+          {
+            "name": "Jens Spahn"
+          },
+          {
+            "name": "Anja Karliczek"
+          },
+          {
+            "name": "Helge Braun"
+          },
+          {
+            "name": "Johann Wadephul"
+          },
+          {
+            "name": "Katherina Reiche"
+          },
+          {
+            "name": "Karin Prien"
+          },
+          {
+            "name": "Karsten Wildberger"
+          },
+          {
+            "name": "Patrick Schnieder"
+          },
+          {
+            "name": "Nina Warken"
+          },
+          {
+            "name": "Thorsten Frei"
+          },
+          {
+            "name": "Charlotte Fera"
+          },
+          {
+            "name": "Helga Wex"
+          },
+          {
+            "name": "Maria Böhmer"
+          },
+          {
+            "name": "Annette Widmann-Mauz"
+          },
+          {
+            "name": "Alfred Dregger"
+          },
+          {
+            "name": "Volker Kauder"
+          },
+          {
+            "name": "Ralph Brinkhaus"
+          },
+          {
+            "name": "Knut von Kühlmann-Stumm"
+          },
+          {
+            "name": "Horst Haasler"
+          },
+          {
+            "name": "Karl Mocker"
+          },
+          {
+            "name": "Peter Hintze"
+          },
+          {
+            "name": "Michaela Noll"
+          },
+          {
+            "name": "Yvonne Magwas"
+          },
+          {
+            "name": "Andrea Lindholz"
+          }
+        ],
+        "includesAnswerOfTheDay": true
+      },
+      {
+        "count": 62,
+        "candidates": [
+          {
+            "name": "Angela Merkel"
+          },
+          {
+            "name": "Friedrich Merz"
+          },
+          {
+            "name": "Christian Wulff"
+          },
+          {
+            "name": "Albrecht Glaser"
+          },
+          {
+            "name": "Max Otte"
+          },
+          {
+            "name": "Stefanie Gebauer"
+          },
+          {
+            "name": "Annegret Kramp-Karrenbauer"
+          },
+          {
+            "name": "Armin Laschet"
+          },
+          {
+            "name": "Bernd Lucke"
+          },
+          {
+            "name": "Alexander Gauland"
+          },
+          {
+            "name": "Konrad Adam"
+          },
+          {
+            "name": "Norbert Lammert"
+          },
+          {
+            "name": "Julia Klöckner"
+          },
+          {
+            "name": "Heinz Riesenhuber"
+          },
+          {
+            "name": "Günther Oettinger"
+          },
+          {
+            "name": "Ursula von der Leyen"
+          },
+          {
+            "name": "Karl Lauterbach"
+          },
+          {
+            "name": "Dorothee Wilms"
+          },
+          {
+            "name": "Rupert Scholz"
+          },
+          {
+            "name": "Gerda Hasselfeldt"
+          },
+          {
+            "name": "Rudolf Seiters"
+          },
+          {
+            "name": "Sabine Bergmann-Pohl"
+          },
+          {
+            "name": "Günther Krause"
+          },
+          {
+            "name": "Lothar de Maizière"
+          },
+          {
+            "name": "Joachim Hubertus Nowack"
+          },
+          {
+            "name": "Manfred Kanther"
+          },
+          {
+            "name": "Jochen Borchert"
+          },
+          {
+            "name": "Volker Rühe"
+          },
+          {
+            "name": "Hannelore Rönsch"
+          },
+          {
+            "name": "Matthias Wissmann"
+          },
+          {
+            "name": "Paul Krüger"
+          },
+          {
+            "name": "Friedrich Bohl"
+          },
+          {
+            "name": "Claudia Nolte"
+          },
+          {
+            "name": "Jürgen Rüttgers"
+          },
+          {
+            "name": "Bernd Neumann"
+          },
+          {
+            "name": "Monika Grütters"
+          },
+          {
+            "name": "Franz Josef Jung"
+          },
+          {
+            "name": "Annette Schavan"
+          },
+          {
+            "name": "Thomas de Maizière"
+          },
+          {
+            "name": "Kristina Schröder"
+          },
+          {
+            "name": "Norbert Röttgen"
+          },
+          {
+            "name": "Peter Altmaier"
+          },
+          {
+            "name": "Johanna Wanka"
+          },
+          {
+            "name": "Ronald Pofalla"
+          },
+          {
+            "name": "Hermann Gröhe"
+          },
+          {
+            "name": "Jens Spahn"
+          },
+          {
+            "name": "Anja Karliczek"
+          },
+          {
+            "name": "Helge Braun"
+          },
+          {
+            "name": "Johann Wadephul"
+          },
+          {
+            "name": "Katherina Reiche"
+          },
+          {
+            "name": "Karin Prien"
+          },
+          {
+            "name": "Karsten Wildberger"
+          },
+          {
+            "name": "Patrick Schnieder"
+          },
+          {
+            "name": "Nina Warken"
+          },
+          {
+            "name": "Thorsten Frei"
+          },
+          {
+            "name": "Maria Böhmer"
+          },
+          {
+            "name": "Annette Widmann-Mauz"
+          },
+          {
+            "name": "Volker Kauder"
+          },
+          {
+            "name": "Ralph Brinkhaus"
+          },
+          {
+            "name": "Michaela Noll"
+          },
+          {
+            "name": "Yvonne Magwas"
+          },
+          {
+            "name": "Andrea Lindholz"
+          }
+        ],
+        "includesAnswerOfTheDay": true
+      },
+      {
+        "count": 122,
+        "candidates": [
+          {
+            "name": "Konrad Adenauer"
+          },
+          {
+            "name": "Ludwig Erhard"
+          },
+          {
+            "name": "Kurt Georg Kiesinger"
+          },
+          {
+            "name": "Helmut Kohl"
+          },
+          {
+            "name": "Friedrich Merz"
+          },
+          {
+            "name": "Heinrich Lübke"
+          },
+          {
+            "name": "Gustav Heinemann"
+          },
+          {
+            "name": "Karl Carstens"
+          },
+          {
+            "name": "Richard von Weizsäcker"
+          },
+          {
+            "name": "Roman Herzog"
+          },
+          {
+            "name": "Horst Köhler"
+          },
+          {
+            "name": "Christian Wulff"
+          },
+          {
+            "name": "Hans Schlange-Schöningen"
+          },
+          {
+            "name": "Karl Arnold"
+          },
+          {
+            "name": "Hans Hirzel"
+          },
+          {
+            "name": "Albrecht Glaser"
+          },
+          {
+            "name": "Max Otte"
+          },
+          {
+            "name": "Robert Lehr"
+          },
+          {
+            "name": "Anton Storch"
+          },
+          {
+            "name": "Hans-Christoph Seebohm"
+          },
+          {
+            "name": "Hans Lukaschek"
+          },
+          {
+            "name": "Jakob Kaiser"
+          },
+          {
+            "name": "Heinrich Hellwege"
+          },
+          {
+            "name": "Heinrich von Brentano"
+          },
+          {
+            "name": "Gerhard Schröder (CDU)"
+          },
+          {
+            "name": "Hans-Joachim von Merkatz"
+          },
+          {
+            "name": "Theodor Blank"
+          },
+          {
+            "name": "Ernst Lemmer"
+          },
+          {
+            "name": "Theodor Oberländer"
+          },
+          {
+            "name": "Franz-Josef Wuermeling"
+          },
+          {
+            "name": "Robert Tillmanns"
+          },
+          {
+            "name": "Waldemar Kraft"
+          },
+          {
+            "name": "Franz Etzel"
+          },
+          {
+            "name": "Werner Schwarz"
+          },
+          {
+            "name": "Hermann Lindrath"
+          },
+          {
+            "name": "Hans Wilhelmi"
+          },
+          {
+            "name": "Heinrich Krone"
+          },
+          {
+            "name": "Ewald Bucher"
+          },
+          {
+            "name": "Kai-Uwe von Hassel"
+          },
+          {
+            "name": "Rainer Barzel"
+          },
+          {
+            "name": "Bruno Heck"
+          },
+          {
+            "name": "Wolfgang Schäuble"
+          },
+          {
+            "name": "Armin Laschet"
+          },
+          {
+            "name": "Bernd Lucke"
+          },
+          {
+            "name": "Alexander Gauland"
+          },
+          {
+            "name": "Konrad Adam"
+          },
+          {
+            "name": "Friedrich Thielen"
+          },
+          {
+            "name": "Herbert Schneider"
+          },
+          {
+            "name": "Erich Mende"
+          },
+          {
+            "name": "Karl Weber"
+          },
+          {
+            "name": "Kurt Schmücker"
+          },
+          {
+            "name": "Hans Krüger"
+          },
+          {
+            "name": "Ludger Westrick"
+          },
+          {
+            "name": "Hans Katzer"
+          },
+          {
+            "name": "Ernst Benda"
+          },
+          {
+            "name": "Heinrich Windelen"
+          },
+          {
+            "name": "Otto Lenz"
+          },
+          {
+            "name": "Hans Globke"
+          },
+          {
+            "name": "Waldemar Schreckenberger"
+          },
+          {
+            "name": "Erich Köhler"
+          },
+          {
+            "name": "Hermann Ehlers"
+          },
+          {
+            "name": "Eugen Gerstenmaier"
+          },
+          {
+            "name": "Philipp Jenninger"
+          },
+          {
+            "name": "Norbert Lammert"
+          },
+          {
+            "name": "Robert Pferdmenges"
+          },
+          {
+            "name": "Heinz Riesenhuber"
+          },
+          {
+            "name": "Fritz Hellwig"
+          },
+          {
+            "name": "Karl-Heinz Narjes"
+          },
+          {
+            "name": "Günther Oettinger"
+          },
+          {
+            "name": "Karl Lauterbach"
+          },
+          {
+            "name": "Norbert Blüm"
+          },
+          {
+            "name": "Manfred Wörner"
+          },
+          {
+            "name": "Heiner Geißler"
+          },
+          {
+            "name": "Christian Schwarz-Schilling"
+          },
+          {
+            "name": "Walter Wallmann"
+          },
+          {
+            "name": "Rupert Scholz"
+          },
+          {
+            "name": "Klaus Töpfer"
+          },
+          {
+            "name": "Jürgen W. Möllemann"
+          },
+          {
+            "name": "Rudolf Seiters"
+          },
+          {
+            "name": "Günther Krause"
+          },
+          {
+            "name": "Lothar de Maizière"
+          },
+          {
+            "name": "Hansjoachim Walther"
+          },
+          {
+            "name": "Hans-Wilhelm Ebeling"
+          },
+          {
+            "name": "Joachim Hubertus Nowack"
+          },
+          {
+            "name": "Andreas Hermes"
+          },
+          {
+            "name": "Otto Nuschke"
+          },
+          {
+            "name": "August Bach"
+          },
+          {
+            "name": "Gerald Götting"
+          },
+          {
+            "name": "Wolfgang Heyl"
+          },
+          {
+            "name": "Manfred Kanther"
+          },
+          {
+            "name": "Jochen Borchert"
+          },
+          {
+            "name": "Volker Rühe"
+          },
+          {
+            "name": "Matthias Wissmann"
+          },
+          {
+            "name": "Paul Krüger"
+          },
+          {
+            "name": "Karl-Hans Laermann"
+          },
+          {
+            "name": "Friedrich Bohl"
+          },
+          {
+            "name": "Jürgen Rüttgers"
+          },
+          {
+            "name": "Bernd Neumann"
+          },
+          {
+            "name": "Franz Josef Jung"
+          },
+          {
+            "name": "Thomas de Maizière"
+          },
+          {
+            "name": "Kristina Schröder"
+          },
+          {
+            "name": "Norbert Röttgen"
+          },
+          {
+            "name": "Peter Altmaier"
+          },
+          {
+            "name": "Ronald Pofalla"
+          },
+          {
+            "name": "Hermann Gröhe"
+          },
+          {
+            "name": "Jens Spahn"
+          },
+          {
+            "name": "Anja Karliczek"
+          },
+          {
+            "name": "Helge Braun"
+          },
+          {
+            "name": "Johann Wadephul"
+          },
+          {
+            "name": "Katherina Reiche"
+          },
+          {
+            "name": "Karin Prien"
+          },
+          {
+            "name": "Karsten Wildberger"
+          },
+          {
+            "name": "Patrick Schnieder"
+          },
+          {
+            "name": "Thorsten Frei"
+          },
+          {
+            "name": "Alfred Dregger"
+          },
+          {
+            "name": "Volker Kauder"
+          },
+          {
+            "name": "Ralph Brinkhaus"
+          },
+          {
+            "name": "Knut von Kühlmann-Stumm"
+          },
+          {
+            "name": "Ludwig Schneider"
+          },
+          {
+            "name": "Horst Haasler"
+          },
+          {
+            "name": "Karl Mocker"
+          },
+          {
+            "name": "Peter Hintze"
+          }
+        ],
+        "includesAnswerOfTheDay": true
+      }
+    ]
+  ]
+}

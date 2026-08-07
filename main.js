@@ -17,11 +17,9 @@ let categories = await getData("./conditions.json")
 
 const allOptions = gameData.map(x => x.name).sort((a, b) => a.localeCompare(b))
 
-let puzzleString = new URLSearchParams(window.location.search).get("seed");
-console.log(puzzleString)
-if (puzzleString == null) {
-  console.log("Klammer");
- puzzleString = "005316690937"
+let puzzleString = "005316690937"
+if (window.location.hash) {
+  puzzleString = window.location.hash.slice(1)
 }
 
 const conditions = puzzleString.split(/(..)/g).filter(s => s).map(s => categories.find(x => x.id == s))
@@ -37,6 +35,7 @@ const rowLabels = rows.map(x => ({
 }))
 
 let cells = []
+let aotds = gameData
 for (let row of rows) {
   for (let col of cols) {
     const colFilter = new Function('x', col.condition)
@@ -44,6 +43,7 @@ for (let row of rows) {
     cells.push({
       correct: gameData.filter(x => colFilter(x) && rowFilter(x)).map(x => x.name)
     })
+    aotds = aotds.filter(x => colFilter(x) && rowFilter(x))
   }
 }
 
@@ -51,6 +51,7 @@ const PUZZLE = {
   colLabels: colLabes,
   rowLabels: rowLabels,
   cells: cells,
+  aotds: aotds.map(x => x.name)
 };
 
 const filled = {};
@@ -80,7 +81,8 @@ function buildGrid() {
     d.className = 'col-label';
     d.dataset.type = 'col';
     d.dataset.index = i;
-    d.innerHTML = `<img class="lbl-icon" src="img/${cols[i].id}.png"><span class="lbl-text">${l.text}</span>`;
+    if (cols[i].img) d.innerHTML = `<img class="lbl-icon" src="img/${cols[i].img}.png" onerror="this.onerror=null; this.remove();">`;
+    d.innerHTML += `<span class="lbl-text">${l.text}</span>`
     d.addEventListener('mouseenter', showLabelTooltip);
     d.addEventListener('mouseleave', hideLabelTooltip);
     d.addEventListener('mousemove', moveLabelTooltip);
@@ -94,7 +96,8 @@ function buildGrid() {
     rl.className = 'row-label';
     rl.dataset.type = 'row';
     rl.dataset.index = r;
-    rl.innerHTML = `<img class="lbl-icon" src="img/${rows[r].id}.png"><span class="lbl-text">${PUZZLE.rowLabels[r].text}</span>`;
+    if (rows[r].img) rl.innerHTML = `<img class="lbl-icon" src="img/${rows[r].img}.png" onerror="this.onerror=null; this.remove();">`;
+    rl.innerHTML += `<span class="lbl-text">${PUZZLE.rowLabels[r].text}</span>`
     rl.addEventListener('mouseenter', showLabelTooltip);
     rl.addEventListener('mouseleave', hideLabelTooltip);
     rl.addEventListener('mousemove', moveLabelTooltip);
@@ -120,9 +123,13 @@ function buildGrid() {
   }
 }
 
-function renderFilled(cell, answer, isWrong = false) {
+function renderFilled(cell, answer, answerState) {
+  const isWrong = answerState == 'wrong'
   const ringSpan = isWrong ? '<span class="check-ring wrong">✕</span>' : '<span class="check-ring">✓</span>';
   cell.classList.add('filled');
+  if (PUZZLE.aotds.includes(answer)) {
+    cell.classList.add('gold');
+  }
   cell.innerHTML = `
     <div class="cell-answer">
       ${ringSpan}
@@ -177,9 +184,66 @@ function hideLabelTooltip() {
 }
 
 function setRowColumnLabelStyle(id, color) {
-  document.getElementById(id).style.color = color;
-  document.getElementById(id).style.borderColor = color;
-  document.getElementById(id).style.backgroundColor = color ? color + '33' : '';
+  const defaultColor = '#5c8494';
+  const element = document.getElementById(id);
+
+  color = color || defaultColor;
+
+  const hexToRgb = (hex) => {
+    hex = hex.replace('#', '');
+    return {
+      r: parseInt(hex.slice(0, 2), 16),
+      g: parseInt(hex.slice(2, 4), 16),
+      b: parseInt(hex.slice(4, 6), 16)
+    };
+  };
+
+  const rgbToHex = (r, g, b) => {
+    return '#' + [r, g, b]
+      .map(v => Math.round(v).toString(16).padStart(2, '0'))
+      .join('');
+  };
+
+  const hexToLightness = (hex) => {
+    hex = hex.replace('#', '');
+
+    const r = parseInt(hex.slice(0, 2), 16) / 255;
+    const g = parseInt(hex.slice(2, 4), 16) / 255;
+    const b = parseInt(hex.slice(4, 6), 16) / 255;
+
+    const max = Math.max(r, g, b);
+    const min = Math.min(r, g, b);
+
+    return (max + min) / 2;
+  };
+
+  const lightenHex = (hex, amount) => {
+    const { r, g, b } = hexToRgb(hex);
+    return rgbToHex(
+      Math.min(255, r + 255 * amount),
+      Math.min(255, g + 255 * amount),
+      Math.min(255, b + 255 * amount)
+    );
+  };
+
+  const darkenHex = (hex, amount) => {
+    const { r, g, b } = hexToRgb(hex);
+    return rgbToHex(
+      r * (1 - amount),
+      g * (1 - amount),
+      b * (1 - amount)
+    );
+  };
+
+  element.style.color = color;
+  element.style.borderColor = color;
+
+  const lightness = hexToLightness(color);
+
+  // Dark colors get a lighter background, light colors get a darker background
+  element.style.backgroundColor = lightness < 0.3
+    ? lightenHex(color, 0.6) + '55'
+    : darkenHex(color, 0.1) + '55';
 }
 
 /* ── Modal ── */
@@ -309,7 +373,7 @@ function accept(r, c, answer) {
   if (cell) {
     cell.classList.remove('wrong');
   }
-  renderFilled(cell, answer);
+  renderFilled(cell, answer, 'correct');
 
   const count = Object.keys(filled).length;
   document.getElementById('fill').style.width = `${(count / 9) * 100}%`;
@@ -325,7 +389,7 @@ function reject(r, c, answer) {
   if (cell) {
     cell.classList.add('wrong');
   }
-  renderFilled(cell, answer, true);
+  renderFilled(cell, answer, 'wrong');
 
   document.getElementById('wrong-answers-label').textContent = parseInt(document.getElementById('wrong-answers-label').textContent) + 1;
 }

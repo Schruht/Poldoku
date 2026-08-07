@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dataset Visualization</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" />
+  <style>
+    body {
+      padding-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Poldoku Datensatz</h1>
+  </header>
+  
+  <div>
+    <span id="total-count">...</span>
+  </div>
+
+  <div class="cards-grid" id="cards-container"></div>
+
+  <script>
+    // getRowColumnLabelStyle - adapted from setRowColumnLabelStyle in main.js
+    function getRowColumnLabelStyle(color) {
+      const defaultColor = '#5c8494';
+      color = color || defaultColor;
+
+      const hexToRgb = (hex) => {
+        hex = hex.replace('#', '');
+        return {
+          r: parseInt(hex.slice(0, 2), 16),
+          g: parseInt(hex.slice(2, 4), 16),
+          b: parseInt(hex.slice(4, 6), 16)
+        };
+      };
+
+      const rgbToHex = (r, g, b) => {
+        return '#' + [r, g, b]
+          .map(v => Math.round(v).toString(16).padStart(2, '0'))
+          .join('');
+      };
+
+      const hexToLightness = (hex) => {
+        hex = hex.replace('#', '');
+        const r = parseInt(hex.slice(0, 2), 16) / 255;
+        const g = parseInt(hex.slice(2, 4), 16) / 255;
+        const b = parseInt(hex.slice(4, 6), 16) / 255;
+        const max = Math.max(r, g, b);
+        const min = Math.min(r, g, b);
+        return (max + min) / 2;
+      };
+
+      const lightenHex = (hex, amount) => {
+        const { r, g, b } = hexToRgb(hex);
+        return rgbToHex(
+          Math.min(255, r + 255 * amount),
+          Math.min(255, g + 255 * amount),
+          Math.min(255, b + 255 * amount)
+        );
+      };
+
+      const darkenHex = (hex, amount) => {
+        const { r, g, b } = hexToRgb(hex);
+        return rgbToHex(
+          r * (1 - amount),
+          g * (1 - amount),
+          b * (1 - amount)
+        );
+      };
+
+      const lightness = hexToLightness(color);
+      return {
+        color: color,
+        borderColor: color,
+        backgroundColor: lightness < 0.3
+          ? lightenHex(color, 0.6) + '55'
+          : darkenHex(color, 0.1) + '55'
+      };
+    }
+
+    async function renderJSON() {
+      try {
+        const [dataRes, conditionsRes] = await Promise.all([
+          fetch('data.json'),
+          fetch('conditions.json')
+        ]);
+        if (!dataRes.ok) throw new Error('Failed to load data');
+        if (!conditionsRes.ok) throw new Error('Failed to load conditions');
+        const data = await dataRes.json();
+        const conditions = await conditionsRes.json();
+        
+        // Build a mapping from property strings to colors
+        const propertyToColor = {};
+        conditions.forEach(cond => {
+          if (cond.color) {
+            const conditionText = cond.condition;
+            const includesMatches = conditionText.matchAll(/x\.properties\.includes\('([^']+)'\)/g);
+            includesMatches.forEach(m => propertyToColor[m[1]] = cond.color);
+            const startsWithMatches = conditionText.matchAll(/element\.startsWith\('([^']+)'\)/g);
+            startsWithMatches.forEach(m => propertyToColor[m[1]] = cond.color);
+          }
+        });
+        
+        const container = document.getElementById('cards-container');
+        const totalCount = document.getElementById('total-count');
+        totalCount.textContent = `${data.length} Einträge`;
+        
+        data.forEach(person => {
+          const card = document.createElement('div');
+          card.className = 'person-card';
+          
+          const header = document.createElement('div');
+          header.className = 'card-header';
+          
+          const name = document.createElement('h3');
+          name.className = 'person-name';
+          name.textContent = person.name;
+          
+          const lifespan = document.createElement('span');
+          lifespan.className = 'person-lifespan';
+          lifespan.textContent = person.death ? `${person.birth} - ${person.death}` : `b. ${person.birth}`;
+          
+          header.append(name, lifespan);
+          card.appendChild(header);
+          
+          if (person.properties.length > 0) {
+            const tags = document.createElement('div');
+            tags.className = 'tags';
+            person.properties.forEach(p => {
+              const tag = document.createElement('span');
+              tag.className = 'tag';
+              tag.textContent = p;
+              const color = propertyToColor[p] || '#5c8494';
+              const tagId = 'tag-' + Math.random().toString(36).substr(2, 9);
+              tag.id = tagId;
+              const style = getRowColumnLabelStyle(color);
+              tag.style.color = style.color;
+              tag.style.borderColor = style.borderColor;
+              tag.style.backgroundColor = style.backgroundColor;
+              tags.appendChild(tag);
+            });
+            card.appendChild(tags);
+          }
+          
+          container.appendChild(card);
+        });
+        
+      } catch (error) {
+        console.error('Error rendering JSON:', error);
+        document.getElementById('cards-container').innerHTML = '<div class="error">Failed to load data.</div>';
+      }
+    }
+    
+    document.addEventListener('DOMContentLoaded', renderJSON);
+  </script>
+  
+  <style>
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 16px;
+      padding: 20px;
+      max-width: 1400px;
+      width: 100%;
+    }
+    
+    .person-card {
+      background: #191b22;
+      border: 1px solid #282a34;
+      border-radius: 12px;
+      padding: 18px;
+      transition: all 0.2s ease;
+    }
+    
+    .person-card:hover {
+      border-color: #444c5c;
+      box-shadow: 0 4px 20px rgba(60, 75, 95, 0.2);
+      transform: translateY(-2px);
+    }
+    
+    .card-header {
+      margin-bottom: 14px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid #282a34;
+    }
+    
+    .person-name {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.1rem;
+      color: #dfe1e8;
+      margin-bottom: 4px;
+      font-weight: 600;
+    }
+    
+    .person-lifespan {
+      font-size: 0.75rem;
+      color: #52565f;
+      letter-spacing: 0.08em;
+    }
+    
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 10px;
+    }
+    
+    .tag {
+      font-size: 0.68rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 3px 9px;
+      border-radius: 16px;
+      border: 1px solid;
+    }
+    
+    .error {
+      color: #bd2b41;
+      text-align: center;
+      padding: 40px;
+      font-size: 1rem;
+    }
+    
+    @media (max-width: 768px) {
+      .cards-grid {
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        padding: 12px;
+      }
+    }
+  </style>
+</body>
+</html>
