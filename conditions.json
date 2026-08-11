@@ -4,7 +4,8 @@
     "name": "PLATZHALTER",
     "more": "Jeder Politiker erfüllt diese Kategorie.",
     "img": null,
-    "condition": "return true"
+    "condition": "return true",
+    "exclude": true
   },
   {
     "id": "00",
@@ -209,21 +210,21 @@
     "name": "Mindestens 90 geworden",
     "more": "Politiker*innen die 90 Jahre oder älter geworden sind. Auch lebende Politiker die mindestens 90 sind zählen.",
     "img": "26",
-    "condition": "return (x.death \u00ADx.birth) > 89 || (x.death == null && new Date().getFullYear() \u00ADx.birth > 89)"
+    "condition": "return (x.death - x.birth) > 89 || (x.death == null && new Date().getFullYear() - x.birth > 89)"
   },
   {
     "id": "27",
     "name": "Mindestens 80 geworden",
     "more": "Politiker*innen die 80 Jahre oder älter geworden sind. Auch lebende Politiker die mindetens 80 sind zählen.",
     "img": "27",
-    "condition": "return (x.death \u00ADx.birth) > 79 || (x.death == null && new Date().getFullYear() \u00ADx.birth > 79)"
+    "condition": "return (x.death - x.birth) > 79 || (x.death == null && new Date().getFullYear() - x.birth > 79)"
   },
   {
     "id": "28",
     "name": "Nur 50 geworden",
-    "more": "Politiker*innen die nur 50 Jahre oder älter geworden sind",
+    "more": "Politiker*innen die nur 50 Jahre geworden sind",
     "img": null,
-    "condition": "return (x.death \u00ADx.birth) < 51"
+    "condition": "return x.death != null && (x.death - x.birth) < 51"
   },
   {
     "id": "29",

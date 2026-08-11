@@ -17,9 +17,27 @@ let categories = await getData("./conditions.json")
 
 const allOptions = gameData.map(x => x.name).sort((a, b) => a.localeCompare(b))
 
-let puzzleString = "005316690937"
+const rotationResponse = await fetch("./rotation.txt")
+const rotationText = await rotationResponse.text()
+const rotationPuzzles = rotationText.trim().split(";")
+
+const startDate = new Date("2026-08-11")
+const today = new Date()
+const daysSinceStart = Math.floor((today - startDate) / (1000 * 60 * 60 * 24))
+
+let puzzleString = rotationPuzzles[daysSinceStart] || "005316690937"
 if (window.location.hash) {
-  puzzleString = window.location.hash.slice(1)
+  const hashContent = window.location.hash.slice(1)
+  if (hashContent.startsWith('d')) {
+    const index = parseInt(hashContent.slice(1))
+    if (!isNaN(index)) {
+      puzzleString = rotationPuzzles[index] || puzzleString
+    }
+  } else if (hashContent.startsWith('s')) {
+    puzzleString = hashContent.slice(1)
+  } else {
+    puzzleString = hashContent
+  }
 }
 
 const conditions = puzzleString.split(/(..)/g).filter(s => s).map(s => categories.find(x => x.id == s))

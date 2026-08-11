@@ -106,7 +106,7 @@ function loadJson(p) {
 }
 
 const answers = loadJson(answersPath);
-const categoriesRaw = loadJson(categoriesPath);
+const categoriesRaw = loadJson(categoriesPath).filter((cat) => !cat.exclude);
 
 // ---------- Compile category conditions ----------
 
@@ -263,11 +263,11 @@ rl.on('line', (line) => {
     .map((c) => String(c.id).padStart(2, '0'))
     .join('');
 
-  const outputObj = {
+  /*const outputObj = {
     rowIds = best.rows.map((c) => c.id),
     colIds = best.cols.map((c) => c.id),
     aotd = aotd
-  }
+  }*/
 
   console.log(`\nCategory IDs: ${categoryIdString}`);
   console.log(`Rows: ${best.rows.map((c) => c.id).join(', ')}`);
