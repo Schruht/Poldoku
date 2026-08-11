@@ -122,7 +122,8 @@
       "Parteivorsitzender (SPD)",
       "Oldenburger Grünkohlkönig",
       "Kabinett Schröder I",
-      "Kabinett Schröder II"
+      "Kabinett Schröder II",
+      "JuSo-Vorsitzender"
     ]
   },
   {
@@ -145,7 +146,8 @@
       "Kabinett Merkel III",
       "Kabinett Merkel IV",
       "Fraktionsvorsitzender (SPD)",
-      "Frau"
+      "Frau",
+      "Generalsekretär (CDU)"
     ]
   },
   {
@@ -161,7 +163,8 @@
       "Vizekanzler",
       "Kabinett Merkel I",
       "Kabinett Merkel IV",
-      "Kabinett Scholz"
+      "Kabinett Scholz",
+      "Generalsekretär (SPD)"
     ]
   },
   {
@@ -958,7 +961,8 @@
       "Kabinett Adenauer III",
       "Kabinett Adenauer IV",
       "Kabinett Kiesinger",
-      "Parteivorsitzender (CSU)"
+      "Parteivorsitzender (CSU)",
+      "Generalsekretär (CSU)"
     ]
   },
   {
@@ -1331,7 +1335,8 @@
       "Kabinett Adenauer IV",
       "Kabinett Erhard I",
       "Kabinett Erhard II",
-      "Kabinett Kiesinger"
+      "Kabinett Kiesinger",
+      "Generalsekretär (CDU)"
     ]
   },
   {
@@ -1388,7 +1393,8 @@
       "Parteivorsitzender (CDU)",
       "Verteidigungsminister (Bund)",
       "Kabinett Merkel IV",
-      "Frau"
+      "Frau",
+      "Generalsekretär (CDU)"
     ]
   },
   {
@@ -1431,14 +1437,14 @@
     "img": null,
     "birth": 1941,
     "death": null,
-    "properties": ["CSU", "Parteivorsitzender (CSU)"]
+    "properties": ["CSU", "Parteivorsitzender (CSU)", "Generalsekretär (CSU)"]
   },
   {
     "name": "Erwin Huber",
     "img": null,
     "birth": 1946,
     "death": null,
-    "properties": ["CSU", "Parteivorsitzender (CSU)"]
+    "properties": ["CSU", "Parteivorsitzender (CSU)", "Generalsekretär (CSU)"]
   },
   {
     "name": "Horst Seehofer",
@@ -1470,7 +1476,7 @@
     "img": null,
     "birth": 1967,
     "death": null,
-    "properties": ["CSU", "Parteivorsitzender (CSU)"]
+    "properties": ["CSU", "Parteivorsitzender (CSU)", "Generalsekretär (CSU)"]
   },
   {
     "name": "Erich Ollenhauer",
@@ -1498,7 +1504,8 @@
       "Kabinett Schmidt I",
       "Kabinett Schmidt II",
       "Kabinett Schmidt III",
-      "Fraktionsvorsitzender (SPD)"
+      "Fraktionsvorsitzender (SPD)",
+      "JuLI-Vorsitzender"
     ]
   },
   {
@@ -1559,7 +1566,8 @@
       "Bauminister (Bund)",
       "Verkehrsminister (Bund)",
       "Arbeitsminister (Bund)",
-      "Fraktionsvorsitzender (SPD)"
+      "Fraktionsvorsitzender (SPD)",
+      "Generalsekretär (SPD)"
     ]
   },
   {
@@ -1612,7 +1620,9 @@
       "Arbeitsminister (Bund)",
       "Kabinett Merkel III",
       "Fraktionsvorsitzender (SPD)",
-      "Frau"
+      "Frau",
+      "Generalsekretär (SPD)",
+      "JuSo-Vorsitzender"
     ]
   },
   {
@@ -1660,7 +1670,8 @@
       "Kabinett Merz",
       "Vizekanzler",
       "Finanzminister (Bund)",
-      "Fraktionsvorsitzender (SPD)"
+      "Fraktionsvorsitzender (SPD)",
+      "Generalsekretär (SPD)"
     ]
   },
   {
@@ -2192,7 +2203,8 @@
       "Kabinett Kohl I",
       "Kabinett Kohl II",
       "Kabinett Kohl III",
-      "Kabinett Kohl IV"
+      "Kabinett Kohl IV",
+      "JU-Vorsitzender"
     ]
   },
   {
@@ -2324,7 +2336,8 @@
     "properties": [
       "SPD",
       "Entwicklungshilfeminister (Bund)",
-      "Kabinett Kiesinger"
+      "Kabinett Kiesinger",
+      "JuSo-Vorsitzender"
     ]
   },
   {
@@ -3002,7 +3015,8 @@
       "Parteivorsitzender (FDP)",
       "Wirtschaftsminister (Bund)",
       "Kabinett Kohl II",
-      "Kabinett Kohl III"
+      "Kabinett Kohl III",
+      "Generalsekretär (FDP)"
     ]
   },
   {
@@ -3042,7 +3056,9 @@
       "Vizekanzler",
       "Aussenminister (Bund)",
       "Kabinett Merkel II",
-      "Fraktionsvorsitzender (FDP)"
+      "Fraktionsvorsitzender (FDP)",
+      "Generalsekretär (FDP)",
+      "JuLI-Vorsitzender"
     ]
   },
   {
@@ -3071,7 +3087,8 @@
       "Kabinett Scholz",
       "Finanzminister (Bund)",
       "Oldenburger Grünkohlkönig",
-      "Fraktionsvorsitzender (FDP)"
+      "Fraktionsvorsitzender (FDP)",
+      "Generalsekretär (FDP)"
     ]
   },
   {
@@ -3164,7 +3181,7 @@
     "img": null,
     "birth": 1944,
     "death": null,
-    "properties": ["FDP", "SPD", "EU-Kommissar"]
+    "properties": ["FDP", "SPD", "EU-Kommissar", "Generalsekretär (FDP)"]
   },
   {
     "name": "Michaele Schreyer",
@@ -3222,7 +3239,8 @@
       "Verkehrsminister (Bund)",
       "Kabinett Kohl I",
       "Kabinett Kohl II",
-      "Kabinett Kohl III"
+      "Kabinett Kohl III",
+      "Generalsekretär (CSU)"
     ]
   },
   {
@@ -3276,7 +3294,8 @@
       "CDU",
       "Familienminister (Bund)",
       "Kabinett Kohl I",
-      "Kabinett Kohl II"
+      "Kabinett Kohl II",
+      "Generalsekretär (CDU)"
     ]
   },
   {
@@ -3366,7 +3385,12 @@
     "img": null,
     "birth": 1943,
     "death": null,
-    "properties": ["FDP", "Wirtschaftsminister (Bund)", "Kabinett Kohl III"]
+    "properties": [
+      "FDP",
+      "Wirtschaftsminister (Bund)",
+      "Kabinett Kohl III",
+      "Generalsekretär (FDP)"
+    ]
   },
   {
     "name": "Rupert Scholz",
@@ -3647,7 +3671,8 @@
       "CDU",
       "Verteidigungsminister (Bund)",
       "Kabinett Kohl IV",
-      "Kabinett Kohl V"
+      "Kabinett Kohl V",
+      "Generalsekretär (CDU)"
     ]
   },
   {
@@ -3667,7 +3692,8 @@
       "Forschungsminister (Bund)",
       "Verkehrsminister (Bund)",
       "Kabinett Kohl IV",
-      "Kabinett Kohl V"
+      "Kabinett Kohl V",
+      "JU-Vorsitzender"
     ]
   },
   {
@@ -3687,7 +3713,13 @@
     "img": null,
     "birth": 1942,
     "death": null,
-    "properties": ["FDP", "Bauminister (Bund)", "Kabinett Kohl IV", "Frau"]
+    "properties": [
+      "FDP",
+      "Bauminister (Bund)",
+      "Kabinett Kohl IV",
+      "Frau",
+      "Generalsekretär (FDP)"
+    ]
   },
   {
     "name": "Paul Krüger",
@@ -4030,7 +4062,8 @@
       "Kabinett Schröder I",
       "Kabinett Schröder II",
       "Kabinett Merkel I",
-      "Frau"
+      "Frau",
+      "JuSo-Vorsitzender"
     ]
   },
   {
@@ -4120,7 +4153,8 @@
       "CSU",
       "Wirtschaftsminister (Bund)",
       "Kabinett Merkel I",
-      "Verteidigungsminister (Bund)"
+      "Verteidigungsminister (Bund)",
+      "Generalsekretär (CSU)"
     ]
   },
   {
@@ -4229,7 +4263,12 @@
     "img": null,
     "birth": 1976,
     "death": null,
-    "properties": ["FDP", "Gesundheitsminister (Bund)", "Kabinett Merkel II"]
+    "properties": [
+      "FDP",
+      "Gesundheitsminister (Bund)",
+      "Kabinett Merkel II",
+      "JuLI-Vorsitzender"
+    ]
   },
   {
     "name": "Peter Ramsauer",
@@ -4289,7 +4328,8 @@
     "properties": [
       "FDP",
       "Entwicklungshilfeminister (Bund)",
-      "Kabinett Merkel II"
+      "Kabinett Merkel II",
+      "Generalsekretär (FDP)"
     ]
   },
   {
@@ -4301,7 +4341,8 @@
       "CDU",
       "Minister für besondere Aufgaben (Bund)",
       "Chef des Bundeskanzleramts",
-      "Kabinett Merkel II"
+      "Kabinett Merkel II",
+      "Generalsekretär (CDU)"
     ]
   },
   {
@@ -4328,7 +4369,8 @@
       "Familienminister (Bund)",
       "Justizminister (Bund)",
       "Kabinett Merkel III",
-      "Frau"
+      "Frau",
+      "Generalsekretär (SPD)"
     ]
   },
   {
@@ -4348,7 +4390,13 @@
     "img": null,
     "birth": 1957,
     "death": null,
-    "properties": ["CDU", "Gesundheitsminister (Bund)", "Kabinett Merkel III"]
+    "properties": [
+      "CDU",
+      "Gesundheitsminister (Bund)",
+      "Kabinett Merkel III",
+      "Generalsekretär (CDU)",
+      "JU-Vorsitzender"
+    ]
   },
   {
     "name": "Alexander Dobrindt",
@@ -4360,7 +4408,8 @@
       "Verkehrsminister (Bund)",
       "Innenminister (Bund)",
       "Kabinett Merkel III",
-      "Kabinett Merz"
+      "Kabinett Merz",
+      "Generalsekretär (CSU)"
     ]
   },
   {
@@ -4411,7 +4460,8 @@
       "SPD",
       "Arbeitsminister (Bund)",
       "Kabinett Merkel IV",
-      "Kabinett Scholz"
+      "Kabinett Scholz",
+      "Generalsekretär (SPD)"
     ]
   },
   {
@@ -4433,7 +4483,12 @@
     "img": null,
     "birth": 1974,
     "death": null,
-    "properties": ["CSU", "Verkehrsminister (Bund)", "Kabinett Merkel IV"]
+    "properties": [
+      "CSU",
+      "Verkehrsminister (Bund)",
+      "Kabinett Merkel IV",
+      "Generalsekretär (CSU)"
+    ]
   },
   {
     "name": "Svenja Schulze",
@@ -4517,7 +4572,12 @@
     "img": null,
     "birth": 1977,
     "death": null,
-    "properties": ["FDP", "Justizminister (Bund)", "Kabinett Scholz"]
+    "properties": [
+      "FDP",
+      "Justizminister (Bund)",
+      "Kabinett Scholz",
+      "Generalsekretär (FDP)"
+    ]
   },
   {
     "name": "Volker Wissing",
@@ -4529,7 +4589,8 @@
       "parteilos",
       "Justizminister (Bund)",
       "Kabinett Scholz",
-      "Verkehrsminister (Bund)"
+      "Verkehrsminister (Bund)",
+      "Generalsekretär (FDP)"
     ]
   },
   {
@@ -4702,7 +4763,14 @@
     "img": null,
     "birth": 1979,
     "death": null,
-    "properties": ["CDU", "Gesundheitsminister (Bund)", "Kabinett Merz", "Frau"]
+    "properties": [
+      "CDU",
+      "Gesundheitsminister (Bund)",
+      "Kabinett Merz",
+      "Frau",
+      "Minister für besondere Aufgaben (Bund)",
+      "Chef des Bundeskanzleramts"
+    ]
   },
   {
     "name": "Alois Rainer",
@@ -4739,7 +4807,8 @@
       "CDU",
       "Minister für besondere Aufgaben (Bund)",
       "Chef des Bundeskanzleramts",
-      "Kabinett Merz"
+      "Kabinett Merz",
+      "Fraktionsvorsitzender (CDU/CSU)"
     ]
   },
   {
@@ -4954,7 +5023,11 @@
     "img": null,
     "birth": 1949,
     "death": null,
-    "properties": ["CDU", "Fraktionsvorsitzender (CDU/CSU)"]
+    "properties": [
+      "CDU",
+      "Fraktionsvorsitzender (CDU/CSU)",
+      "Generalsekretär (CDU)"
+    ]
   },
   {
     "name": "Ralph Brinkhaus",
@@ -5012,7 +5085,11 @@
     "img": null,
     "birth": 1968,
     "death": null,
-    "properties": ["SPD", "Fraktionsvorsitzender (SPD)"]
+    "properties": [
+      "SPD",
+      "Fraktionsvorsitzender (SPD)",
+      "Generalsekretär (SPD)"
+    ]
   },
   {
     "name": "August-Martin Euler",
@@ -5411,7 +5488,11 @@
     "img": null,
     "birth": 1950,
     "death": 2016,
-    "properties": ["CDU", "Vizepräsident des Bundestags"]
+    "properties": [
+      "CDU",
+      "Vizepräsident des Bundestags",
+      "Generalsekretär (CDU)"
+    ]
   },
   {
     "name": "Michaela Noll",
@@ -5552,5 +5633,619 @@
     "birth": 1956,
     "death": null,
     "properties": ["PDS", "Linke", "Vizepräsident des Bundestags"]
+  },
+  {
+    "name": "Carsten Linnemann",
+    "img": null,
+    "birth": 1977,
+    "death": null,
+    "properties": [
+      "CDU",
+      "Kabinett Merz",
+      "Gesundheitsminister (Bund)",
+      "Generalsekretär (CDU)"
+    ]
+  },
+  {
+    "name": "Steffen Bilger",
+    "img": null,
+    "birth": 1979,
+    "death": null,
+    "properties": ["CDU", "Kabinett Merz", "Verkehrsminister (Bund)"]
+  },
+  {
+    "name": "Konrad Kraske",
+    "img": null,
+    "birth": 1929,
+    "death": 2016,
+    "properties": ["CDU", "Generalsekretär (CDU)"]
+  },
+  {
+    "name": "Kurt Biedenkopf",
+    "img": null,
+    "birth": 1930,
+    "death": 2021,
+    "properties": ["CDU", "Generalsekretär (CDU)"]
+  },
+  {
+    "name": "Ruprecht Polenz",
+    "img": null,
+    "birth": 1946,
+    "death": null,
+    "properties": ["CDU", "Generalsekretär (CDU)"]
+  },
+  {
+    "name": "Laurenz Meyer",
+    "img": null,
+    "birth": 1948,
+    "death": null,
+    "properties": ["CDU", "Generalsekretär (CDU)"]
+  },
+  {
+    "name": "Peter Tauber",
+    "img": null,
+    "birth": 1974,
+    "death": null,
+    "properties": ["CDU", "Generalsekretär (CDU)"]
+  },
+  {
+    "name": "Paul Ziemiak",
+    "img": null,
+    "birth": 1985,
+    "death": null,
+    "properties": ["CDU", "Generalsekretär (CDU)", "JU-Vorsitzender"]
+  },
+  {
+    "name": "Mario Czaja",
+    "img": null,
+    "birth": 1975,
+    "death": null,
+    "properties": ["CDU", "Generalsekretär (CDU)"]
+  },
+  {
+    "name": "Franziska Hoppermann",
+    "img": null,
+    "birth": 1982,
+    "death": null,
+    "properties": ["CDU", "Generalsekretär (CDU)", "Frau"]
+  },
+  {
+    "name": "Josef Brunner",
+    "img": null,
+    "birth": 1909,
+    "death": 1982,
+    "properties": ["CSU", "Generalsekretär (CSU)"]
+  },
+  {
+    "name": "Heinz Lechmann",
+    "img": null,
+    "birth": 1920,
+    "death": 2007,
+    "properties": ["CSU", "Generalsekretär (CSU)"]
+  },
+  {
+    "name": "Anton Jaumann",
+    "img": null,
+    "birth": 1927,
+    "death": 1994,
+    "properties": ["CSU", "Generalsekretär (CSU)"]
+  },
+  {
+    "name": "Max Streibl",
+    "img": null,
+    "birth": 1932,
+    "death": 1998,
+    "properties": ["CSU", "Generalsekretär (CSU)"]
+  },
+  {
+    "name": "Gerold Tandler",
+    "img": null,
+    "birth": 1936,
+    "death": null,
+    "properties": ["CSU", "Generalsekretär (CSU)"]
+  },
+  {
+    "name": "Otto Wiesheu",
+    "img": null,
+    "birth": 1944,
+    "death": null,
+    "properties": ["CSU", "Generalsekretär (CSU)"]
+  },
+  {
+    "name": "Bernd Protzner",
+    "img": null,
+    "birth": 1952,
+    "death": 2018,
+    "properties": ["CSU", "Generalsekretär (CSU)"]
+  },
+  {
+    "name": "Thomas Goppel",
+    "img": null,
+    "birth": 1947,
+    "death": null,
+    "properties": ["CSU", "Generalsekretär (CSU)"]
+  },
+  {
+    "name": "Christine Haderthauer",
+    "img": null,
+    "birth": 1962,
+    "death": null,
+    "properties": ["CSU", "Generalsekretär (CSU)", "Frau"]
+  },
+  {
+    "name": "Markus Blume",
+    "img": null,
+    "birth": 1975,
+    "death": null,
+    "properties": ["CSU", "Generalsekretär (CSU)"]
+  },
+  {
+    "name": "Stephan Mayer",
+    "img": null,
+    "birth": 1973,
+    "death": null,
+    "properties": ["CSU", "Generalsekretär (CSU)"]
+  },
+  {
+    "name": "Martin Huber",
+    "img": null,
+    "birth": 1977,
+    "death": null,
+    "properties": ["CSU", "Generalsekretär (CSU)"]
+  },
+  {
+    "name": "Karl-Hermann Flach",
+    "img": null,
+    "birth": 1929,
+    "death": 1973,
+    "properties": ["LDPD", "FDP", "Generalsekretär (FDP)", "Im Amt verstorben"]
+  },
+  {
+    "name": "Cornelia Schmalz-Jacobsen",
+    "img": null,
+    "birth": 1934,
+    "death": null,
+    "properties": ["FDP", "Generalsekretär (FDP)", "Frau"]
+  },
+  {
+    "name": "Uwe Lühr",
+    "img": null,
+    "birth": 1949,
+    "death": null,
+    "properties": ["LDPD", "FDP", "Generalsekretär (FDP)"]
+  },
+  {
+    "name": "Werner Hoyer",
+    "img": null,
+    "birth": 1951,
+    "death": null,
+    "properties": ["FDP", "Generalsekretär (FDP)"]
+  },
+  {
+    "name": "Cornelia Pieper",
+    "img": null,
+    "birth": 1959,
+    "death": null,
+    "properties": ["LDPD", "FDP", "Generalsekretär (FDP)", "Frau"]
+  },
+  {
+    "name": "Patrick Döring",
+    "img": null,
+    "birth": 1973,
+    "death": null,
+    "properties": ["FDP", "Generalsekretär (FDP)"]
+  },
+  {
+    "name": "Nicola Beer",
+    "img": null,
+    "birth": 1970,
+    "death": null,
+    "properties": ["FDP", "Generalsekretär (FDP)", "Frau"]
+  },
+  {
+    "name": "Linda Teuteberg",
+    "img": null,
+    "birth": 1981,
+    "death": null,
+    "properties": ["FDP", "Generalsekretär (FDP)", "Frau"]
+  },
+  {
+    "name": "Bijan Djir-Sarai",
+    "img": null,
+    "birth": 1976,
+    "death": null,
+    "properties": ["FDP", "Generalsekretär (FDP)"]
+  },
+  {
+    "name": "Nicole Büttner",
+    "img": null,
+    "birth": 1985,
+    "death": null,
+    "properties": ["FDP", "Generalsekretär (FDP)", "Frau"]
+  },
+  {
+    "name": "Martin Hagen",
+    "img": null,
+    "birth": 1981,
+    "death": null,
+    "properties": ["FDP", "Generalsekretär (FDP)"]
+  },
+  {
+    "name": "Klaus Uwe Benneter",
+    "img": null,
+    "birth": 1947,
+    "death": null,
+    "properties": ["SPD", "Generalsekretär (SPD)", "JuSo-Vorsitzender"]
+  },
+  {
+    "name": "Yasmin Fahimi",
+    "img": null,
+    "birth": 1947,
+    "death": null,
+    "properties": ["SPD", "Generalsekretär (SPD)", "Frau"]
+  },
+  {
+    "name": "Kevin Kühnert",
+    "img": null,
+    "birth": 1989,
+    "death": null,
+    "properties": ["SPD", "Generalsekretär (SPD)", "JuSo-Vorsitzender"]
+  },
+  {
+    "name": "Tim Klüssendorf",
+    "img": null,
+    "birth": 1991,
+    "death": null,
+    "properties": ["SPD", "Generalsekretär (SPD)"]
+  },
+  {
+    "name": "Christian Leye",
+    "img": null,
+    "birth": 1981,
+    "death": null,
+    "properties": ["BSW", "Linke", "Generalsekretär (BSW)"]
+  },
+  {
+    "name": "Oliver Ruhnert",
+    "img": null,
+    "birth": 1971,
+    "death": null,
+    "properties": ["BSW", "Linke", "Generalsekretär (BSW)"]
+  },
+  {
+    "name": "Hans Hermsdorf",
+    "img": null,
+    "birth": 1914,
+    "death": 2001,
+    "properties": ["SPD", "JuSo-Vorsitzender"]
+  },
+  {
+    "name": "Werner Buchstaller",
+    "img": null,
+    "birth": 1923,
+    "death": 1989,
+    "properties": ["SPD", "JuSo-Vorsitzender"]
+  },
+  {
+    "name": "Holger Börner",
+    "img": null,
+    "birth": 1931,
+    "death": 2006,
+    "properties": ["SPD", "JuSo-Vorsitzender"]
+  },
+  {
+    "name": "Günther Müller",
+    "img": null,
+    "birth": 1934,
+    "death": 1997,
+    "properties": ["SPD", "CSU", "JuSo-Vorsitzender"]
+  },
+  {
+    "name": "Peter Corterier",
+    "img": null,
+    "birth": 1936,
+    "death": 2017,
+    "properties": ["SPD", "JuSo-Vorsitzender"]
+  },
+  {
+    "name": "Karsten Voigt",
+    "img": null,
+    "birth": 1941,
+    "death": null,
+    "properties": ["SPD", "JuSo-Vorsitzender"]
+  },
+  {
+    "name": "Wolfgang Roth",
+    "img": null,
+    "birth": 1941,
+    "death": 2021,
+    "properties": ["SPD", "JuSo-Vorsitzender"]
+  },
+  {
+    "name": "Willi Piecyk",
+    "img": null,
+    "birth": 1948,
+    "death": 2008,
+    "properties": ["SPD", "JuSo-Vorsitzender"]
+  },
+  {
+    "name": "Rudolf Hartung",
+    "img": null,
+    "birth": 1948,
+    "death": 2020,
+    "properties": ["SPD", "JuSo-Vorsitzender"]
+  },
+  {
+    "name": "Ulf Skirke",
+    "img": null,
+    "birth": 1949,
+    "death": null,
+    "properties": ["SPD", "JuSo-Vorsitzender"]
+  },
+  {
+    "name": "Michael Guggemos",
+    "img": null,
+    "birth": 1956,
+    "death": null,
+    "properties": ["SPD", "JuSo-Vorsitzender"]
+  },
+  {
+    "name": "Susi Möbbeck",
+    "img": null,
+    "birth": 1964,
+    "death": null,
+    "properties": ["SPD", "JuSo-Vorsitzender", "Frau"]
+  },
+  {
+    "name": "Ralf Ludwig",
+    "img": null,
+    "birth": 1961,
+    "death": null,
+    "properties": ["SPD", "JuSo-Vorsitzender"]
+  },
+  {
+    "name": "Thomas Westphal",
+    "img": null,
+    "birth": 1967,
+    "death": null,
+    "properties": ["SPD", "JuSo-Vorsitzender"]
+  },
+  {
+    "name": "Benjamin Mikfeld",
+    "img": null,
+    "birth": 1972,
+    "death": null,
+    "properties": ["SPD", "JuSo-Vorsitzender"]
+  },
+  {
+    "name": "Niels Annen",
+    "img": null,
+    "birth": 1973,
+    "death": null,
+    "properties": ["SPD", "JuSo-Vorsitzender"]
+  },
+  {
+    "name": "Björn Böhning",
+    "img": null,
+    "birth": 1978,
+    "death": null,
+    "properties": ["SPD", "JuSo-Vorsitzender"]
+  },
+  {
+    "name": "Franziska Drohsel",
+    "img": null,
+    "birth": 1980,
+    "death": null,
+    "properties": ["SPD", "JuSo-Vorsitzender", "Frau"]
+  },
+  {
+    "name": "Sascha Vogt",
+    "img": null,
+    "birth": 1980,
+    "death": null,
+    "properties": ["SPD", "JuSo-Vorsitzender"]
+  },
+  {
+    "name": "Johanna Uekermann",
+    "img": null,
+    "birth": 1987,
+    "death": null,
+    "properties": ["SPD", "JuSo-Vorsitzender", "Frau"]
+  },
+  {
+    "name": "Jessica Rosenthal",
+    "img": null,
+    "birth": 1992,
+    "death": null,
+    "properties": ["SPD", "JuSo-Vorsitzender", "Frau"]
+  },
+  {
+    "name": "Philipp Türmer",
+    "img": null,
+    "birth": 1996,
+    "death": null,
+    "properties": ["SPD", "JuSo-Vorsitzender"]
+  },
+  {
+    "name": "Bruno Six",
+    "img": null,
+    "birth": 1906,
+    "death": 1984,
+    "properties": ["CDU", "JU-Vorsitzender"]
+  },
+  {
+    "name": "Fred Sagner",
+    "img": null,
+    "birth": 1919,
+    "death": 2009,
+    "properties": ["CDU", "JU-Vorsitzender"]
+  },
+  {
+    "name": "Josef Hermann Dufhues",
+    "img": null,
+    "birth": 1908,
+    "death": 1971,
+    "properties": ["CDU", "JU-Vorsitzender"]
+  },
+  {
+    "name": "Ernst Majonica",
+    "img": null,
+    "birth": 1920,
+    "death": 1997,
+    "properties": ["CDU", "JU-Vorsitzender"]
+  },
+  {
+    "name": "Bert Even",
+    "img": null,
+    "birth": 1925,
+    "death": 2016,
+    "properties": ["CDU", "JU-Vorsitzender"]
+  },
+  {
+    "name": "Jürgen Echternach",
+    "img": null,
+    "birth": 1937,
+    "death": 2006,
+    "properties": ["CDU", "JU-Vorsitzender"]
+  },
+  {
+    "name": "Christoph Böhr",
+    "img": null,
+    "birth": 1954,
+    "death": null,
+    "properties": ["CDU", "JU-Vorsitzender"]
+  },
+  {
+    "name": "Klaus Escher",
+    "img": null,
+    "birth": 1965,
+    "death": null,
+    "properties": ["CDU", "JU-Vorsitzender"]
+  },
+  {
+    "name": "Hildegard Müller",
+    "img": null,
+    "birth": 1967,
+    "death": null,
+    "properties": ["CDU", "JU-Vorsitzender"]
+  },
+  {
+    "name": "Philipp Mißfelder",
+    "img": null,
+    "birth": 1979,
+    "death": 2015,
+    "properties": ["CDU", "JU-Vorsitzender"]
+  },
+  {
+    "name": "Tilman Kuban",
+    "img": null,
+    "birth": 1987,
+    "death": null,
+    "properties": ["CDU", "JU-Vorsitzender"]
+  },
+  {
+    "name": "Johannes Winkel",
+    "img": null,
+    "birth": 1991,
+    "death": null,
+    "properties": ["CDU", "JU-Vorsitzender"]
+  },
+  {
+    "name": "Hans-Joachim Otto",
+    "img": null,
+    "birth": 1952,
+    "death": null,
+    "properties": ["FDP", "JuLI-Vorsitzender"]
+  },
+  {
+    "name": "Georg Neubauer",
+    "img": null,
+    "birth": 1958,
+    "death": null,
+    "properties": ["FDP", "JuLI-Vorsitzender"]
+  },
+  {
+    "name": "Hermann Brem",
+    "img": null,
+    "birth": 1961,
+    "death": null,
+    "properties": ["FDP", "JuLI-Vorsitzender"]
+  },
+  {
+    "name": "Birgit Homburger",
+    "img": null,
+    "birth": 1965,
+    "death": null,
+    "properties": ["FDP", "JuLI-Vorsitzender", "Frau"]
+  },
+  {
+    "name": "Ralph Lange",
+    "img": null,
+    "birth": 1967,
+    "death": null,
+    "properties": ["FDP", "JuLI-Vorsitzender"]
+  },
+  {
+    "name": "Michael Kauch",
+    "img": null,
+    "birth": 1967,
+    "death": null,
+    "properties": ["FDP", "JuLI-Vorsitzender"]
+  },
+  {
+    "name": "Jan Dittrich",
+    "img": null,
+    "birth": 1976,
+    "death": null,
+    "properties": ["FDP", "JuLI-Vorsitzender"]
+  },
+  {
+    "name": "Lasse Becker",
+    "img": null,
+    "birth": 1983,
+    "death": null,
+    "properties": ["FDP", "JuLI-Vorsitzender"]
+  },
+  {
+    "name": "Alexander Hahn",
+    "img": null,
+    "birth": 1987,
+    "death": null,
+    "properties": ["FDP", "JuLI-Vorsitzender"]
+  },
+  {
+    "name": "Konstantin Kuhle",
+    "img": null,
+    "birth": 1989,
+    "death": null,
+    "properties": ["FDP", "JuLI-Vorsitzender"]
+  },
+  {
+    "name": "Ria Schröder",
+    "img": null,
+    "birth": 1992,
+    "death": null,
+    "properties": ["FDP", "JuLI-Vorsitzender", "Frau"]
+  },
+  {
+    "name": "Jens Teutrine",
+    "img": null,
+    "birth": 1993,
+    "death": null,
+    "properties": ["FDP", "JuLI-Vorsitzender"]
+  },
+  {
+    "name": "Franziska Brandmann",
+    "img": null,
+    "birth": 1994,
+    "death": null,
+    "properties": ["FDP", "JuLI-Vorsitzender", "Frau"]
+  },
+  {
+    "name": "Finn Flebbe",
+    "img": null,
+    "birth": 1996,
+    "death": null,
+    "properties": ["FDP", "JuLI-Vorsitzender", "Frau"]
   }
 ]

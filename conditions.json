@@ -101,7 +101,7 @@
     "id": "12",
     "name": "Vizekanzler",
     "more": "Politiker*innen die Stellvertreter des Bundeskanzlers waren. Auch eine kommissarische übernahme des Amts zählt.",
-    "img":  "09",
+    "img": "09",
     "condition": "return x.properties.includes('Vizekanzler')"
   },
   {
@@ -230,7 +230,7 @@
     "id": "29",
     "name": "Frau",
     "more": "Politikerinnen.",
-    "img":  "29",
+    "img": "29",
     "condition": "return x.properties.includes('Frau')"
   },
   {
@@ -602,5 +602,89 @@
     "more": "Politiker*innen deren name ein ä, ö oder ü enthalten.",
     "img": "80",
     "condition": "return x.name.includes('ä') || x.name.includes('Ä') || x.name.includes('ö') || x.name.includes('Ö') || x.name.includes('ü') || x.name.includes('Ü')"
+  },
+  {
+    "id": "81",
+    "name": "Vorsitzende einer Jugend\u00ADorganisation",
+    "more": "Politiker*innen die einmal Vorsitzende der Jugendorganisation einer Partei waren (JuSos, JU, JuLis, DJD, JA, Generation Deutschland oder Sprecher der Grünen Jugend).",
+    "img": null,
+    "condition": "return x.properties.includes('JuSo-Vorsitzender') || x.properties.includes('JU-Vorsitzender') || x.properties.includes('JuLi-Vorsitzender') || x.properties.includes('DJD-Vorsitzender') || x.properties.includes('JA-Vorsitzender') || x.properties.includes('Generation Deutschland-Vorsitzender') || x.properties.includes('Sprecher der Grünen Jugend')"
+  },
+  {
+    "id": "82",
+    "name": "JuSo-\u00ADVorsitzender",
+    "more": "Politiker*innen die einmal Vorsitzende der Jungsozialisten, der Jugendorgansiation der SPD waren.",
+    "img": null,
+    "condition": "return x.properties.includes('JuSo-Vorsitzender')"
+  },
+  {
+    "id": "83",
+    "name": "JU-\u00ADVorsitzender",
+    "more": "Politiker*innen die einmal Vorsitzende der Jungsozialisten, der Jugendorgansiation der SPD waren.",
+    "img": null,
+    "condition": "return x.properties.includes('JU-Vorsitzender')"
+  },
+  {
+    "id": "84",
+    "name": "JuLi-\u00ADVorsitzender",
+    "more": "Politiker*innen die einmal Vorsitzende der Jungen Liberalen, der Jugendorgansiation der FDP waren.",
+    "img": null,
+    "condition": "return x.properties.includes('JuLi-Vorsitzender')"
+  },
+  {
+    "id": "85",
+    "name": "DJD-\u00ADVorsitzender",
+    "more": "Politiker*innen die einmal Vorsitzende der Deutschen Jungdemokraten, der ehemaligen Jugendorgansiation der FDP waren.",
+    "img": null,
+    "condition": "return x.properties.includes('DJD-Vorsitzender')"
+  },
+  {
+    "id": "86",
+    "name": "FDP-\u00ADJugendorganisation-\u00ADVorsitzender",
+    "more": "Politiker*innen die einmal Vorsitzende der Jungen Liberalen oder der Deutschen Jungdemokraten, der beiden Jugendorgansiationen der FDP waren.",
+    "img": null,
+    "condition": "return x.properties.includes('DJD-Vorsitzender') || return x.properties.includes('JuLi-Vorsitzender')"
+  },
+  {
+    "id": "87",
+    "name": "Sprecher der Grünen Jugend",
+    "more": "Politiker*innen die einmal Sprecher der Grünen Jugend waren.",
+    "img": null,
+    "condition": "return x.properties.includes('Sprecher der Grünen Jugend')"
+  },
+  {
+    "id": "88",
+    "name": "General\u00ADsekretär",
+    "more": "Politiker*innen die einmal Generalsekretär ihrer Partei waren.",
+    "img": null,
+    "condition": "return x.properties.some(element => element.startsWith('Generalsekretär'))"
+  },
+  {
+    "id": "89",
+    "name": "CDU-General\u00ADsekretär",
+    "more": "Politiker*innen die einmal Generalsekretär ihrer Partei waren.",
+    "img": null,
+    "condition": "return x.properties.includes('Generalsekretär (CDU)')"
+  },
+  {
+    "id": "90",
+    "name": "SPD-General\u00ADsekretär",
+    "more": "Politiker*innen die einmal Generalsekretär ihrer Partei waren.",
+    "img": null,
+    "condition": "return x.properties.includes('Generalsekretär (SPD)')"
+  },
+  {
+    "id": "91",
+    "name": "FDP-General\u00ADsekretär",
+    "more": "Politiker*innen die einmal Generalsekretär ihrer Partei waren.",
+    "img": null,
+    "condition": "return x.properties.includes('Generalsekretär (FDP)')"
+  },
+  {
+    "id": "92",
+    "name": "CSU-General\u00ADsekretär",
+    "more": "Politiker*innen die einmal Generalsekretär ihrer Partei waren.",
+    "img": null,
+    "condition": "return x.properties.includes('Generalsekretär (CSU)')"
   }
 ]
