@@ -550,7 +550,7 @@
   {
     "id": "73",
     "name": "Vorname eines Kanzlers",
-    "more": "Politiker*innen die ihren Vornamen mit einem Bundeskanzler teilen. Es zählen nicht die Vornamen kommissarischer Bundeskanzler.",
+    "more": "Politiker*innen die ihren Vornamen mit einem Bundeskanzler teilen (aber nicht die Kanzler selber sind). Es zählen nicht die Vornamen kommissarischer Bundeskanzler.",
     "img": null,
     "condition": "return x.name.startsWith('Konrad ') || x.name.startsWith('Ludwig ') ||  x.name.startsWith('Kurt ') ||  x.name.startsWith('Georg ') ||  x.name.startsWith('Helmut ') ||  x.name.startsWith('Hebert ') ||  x.name.startsWith('Willy ') ||  x.name.startsWith('Angela ') ||  x.name.startsWith('Gerhard ') ||  x.name.startsWith('Olaf ')||  x.name.startsWith('Friedrich ')"
   },
@@ -686,5 +686,33 @@
     "more": "Politiker*innen die einmal Generalsekretär ihrer Partei waren.",
     "img": null,
     "condition": "return x.properties.includes('Generalsekretär (CSU)')"
+  },
+  {
+    "id": "93",
+    "name": "Drei oder mehr Kabinette",
+    "more": "Politiker*innen die in mehreren Kabinetten Mitglied waren.",
+    "img": null,
+    "condition": "return x.properties.filter(element => element.startsWith('Kabinett')).length ) >= 3"
+  },
+  {
+    "id": "94",
+    "name": "Nur ein Kabinett",
+    "more": "Politiker*innen die nur in einem Kabinett Mitglied waren.",
+    "img": null,
+    "condition": "return x.properties.filter(element => element.startsWith('Kabinett')).length ) = 1"
+  },
+  {
+    "id": "95",
+    "name": "Minister unter mehreren Kanzlern",
+    "more": "Politiker*innen die einmal Ministerpräsident eines Bundeslandes waren.",
+    "img": null,
+    "condition": "return true"
+  },
+  {
+    "id": "96",
+    "name": "Minister\u00ADpräsident",
+    "more": "Politiker*innen die einmal Ministerpräsident eines Bundeslandes waren.",
+    "img": null,
+    "condition": "return x.properties.some(element => element.startsWith('Ministerpräsident'))"
   }
 ]
