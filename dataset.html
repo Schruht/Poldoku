@@ -233,5 +233,33 @@
       }
     }
   </style>
+
+  <div class="daily-blocker" id="daily-blocker">
+    <div class="blocker-content">
+      <p>Löse zuerst das tägliche Puzzle!</p>
+      <button class="view-anyway-btn" id="view-anyway-btn">Trotzdem anzeigen</button>
+    </div>
+  </div>
+
+  <script>
+    const startDate = new Date("2026-08-11");
+    const today = new Date();
+    const daysSinceStart = Math.floor((today - startDate) / (1000 * 60 * 60 * 24));
+    const dailyPuzzleKey = `poldoku-daily-${daysSinceStart}`;
+    const dailyPuzzleStatus = localStorage.getItem(dailyPuzzleKey);
+    const isTodayBlocking = !dailyPuzzleStatus;
+
+    const dailyBlocker = document.getElementById('daily-blocker');
+    const viewAnywayBtn = document.getElementById('view-anyway-btn');
+
+    if (isTodayBlocking) {
+      dailyBlocker.classList.add('show');
+    }
+
+    viewAnywayBtn.addEventListener('click', () => {
+      dailyBlocker.classList.remove('show');
+      localStorage.setItem(dailyPuzzleKey, 'failed');
+    });
+  </script>
 </body>
 </html>

@@ -25,7 +25,12 @@ const startDate = new Date("2026-08-11")
 const today = new Date()
 const daysSinceStart = Math.floor((today - startDate) / (1000 * 60 * 60 * 24))
 
-let puzzleString = rotationPuzzles[daysSinceStart] || "005316690937"
+const dailyPuzzle = rotationPuzzles[daysSinceStart] || "005316690937"
+const dailyPuzzleKey = `poldoku-daily-${daysSinceStart}`
+const dailyPuzzleStatus = localStorage.getItem(dailyPuzzleKey)
+const isTodayCleared = dailyPuzzleStatus === 'true'
+
+let puzzleString = dailyPuzzle
 if (window.location.hash) {
   const hashContent = window.location.hash.slice(1)
   if (hashContent.startsWith('d')) {
@@ -39,6 +44,9 @@ if (window.location.hash) {
     puzzleString = hashContent
   }
 }
+
+const puzzleStorageKey = `poldoku-puzzle-${puzzleString}`
+const savedFilled = localStorage.getItem(puzzleStorageKey)
 
 const conditions = puzzleString.split(/(..)/g).filter(s => s).map(s => categories.find(x => x.id == s))
 
@@ -65,6 +73,11 @@ for (let row of rows) {
   }
 }
 
+const minAnswerCount = Math.min(...cells.map(x => x.correct.length))
+const difficulty = Math.min(Math.ceil(5/minAnswerCount), 5)
+
+document.querySelector("#difficulty-rating > span").innerHTML = "★".repeat(difficulty)
+
 const PUZZLE = {
   colLabels: colLabes,
   rowLabels: rowLabels,
@@ -72,7 +85,7 @@ const PUZZLE = {
   aotds: aotds.map(x => x.name)
 };
 
-const filled = {};
+const filled = savedFilled ? JSON.parse(savedFilled) : {};
 let activeCell = null;
 let labelTooltipTimer = null;
 
@@ -130,7 +143,11 @@ function buildGrid() {
 
       const key = `${r},${c}`;
       if (filled[key]) {
-        renderFilled(cell, filled[key]);
+        const state = filled[key].state || 'correct';
+        renderFilled(cell, filled[key].answer, state);
+        if (state === 'wrong') {
+          cell.classList.add('wrong');
+        }
       } else {
         cell.innerHTML = '<span class="cell-hint">Antwort eingeben</span>';
         cell.addEventListener('click', () => openModal(r, c));
@@ -349,7 +366,7 @@ function closeModal() {
 function pick(answer, r, c) {
   const correct = PUZZLE.cells[r * 3 + c].correct;
 
-  if (Object.values(filled).includes(answer)) {
+  if (Object.values(filled).some(f => f.answer === answer)) {
     // Already filled - show error feedback
     const inputBox = document.querySelector('.opts-text-box');
     inputBox.classList.add('wrong');
@@ -385,7 +402,7 @@ function pick(answer, r, c) {
 /* ── Accept correct answer ── */
 function accept(r, c, answer) {
   const key = `${r},${c}`;
-  filled[key] = answer;
+  filled[key] = { answer, state: 'correct' };
 
   const cell = document.querySelector(`.cell[data-r="${r}"][data-c="${c}"]`);
   if (cell) {
@@ -393,16 +410,24 @@ function accept(r, c, answer) {
   }
   renderFilled(cell, answer, 'correct');
 
-  const count = Object.keys(filled).length;
+  const count = Object.values(filled).filter(f => f.state === 'correct').length;
   document.getElementById('fill').style.width = `${(count / 9) * 100}%`;
   document.getElementById('prog-label').textContent = `${count} / 9`;
 
+  localStorage.setItem(puzzleStorageKey, JSON.stringify(filled))
+
   if (count === 9) {
+    if (puzzleString === dailyPuzzle) {
+      localStorage.setItem(dailyPuzzleKey, 'true')
+    }
     setTimeout(() => document.getElementById('win').classList.add('show'), 380);
   }
 }
 
 function reject(r, c, answer) {
+  const key = `${r},${c}`;
+  filled[key] = { answer, state: 'wrong' };
+
   const cell = document.querySelector(`.cell[data-r="${r}"][data-c="${c}"]`);
   if (cell) {
     cell.classList.add('wrong');
@@ -410,6 +435,8 @@ function reject(r, c, answer) {
   renderFilled(cell, answer, 'wrong');
 
   document.getElementById('wrong-answers-label').textContent = parseInt(document.getElementById('wrong-answers-label').textContent) + 1;
+
+  localStorage.setItem(puzzleStorageKey, JSON.stringify(filled))
 }
 
 /* ── Events ── */
@@ -420,11 +447,26 @@ document.getElementById('x-btn').addEventListener('click', closeModal);
 
 document.getElementById('again-btn').addEventListener('click', () => {
   for (const k in filled) delete filled[k];
+  localStorage.removeItem(puzzleStorageKey)
   document.getElementById('win').classList.remove('show');
   document.getElementById('fill').style.width = '0%';
   document.getElementById('prog-label').textContent = '0 / 9';
   buildGrid();
 });
 
+window.addEventListener('hashchange', () => {
+  window.location.reload()
+})
+
 /* ── Init ── */
 buildGrid();
+
+const count = Object.values(filled).filter(f => f.state === 'correct').length;
+const wrongCount = Object.values(filled).filter(f => f.state === 'wrong').length
+
+if (count > 0) {
+  document.getElementById('fill').style.width = `${(count / 9) * 100}%`;
+  document.getElementById('prog-label').textContent = `${count} / 9`;
+}
+
+document.getElementById('wrong-answers-label').textContent = wrongCount;
