@@ -10,10 +10,6 @@
       "Bundeskanzler",
       "Aussenminister (Bund)",
       "Parlamentarischer Rat",
-      "Kabinett Adenauer I",
-      "Kabinett Adenauer II",
-      "Kabinett Adenauer III",
-      "Kabinett Adenauer IV",
       "Bundespräsidentenkandidat",
       "Parteivorsitzender (CDU)",
       "Ehrenvorsitzender (CDU)",
@@ -34,7 +30,6 @@
       "Kabinett Adenauer II",
       "Kabinett Adenauer III",
       "Kabinett Adenauer IV",
-      "Kabinett Erhard I",
       "Vizekanzler",
       "Parteivorsitzender (CDU)",
       "Ehrenvorsitzender (CDU)",
@@ -51,8 +46,7 @@
       "CDU",
       "Bundeskanzler",
       "Parteivorsitzender (CDU)",
-      "Ehrenvorsitzender (CDU)",
-      "Kabinett Kiesinger"
+      "Ehrenvorsitzender (CDU)"
     ]
   },
   {
@@ -68,8 +62,6 @@
       "Kabinett Kiesinger",
       "Aussenminister (Bund)",
       "Vizekanzler",
-      "Kabinett Brandt I",
-      "Kabinett Brandt II",
       "Alterspräsident des Bundestags"
     ]
   },
@@ -87,9 +79,6 @@
       "Aussenminister (Bund)",
       "Kabinett Brandt I",
       "Kabinett Brandt II",
-      "Kabinett Schmidt I",
-      "Kabinett Schmidt II",
-      "Kabinett Schmidt III",
       "Fraktionsvorsitzender (SPD)"
     ]
   },
@@ -103,12 +92,7 @@
       "Bundeskanzler",
       "Oldenburger Grünkohlkönig",
       "Parteivorsitzender (CDU)",
-      "Ehrenvorsitzender (CDU)",
-      "Kabinett Kohl I",
-      "Kabinett Kohl II",
-      "Kabinett Kohl III",
-      "Kabinett Kohl IV",
-      "Kabinett Kohl IV"
+      "Ehrenvorsitzender (CDU)"
     ]
   },
   {
@@ -121,8 +105,6 @@
       "Bundeskanzler",
       "Parteivorsitzender (SPD)",
       "Oldenburger Grünkohlkönig",
-      "Kabinett Schröder I",
-      "Kabinett Schröder II",
       "JuSo-Vorsitzender"
     ]
   },
@@ -141,10 +123,6 @@
       "Umweltminister (Bund)",
       "Kabinett Kohl IV",
       "Kabinett Kohl V",
-      "Kabinett Merkel I",
-      "Kabinett Merkel II",
-      "Kabinett Merkel III",
-      "Kabinett Merkel IV",
       "Fraktionsvorsitzender (SPD)",
       "Frau",
       "Generalsekretär (CDU)"
@@ -994,7 +972,8 @@
       "Kabinett Adenauer II",
       "Kabinett Adenauer III",
       "Kabinett Adenauer IV",
-      "Kabinett Erhard I"
+      "Kabinett Erhard I",
+      "DJD-Vorsitzender"
     ]
   },
   {
@@ -1198,7 +1177,8 @@
       "FDP",
       "Vertriebenenminister (Bund)",
       "Kabinett Adenauer IV",
-      "Fraktionsvorsitzender (FDP)"
+      "Fraktionsvorsitzender (FDP)",
+      "DJD-Vorsitzender"
     ]
   },
   {
@@ -2709,7 +2689,8 @@
       "Innenminister (Bund)",
       "Kabinett Schmidt II",
       "Kabinett Schmidt III",
-      "Oldenburger Grünkohlkönig"
+      "Oldenburger Grünkohlkönig",
+      "DJD-Vorsitzender"
     ]
   },
   {
@@ -4851,7 +4832,11 @@
     "img": null,
     "birth": 1989,
     "death": null,
-    "properties": ["B90/Die Grünen", "Parteivorsitzender (B90/Die Grünen)"]
+    "properties": [
+      "B90/Die Grünen",
+      "Parteivorsitzender (B90/Die Grünen)",
+      "Sprecher der Grünen Jugend"
+    ]
   },
   {
     "name": "Franziska Brantner",
@@ -4872,7 +4857,8 @@
     "properties": [
       "B90/Die Grünen",
       "Parteivorsitzender (B90/Die Grünen)",
-      "Frau"
+      "Frau",
+      "Sprecher der Grünen Jugend"
     ]
   },
   {
@@ -6247,5 +6233,476 @@
     "birth": 1996,
     "death": null,
     "properties": ["FDP", "JuLI-Vorsitzender", "Frau"]
+  },
+  {
+    "name": "Herrmann Dürr",
+    "img": null,
+    "birth": 1925,
+    "death": 2003,
+    "properties": ["FDP", "NSDAP", "DVP", "SPD", "DJD-Vorsitzender"]
+  },
+  {
+    "name": "Gerhard Daub",
+    "img": null,
+    "birth": 1928,
+    "death": 1993,
+    "properties": ["FDP", "DJD-Vorsitzender"]
+  },
+  {
+    "name": "Günther Kastenmeyer",
+    "img": null,
+    "birth": 1929,
+    "death": null,
+    "properties": ["FDP", "DJD-Vorsitzender"]
+  },
+  {
+    "name": "Karl Holl",
+    "img": null,
+    "birth": 1931,
+    "death": 2017,
+    "properties": ["FDP", "DJD-Vorsitzender"]
+  },
+  {
+    "name": "Wolfgang Lüder",
+    "img": null,
+    "birth": 1937,
+    "death": 2013,
+    "properties": ["FDP", "DJD-Vorsitzender"]
+  },
+  {
+    "name": "Heiner Bremer",
+    "img": null,
+    "birth": 1941,
+    "death": null,
+    "properties": ["FDP", "DJD-Vorsitzender"]
+  },
+  {
+    "name": "Ingrid Matthäus-Maier",
+    "img": null,
+    "birth": 1945,
+    "death": null,
+    "properties": ["FDP", "SPD", "DJD-Vorsitzender", "Frau"]
+  },
+  {
+    "name": "Friedrich Neunhöffer",
+    "img": null,
+    "birth": 1938,
+    "death": null,
+    "properties": ["FDP", "LD", "SPD", "Linke", "DJD-Vorsitzender"]
+  },
+  {
+    "name": "Heiner Bremer",
+    "img": null,
+    "birth": 1941,
+    "death": null,
+    "properties": ["FDP", "DJD-Vorsitzender"]
+  },
+  {
+    "name": "Theo Schiller",
+    "img": null,
+    "birth": 1942,
+    "death": null,
+    "properties": ["FDP", "LD", "DJD-Vorsitzender"]
+  },
+  {
+    "name": "Hanspeter Knirsch",
+    "img": null,
+    "birth": 1950,
+    "death": null,
+    "properties": ["FDP", "LD", "SPD", "DJD-Vorsitzender"]
+  },
+  {
+    "name": "Christoph Strässer",
+    "img": null,
+    "birth": 1949,
+    "death": null,
+    "properties": ["FDP", "SPD", "DJD-Vorsitzender"]
+  },
+  {
+    "name": "Werner Lutz",
+    "img": null,
+    "birth": 1950,
+    "death": 2009,
+    "properties": ["FDP", "DJD-Vorsitzender"]
+  },
+  {
+    "name": "Torsten Heinrich",
+    "img": null,
+    "birth": 1982,
+    "death": null,
+    "properties": ["AfD", "JA-Vorsitzender"]
+  },
+  {
+    "name": "Philipp Ritz",
+    "img": null,
+    "birth": 1982,
+    "death": null,
+    "properties": ["AfD", "JA-Vorsitzender"]
+  },
+  {
+    "name": "Philipp Meyer",
+    "img": null,
+    "birth": 1982,
+    "death": null,
+    "properties": ["AfD", "JA-Vorsitzender"]
+  },
+  {
+    "name": "Sven Tritschler",
+    "img": null,
+    "birth": 1981,
+    "death": null,
+    "properties": ["AfD", "FDP", "JA-Vorsitzender"]
+  },
+  {
+    "name": "Markus Frohnmaier",
+    "img": null,
+    "birth": 1981,
+    "death": null,
+    "properties": ["AfD", "CDU", "FDP", "JA-Vorsitzender"]
+  },
+  {
+    "name": "Damian Lohr",
+    "img": null,
+    "birth": 1993,
+    "death": null,
+    "properties": ["AfD", "JA-Vorsitzender"]
+  },
+  {
+    "name": "Marvin T. Neumann",
+    "img": null,
+    "birth": 1993,
+    "death": null,
+    "properties": ["AfD", "JA-Vorsitzender"]
+  },
+  {
+    "name": "Carlo Clemens",
+    "img": null,
+    "birth": 1989,
+    "death": null,
+    "properties": ["AfD", "JA-Vorsitzender"]
+  },
+  {
+    "name": "Hannes Gnauck",
+    "img": null,
+    "birth": 1991,
+    "death": null,
+    "properties": ["AfD", "JA-Vorsitzender"]
+  },
+  {
+    "name": "Jean-Pascal Hohm",
+    "img": null,
+    "birth": 1991,
+    "death": null,
+    "properties": ["AfD", "Generation Deutschland-Vorsitzender-Vorsitzender"]
+  },
+  {
+    "name": "Birgit Spohn",
+    "img": null,
+    "birth": 1976,
+    "death": null,
+    "properties": [
+      "B90/Die Grünen",
+      "Sprecher des Grün-Alternatives Jugendbündnis",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Jens Augner",
+    "img": null,
+    "birth": 1971,
+    "death": null,
+    "properties": [
+      "B90/Die Grünen",
+      "Sprecher des Grün-Alternatives Jugendbündnis"
+    ]
+  },
+  {
+    "name": "Astrid Henning",
+    "img": null,
+    "birth": 1975,
+    "death": null,
+    "properties": [
+      "B90/Die Grünen",
+      "Sprecher des Grün-Alternatives Jugendbündnis",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Nadja vom Scheidt",
+    "img": null,
+    "birth": 1975,
+    "death": null,
+    "properties": [
+      "B90/Die Grünen",
+      "Sprecher des Grün-Alternatives Jugendbündnis",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Manuela Rottmann",
+    "img": null,
+    "birth": 1972,
+    "death": null,
+    "properties": [
+      "B90/Die Grünen",
+      "Sprecher des Grün-Alternatives Jugendbündnis",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Lars Lübben",
+    "img": null,
+    "birth": 1973,
+    "death": null,
+    "properties": [
+      "B90/Die Grünen",
+      "Sprecher des Grün-Alternatives Jugendbündnis",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Katja Husen",
+    "img": null,
+    "birth": 1976,
+    "death": 2022,
+    "properties": [
+      "B90/Die Grünen",
+      "Sprecher des Grün-Alternatives Jugendbündnis",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Andreas Gebhard",
+    "img": null,
+    "birth": 1975,
+    "death": null,
+    "properties": [
+      "B90/Die Grünen",
+      "Sprecher des Grün-Alternatives Jugendbündnis"
+    ]
+  },
+  {
+    "name": "Ramona Pop",
+    "img": null,
+    "birth": 1977,
+    "death": null,
+    "properties": ["B90/Die Grünen", "Sprecher der Grünen Jugend", "Frau"]
+  },
+  {
+    "name": "Werner Graf",
+    "img": null,
+    "birth": 1980,
+    "death": null,
+    "properties": ["B90/Die Grünen", "Sprecher der Grünen Jugend"]
+  },
+  {
+    "name": "Tina Gerts",
+    "img": null,
+    "birth": 1978,
+    "death": null,
+    "properties": ["B90/Die Grünen", "Sprecher der Grünen Jugend", "Frau"]
+  },
+  {
+    "name": "Benjamin von der Ahe",
+    "img": null,
+    "birth": 1976,
+    "death": null,
+    "properties": ["B90/Die Grünen", "Sprecher der Grünen Jugend"]
+  },
+  {
+    "name": "Ines Eichmüller",
+    "img": null,
+    "birth": 1980,
+    "death": null,
+    "properties": ["B90/Die Grünen", "Sprecher der Grünen Jugend", "Frau"]
+  },
+  {
+    "name": "Benedikt Lux",
+    "img": null,
+    "birth": 1981,
+    "death": null,
+    "properties": ["B90/Die Grünen", "Sprecher der Grünen Jugend"]
+  },
+  {
+    "name": "Nike Wessel",
+    "img": null,
+    "birth": 1981,
+    "death": null,
+    "properties": ["B90/Die Grünen", "Sprecher der Grünen Jugend", "Frau"]
+  },
+  {
+    "name": "Stephan Schilling",
+    "img": null,
+    "birth": 1982,
+    "death": null,
+    "properties": ["B90/Die Grünen", "Sprecher der Grünen Jugend"]
+  },
+  {
+    "name": "Paula Riester",
+    "img": null,
+    "birth": 1984,
+    "death": null,
+    "properties": ["B90/Die Grünen", "Sprecher der Grünen Jugend", "Frau"]
+  },
+  {
+    "name": "Jan Philipp Albrecht",
+    "img": null,
+    "birth": 1982,
+    "death": null,
+    "properties": ["B90/Die Grünen", "Sprecher der Grünen Jugend"]
+  },
+  {
+    "name": "Kathrin Henneberger",
+    "img": null,
+    "birth": 1987,
+    "death": null,
+    "properties": ["B90/Die Grünen", "Sprecher der Grünen Jugend", "Frau"]
+  },
+  {
+    "name": "Max Löffler",
+    "img": null,
+    "birth": 1988,
+    "death": null,
+    "properties": ["B90/Die Grünen", "Sprecher der Grünen Jugend"]
+  },
+  {
+    "name": "Gesine Agena",
+    "img": null,
+    "birth": 1987,
+    "death": null,
+    "properties": ["B90/Die Grünen", "Sprecher der Grünen Jugend", "Frau"]
+  },
+  {
+    "name": "Emily Büning",
+    "img": null,
+    "birth": 1988,
+    "death": null,
+    "properties": ["B90/Die Grünen", "Sprecher der Grünen Jugend", "Frau"]
+  },
+  {
+    "name": "Karl Bär",
+    "img": null,
+    "birth": 1985,
+    "death": null,
+    "properties": ["B90/Die Grünen", "Sprecher der Grünen Jugend"]
+  },
+  {
+    "name": "Sina Doughan",
+    "img": null,
+    "birth": 1987,
+    "death": null,
+    "properties": ["B90/Die Grünen", "Sprecher der Grünen Jugend", "Frau"]
+  },
+  {
+    "name": "Jens Parker",
+    "img": null,
+    "birth": 1988,
+    "death": null,
+    "properties": ["B90/Die Grünen", "Sprecher der Grünen Jugend"]
+  },
+  {
+    "name": "Theresa Kalmer",
+    "img": null,
+    "birth": 1991,
+    "death": null,
+    "properties": ["B90/Die Grünen", "Sprecher der Grünen Jugend", "Frau"]
+  },
+  {
+    "name": "Erik Marquardt",
+    "img": null,
+    "birth": 1987,
+    "death": null,
+    "properties": ["B90/Die Grünen", "Sprecher der Grünen Jugend"]
+  },
+  {
+    "name": "Jamila Schäfer",
+    "img": null,
+    "birth": 1993,
+    "death": null,
+    "properties": ["B90/Die Grünen", "Sprecher der Grünen Jugend", "Frau"]
+  },
+  {
+    "name": "Moritz Heuberger",
+    "img": null,
+    "birth": 1991,
+    "death": null,
+    "properties": ["B90/Die Grünen", "Sprecher der Grünen Jugend"]
+  },
+  {
+    "name": "Max Lucks",
+    "img": null,
+    "birth": 1997,
+    "death": null,
+    "properties": ["B90/Die Grünen", "Sprecher der Grünen Jugend"]
+  },
+  {
+    "name": "Georg Kurz",
+    "img": null,
+    "birth": 1993,
+    "death": null,
+    "properties": ["B90/Die Grünen", "Linke", "Sprecher der Grünen Jugend"]
+  },
+  {
+    "name": "Anna Peters",
+    "img": null,
+    "birth": 1996,
+    "death": null,
+    "properties": ["B90/Die Grünen", "Sprecher der Grünen Jugend", "Frau"]
+  },
+  {
+    "name": "Sarah-Lee Heinrich",
+    "img": null,
+    "birth": 2001,
+    "death": null,
+    "properties": ["B90/Die Grünen", "Sprecher der Grünen Jugend", "Frau"]
+  },
+  {
+    "name": "Timon Dzienus",
+    "img": null,
+    "birth": 1996,
+    "death": null,
+    "properties": ["B90/Die Grünen", "Sprecher der Grünen Jugend"]
+  },
+  {
+    "name": "Svenja Appuhn",
+    "img": null,
+    "birth": 1997,
+    "death": null,
+    "properties": ["B90/Die Grünen", "Sprecher der Grünen Jugend", "Frau"]
+  },
+  {
+    "name": "Katharina Stolla",
+    "img": null,
+    "birth": 1998,
+    "death": null,
+    "properties": ["B90/Die Grünen", "Sprecher der Grünen Jugend", "Frau"]
+  },
+  {
+    "name": "Jette Nietzard",
+    "img": null,
+    "birth": 1999,
+    "death": null,
+    "properties": ["B90/Die Grünen", "Sprecher der Grünen Jugend", "Frau"]
+  },
+  {
+    "name": "Jakob Blasel",
+    "img": null,
+    "birth": 2000,
+    "death": null,
+    "properties": ["B90/Die Grünen", "Sprecher der Grünen Jugend"]
+  },
+  {
+    "name": "Henriette Held",
+    "img": null,
+    "birth": 2002,
+    "death": null,
+    "properties": ["B90/Die Grünen", "Sprecher der Grünen Jugend", "Frau"]
+  },
+  {
+    "name": "Luis Bobga",
+    "img": null,
+    "birth": 2002,
+    "death": null,
+    "properties": ["B90/Die Grünen", "Sprecher der Grünen Jugend"]
   }
 ]

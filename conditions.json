@@ -606,9 +606,9 @@
   {
     "id": "81",
     "name": "Vorsitzende einer Jugend\u00ADorganisation",
-    "more": "Politiker*innen die einmal Vorsitzende der Jugendorganisation einer Partei waren (JuSos, JU, JuLis, DJD, JA, Generation Deutschland oder Sprecher der Grünen Jugend).",
+    "more": "Politiker*innen die einmal Vorsitzende der Jugendorganisation einer Partei waren (JuSos, JU, JuLis, DJD (bis 1982), JA, Generation Deutschland oder Sprecher der Grünen Jugend bzw. des Grün-Alternatives Jugendbündnis.",
     "img": null,
-    "condition": "return x.properties.includes('JuSo-Vorsitzender') || x.properties.includes('JU-Vorsitzender') || x.properties.includes('JuLi-Vorsitzender') || x.properties.includes('DJD-Vorsitzender') || x.properties.includes('JA-Vorsitzender') || x.properties.includes('Generation Deutschland-Vorsitzender') || x.properties.includes('Sprecher der Grünen Jugend')"
+    "condition": "return x.properties.includes('JuSo-Vorsitzender') || x.properties.includes('JU-Vorsitzender') || x.properties.includes('JuLi-Vorsitzender') || x.properties.includes('DJD-Vorsitzender') || x.properties.includes('JA-Vorsitzender') || x.properties.includes('Generation Deutschland-Vorsitzender') || x.properties.includes('Sprecher der Grünen Jugend') || x.properties.includes('Sprecher des Grün-Alternatives Jugendbündnis')"
   },
   {
     "id": "82",
@@ -641,16 +641,16 @@
   {
     "id": "86",
     "name": "FDP-\u00ADJugendorganisation-\u00ADVorsitzender",
-    "more": "Politiker*innen die einmal Vorsitzende der Jungen Liberalen oder der Deutschen Jungdemokraten, der beiden Jugendorgansiationen der FDP waren.",
+    "more": "Politiker*innen die einmal Vorsitzende der Jungen Liberalen oder der Deutschen Jungdemokraten (bis 1982), der beiden Jugendorgansiationen der FDP waren.",
     "img": null,
     "condition": "return x.properties.includes('DJD-Vorsitzender') || return x.properties.includes('JuLi-Vorsitzender')"
   },
   {
     "id": "87",
     "name": "Sprecher der Grünen Jugend",
-    "more": "Politiker*innen die einmal Sprecher der Grünen Jugend waren.",
+    "more": "Politiker*innen die einmal Sprecher der Grünen Jugend oder des rün-Alternatives Jugendbündnisses waren.",
     "img": null,
-    "condition": "return x.properties.includes('Sprecher der Grünen Jugend')"
+    "condition": "return x.properties.includes('Sprecher der Grünen Jugend') || x.properties.includes('Sprecher des Grün-Alternatives Jugendbündnis')"
   },
   {
     "id": "88",
@@ -696,20 +696,27 @@
   },
   {
     "id": "94",
+    "name": "Vier oder mehr Kabinette",
+    "more": "Politiker*innen die in mehreren Kabinetten Mitglied waren.",
+    "img": null,
+    "condition": "return x.properties.filter(element => element.startsWith('Kabinett')).length ) >= 4"
+  },
+  {
+    "id": "95",
     "name": "Nur ein Kabinett",
     "more": "Politiker*innen die nur in einem Kabinett Mitglied waren.",
     "img": null,
     "condition": "return x.properties.filter(element => element.startsWith('Kabinett')).length ) = 1"
   },
   {
-    "id": "95",
+    "id": "96",
     "name": "Minister unter mehreren Kanzlern",
     "more": "Politiker*innen die einmal Ministerpräsident eines Bundeslandes waren.",
     "img": null,
-    "condition": "return true"
+    "condition": "return false"
   },
   {
-    "id": "96",
+    "id": "97",
     "name": "Minister\u00ADpräsident",
     "more": "Politiker*innen die einmal Ministerpräsident eines Bundeslandes waren.",
     "img": null,
