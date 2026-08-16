@@ -173,6 +173,34 @@ function candidatesFor(rowCat, colCat) {
   return rowSet.filter((a) => colIds.has(a.id ?? a.name));
 }
 
+function canPickDistinctFromEach(lists) {
+  const n = lists.length;
+  // matchItem[item] = index of the list currently assigned to it
+  const matchItem = new Map();
+
+  function tryAssign(listIndex, visited) {
+    for (const item of lists[listIndex]) {
+      if (visited.has(item)) continue;
+      visited.add(item);
+
+      // item is free, or the list currently holding it can find another item
+      if (!matchItem.has(item) || tryAssign(matchItem.get(item), visited)) {
+        matchItem.set(item, listIndex);
+        return true;
+      }
+    }
+    return false;
+  }
+
+  for (let i = 0; i < n; i++) {
+    const visited = new Set();
+    if (!tryAssign(i, visited)) {
+      return false; // list i can't get a distinct item -> no valid assignment
+    }
+  }
+  return true;
+}
+
 // ---------- Try random combos of 6 categories -> 3 rows / 3 cols ----------
 
 function evaluateCombo(rows, cols) {
@@ -185,7 +213,7 @@ function evaluateCombo(rows, cols) {
     }
     grid.push(rowCells);
   }
-  const ok = grid.every((row) => row.every((cell) => cell.length >= MIN_PER_CELL && cell.length <= MAX_PER_CELL));
+  const ok = grid.every((row) => row.every((cell) => cell.length >= MIN_PER_CELL && cell.length <= MAX_PER_CELL)) && canPickDistinctFromEach(grid.flat());
   const minCell = Math.min(...grid.flat().map((c) => c.length));
   const maxCell = Math.max(...grid.flat().map((c) => c.length));
   const totalCands = grid.flat().reduce((s, c) => s + c.length, 0);
