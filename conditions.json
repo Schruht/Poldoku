@@ -779,10 +779,157 @@
     "condition": "return x.properties.includes('Kanzlerkandidat (UNION)')"
   },
   {
-    "id": "aa",
+    "id": "a6",
     "name": "Minister\u00ADpräsident",
     "more": "Politiker*innen die einmal Ministerpräsident eines Bundeslandes waren.",
     "img": null,
     "condition": "return x.properties.some(element => element.startsWith('Ministerpräsident'))"
+  },
+  {
+    "id": "a7",
+    "name": "Minister\u00ADpräsident von Baden-Württemberg",
+    "more": "Politiker die einmal Ministerpräsident von Baden-Württemberg waren.",
+    "img": null,
+    "condition": "return x.properties.includes('Ministerpräsident (BW)')"
+  },
+  {
+    "id": "a8",
+    "name": "Minister\u00ADpräsident von Bayern",
+    "more": "Politiker die einmal Ministerpräsident des Freistaats Bayern waren.",
+    "img": null,
+    "condition": "return x.properties.includes('Ministerpräsident (BA)')"
+  },
+  {
+    "id": "a9",
+    "name": "Regierender Bürgermeister von Berlin",
+    "more": "Politiker*innen die einmal Regierende*r Bürgermeister*in (West-)Berlins waren.",
+    "img": null,
+    "condition": "return x.properties.includes('Ministerpräsident (BE)')"
+  },
+  {
+    "id": "b0",
+    "name": "Minister\u00ADpräsident von Brandenburg",
+    "more": "Politiker*innen die einmal Ministerpräsident*in von Brandenburg waren.",
+    "img": null,
+    "condition": "return x.properties.includes('Ministerpräsident (BB)')"
+  },
+  {
+    "id": "b1",
+    "name": "Bürgermeister von Bremen",
+    "more": "Politiker die einmal Bürgermeister von Bremen waren.",
+    "img": null,
+    "condition": "return x.properties.includes('Ministerpräsident (HB)')"
+  },
+  {
+    "id": "b2",
+    "name": "Bürgermeister von Hamburg",
+    "more": "Politiker*innen die einmal Bürgermeister*in von Hamburg waren.",
+    "img": null,
+    "condition": "return x.properties.includes('Ministerpräsident (HH)')"
+  },
+  {
+    "id": "b3",
+    "name": "Minister\u00ADpräsident von Hessen",
+    "more": "Politiker*innen die einmal Ministerpräsident*in von Hessen waren.",
+    "img": null,
+    "condition": "return x.properties.includes('Ministerpräsident (HE)')"
+  },
+  {
+    "id": "b4",
+    "name": "Minister\u00ADpräsident von Mecklenburg-Vorpommern",
+    "more": "Politiker*innen die einmal Ministerpräsident*in von Mecklenburg-Vorpommern waren.",
+    "img": null,
+    "condition": "return x.properties.includes('Ministerpräsident (MV)')"
+  },
+  {
+    "id": "b5",
+    "name": "Minister\u00ADpräsident von Niedersachsen",
+    "more": "Politiker*innen die einmal Ministerpräsident*in von Niedersachsen waren.",
+    "img": null,
+    "condition": "return x.properties.includes('Ministerpräsident (NI)')"
+  },
+  {
+    "id": "b6",
+    "name": "Minister\u00ADpräsident von Nordrhein-Westfalen",
+    "more": "Politiker*innen die einmal Ministerpräsident*in von Nordrhein-Westfalen waren.",
+    "img": null,
+    "condition": "return x.properties.includes('Ministerpräsident (NW)')"
+  },
+  {
+    "id": "b7",
+    "name": "Minister\u00ADpräsident von Rheinland-Pfalz",
+    "more": "Politiker*innen die einmal Ministerpräsident*in von Rheinland-Pfalz waren.",
+    "img": null,
+    "condition": "return x.properties.includes('Ministerpräsident (RP)')"
+  },
+  {
+    "id": "b8",
+    "name": "Minister\u00ADpräsident von Saarland",
+    "more": "Politiker*innen die einmal Ministerpräsident*in von Saarland waren.",
+    "img": null,
+    "condition": "return x.properties.includes('Ministerpräsident (SL)')"
+  },
+  {
+    "id": "b9",
+    "name": "Minister\u00ADpräsident von Sachsen",
+    "more": "Politiker die einmal Ministerpräsident des Freistaates Sachsen waren.",
+    "img": null,
+    "condition": "return x.properties.includes('Ministerpräsident (SN)')"
+  },
+  {
+    "id": "c0",
+    "name": "Minister\u00ADpräsident von Sachsen-Anhalt",
+    "more": "Politiker die einmal Ministerpräsident von Sachsen-Anhalt waren.",
+    "img": null,
+    "condition": "return x.properties.includes('Ministerpräsident (ST)')"
+  },
+  {
+    "id": "c1",
+    "name": "Minister\u00ADpräsident von Schleswig-Holstein",
+    "more": "Politiker*innen die einmal Ministerpräsident*in von Schleswig-Holstein waren.",
+    "img": null,
+    "condition": "return x.properties.includes('Ministerpräsident (SH)')"
+  },
+  {
+    "id": "c2",
+    "name": "Minister\u00ADpräsident von Thüringen",
+    "more": "Politiker die einmal Ministerpräsident des Freistaates Thüringen waren.",
+    "img": null,
+    "condition": "return x.properties.includes('Ministerpräsident (SH)')"
+  },
+  {
+    "id": "c3",
+    "name": "Minister\u00ADpräsident in Ostdeutschland",
+    "more": "Politiker die einmal Ministerpräsident eines der Neuen Bundesländer waren.",
+    "img": null,
+    "condition": "return x.properties.includes('Ministerpräsident (SN)') || x.properties.includes('Ministerpräsident (ST)') || x.properties.includes('Ministerpräsident (TH)') || x.properties.includes('Ministerpräsident (BB)') || x.properties.includes('Ministerpräsident (SH)')"
+  },
+  {
+    "id": "c4",
+    "name": "Bürgermeister eines Stadtstaats",
+    "more": "Politiker*innen die einmal Bürgermeister*in von Bremen, Hamburg oder (West-)Berlin waren.",
+    "img": null,
+    "condition": "return x.properties.includes('Ministerpräsident (BE)') || x.properties.includes('Ministerpräsident (HB)') || x.properties.includes('Ministerpräsident (HH)')"
+  },
+  {
+    "id": "c5",
+    "name": "Minister\u00ADpräsident in Süddeutschland",
+    "more": "Politiker die einmal Ministerpräsident von Bayern oder Baden-Württemberg (oder einem der drei Vorgänger-Bundesländer) waren.",
+    "img": null,
+    "condition": "return x.properties.includes('Ministerpräsident (BA)') || x.properties.includes('Ministerpräsident (BW)') || x.properties.includes('Ministerpräsident (WB)') || x.properties.includes('Ministerpräsident (BN)') || x.properties.includes('Ministerpräsident (WH)')"
+  },
+  {
+    "id": "c6",
+    "name": "Minister\u00ADpräsident in Norddeutschland",
+    "more": "Politiker*innen die einmal Ministerpräsident*in von Niedersachsen, Schleswig-Holstein oder Mecklenburg-Vorpommern, oder Bürgermeister*in von Bremen oder Hamburg waren.",
+    "img": null,
+    "condition": "return x.properties.includes('Ministerpräsident (NI)') || x.properties.includes('Ministerpräsident (SH)') || x.properties.includes('Ministerpräsident (MV)') || x.properties.includes('Ministerpräsident (HB)') || x.properties.includes('Ministerpräsident (HH)')"
+  },
+  {
+    "id": "c7",
+    "name": "Oppositionsführer",
+    "more": "Politiker*innen die einmal Fraktionsvorsitzende der größten Oppositionsfraktion im deutschen Bundestag waren.",
+    "img": null,
+    "condition": "return x.properties.includes('Oppositionsführer im BT')"
   }
 ]
