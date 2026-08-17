@@ -717,6 +717,69 @@
   },
   {
     "id": "97",
+    "name": "Gescheiterter Kanzlerkandidat",
+    "more": "Politiker*innen die einmal bei einer Bundestagswahl als Kanzlerkandidat antraten, aber nicht Kanzler wurden. Ob ein Kandidat Kanzlerkandidat ist, definiert die Partei des Kandidaten.",
+    "img": null,
+    "condition": "return x.properties.some(element => element.startsWith('Kanzlerkandidat'))"
+  },
+  {
+    "id": "98",
+    "name": "Kanzlerkandidat",
+    "more": "Politiker*innen die einmal bei einer Bundestagswahl als Kanzlerkandidat antraten. Ob ein Kandidat Kanzlerkandidat ist, definiert die Partei des Kandidaten.",
+    "img": null,
+    "condition": "return x.properties.some(element => element.startsWith('Kanzlerkandidat')) || x.properties.includes('Bundeskanzler')"
+  },
+  {
+    "id": "99",
+    "name": "Kanzlerkandidat aber nie Kanzler",
+    "more": "Politiker*innen die einmal bei einer Bundestagswahl als Kanzlerkandidat antraten, aber niemals Kanzler wurden. Ob ein Kandidat Kanzlerkandidat ist, definiert die Partei des Kandidaten.",
+    "img": null,
+    "condition": "return x.properties.some(element => element.startsWith('Kanzlerkandidat')) && !x.properties.includes('Bundeskanzler')"
+  },
+  {
+    "id": "a0",
+    "name": "Spitzenkandidat einer Bundestagswahl",
+    "more": "Politiker*innen die einmal bei einer Bundestagswahl als Spitzenkandidat oder Kanzlerkandidat antraten.",
+    "img": null,
+    "condition": "return x.properties.some(element => element.startsWith('Kanzlerkandidat')) || x.properties.includes('Bundeskanzler') || x.properties.some(element => element.startsWith('Spitzenkandidat'))"
+  },
+  {
+    "id": "a1",
+    "name": "Spitzenkandidat FDP",
+    "more": "Politiker*innen die einmal bei einer Bundestagswahl als Spitzenkandidat der FDP antraten.",
+    "img": null,
+    "condition": "return x.properties.includes('Spitzenkandidat FDP')"
+  },
+  {
+    "id": "a2",
+    "name": "Spitzenkandidat Grüne",
+    "more": "Politiker*innen die einmal bei einer Bundestagswahl als Spitzenkandidat oder Kanzlerkandidat von Bündnis 90/Die Grünen antraten.",
+    "img": null,
+    "condition": "return x.properties.includes('Spitzenkandidat (B90/Die Grünen)') || x.properties.includes('Kanzlerkandidat B90/Die Grünen')"
+  },
+  {
+    "id": "a3",
+    "name": "Spitzenkandidat Linke",
+    "more": "Politiker*innen die einmal bei einer Bundestagswahl als Spitzenkandidat oder Kanzlerkandidat der Partei Die LINKE oder der PDS antraten.",
+    "img": null,
+    "condition": "return x.properties.includes('Spitzenkandidat (LINKE)')"
+  },
+  {
+    "id": "a4",
+    "name": "Kanzlerkandidat der SPD",
+    "more": "Politiker*innen der SPD die einmal bei einer Bundestagswahl als Kanzlerkandidat antraten. ",
+    "img": null,
+    "condition": "return x.properties.includes('Kanzlerkandidat (SPD)')"
+  },
+  {
+    "id": "a5",
+    "name": "Kanzlerkandidat der Union",
+    "more": "Politiker*innen der CDU oder CSU die einmal bei einer Bundestagswahl als Kanzlerkandidat antraten. ",
+    "img": null,
+    "condition": "return x.properties.includes('Kanzlerkandidat (UNION)')"
+  },
+  {
+    "id": "aa",
     "name": "Minister\u00ADpräsident",
     "more": "Politiker*innen die einmal Ministerpräsident eines Bundeslandes waren.",
     "img": null,
