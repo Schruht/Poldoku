@@ -49,7 +49,8 @@
       "Ehrenvorsitzender (CDU)",
       "Kanzlerkandidat (UNION)",
       "Ministerpräsident (BW)",
-      "Ausschussvorsitzender (AA)"
+      "Ausschussvorsitzender (AA)",
+      "Bundesratspräsident"
     ]
   },
   {
@@ -67,7 +68,9 @@
       "Vizekanzler",
       "Alterspräsident des Bundestags",
       "Kanzlerkandidat (SPD)",
-      "Ministerpräsident (BE)"
+      "Ministerpräsident (BE)",
+      "Bundesratspräsident",
+      "MP über 10 Jahre"
     ]
   },
   {
@@ -114,7 +117,8 @@
       "Oldenburger Grünkohlkönig",
       "JuSo-Vorsitzender",
       "Ministerpräsident (NI)",
-      "Kanzlerkandidat (SPD)"
+      "Kanzlerkandidat (SPD)",
+      "Bundesratspräsident"
     ]
   },
   {
@@ -289,7 +293,9 @@
       "Bundespräsident",
       "Parteivorsitzender (SPD)",
       "Ministerpräsident (NW)",
-      "Kanzlerkandidat (SPD)"
+      "Kanzlerkandidat (SPD)",
+      "Bundesratspräsident",
+      "MP über 10 Jahre"
     ]
   },
   {
@@ -392,7 +398,8 @@
       "Zentrum",
       "CDU",
       "Bundespräsidentenkandidat",
-      "Ministerpräsident (NW)"
+      "Ministerpräsident (NW)",
+      "Bundesratspräsident"
     ]
   },
   {
@@ -991,7 +998,8 @@
       "Parteivorsitzender (CSU)",
       "Generalsekretär (CSU)",
       "Ministerpräsident (BA)",
-      "Kanzlerkandidat (UNION)"
+      "Kanzlerkandidat (UNION)",
+      "Bundesratspräsident"
     ]
   },
   {
@@ -1325,7 +1333,8 @@
       "Bundestagspräsident",
       "Vizepräsident des Bundestags",
       "Oldenburger Grünkohlkönig",
-      "Ministerpräsident (SH)"
+      "Ministerpräsident (SH)",
+      "Bundesratspräsident"
     ]
   },
   {
@@ -1453,7 +1462,12 @@
     "img": null,
     "birth": 1887,
     "death": 1980,
-    "properties": ["CSU", "Parteivorsitzender (CSU)", "Ministerpräsident (BA)"]
+    "properties": [
+      "CSU",
+      "Parteivorsitzender (CSU)",
+      "Ministerpräsident (BA)",
+      "Bundesratspräsident"
+    ]
   },
   {
     "name": "Hanns Seidel",
@@ -1491,7 +1505,9 @@
       "Parteivorsitzender (CSU)",
       "Generalsekretär (CSU)",
       "Ministerpräsident (BA)",
-      "Kanzlerkandidat (UNION)"
+      "Kanzlerkandidat (UNION)",
+      "Bundesratspräsident",
+      "MP über 10 Jahre"
     ]
   },
   {
@@ -1517,7 +1533,8 @@
       "Bauminister (Bund)",
       "Gesundheitsminister (Bund)",
       "Landwirtschaftsminister (Bund)",
-      "Ministerpräsident (BA)"
+      "Ministerpräsident (BA)",
+      "Bundesratspräsident"
     ]
   },
   {
@@ -1579,7 +1596,8 @@
       "Bildungsminister (Bund)",
       "Parteivorsitzender (SPD)",
       "Kabinett Schmidt III",
-      "Ministerpräsident (SH)"
+      "Ministerpräsident (SH)",
+      "Bundesratspräsident"
     ]
   },
   {
@@ -1616,7 +1634,9 @@
       "Fraktionsvorsitzender (Linke)",
       "Kanzlerkandidat (SPD)",
       "Spitzenkandidat (LINKE)",
-      "Ministerpräsident (SL)"
+      "Ministerpräsident (SL)",
+      "Bundesratspräsident",
+      "MP über 10 Jahre"
     ]
   },
   {
@@ -1642,14 +1662,26 @@
     "img": null,
     "birth": 1953,
     "death": null,
-    "properties": ["SPD", "Parteivorsitzender (SPD)", "Ministerpräsident (BB"]
+    "properties": [
+      "SPD",
+      "Parteivorsitzender (SPD)",
+      "Ministerpräsident (BB)",
+      "Bundesratspräsident",
+      "MP über 10 Jahre"
+    ]
   },
   {
     "name": "Kurt Beck",
     "img": null,
     "birth": 1949,
     "death": null,
-    "properties": ["SPD", "Parteivorsitzender (SPD)", "Ministerpräsident (RP)"]
+    "properties": [
+      "SPD",
+      "Parteivorsitzender (SPD)",
+      "Ministerpräsident (RP)",
+      "Bundesratspräsident",
+      "MP über 10 Jahre"
+    ]
   },
   {
     "name": "Sigmar Gabriel",
@@ -1704,7 +1736,8 @@
       "Frau",
       "Kabinett Merkel III",
       "Familienminister (Bund)",
-      "Ministerpräsident (MV)"
+      "Ministerpräsident (MV)",
+      "Bundesratspräsident"
     ]
   },
   {
@@ -1723,7 +1756,9 @@
       "SPD",
       "Parteivorsitzender (SPD)",
       "Frau",
-      "Ministerpräsident (RP)"
+      "Ministerpräsident (RP)",
+      "Bundesratspräsident",
+      "MP über 10 Jahre"
     ]
   },
   {
@@ -2310,7 +2345,9 @@
       "Kabinett Kohl III",
       "Kabinett Kohl IV",
       "JU-Vorsitzender",
-      "Ministerpräsident (SH)"
+      "Ministerpräsident (SH)",
+      "Bundesratspräsident",
+      "MP über 10 Jahre"
     ]
   },
   {
@@ -3123,7 +3160,8 @@
       "Parteivorsitzender (FDP)",
       "Spitzenkandidat (FDP)",
       "Ministerpräsident (WB)",
-      "Ministerpräsident (BW)"
+      "Ministerpräsident (BW)",
+      "Bundesratspräsident"
     ]
   },
   {
@@ -3507,7 +3545,8 @@
       "Umweltminister (Bund)",
       "Kabinett Kohl II",
       "Kabinett Kohl III",
-      "Ministerpräsident (HE)"
+      "Ministerpräsident (HE)",
+      "Bundesratspräsident"
     ]
   },
   {
@@ -4031,7 +4070,8 @@
       "Finanzminister (Bund)",
       "Kabinett Schröder I",
       "Kabinett Schröder II",
-      "Ministerpräsident (HE)"
+      "Ministerpräsident (HE)",
+      "Bundesratspräsident"
     ]
   },
   {
@@ -4268,7 +4308,8 @@
       "Verkehrsminister (Bund)",
       "Bauminister (Bund)",
       "Kabinett Schröder II",
-      "Ministerpräsident (BB)"
+      "Ministerpräsident (BB)",
+      "MP über 10 Jahre"
     ]
   },
   {
@@ -5226,7 +5267,8 @@
       "Vizepräsident des Bundestags",
       "Oppositionsführer im BT",
       "Ministerpräsident (HH)",
-      "Ausschussvorsitzender (AA)"
+      "Ausschussvorsitzender (AA)",
+      "Bundesratspräsident"
     ]
   },
   {
@@ -5833,7 +5875,8 @@
       "PDS",
       "Linke",
       "Vizepräsident des Bundestags",
-      "Ministerpräsident (TH)"
+      "Ministerpräsident (TH)",
+      "Bundesratspräsident"
     ]
   },
   {
@@ -5867,7 +5910,13 @@
     "img": null,
     "birth": 1930,
     "death": 2021,
-    "properties": ["CDU", "Generalsekretär (CDU)", "Ministerpräsident (SN)"]
+    "properties": [
+      "CDU",
+      "Generalsekretär (CDU)",
+      "Ministerpräsident (SN)",
+      "Bundesratspräsident",
+      "MP über 10 Jahre"
+    ]
   },
   {
     "name": "Ruprecht Polenz",
@@ -6133,7 +6182,13 @@
     "img": null,
     "birth": 1931,
     "death": 2006,
-    "properties": ["SPD", "JuSo-Vorsitzender", "Ministerpräsident (HE)"]
+    "properties": [
+      "SPD",
+      "JuSo-Vorsitzender",
+      "Ministerpräsident (HE)",
+      "Bundesratspräsident",
+      "MP über 10 Jahre"
+    ]
   },
   {
     "name": "Günther Müller",
@@ -6933,14 +6988,19 @@
     "img": null,
     "birth": 1908,
     "death": 2002,
-    "properties": ["CDU", "Ministerpräsident (NW)"]
+    "properties": ["CDU", "Ministerpräsident (NW)", "Bundesratspräsident"]
   },
   {
     "name": "Heinz Kühn",
     "img": null,
     "birth": 1912,
     "death": 1992,
-    "properties": ["SPD", "Ministerpräsident (NW)"]
+    "properties": [
+      "SPD",
+      "Ministerpräsident (NW)",
+      "Bundesratspräsident",
+      "MP über 10 Jahre"
+    ]
   },
   {
     "name": "Michael Vesper",
@@ -6954,7 +7014,12 @@
     "img": null,
     "birth": 1961,
     "death": null,
-    "properties": ["SPD", "Ministerpräsident (NW)", "Frau"]
+    "properties": [
+      "SPD",
+      "Ministerpräsident (NW)",
+      "Frau",
+      "Bundesratspräsident"
+    ]
   },
   {
     "name": "Joachim Stamp",
@@ -6982,14 +7047,26 @@
     "img": null,
     "birth": 1899,
     "death": 1977,
-    "properties": ["CDU", "Zentrum", "Ministerpräsident (RP)"]
+    "properties": [
+      "CDU",
+      "Zentrum",
+      "Ministerpräsident (RP)",
+      "Bundesratspräsident",
+      "MP über 10 Jahre"
+    ]
   },
   {
     "name": "Bernhard Vogel",
     "img": null,
     "birth": 1932,
     "death": 2025,
-    "properties": ["CDU", "Ministerpräsident (RP)", "Ministerpräsident (TH)"]
+    "properties": [
+      "CDU",
+      "Ministerpräsident (RP)",
+      "Ministerpräsident (TH)",
+      "Bundesratspräsident",
+      "MP über 10 Jahre"
+    ]
   },
   {
     "name": "Carl-Ludwig Wagner",
@@ -7017,28 +7094,43 @@
     "img": null,
     "birth": 1893,
     "death": 1961,
-    "properties": ["SPD", "Ministerpräsident (NI)"]
+    "properties": [
+      "SPD",
+      "Ministerpräsident (NI)",
+      "Bundesratspräsident",
+      "MP über 10 Jahre"
+    ]
   },
   {
     "name": "Georg Diederichs",
     "img": null,
     "birth": 1900,
     "death": 1983,
-    "properties": ["DDP", "SPD", "Ministerpräsident (NI)"]
+    "properties": [
+      "DDP",
+      "SPD",
+      "Ministerpräsident (NI)",
+      "Bundesratspräsident"
+    ]
   },
   {
     "name": "Alfred Kubel",
     "img": null,
     "birth": 1909,
     "death": 1999,
-    "properties": ["SPD", "Ministerpräsident (NI)"]
+    "properties": ["SPD", "Ministerpräsident (NI)", "Bundesratspräsident"]
   },
   {
     "name": "Ernst Albrecht",
     "img": null,
     "birth": 1930,
     "death": 2014,
-    "properties": ["CDU", "Ministerpräsident (NI)"]
+    "properties": [
+      "CDU",
+      "Ministerpräsident (NI)",
+      "Bundesratspräsident",
+      "MP über 10 Jahre"
+    ]
   },
   {
     "name": "Gerhard Glogowski",
@@ -7059,7 +7151,12 @@
     "img": null,
     "birth": 1958,
     "death": null,
-    "properties": ["SPD", "Ministerpräsident (NI)"]
+    "properties": [
+      "SPD",
+      "Ministerpräsident (NI)",
+      "Bundesratspräsident",
+      "MP über 10 Jahre"
+    ]
   },
   {
     "name": "Olaf Lies",
@@ -7080,7 +7177,12 @@
     "img": null,
     "birth": 1905,
     "death": 1991,
-    "properties": ["CSU", "Ministerpräsident (BA)"]
+    "properties": [
+      "CSU",
+      "Ministerpräsident (BA)",
+      "Bundesratspräsident",
+      "MP über 10 Jahre"
+    ]
   },
   {
     "name": "Günther Beckstein",
@@ -7138,7 +7240,9 @@
       "NSDAP",
       "CDU",
       "Ministerpräsident (SL)",
-      "Im Amt verstorben"
+      "Im Amt verstorben",
+      "Bundesratspräsident",
+      "MP über 10 Jahre"
     ]
   },
   {
@@ -7153,7 +7257,7 @@
     "img": null,
     "birth": 1929,
     "death": 2000,
-    "properties": ["CDU", "Ministerpräsident (SL)"]
+    "properties": ["CDU", "Ministerpräsident (SL)", "Bundesratspräsident"]
   },
   {
     "name": "Christiane Krajewski",
@@ -7167,7 +7271,12 @@
     "img": null,
     "birth": 1955,
     "death": null,
-    "properties": ["CDU", "Ministerpräsident (SL)"]
+    "properties": [
+      "CDU",
+      "Ministerpräsident (SL)",
+      "Bundesratspräsident",
+      "MP über 10 Jahre"
+    ]
   },
   {
     "name": "Christoph Hartmann",
@@ -7181,7 +7290,13 @@
     "img": null,
     "birth": 1976,
     "death": null,
-    "properties": ["SPD", "Ministerpräsident (SL)", "kommissarisch", "Frau"]
+    "properties": [
+      "SPD",
+      "Ministerpräsident (SL)",
+      "kommissarisch",
+      "Frau",
+      "Bundesratspräsident"
+    ]
   },
   {
     "name": "Tobias Hans",
@@ -7240,14 +7355,25 @@
     "img": null,
     "birth": 1913,
     "death": 2007,
-    "properties": ["NSDAP", "CDU", "Ministerpräsident (BW)"]
+    "properties": [
+      "NSDAP",
+      "CDU",
+      "Ministerpräsident (BW)",
+      "Bundesratspräsident",
+      "MP über 10 Jahre"
+    ]
   },
   {
     "name": "Lothar Späth",
     "img": null,
     "birth": 1937,
     "death": 2016,
-    "properties": ["CDU", "Ministerpräsident (BW)"]
+    "properties": [
+      "CDU",
+      "Ministerpräsident (BW)",
+      "Bundesratspräsident",
+      "MP über 10 Jahre"
+    ]
   },
   {
     "name": "Gerhard Weiser",
@@ -7261,7 +7387,12 @@
     "img": null,
     "birth": 1939,
     "death": null,
-    "properties": ["CDU", "Ministerpräsident (BW)"]
+    "properties": [
+      "CDU",
+      "Ministerpräsident (BW)",
+      "Bundesratspräsident",
+      "MP über 10 Jahre"
+    ]
   },
   {
     "name": "Ulrich Goll",
@@ -7282,7 +7413,12 @@
     "img": null,
     "birth": 1948,
     "death": null,
-    "properties": ["B90/Die Grünen", "Ministerpräsident (BW)"]
+    "properties": [
+      "B90/Die Grünen",
+      "Ministerpräsident (BW)",
+      "Bundesratspräsident",
+      "MP über 10 Jahre"
+    ]
   },
   {
     "name": "Ernst Reuter",
@@ -7321,7 +7457,7 @@
     "img": null,
     "birth": 1926,
     "death": 2012,
-    "properties": ["SPD", "Ministerpräsident (BE)"]
+    "properties": ["SPD", "Ministerpräsident (BE)", "Bundesratspräsident"]
   },
   {
     "name": "Franz Amrehn",
@@ -7335,35 +7471,40 @@
     "img": null,
     "birth": 1938,
     "death": 2011,
-    "properties": ["SPD", "Ministerpräsident (BE)"]
+    "properties": ["SPD", "Ministerpräsident (BE)", "Bundesratspräsident"]
   },
   {
     "name": "Eberhard Diepgen",
     "img": null,
     "birth": 1941,
     "death": null,
-    "properties": ["CDU", "Ministerpräsident (BE)"]
+    "properties": ["CDU", "Ministerpräsident (BE)", "MP über 10 Jahre"]
   },
   {
     "name": "Walter Momper",
     "img": null,
     "birth": 1945,
     "death": null,
-    "properties": ["SPD", "Ministerpräsident (BE)"]
+    "properties": ["SPD", "Ministerpräsident (BE)", "Bundesratspräsident"]
   },
   {
     "name": "Klaus Wowereit",
     "img": null,
     "birth": 1953,
     "death": null,
-    "properties": ["SPD", "Ministerpräsident (BE)"]
+    "properties": [
+      "SPD",
+      "Ministerpräsident (BE)",
+      "Bundesratspräsident",
+      "MP über 10 Jahre"
+    ]
   },
   {
     "name": "Michael Müller",
     "img": null,
     "birth": 1964,
     "death": null,
-    "properties": ["SPD", "Ministerpräsident (BE)"]
+    "properties": ["SPD", "Ministerpräsident (BE)", "Bundesratspräsident"]
   },
   {
     "name": "Kai Wegner",
@@ -7445,7 +7586,12 @@
     "img": null,
     "birth": 1887,
     "death": 1979,
-    "properties": ["SPD", "Ministerpräsident (HB)"]
+    "properties": [
+      "SPD",
+      "Ministerpräsident (HB)",
+      "Bundesratspräsident",
+      "MP über 10 Jahre"
+    ]
   },
   {
     "name": "Willy Dehnkamp",
@@ -7459,28 +7605,33 @@
     "img": null,
     "birth": 1929,
     "death": 2016,
-    "properties": ["SPD", "Ministerpräsident (HB)"]
+    "properties": [
+      "SPD",
+      "Ministerpräsident (HB)",
+      "Bundesratspräsident",
+      "MP über 10 Jahre"
+    ]
   },
   {
     "name": "Klaus Wedemeier",
     "img": null,
     "birth": 1944,
     "death": null,
-    "properties": ["SPD", "Ministerpräsident (HB)"]
+    "properties": ["SPD", "Ministerpräsident (HB)", "Bundesratspräsident"]
   },
   {
     "name": "Henning Scherf",
     "img": null,
     "birth": 1938,
     "death": null,
-    "properties": ["SPD", "Ministerpräsident (HB)"]
+    "properties": ["SPD", "Ministerpräsident (HB)", "MP über 10 Jahre"]
   },
   {
     "name": "Jens Böhrnsen",
     "img": null,
     "birth": 1949,
     "death": null,
-    "properties": ["SPD", "Ministerpräsident (HB)"]
+    "properties": ["SPD", "Ministerpräsident (HB)", "Bundesratspräsident"]
   },
   {
     "name": "Carsten Sieling",
@@ -7494,7 +7645,7 @@
     "img": null,
     "birth": 1965,
     "death": null,
-    "properties": ["SPD", "Ministerpräsident (HB)"]
+    "properties": ["SPD", "Ministerpräsident (HB)", "Bundesratspräsident"]
   },
   {
     "name": "Rudolf Petersen",
@@ -7515,7 +7666,12 @@
     "img": null,
     "birth": 1897,
     "death": 1986,
-    "properties": ["DVP", "CDU", "Ministerpräsident (HH)"]
+    "properties": [
+      "DVP",
+      "CDU",
+      "Ministerpräsident (HH)",
+      "Bundesratspräsident"
+    ]
   },
   {
     "name": "Edgar Engelhard",
@@ -7536,7 +7692,7 @@
     "img": null,
     "birth": 1896,
     "death": 1983,
-    "properties": ["SPD", "Ministerpräsident (HH)"]
+    "properties": ["SPD", "Ministerpräsident (HH)", "Bundesratspräsident"]
   },
   {
     "name": "Peter Schulz",
@@ -7569,7 +7725,7 @@
     "img": null,
     "birth": 1941,
     "death": 2016,
-    "properties": ["SPD", "Ministerpräsident (HH)"]
+    "properties": ["SPD", "Ministerpräsident (HH)", "Bundesratspräsident"]
   },
   {
     "name": "Erhard Rittershaus",
@@ -7602,7 +7758,7 @@
     "img": null,
     "birth": 1955,
     "death": null,
-    "properties": ["CDU", "Ministerpräsident (HH)"]
+    "properties": ["CDU", "Ministerpräsident (HH)", "Bundesratspräsident"]
   },
   {
     "name": "Christoph Ahlhaus",
@@ -7628,7 +7784,7 @@
     "img": null,
     "birth": 1966,
     "death": null,
-    "properties": ["SPD", "Ministerpräsident (HH)"]
+    "properties": ["SPD", "Ministerpräsident (HH)", "Bundesratspräsident"]
   },
   {
     "name": "Christian Stock",
@@ -7642,14 +7798,19 @@
     "img": null,
     "birth": 1901,
     "death": 1976,
-    "properties": ["SPD", "Ministerpräsident (HE)"]
+    "properties": [
+      "SPD",
+      "Ministerpräsident (HE)",
+      "Bundesratspräsident",
+      "MP über 10 Jahre"
+    ]
   },
   {
     "name": "Albert Osswald",
     "img": null,
     "birth": 1919,
     "death": 1996,
-    "properties": ["SPD", "Ministerpräsident (HE)"]
+    "properties": ["SPD", "Ministerpräsident (HE)", "Bundesratspräsident"]
   },
   {
     "name": "Heinz-Herbert Karry",
@@ -7663,14 +7824,24 @@
     "img": null,
     "birth": 1958,
     "death": null,
-    "properties": ["CDU", "Ministerpräsident (HE)"]
+    "properties": [
+      "CDU",
+      "Ministerpräsident (HE)",
+      "Bundesratspräsident",
+      "MP über 10 Jahre"
+    ]
   },
   {
     "name": "Volker Bouffier",
     "img": null,
     "birth": 1951,
     "death": null,
-    "properties": ["CDU", "Ministerpräsident (HE)"]
+    "properties": [
+      "CDU",
+      "Ministerpräsident (HE)",
+      "Bundesratspräsident",
+      "MP über 10 Jahre"
+    ]
   },
   {
     "name": "Boris Rhein",
@@ -7684,21 +7855,31 @@
     "img": null,
     "birth": 1942,
     "death": 2020,
-    "properties": ["CDU", "Ost-CDU", "Ministerpräsident (MV)"]
+    "properties": [
+      "CDU",
+      "Ost-CDU",
+      "Ministerpräsident (MV)",
+      "Bundesratspräsident"
+    ]
   },
   {
     "name": "Berndt Seite",
     "img": null,
     "birth": 1940,
     "death": null,
-    "properties": ["CDU", "Neues Forum", "Ministerpräsident (MV)"]
+    "properties": [
+      "CDU",
+      "Neues Forum",
+      "Ministerpräsident (MV)",
+      "Bundesratspräsident"
+    ]
   },
   {
     "name": "Harald Ringstorff",
     "img": null,
     "birth": 1939,
     "death": 2020,
-    "properties": ["SPD", "Ministerpräsident (MV)"]
+    "properties": ["SPD", "Ministerpräsident (MV)", "Bundesratspräsident"]
   },
   {
     "name": "Erwin Sellering",
@@ -7733,7 +7914,7 @@
     "img": null,
     "birth": 1959,
     "death": null,
-    "properties": ["CDU", "Ministerpräsident (SN)"]
+    "properties": ["CDU", "Ministerpräsident (SN)", "Bundesratspräsident"]
   },
   {
     "name": "Martin Dulig",
@@ -7789,14 +7970,25 @@
     "img": null,
     "birth": 1936,
     "death": 2025,
-    "properties": ["CDU", "Ost-CDU", "Ministerpräsident (ST)"]
+    "properties": [
+      "CDU",
+      "Ost-CDU",
+      "Ministerpräsident (ST)",
+      "Bundesratspräsident"
+    ]
   },
   {
     "name": "Rainer Haseloff",
     "img": null,
     "birth": 1954,
     "death": null,
-    "properties": ["CDU", "Ost-CDU", "Ministerpräsident (ST)"]
+    "properties": [
+      "CDU",
+      "Ost-CDU",
+      "Ministerpräsident (ST)",
+      "Bundesratspräsident",
+      "MP über 10 Jahre"
+    ]
   },
   {
     "name": "Armin Willingmann",
@@ -7824,7 +8016,12 @@
     "img": null,
     "birth": 1958,
     "death": null,
-    "properties": ["CDU", "Ost-CDU", "Ministerpräsident (TH)"]
+    "properties": [
+      "CDU",
+      "Ost-CDU",
+      "Ministerpräsident (TH)",
+      "Bundesratspräsident"
+    ]
   },
   {
     "name": "Christine Lieberknecht",
@@ -7887,7 +8084,12 @@
     "img": null,
     "birth": 1907,
     "death": 1990,
-    "properties": ["CDU", "NSDAP", "Ministerpräsident (SH)"]
+    "properties": [
+      "CDU",
+      "NSDAP",
+      "Ministerpräsident (SH)",
+      "Bundesratspräsident"
+    ]
   },
   {
     "name": "Uwe Barschel",
@@ -7908,14 +8110,14 @@
     "img": null,
     "birth": 1943,
     "death": 2023,
-    "properties": ["SPD", "Ministerpräsident (SH)"]
+    "properties": ["SPD", "Ministerpräsident (SH)", "MP über 10 Jahre"]
   },
   {
     "name": "Peter Harry Carstensen",
     "img": null,
     "birth": 1947,
     "death": null,
-    "properties": ["CDU", "Ministerpräsident (SH)"]
+    "properties": ["CDU", "Ministerpräsident (SH)", "Bundesratspräsident"]
   },
   {
     "name": "Torsten Albig",
@@ -7929,7 +8131,7 @@
     "img": null,
     "birth": 1973,
     "death": null,
-    "properties": ["CDU", "Ministerpräsident (SH)"]
+    "properties": ["CDU", "Ministerpräsident (SH)", "Bundesratspräsident"]
   },
   {
     "name": "Hans Furler",
@@ -7972,5 +8174,17 @@
     "birth": 1970,
     "death": null,
     "properties": ["SPD", "Ausschussvorsitzender (AA)"]
+  },
+  {
+    "name": "Dietmar Woidke",
+    "img": null,
+    "birth": 1961,
+    "death": null,
+    "properties": [
+      "SPD",
+      "Ministerpräsident (BB)",
+      "Bundesratspräsident",
+      "MP über 10 Jahre"
+    ]
   }
 ]

@@ -938,5 +938,19 @@
     "more": "Politiker*innen die einmal dem Auswärtigen Ausschuss des deutschen Bundestag vorsaßen.",
     "img": null,
     "condition": "return x.properties.includes('Ausschussvorsitzender (AA)')"
+  },
+  {
+    "id": "c9",
+    "name": "Bundesratspräsident",
+    "more": "Politiker*innen die einmal das Amt des Bunderatspräsidenten inne hatten.",
+    "img": null,
+    "condition": "return x.properties.includes('Bundesratspräsident')"
+  },
+  {
+    "id": "d0",
+    "name": "10 Jahre oder länger Ministerpräsident",
+    "more": "Politiker*innen die mindestens zehn Jahre lang Ministerpräsident waren.",
+    "img": null,
+    "condition": "return x.properties.includes('MP über 10 Jahre')"
   }
 ]
