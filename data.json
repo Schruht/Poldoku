@@ -48,7 +48,8 @@
       "Parteivorsitzender (CDU)",
       "Ehrenvorsitzender (CDU)",
       "Kanzlerkandidat (UNION)",
-      "Ministerpräsident (BW)"
+      "Ministerpräsident (BW)",
+      "Ausschussvorsitzender (AA)"
     ]
   },
   {
@@ -152,7 +153,8 @@
       "Kabinett Merkel IV",
       "Kabinett Scholz",
       "Generalsekretär (SPD)",
-      "Kanzlerkandidat (SPD)"
+      "Kanzlerkandidat (SPD)",
+      "Ministerpräsident (HH)"
     ]
   },
   {
@@ -705,7 +707,8 @@
       "Kabinett Kiesinger",
       "Vizepräsident des Bundestags",
       "Ministerpräsident (WH)",
-      "kommissarisch"
+      "kommissarisch",
+      "Ausschussvorsitzender (AA)"
     ]
   },
   {
@@ -929,7 +932,8 @@
       "Kabinett Erhard II",
       "Kabinett Kiesinger",
       "Bundespräsidentenkandidat",
-      "Oldenburger Grünkohlkönig"
+      "Oldenburger Grünkohlkönig",
+      "Ausschussvorsitzender (AA)"
     ]
   },
   {
@@ -1320,7 +1324,8 @@
       "Kabinett Kiesinger",
       "Bundestagspräsident",
       "Vizepräsident des Bundestags",
-      "Oldenburger Grünkohlkönig"
+      "Oldenburger Grünkohlkönig",
+      "Ministerpräsident (SH)"
     ]
   },
   {
@@ -1337,7 +1342,8 @@
       "Bundestagspräsident",
       "Fraktionsvorsitzender (CDU/CSU)",
       "Kanzlerkandidat (UNION)",
-      "Oppositionsführer im BT"
+      "Oppositionsführer im BT",
+      "Ausschussvorsitzender (AA)"
     ]
   },
   {
@@ -1438,7 +1444,8 @@
       "CDU",
       "Parteivorsitzender (CDU)",
       "Ministerpräsident (NW)",
-      "Kanzlerkandidat (UNION)"
+      "Kanzlerkandidat (UNION)",
+      "Ausschussvorsitzender (AA)"
     ]
   },
   {
@@ -1571,7 +1578,8 @@
       "Landwirtschaftsminister (Bund)",
       "Bildungsminister (Bund)",
       "Parteivorsitzender (SPD)",
-      "Kabinett Schmidt III"
+      "Kabinett Schmidt III",
+      "Ministerpräsident (SH)"
     ]
   },
   {
@@ -1695,7 +1703,8 @@
       "Parteivorsitzender (SPD)",
       "Frau",
       "Kabinett Merkel III",
-      "Familienminister (Bund)"
+      "Familienminister (Bund)",
+      "Ministerpräsident (MV)"
     ]
   },
   {
@@ -2300,7 +2309,8 @@
       "Kabinett Kohl II",
       "Kabinett Kohl III",
       "Kabinett Kohl IV",
-      "JU-Vorsitzender"
+      "JU-Vorsitzender",
+      "Ministerpräsident (SH)"
     ]
   },
   {
@@ -2579,7 +2589,8 @@
       "NSDAP",
       "Bildungsminister (Bund)",
       "Kabinett Brandt I",
-      "Kabinett Brandt II"
+      "Kabinett Brandt II",
+      "Ministerpräsident (HH)"
     ]
   },
   {
@@ -2970,7 +2981,8 @@
       "CDU",
       "Bundestagspräsident",
       "Kreisauer Kreis",
-      "Oldenburger Grünkohlkönig"
+      "Oldenburger Grünkohlkönig",
+      "Ausschussvorsitzender (AA)"
     ]
   },
   {
@@ -3494,7 +3506,8 @@
       "CDU",
       "Umweltminister (Bund)",
       "Kabinett Kohl II",
-      "Kabinett Kohl III"
+      "Kabinett Kohl III",
+      "Ministerpräsident (HE)"
     ]
   },
   {
@@ -3790,7 +3803,8 @@
       "Verteidigungsminister (Bund)",
       "Kabinett Kohl IV",
       "Kabinett Kohl V",
-      "Generalsekretär (CDU)"
+      "Generalsekretär (CDU)",
+      "Ausschussvorsitzender (AA)"
     ]
   },
   {
@@ -4016,7 +4030,8 @@
       "SPD",
       "Finanzminister (Bund)",
       "Kabinett Schröder I",
-      "Kabinett Schröder II"
+      "Kabinett Schröder II",
+      "Ministerpräsident (HE)"
     ]
   },
   {
@@ -4420,7 +4435,12 @@
     "img": null,
     "birth": 1965,
     "death": null,
-    "properties": ["CDU", "Umweltminister (Bund)", "Kabinett Merkel II"]
+    "properties": [
+      "CDU",
+      "Umweltminister (Bund)",
+      "Kabinett Merkel II",
+      "Ausschussvorsitzender (AA)"
+    ]
   },
   {
     "name": "Peter Altmaier",
@@ -5204,7 +5224,9 @@
       "SPD",
       "Fraktionsvorsitzender (SPD)",
       "Vizepräsident des Bundestags",
-      "Oppositionsführer im BT"
+      "Oppositionsführer im BT",
+      "Ministerpräsident (HH)",
+      "Ausschussvorsitzender (AA)"
     ]
   },
   {
@@ -5807,7 +5829,12 @@
     "img": null,
     "birth": 1956,
     "death": null,
-    "properties": ["PDS", "Linke", "Vizepräsident des Bundestags"]
+    "properties": [
+      "PDS",
+      "Linke",
+      "Vizepräsident des Bundestags",
+      "Ministerpräsident (TH)"
+    ]
   },
   {
     "name": "Carsten Linnemann",
@@ -5840,14 +5867,14 @@
     "img": null,
     "birth": 1930,
     "death": 2021,
-    "properties": ["CDU", "Generalsekretär (CDU)"]
+    "properties": ["CDU", "Generalsekretär (CDU)", "Ministerpräsident (SN)"]
   },
   {
     "name": "Ruprecht Polenz",
     "img": null,
     "birth": 1946,
     "death": null,
-    "properties": ["CDU", "Generalsekretär (CDU)"]
+    "properties": ["CDU", "Generalsekretär (CDU)", "Ausschussvorsitzender (AA)"]
   },
   {
     "name": "Laurenz Meyer",
@@ -6106,7 +6133,7 @@
     "img": null,
     "birth": 1931,
     "death": 2006,
-    "properties": ["SPD", "JuSo-Vorsitzender"]
+    "properties": ["SPD", "JuSo-Vorsitzender", "Ministerpräsident (HE)"]
   },
   {
     "name": "Günther Müller",
@@ -6962,7 +6989,7 @@
     "img": null,
     "birth": 1932,
     "death": 2025,
-    "properties": ["CDU", "Ministerpräsident (RP)"]
+    "properties": ["CDU", "Ministerpräsident (RP)", "Ministerpräsident (TH)"]
   },
   {
     "name": "Carl-Ludwig Wagner",
@@ -7474,6 +7501,476 @@
     "img": null,
     "birth": 1878,
     "death": 1962,
-    "properties": ["SPD", "parteilos", "Ministerpräsident (HH)"]
+    "properties": ["CDU", "parteilos", "Ministerpräsident (HH)"]
+  },
+  {
+    "name": "Rudolf Petersen",
+    "img": null,
+    "birth": 1887,
+    "death": 1973,
+    "properties": ["SPD", "Ministerpräsident (HH)"]
+  },
+  {
+    "name": "Kurt Sieveking",
+    "img": null,
+    "birth": 1897,
+    "death": 1986,
+    "properties": ["DVP", "CDU", "Ministerpräsident (HH)"]
+  },
+  {
+    "name": "Edgar Engelhard",
+    "img": null,
+    "birth": 1897,
+    "death": 1986,
+    "properties": ["FDP", "kommissarisch", "Ministerpräsident (HH)"]
+  },
+  {
+    "name": "Paul Nevermann",
+    "img": null,
+    "birth": 1902,
+    "death": 1979,
+    "properties": ["SPD", "kommissarisch", "Ministerpräsident (HH)"]
+  },
+  {
+    "name": "Herbert Weichmann",
+    "img": null,
+    "birth": 1896,
+    "death": 1983,
+    "properties": ["SPD", "Ministerpräsident (HH)"]
+  },
+  {
+    "name": "Peter Schulz",
+    "img": null,
+    "birth": 1930,
+    "death": 2013,
+    "properties": ["SPD", "Ministerpräsident (HH)"]
+  },
+  {
+    "name": "Dieter Biallas",
+    "img": null,
+    "birth": 1936,
+    "death": 2016,
+    "properties": [
+      "FDP",
+      "Neue Liberale",
+      "Ministerpräsident (HH)",
+      "kommissarisch"
+    ]
+  },
+  {
+    "name": "Helga Elstner",
+    "img": null,
+    "birth": 1924,
+    "death": 2012,
+    "properties": ["SPD", "Ministerpräsident (HH)", "kommissarisch", "Frau"]
+  },
+  {
+    "name": "Henning Voscherau",
+    "img": null,
+    "birth": 1941,
+    "death": 2016,
+    "properties": ["SPD", "Ministerpräsident (HH)"]
+  },
+  {
+    "name": "Erhard Rittershaus",
+    "img": null,
+    "birth": 1931,
+    "death": 2006,
+    "properties": ["Statt", "Ministerpräsident (HH)", "kommissarisch"]
+  },
+  {
+    "name": "Ortwin Runde",
+    "img": null,
+    "birth": 1944,
+    "death": null,
+    "properties": ["SPD", "Ministerpräsident (HH)"]
+  },
+  {
+    "name": "Krista Sager",
+    "img": null,
+    "birth": 1953,
+    "death": null,
+    "properties": [
+      "B90/Die Grünen",
+      "Ministerpräsident (HH)",
+      "kommissarisch",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Ole von Beust",
+    "img": null,
+    "birth": 1955,
+    "death": null,
+    "properties": ["CDU", "Ministerpräsident (HH)"]
+  },
+  {
+    "name": "Christoph Ahlhaus",
+    "img": null,
+    "birth": 1969,
+    "death": null,
+    "properties": ["CDU", "Ministerpräsident (HH)"]
+  },
+  {
+    "name": "Katharina Fegebank",
+    "img": null,
+    "birth": 1977,
+    "death": null,
+    "properties": [
+      "B90/Die Grünen",
+      "Ministerpräsident (HH)",
+      "kommissarisch",
+      "Frau"
+    ]
+  },
+  {
+    "name": "Peter Tschentscher",
+    "img": null,
+    "birth": 1966,
+    "death": null,
+    "properties": ["SPD", "Ministerpräsident (HH)"]
+  },
+  {
+    "name": "Christian Stock",
+    "img": null,
+    "birth": 1884,
+    "death": 1967,
+    "properties": ["SPD", "Ministerpräsident (HE)"]
+  },
+  {
+    "name": "Georg-August Zinn",
+    "img": null,
+    "birth": 1901,
+    "death": 1976,
+    "properties": ["SPD", "Ministerpräsident (HE)"]
+  },
+  {
+    "name": "Albert Osswald",
+    "img": null,
+    "birth": 1919,
+    "death": 1996,
+    "properties": ["SPD", "Ministerpräsident (HE)"]
+  },
+  {
+    "name": "Heinz-Herbert Karry",
+    "img": null,
+    "birth": 1920,
+    "death": 1981,
+    "properties": ["FDP", "Ministerpräsident (HE)", "kommissarisch"]
+  },
+  {
+    "name": "Roland Koch",
+    "img": null,
+    "birth": 1958,
+    "death": null,
+    "properties": ["CDU", "Ministerpräsident (HE)"]
+  },
+  {
+    "name": "Volker Bouffier",
+    "img": null,
+    "birth": 1951,
+    "death": null,
+    "properties": ["CDU", "Ministerpräsident (HE)"]
+  },
+  {
+    "name": "Boris Rhein",
+    "img": null,
+    "birth": 1972,
+    "death": null,
+    "properties": ["CDU", "Ministerpräsident (HE)"]
+  },
+  {
+    "name": "Alfred Gomolka",
+    "img": null,
+    "birth": 1942,
+    "death": 2020,
+    "properties": ["CDU", "Ost-CDU", "Ministerpräsident (MV)"]
+  },
+  {
+    "name": "Berndt Seite",
+    "img": null,
+    "birth": 1940,
+    "death": null,
+    "properties": ["CDU", "Neues Forum", "Ministerpräsident (MV)"]
+  },
+  {
+    "name": "Harald Ringstorff",
+    "img": null,
+    "birth": 1939,
+    "death": 2020,
+    "properties": ["SPD", "Ministerpräsident (MV)"]
+  },
+  {
+    "name": "Erwin Sellering",
+    "img": null,
+    "birth": 1949,
+    "death": null,
+    "properties": ["SPD", "Ministerpräsident (MV)"]
+  },
+  {
+    "name": "Hans Geisler",
+    "img": null,
+    "birth": 1940,
+    "death": null,
+    "properties": ["DA", "CDU", "Ministerpräsident (SN)"]
+  },
+  {
+    "name": "Georg Milbradt",
+    "img": null,
+    "birth": 1945,
+    "death": null,
+    "properties": ["CDU", "Ministerpräsident (SN)"]
+  },
+  {
+    "name": "Thomas Jurk",
+    "img": null,
+    "birth": 1962,
+    "death": null,
+    "properties": ["SPD", "SDP", "Ministerpräsident (SN)", "kommissarisch"]
+  },
+  {
+    "name": "Stanislaw Tillich",
+    "img": null,
+    "birth": 1959,
+    "death": null,
+    "properties": ["CDU", "Ministerpräsident (SN)"]
+  },
+  {
+    "name": "Martin Dulig",
+    "img": null,
+    "birth": 1974,
+    "death": null,
+    "properties": ["SPD", "Ministerpräsident (SN)", "kommissarisch"]
+  },
+  {
+    "name": "Michael Kretschmer",
+    "img": null,
+    "birth": 1975,
+    "death": null,
+    "properties": ["CDU", "Ministerpräsident (SN)"]
+  },
+  {
+    "name": "Gerd Gies",
+    "img": null,
+    "birth": 1943,
+    "death": null,
+    "properties": ["CDU", "Ost-CDU", "Ministerpräsident (ST)"]
+  },
+  {
+    "name": "Werner Münch",
+    "img": null,
+    "birth": 1940,
+    "death": null,
+    "properties": ["CDU", "Ministerpräsident (ST)"]
+  },
+  {
+    "name": "Wolfgang Rauls",
+    "img": null,
+    "birth": 1948,
+    "death": null,
+    "properties": ["FDP", "NDPD", "Ministerpräsident (ST)", "kommissarisch"]
+  },
+  {
+    "name": "Christoph Bergner",
+    "img": null,
+    "birth": 1948,
+    "death": null,
+    "properties": ["CDU", "Ost-CDU", "Ministerpräsident (ST)"]
+  },
+  {
+    "name": "Reinhard Höppner",
+    "img": null,
+    "birth": 1948,
+    "death": 2014,
+    "properties": ["SDP", "SPD", "Ministerpräsident (ST)"]
+  },
+  {
+    "name": "Wolfgang Böhmer",
+    "img": null,
+    "birth": 1936,
+    "death": 2025,
+    "properties": ["CDU", "Ost-CDU", "Ministerpräsident (ST)"]
+  },
+  {
+    "name": "Rainer Haseloff",
+    "img": null,
+    "birth": 1954,
+    "death": null,
+    "properties": ["CDU", "Ost-CDU", "Ministerpräsident (ST)"]
+  },
+  {
+    "name": "Armin Willingmann",
+    "img": null,
+    "birth": 1963,
+    "death": null,
+    "properties": ["SPD", "Ministerpräsident (ST)", "kommissarisch"]
+  },
+  {
+    "name": "Sven Schulze",
+    "img": null,
+    "birth": 1979,
+    "death": null,
+    "properties": ["CDU", "Ministerpräsident (ST)"]
+  },
+  {
+    "name": "Josef Duchač",
+    "img": null,
+    "birth": 1938,
+    "death": null,
+    "properties": ["CDU", "Ost-CDU", "Ministerpräsident (TH)"]
+  },
+  {
+    "name": "Dieter Althaus",
+    "img": null,
+    "birth": 1958,
+    "death": null,
+    "properties": ["CDU", "Ost-CDU", "Ministerpräsident (TH)"]
+  },
+  {
+    "name": "Christine Lieberknecht",
+    "img": null,
+    "birth": 1958,
+    "death": null,
+    "properties": ["CDU", "Ost-CDU", "Ministerpräsident (TH)", "Frau"]
+  },
+  {
+    "name": "Thomas Kemmerich",
+    "img": null,
+    "birth": 1965,
+    "death": null,
+    "properties": ["FDP", "parteilos", "Ministerpräsident (TH)"]
+  },
+  {
+    "name": "Mario Voigt",
+    "img": null,
+    "birth": 1977,
+    "death": null,
+    "properties": ["CDU", "Ministerpräsident (TH)"]
+  },
+  {
+    "name": "Theodor Steltzer",
+    "img": null,
+    "birth": 1885,
+    "death": 1967,
+    "properties": ["CDU", "Ministerpräsident (SH)"]
+  },
+  {
+    "name": "Hermann Lüdemann",
+    "img": null,
+    "birth": 1880,
+    "death": 1959,
+    "properties": ["SPD", "Ministerpräsident (SH)"]
+  },
+  {
+    "name": "Bruno Diekmann",
+    "img": null,
+    "birth": 1897,
+    "death": 1982,
+    "properties": ["SPD", "Ministerpräsident (SH)"]
+  },
+  {
+    "name": "Walter Bartram",
+    "img": null,
+    "birth": 1893,
+    "death": 1971,
+    "properties": ["CDU", "DVP", "Ministerpräsident (SH)"]
+  },
+  {
+    "name": "Friedrich Wilhelm Lübke",
+    "img": null,
+    "birth": 1887,
+    "death": 1954,
+    "properties": ["CDU", "Ministerpräsident (SH)"]
+  },
+  {
+    "name": "Helmut Lemke",
+    "img": null,
+    "birth": 1907,
+    "death": 1990,
+    "properties": ["CDU", "NSDAP", "Ministerpräsident (SH)"]
+  },
+  {
+    "name": "Uwe Barschel",
+    "img": null,
+    "birth": 1944,
+    "death": 1987,
+    "properties": ["CDU", "Ministerpräsident (SH)"]
+  },
+  {
+    "name": "Henning Schwarz",
+    "img": null,
+    "birth": 1928,
+    "death": 1993,
+    "properties": ["CDU", "Ministerpräsident (SH)", "kommissarisch"]
+  },
+  {
+    "name": "Heide Simonis",
+    "img": null,
+    "birth": 1943,
+    "death": 2023,
+    "properties": ["SPD", "Ministerpräsident (SH)"]
+  },
+  {
+    "name": "Peter Harry Carstensen",
+    "img": null,
+    "birth": 1947,
+    "death": null,
+    "properties": ["CDU", "Ministerpräsident (SH)"]
+  },
+  {
+    "name": "Torsten Albig",
+    "img": null,
+    "birth": 1963,
+    "death": null,
+    "properties": ["SPD", "Ministerpräsident (SH)"]
+  },
+  {
+    "name": "Daniel Günther",
+    "img": null,
+    "birth": 1973,
+    "death": null,
+    "properties": ["CDU", "Ministerpräsident (SH)"]
+  },
+  {
+    "name": "Hans Furler",
+    "img": null,
+    "birth": 1904,
+    "death": 1975,
+    "properties": ["CDU", "Ausschussvorsitzender (AA)"]
+  },
+  {
+    "name": "Hermann Kopf",
+    "img": null,
+    "birth": 1901,
+    "death": 1991,
+    "properties": ["CDU", "Ausschussvorsitzender (AA)"]
+  },
+  {
+    "name": "Werner Marx",
+    "img": null,
+    "birth": 1924,
+    "death": 1985,
+    "properties": ["CDU", "Ausschussvorsitzender (AA)"]
+  },
+  {
+    "name": "Hans Stercken",
+    "img": null,
+    "birth": 1923,
+    "death": 1999,
+    "properties": ["CDU", "Ausschussvorsitzender (AA)"]
+  },
+  {
+    "name": "Karl-Heinz Hornhues",
+    "img": null,
+    "birth": 1939,
+    "death": null,
+    "properties": ["CDU", "Ausschussvorsitzender (AA)"]
+  },
+  {
+    "name": "Michael Roth",
+    "img": null,
+    "birth": 1970,
+    "death": null,
+    "properties": ["SPD", "Ausschussvorsitzender (AA)"]
   }
 ]

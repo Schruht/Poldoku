@@ -931,5 +931,12 @@
     "more": "Politiker*innen die einmal Fraktionsvorsitzende der größten Oppositionsfraktion im deutschen Bundestag waren.",
     "img": null,
     "condition": "return x.properties.includes('Oppositionsführer im BT')"
+  },
+  {
+    "id": "c8",
+    "name": "Vorsitzender des Auswärtigen Ausschusses",
+    "more": "Politiker*innen die einmal dem Auswärtigen Ausschuss des deutschen Bundestag vorsaßen.",
+    "img": null,
+    "condition": "return x.properties.includes('Ausschussvorsitzender (AA)')"
   }
 ]
